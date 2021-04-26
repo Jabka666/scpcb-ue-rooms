@@ -1,0 +1,42 @@
+CBRE has encountered an error. Details are found below.
+-------------------------------------------------
+.NET Version: 4.0.30319.42000
+Operating System: Windows 10 (NT 10.0, Build 19042)
+CBRE Version: 0.1.0.8
+------------------ERROR MESSAGE------------------
+Viewport Render Exception
+Value was either too large or too small for a Decimal. (System.OverflowException)
+   at System.Decimal..ctor(Single value)
+   at CBRE.Editor.Rendering.Renderers.ModernRenderer.Draw3D(ViewportBase context, Matrix4 viewport, Matrix4 camera, Matrix4 modelView) in C:\Users\saalv\Desktop\cbre\CBRE.Editor\Rendering\Renderers\ModernRenderer.cs:line 159
+   at CBRE.Editor.Rendering.RenderManagerRenderable.Render(Object sender) in C:\Users\saalv\Desktop\cbre\CBRE.Editor\Rendering\RenderManagerRenderable.cs:line 23
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at CBRE.UI.ViewportBase.UpdateFrame() in C:\Users\saalv\Desktop\cbre\CBRE.UI\ViewportBase.cs:line 189
+Rendering exception: Value was either too large or too small for a Decimal.
+    CBRE.UI.ViewportBase.OnRenderException
+    CBRE.UI.ViewportBase.UpdateFrame
+    System.Windows.Forms.Timer.OnTick
+    System.Windows.Forms.Timer+TimerNativeWindow.WndProc
+    System.Windows.Forms.NativeWindow.Callback
+    System.Windows.Forms.UnsafeNativeMethods.CallWindowProc
+    System.Windows.Forms.UnsafeNativeMethods.CallWindowProc
+    System.Windows.Forms.NativeWindow.DefWndProc
+    System.Windows.Forms.Form.DefWndProc
+    System.Windows.Forms.Control.WndProc
+    System.Windows.Forms.Form.WmSysCommand
+    System.Windows.Forms.NativeWindow.Callback
+    System.Windows.Forms.UnsafeNativeMethods.CallWindowProc
+    System.Windows.Forms.UnsafeNativeMethods.CallWindowProc
+    System.Windows.Forms.NativeWindow.DefWndProc
+    System.Windows.Forms.Form.DefWndProc
+    System.Windows.Forms.Control.WndProc
+    System.Windows.Forms.Form.WmNcButtonDown
+    System.Windows.Forms.NativeWindow.Callback
+    System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW
+    System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW
+    System.Windows.Forms.Application+ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop
+    System.Windows.Forms.Application+ThreadContext.RunMessageLoopInner
+    System.Windows.Forms.Application+ThreadContext.RunMessageLoop
+    Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun
+    Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel
+    Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run
+    CBRE.Editor.Program.Main (System.Exception)

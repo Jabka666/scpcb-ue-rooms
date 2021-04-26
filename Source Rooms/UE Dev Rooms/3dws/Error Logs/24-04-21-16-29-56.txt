@@ -1,0 +1,31 @@
+CBRE has encountered an error. Details are found below.
+-------------------------------------------------
+.NET Version: 4.0.30319.42000
+Operating System: Windows 10 (NT 10.0, Build 19042)
+CBRE Version: 0.1.0.8
+------------------ERROR MESSAGE------------------
+Viewport Listener Exception
+Value was either too large or too small for a Decimal. (System.OverflowException)
+   at System.Decimal..ctor(Single value)
+   at CBRE.Editor.Tools.CameraTool.GetViewportCamera() in C:\Users\saalv\Desktop\cbre\CBRE.Editor\Tools\CameraTool.cs:line 91
+   at CBRE.Editor.Tools.CameraTool.<GetCameras>d__14.MoveNext() in C:\Users\saalv\Desktop\cbre\CBRE.Editor\Tools\CameraTool.cs:line 128
+   at CBRE.Editor.Tools.CameraTool.GetStateAtPoint(Int32 x, Int32 y, Viewport2D viewport, Camera& activeCamera) in C:\Users\saalv\Desktop\cbre\CBRE.Editor\Tools\CameraTool.cs:line 112
+   at CBRE.Editor.Tools.CameraTool.MouseMove(ViewportBase viewport, ViewportEvent e) in C:\Users\saalv\Desktop\cbre\CBRE.Editor\Tools\CameraTool.cs:line 200
+   at CBRE.UI.ViewportBase.ListenerDoEvent(ViewportEvent e, Action`2 action) in C:\Users\saalv\Desktop\cbre\CBRE.UI\ViewportBase.cs:line 216
+Listener exception: Value was either too large or too small for a Decimal.
+    CBRE.UI.ViewportBase.OnListenerException
+    CBRE.UI.ViewportBase.ListenerDoEvent
+    CBRE.UI.ViewportBase.OnMouseMove
+    System.Windows.Forms.Control.WmMouseMove
+    System.Windows.Forms.Control.WndProc
+    System.Windows.Forms.UserControl.WndProc
+    System.Windows.Forms.NativeWindow.Callback
+    System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW
+    System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW
+    System.Windows.Forms.Application+ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop
+    System.Windows.Forms.Application+ThreadContext.RunMessageLoopInner
+    System.Windows.Forms.Application+ThreadContext.RunMessageLoop
+    Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun
+    Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel
+    Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run
+    CBRE.Editor.Program.Main (System.Exception)
