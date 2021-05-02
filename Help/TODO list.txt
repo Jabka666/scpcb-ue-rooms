@@ -9,7 +9,7 @@ DESIGNATIONS:
 
 room1archive       ->    room1_archive                 -
 room1endroom       ->    room1_endroom_lcz             -
-room005            ->    cont_005                      =
+room005            ->    cont_005                      +
 room173            ->    cont_173                      =
 room173intro       ->    cont_173_intro                -
 room205            ->    cont_205                      -  
@@ -37,8 +37,8 @@ room012            ->    cont_012                      =
 room1123           ->    cont_1123                     -
 room2C             ->    room2C_lcz                    +
 room2C2            ->    room2C_2_lcz                  -
-room2Clockroom     ->    room2C_lockroom_lcz           =
-room2Clockroom     ->    room2C_lockroom_2_lcz         =
+room2Clockroom     ->    room2C_lockroom_lcz           +
+room2Clockroom     ->    room2C_lockroom_2_lcz         +
 room1162           ->    cont_1162                     +
 room3storage       ->    room3_storage                 -
 room3              ->    room3_lcz                     -
@@ -84,7 +84,7 @@ room4tunnels       ->    room4_2_hcz           	       +
 
 ========================== EZ ==========================
 
-room1endroom3      ->    room1_endroom_e               =
+room1endroom3      ->    room1_endroom_ez              =
 room1lifts         ->    room1_lifts                   -
 roomo5             ->    room_O5                       =
 gateaentrance      ->    gate_a_entrance               =
