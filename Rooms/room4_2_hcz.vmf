@@ -30308,10 +30308,10 @@ entity
     "id" "260"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.7"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "position" "-0.00004 723.96072 192"
-    "range" "700"
+    "range" "800"
     "spawnflags" "0"
     "origin" "-0.00004000 192.00000000 723.96072000"
     editor
@@ -30328,10 +30328,10 @@ entity
     "id" "261"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.7"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "position" "1.04407 724.02197 -191.99999"
-    "range" "700"
+    "range" "800"
     "spawnflags" "0"
     "origin" "1.04407000 -191.99999000 724.02197000"
     editor
@@ -30442,11 +30442,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.9"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "-767.99996 432 0.00012"
-    "range" "900"
+    "range" "800"
     "spawnflags" "0"
     "origin" "-767.99996000 0.00012000 432.00000000"
     editor
@@ -30465,11 +30465,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.9"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "0.00009 432 -767.99999"
-    "range" "900"
+    "range" "800"
     "spawnflags" "0"
     "origin" "0.00009000 -767.99999000 432.00000000"
     editor
@@ -30488,11 +30488,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.9"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "768.00007 432 -0.00008"
-    "range" "900"
+    "range" "800"
     "spawnflags" "0"
     "origin" "768.00007000 -0.00008000 432.00000000"
     editor
@@ -30511,11 +30511,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.9"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "-0.00004 432 767.99979"
-    "range" "900"
+    "range" "800"
     "spawnflags" "0"
     "origin" "-0.00004000 767.99979000 432.00000000"
     editor
@@ -30547,8 +30547,8 @@ cameras
     }
     camera
     {
-        "position" "[-262.39960000 -13.43546000 622.28270000]"
-        "look" "[-169.37960000 88.91873000 659.03830000]"
+        "position" "[-0.18935970 170.51710000 317.83320000]"
+        "look" "[138.89450000 142.23390000 336.15880000]"
     }
 }
 cordon
