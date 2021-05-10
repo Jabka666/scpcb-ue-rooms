@@ -9,15 +9,15 @@ DESIGNATIONS:
 
 room1archive       ->    room1_archive                 -
 room1endroom       ->    room1_endroom_lcz             -
-room005            ->    cont_005                      +
-room173            ->    cont_173                      =
-room173intro       ->    cont_173_intro                -
-room205            ->    cont_205                      =
-room372            ->    cont_372                      +
-room914            ->    cont_914                      =
+room005            ->    cont1_005                     +
+room173            ->    cont1_173                     =
+room173intro       ->    cont1_173_intro               -
+room205            ->    cont1_205                     -
+room372            ->    cont1_372                     +
+room914            ->    cont1_914                     =
 room2              ->    room2_lcz                     -
 room2_2            ->    room2_2_lcz                   -
-room2_3            ->    room2_3_lcz                   -
+room2_3            ->    room2_3_lcz                   +
 room2_4            ->    room2_4_lcz                   -
 room2_5            ->    room2_5_lcz                   -
 room2closets       ->    room2_closets                 -
@@ -27,19 +27,19 @@ room2gw            ->    room2_gw                      -
 room2gw_b          ->    room2_gw_b                    -
 room2medibay       ->    room2_medibay_lcz             =
 room2posters       ->    room2_storage_2               -
-room2scps          ->    cont_427_714_860_1025         =
-room2scps2         ->    cont_500_1499                 -
+room2scps          ->    cont2_427_714_860_1025        =
+room2scps2         ->    cont2_500_1499                -
 room2sl            ->    room2_sl                      =
 room2storage       ->    room2_storage                 -
 room2tesla_lcz     ->    room2_tesla_lcz               +
 room2testroom      ->    room2_testroom_lcz            -
-room012            ->    cont_012                      =
-room1123           ->    cont_1123                     -
+room012            ->    cont2_012                     =
+room1123           ->    cont2_1123                    -
 room2C             ->    room2C_lcz                    +
 room2C2            ->    room2C_2_lcz                  -
 room2Clockroom     ->    room2C_lockroom_lcz           +
 room2Clockroom     ->    room2C_lockroom_2_lcz         +
-room1162           ->    cont_1162                     +
+room1162           ->    cont2C_1162                   +
 room3storage       ->    room3_storage                 -
 room3              ->    room3_lcz                     -
 room3_2            ->    room3_2_lcz                   -
@@ -51,11 +51,11 @@ room4info          ->    room4_ic                      =
 ========================= HCZ ==========================
 
 room1endroom2      ->    room1_endroom_hcz             -
-room035            ->    cont_035                      -
-room079            ->    cont_079                      =
-room096            ->    cont_096                      =
-room106            ->    cont_106                      =
-room895            ->    cont_895                      x
+room035            ->    cont1_035                     -
+room079            ->    cont1_079                     =
+room096            ->    cont1_096                     =
+room106            ->    cont1_106                     =
+room895            ->    cont1_895                     x
 room2catwalk       ->    room2_hcz                     -
 room2mt            ->    room2_mt                      -
 room2nuke          ->    room2_nuke                    =
@@ -69,16 +69,16 @@ room2testroom2     ->    room2_testroom_hcz            -
 room2tunnel        ->    room2_5_hcz                   +
 room2tunnel2       ->    room2_6_hcz                   -
 room2tunnel3       ->    room2_7_hcz                   -
-room008            ->    cont_008                      x
-room049            ->    cont_049                      =
-room409            ->    cont_409                      =
+room008            ->    cont2_008                     x
+room049            ->    cont2_049                     =
+room409            ->    cont2_409                     =
 room2Cpit          ->    room2C_pit                    -
 room2Ctunnel       ->    room2C_hcz                    +
 room3pit           ->    room3_hcz                     =
 room3tunnel        ->    room3_2_hcz                   x
 room3z2            ->    room3_3_hcz                   -
-room513            ->    cont_513                      =
-room966            ->    cont_966                      =
+room513            ->    cont3_513                     =
+room966            ->    cont3_966                     =
 room4pit           ->    room4_hcz                     -
 room4tunnels       ->    room4_2_hcz           	       +
 
@@ -107,7 +107,7 @@ room2tesla         ->    room2_tesla_lcz               +
 room2toilets       ->    room2_4_ez                    -
 room2z3            ->    room2_5_ez                    -
 room2z3_2          ->    room2_6_ez                    -
-room860            ->    cont_860_1                    =
+room860            ->    cont2_860_1                   =
 room2Coffices      ->    room2C_2_ez                   -
 room2Ccont         ->    room2C_ec                     +
 room2clockroom3    ->    room2C_lockroom_ez            +
