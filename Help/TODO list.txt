@@ -7,8 +7,8 @@ DESIGNATIONS:
 
 ========================= LCZ ==========================
 
-room1archive       ->    room1_archive                 -
-room1endroom       ->    room1_endroom_lcz             -
+room1archive       ->    room1_archive                 +
+room1endroom       ->    room1_dl_lcz                  -
 room005            ->    cont1_005                     +
 room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
@@ -32,13 +32,13 @@ room2scps2         ->    cont2_500_1499                -
 room2sl            ->    room2_sl                      =
 room2storage       ->    room2_storage                 -
 room2tesla_lcz     ->    room2_tesla_lcz               +
-room2testroom      ->    room2_testroom_lcz            -
+room2testroom      ->    room2_test_room_lcz            -
 room012            ->    cont2_012                     =
 room1123           ->    cont2_1123                    -
 room2C             ->    room2C_lcz                    +
 room2C2            ->    room2C_2_lcz                  -
-room2Clockroom     ->    room2C_lockroom_lcz           +
-room2Clockroom     ->    room2C_lockroom_2_lcz         +
+room2Clockroom     ->    room2C_gw_lcz                 +
+room2Clockroom     ->    room2C_gw_2_lcz               +
 room1162           ->    cont2C_1162                   +
 room3storage       ->    room3_storage                 -
 room3              ->    room3_lcz                     -
@@ -50,7 +50,7 @@ room4info          ->    room4_ic                      =
 
 ========================= HCZ ==========================
 
-room1endroom2      ->    room1_endroom_hcz             -
+room1endroom2      ->    room1_dl_hcz                  -
 room035            ->    cont1_035                     -
 room079            ->    cont1_079                     =
 room096            ->    cont1_096                     =
@@ -84,7 +84,7 @@ room4tunnels       ->    room4_2_hcz           	       +
 
 ========================== EZ ==========================
 
-room1endroom3      ->    room1_endroom_ez              =
+room1endroom3      ->    room1_dl_ez                   =
 room1lifts         ->    room1_lifts                   -
 roomo5             ->    room_O5                       =
 gateaentrance      ->    gate_a_entrance               =
@@ -97,23 +97,23 @@ room2medibay2      ->    room2_medibay_ez              =
 room2offices       ->    room2_ez                      -
 room2offices2      ->    room2_2_ez                    -
 room2offices3      ->    room2_3_ez                    -
-room2offices4      ->    room2_offices                 -
-room2offices5      ->    room2_offices_2               -
-room2poffices      ->    room2_poffices                -
-room2poffices2     ->    room2_poffices_2              -
+room2offices4      ->    room2_office                  -
+room2offices5      ->    room2_office_2                -
+room2poffices      ->    room2_office_3                -
+room2poffices2     ->    room2_office_4                -
 room2servers2      ->    room2_servers_ez              -
-room2sroom         ->    room2_offices_3               -
+room2sroom         ->    room2_office_5                -
 room2tesla         ->    room2_tesla_lcz               +
-room2toilets       ->    room2_4_ez                    -
+room2toilets       ->    room2_4_ez                    +
 room2z3            ->    room2_5_ez                    -
 room2z3_2          ->    room2_6_ez                    -
 room860            ->    cont2_860_1                   =
 room2Coffices      ->    room2C_2_ez                   -
 room2Ccont         ->    room2C_ec                     +
-room2clockroom3    ->    room2C_lockroom_ez            +
+room2clockroom3    ->    room2C_gw_ez                  +
 room2cz3           ->    room2C_ez                     +
 room3gw            ->    room3_gw                      -
-room3offices       ->    room3_offices                 -
+room3offices       ->    room3_office                  -
 room3offices2      ->    room3_ez                      -
 room3servers       ->    room3_2_ez                    -
 room3servers2      ->    room3_3_ez                    -

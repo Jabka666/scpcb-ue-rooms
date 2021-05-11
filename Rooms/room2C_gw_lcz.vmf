@@ -20490,10 +20490,10 @@ entity
     "id" "168"
     "classname" "light"
     "color" "255 50 50"
-    "intensity" "0.7"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "position" "-416.00013 371.97583 704.00009"
-    "range" "700"
+    "range" "600"
     "spawnflags" "0"
     "origin" "-416.00013000 704.00009000 371.97583000"
     editor
@@ -20510,10 +20510,10 @@ entity
     "id" "169"
     "classname" "light"
     "color" "255 50 50"
-    "intensity" "0.7"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "position" "-416.00002 371.97584 191.9999"
-    "range" "700"
+    "range" "600"
     "spawnflags" "0"
     "origin" "-416.00002000 191.99990000 371.97584000"
     editor
@@ -20707,10 +20707,10 @@ entity
     "id" "227"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.6"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "127.99996 372.04441 -810.67213"
-    "range" "600"
+    "range" "500"
     "spawnflags" "0"
     "origin" "127.99996000 -810.67213000 372.04441000"
     editor
@@ -20727,10 +20727,10 @@ entity
     "id" "228"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.6"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "813.16054 372.02956 736.00005"
-    "range" "600"
+    "range" "500"
     "spawnflags" "0"
     "origin" "813.16054000 736.00005000 372.02956000"
     editor
@@ -20766,10 +20766,10 @@ entity
     "id" "350"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.6"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "813.16056 372.02944 -134.5544"
-    "range" "600"
+    "range" "500"
     "spawnflags" "0"
     "origin" "813.16056000 -134.55440000 372.02944000"
     editor
@@ -20786,10 +20786,10 @@ entity
     "id" "352"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.6"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-735.93358 372.04445 -810.6721"
-    "range" "600"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-735.93358000 -810.67210000 372.04445000"
     editor
@@ -20861,8 +20861,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[811.96580000 245.99310000 246.64670000]"
-        "look" "[871.46810000 170.66170000 245.72090000]"
+        "position" "[-699.13700000 590.31810000 236.25490000]"
+        "look" "[-605.33940000 610.26930000 231.76520000]"
     }
 }
 cordon
