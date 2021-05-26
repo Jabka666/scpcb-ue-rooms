@@ -8,7 +8,7 @@ DESIGNATIONS:
 ========================= LCZ ==========================
 
 room1archive       ->    room1_archive                 +
-room1endroom       ->    room1_dl_lcz                  +
+room1endroom       ->    room1_dl_lcz                  =
 room005            ->    cont1_005                     +
 room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
@@ -16,7 +16,7 @@ room205            ->    cont1_205                     -
 room372            ->    cont1_372                     +
 room914            ->    cont1_914                     =
 room2              ->    room2_lcz                     -
-room2_2            ->    room2_2_lcz                   -
+room2_2            ->    room2_2_lcz                   +
 room2_3            ->    room2_3_lcz                   +
 room2_4            ->    room2_4_lcz                   -
 room2_5            ->    room2_5_lcz                   -
@@ -32,7 +32,7 @@ room2scps2         ->    cont2_500_1499                -
 room2sl            ->    room2_sl                      =
 room2storage       ->    room2_storage                 -
 room2tesla_lcz     ->    room2_tesla_lcz               +
-room2testroom      ->    room2_test_room_lcz            -
+room2testroom      ->    room2_test_room_lcz           -
 room012            ->    cont2_012                     =
 room1123           ->    cont2_1123                    -
 room2C             ->    room2C_lcz                    +
@@ -65,9 +65,9 @@ room2pit           ->    room2_4_hcz                   =
 room2servers       ->    room2_servers_hcz             -
 room2shaft         ->    room2_shaft                   -
 room2tesla_hcz     ->    room2_tesla_hcz               +
-room2testroom2     ->    room2_testroom_hcz            -
+room2testroom2     ->    room2_test_room_hcz           -
 room2tunnel        ->    room2_5_hcz                   +
-room2tunnel2       ->    room2_6_hcz                   -
+room2tunnel2       ->    room2_6_hcz                   +
 room2tunnel3       ->    room2_7_hcz                   -
 room008            ->    cont2_008                     x
 room049            ->    cont2_049                     =
@@ -77,7 +77,7 @@ room2Ctunnel       ->    room2C_hcz                    +
 room3pit           ->    room3_hcz                     =
 room3tunnel        ->    room3_2_hcz                   x
 room3z2            ->    room3_3_hcz                   -
-room513            ->    cont3_513                     =
+room513            ->    cont3_513                     +
 room966            ->    cont3_966                     =
 room4pit           ->    room4_hcz                     -
 room4tunnels       ->    room4_2_hcz           	       +
@@ -85,7 +85,7 @@ room4tunnels       ->    room4_2_hcz           	       +
 ========================== EZ ==========================
 
 room1endroom3      ->    room1_dl_ez                   =
-room1lifts         ->    room1_lifts                   -
+room1lifts         ->    room1_lifts                   +
 roomo5             ->    room_O5                       =
 gateaentrance      ->    gate_a_entrance               =
 gatea              ->    gate_a                        -
@@ -118,11 +118,11 @@ room3offices2      ->    room3_ez                      -
 room3servers       ->    room3_2_ez                    -
 room3servers2      ->    room3_3_ez                    -
 room3z3            ->    room3_4_ez                    =
-room4z3            ->    room4_ez                      =
+room4z3            ->    room4_ez                      +
 
 ======================== OTHERS ========================
 
-room2checkpoint    ->    room2_checkpoint_lcz_hcz      =
-room2checkpoint2   ->    room2_checkpoint_hcz_ez       =
+room2checkpoint    ->    room2_checkpoint_lcz_hcz      +
+room2checkpoint2   ->    room2_checkpoint_hcz_ez       +
 pocketdimension    ->    dimension_106                 -
 dimension_1499     ->    dimension_1499                -
