@@ -36336,12 +36336,12 @@ entity
 {
     "id" "462"
     "classname" "model"
-    "angles" "-6.525759E-06 -175 7.121618E-06"
+    "angles" "359.99999 -175 360"
     "file" "officeseat_a"
-    "position" "439.6561 0 -880.061"
+    "position" "459.6561 0 -834.861"
     "scale" "3.5 3.5 3.5"
     "spawnflags" "0"
-    "origin" "439.65610000 -880.06100000 0.00000000"
+    "origin" "459.65610000 -834.86100000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -36413,12 +36413,12 @@ entity
 {
     "id" "493"
     "classname" "model"
-    "angles" "3.560809E-06 -175 3.26288E-06"
+    "angles" "360 -175 360"
     "file" "officeseat_a"
-    "position" "763.8429 0 -884.6912"
+    "position" "769.67623 0 -842.1912"
     "scale" "3.5 3.5 3.5"
     "spawnflags" "0"
-    "origin" "763.84290000 -884.69120000 0.00000000"
+    "origin" "769.67623000 -842.19120000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -36592,13 +36592,49 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "615"
+    "classname" "model"
+    "angles" "360 0 360"
+    "file" "system_unit"
+    "position" "406.40474 0.27086 -933.50361"
+    "scale" "6 6 4.5"
+    "spawnflags" "0"
+    "origin" "406.40474000 -933.50361000 0.27086000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "617"
+    "classname" "model"
+    "angles" "360 0 360"
+    "file" "system_unit"
+    "position" "723.37375 0.27089 -933.72728"
+    "scale" "6 6 4.5"
+    "spawnflags" "0"
+    "origin" "723.37375000 -933.72728000 0.27089000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[399.47550000 -818.76390000 222.58950000]"
-        "look" "[418.58290000 -882.30900000 153.21430000]"
+        "position" "[345.35610000 -691.63710000 145.05370000]"
+        "look" "[369.54350000 -775.55480000 105.19390000]"
     }
 }
 cordon
