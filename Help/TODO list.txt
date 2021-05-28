@@ -1,14 +1,23 @@
-DESIGNATIONS:
-"+" - THE ROOM IS COMPLETED
-"-" - THE ROOM IS STANDART
-"=" - THE ROOM HAS SOME THINGS THAT SHOULD BE CHANGED OR FIXED
-"x" - THE ROOM HAS A PROBLEM WHILE LAUNCHING THE GAME
-"->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME")
+[DESIGNATIONS]
+"+" - THE ROOM IS COMPLETED;
+"-" - THE ROOM IS STANDART;
+"=" - THE ROOM HAS SOME THINGS THAT SHOULD BE CHANGED OR FIXED;
+"x" - THE ROOM HAS A PROBLEM WHILE LAUNCHING THE GAME;
+"->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME").
 
-========================= LCZ ==========================
+[PROGRESS]
+TOTAL ROOMS DONE: 28/110;
+LCZ ROOMS DONE: 12/40;
+HCZ ROOMS DONE: 7/31;
+EZ ROOMS DONE: 7/35;
+OTHER ROOMS DONE: 2/4.
+
+[ROOM LIST]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~ LCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 room1archive       ->    room1_archive                 +
-room1endroom       ->    room1_dl_lcz                  =
+room1endroom       ->    room1_dead_end_lcz            =
 room005            ->    cont1_005                     +
 room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
@@ -38,7 +47,7 @@ room1123           ->    cont2_1123                    -
 room2C             ->    room2C_lcz                    +
 room2C2            ->    room2C_2_lcz                  -
 room2Clockroom     ->    room2C_gw_lcz                 +
-room2Clockroom     ->    room2C_gw_2_lcz               +
+room2Clockroom2    ->    room2C_gw_2_lcz               +
 room1162           ->    cont2C_1162                   +
 room3storage       ->    room3_storage                 -
 room3              ->    room3_lcz                     -
@@ -48,9 +57,9 @@ room4              ->    room4_lcz                     +
 room4_2            ->    room4_2_lcz                   -
 room4info          ->    room4_ic                      =
 
-========================= HCZ ==========================
+~~~~~~~~~~~~~~~~~~~~~~~~~ HCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-room1endroom2      ->    room1_dl_hcz                  -
+room1endroom2      ->    room1_dead_end_hcz            +
 room035            ->    cont1_035                     -
 room079            ->    cont1_079                     =
 room096            ->    cont1_096                     =
@@ -82,11 +91,11 @@ room966            ->    cont3_966                     =
 room4pit           ->    room4_hcz                     -
 room4tunnels       ->    room4_2_hcz           	       +
 
-========================== EZ ==========================
+~~~~~~~~~~~~~~~~~~~~~~~~~~ EZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-room1endroom3      ->    room1_dl_ez                   =
+room1endroom3      ->    room1_dead_end_ez             =
 room1lifts         ->    room1_lifts                   +
-roomo5             ->    room_O5                       =
+roomo5             ->    room1_O5                      =
 gateaentrance      ->    gate_a_entrance               =
 gatea              ->    gate_a                        -
 gatebentrance      ->    gate_b_entrance               =
@@ -110,7 +119,7 @@ room2z3_2          ->    room2_6_ez                    -
 room860            ->    cont2_860_1                   =
 room2Coffices      ->    room2C_2_ez                   -
 room2Ccont         ->    room2C_ec                     +
-room2clockroom3    ->    room2C_gw_ez                  +
+room2Clockroom3    ->    room2C_gw_ez                  +
 room2cz3           ->    room2C_ez                     +
 room3gw            ->    room3_gw                      -
 room3offices       ->    room3_office                  -
@@ -120,7 +129,7 @@ room3servers2      ->    room3_3_ez                    -
 room3z3            ->    room3_4_ez                    =
 room4z3            ->    room4_ez                      +
 
-======================== OTHERS ========================
+~~~~~~~~~~~~~~~~~~~~~~~~ OTHERS ~~~~~~~~~~~~~~~~~~~~~~~~
 
 room2checkpoint    ->    room2_checkpoint_lcz_hcz      +
 room2checkpoint2   ->    room2_checkpoint_hcz_ez       +
