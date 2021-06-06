@@ -6,12 +6,12 @@
 "->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME").
 
 [PROGRESS]
-TOTAL ROOMS DONE: 31/110;
+TOTAL ROOMS DONE: 32/110;
 LCZ ROOMS DONE: 12/40;
-HCZ ROOMS DONE: 7/31;
+HCZ ROOMS DONE: 8/31;
 EZ ROOMS DONE: 9/35;
 OTHER ROOMS DONE: 3/4;
-OBJECTS DONE: 3/6.
+OBJECTS DONE: 4/7.
 
 [ROOM LIST]
 
@@ -61,7 +61,7 @@ room4info          ->    room4_ic                      =
 ~~~~~~~~~~~~~~~~~~~~~~~~~ HCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 room1endroom2      ->    room1_dead_end_hcz            +
-room035            ->    cont1_035                     -
+room035            ->    cont1_035                     +
 room079            ->    cont1_079                     =
 room096            ->    cont1_096                     =
 room106            ->    cont1_106                     =
@@ -145,3 +145,4 @@ pocketdimension4   ->    dimension_106_4               -
 pocketdimension5   ->    dimension_106_5               +
 fan                ->    room2_2_lcz_fan               +
 room012_2          ->    cont2_012_box                 +
+cont1_035_label    ->    cont1_035_label               +
