@@ -6,8 +6,8 @@
 "->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME").
 
 [PROGRESS]
-TOTAL ROOMS DONE: 32/110;
-LCZ ROOMS DONE: 12/40;
+TOTAL ROOMS DONE: 33/110;
+LCZ ROOMS DONE: 13/40;
 HCZ ROOMS DONE: 8/31;
 EZ ROOMS DONE: 9/35;
 OTHER ROOMS DONE: 3/4;
@@ -42,7 +42,7 @@ room2scps2         ->    cont2_500_1499                -
 room2sl            ->    room2_sl                      =
 room2storage       ->    room2_storage                 -
 room2tesla_lcz     ->    room2_tesla_lcz               +
-room2testroom      ->    room2_test_room_lcz           -
+room2testroom      ->    room2_test_lcz                +
 room012            ->    cont2_012                     =
 room1123           ->    cont2_1123                    -
 room2C             ->    room2C_lcz                    +
@@ -75,7 +75,7 @@ room2pit           ->    room2_4_hcz                   =
 room2servers       ->    room2_servers_hcz             -
 room2shaft         ->    room2_shaft                   -
 room2tesla_hcz     ->    room2_tesla_hcz               +
-room2testroom2     ->    room2_test_room_hcz           -
+room2testroom2     ->    room2_test_hcz                -
 room2tunnel        ->    room2_5_hcz                   +
 room2tunnel2       ->    room2_6_hcz                   +
 room2tunnel3       ->    room2_7_hcz                   -
