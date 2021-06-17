@@ -5252,7 +5252,7 @@ Frame Scene_Root {
      0.000000;0.000000;0.000000;;
 
      TextureFilename {
-      "GFX/map/textures/dirtymetal.jpg";
+      "Textures/dirtymetal.jpg";
      }
     }
 
@@ -5263,7 +5263,7 @@ Frame Scene_Root {
      0.000000;0.000000;0.000000;;
 
      TextureFilename {
-      "GFX/map/textures/door01.jpg";
+      "Textures/door01.jpg";
      }
     }
    }

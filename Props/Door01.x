@@ -27,6 +27,13 @@ template AnimTicksPerSecond {
  DWORD AnimTicksPerSecond;
 }
 
+template FVFData {
+ <b6e70a0e-8ef9-4e83-94ad-ecc8b0c04897>
+ DWORD dwFVF;
+ DWORD nDWords;
+ array DWORD data[nDWords];
+}
+
 
 AnimTicksPerSecond {
  24;
@@ -4871,7 +4878,7 @@ Frame Scene_Root {
      0.000000;0.000000;0.000000;;
 
      TextureFilename {
-      "Door01.jpg";
+      "Textures/Door01.jpg";
      }
     }
    }
@@ -6560,7 +6567,7 @@ Frame Scene_Root {
      0.000000;0.000000;0.000000;;
 
      TextureFilename {
-      "Door01.jpg";
+      "Textures/Door01.jpg";
      }
     }
    }
@@ -6645,7 +6652,7 @@ Frame Scene_Root {
      0.000000;0.000000;0.000000;;
 
      TextureFilename {
-      "Door01.jpg";
+      "Textures/Door01.jpg";
      }
     }
    }
