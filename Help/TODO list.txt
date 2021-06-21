@@ -6,8 +6,8 @@
 "->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME").
 
 [PROGRESS]
-TOTAL ROOMS DONE: 43/110;
-LCZ ROOMS DONE: 19/40;
+TOTAL ROOMS DONE: 44/110;
+LCZ ROOMS DONE: 20/40;
 HCZ ROOMS DONE: 10/31;
 EZ ROOMS DONE: 11/35;
 OTHER ROOMS DONE: 3/4;
@@ -22,7 +22,7 @@ room1endroom       ->    room1_dead_end_lcz            =
 room005            ->    cont1_005                     +
 room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
-room205            ->    cont1_205                     -
+room205            ->    cont1_205                     + (Needs more details in the corridor leading to the chamber)
 room372            ->    cont1_372                     +
 room914            ->    cont1_914                     =
 room2              ->    room2_lcz                     +
