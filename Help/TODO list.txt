@@ -3,7 +3,8 @@
 "-" - THE ROOM IS STANDART;
 "=" - THE ROOM HAS SOME THINGS THAT SHOULD BE CHANGED OR FIXED;
 "x" - THE ROOM HAS A PROBLEM WHILE LAUNCHING THE GAME;
-"->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME").
+"->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME");
+"..." - WORKING ON RIGHT NOW.
 
 [PROGRESS]
 TOTAL ROOMS DONE: 47/110;
@@ -99,7 +100,7 @@ room1lifts         ->    room1_lifts                   +
 roomo5             ->    room1_O5                      =
 gateaentrance      ->    gate_a_entrance               +
 gatea              ->    gate_a                        -
-gatebentrance      ->    gate_b_entrance               =
+gatebentrance      ->    gate_b_entrance               ...
 gateb              ->    gate_b                        -
 room2bio           ->    room2_bio                     -
 room2cafeteria     ->    room2_cafeteria               -
