@@ -27,7 +27,7 @@ viewsettings
     "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
-    "nGridSpacing" "1"
+    "nGridSpacing" "128"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
     "bHideNullTextures" "0"
@@ -22290,7 +22290,7 @@ world
             "id" "2133"
             "plane" "(480.00171979 -272.00007360 0.00000000) (480.00168120 271.99989801 0.00000000) (1023.99984979 271.99990642 0.00000000)"
             "material" "metal3"
-            "uaxis" "[1.00000000 0.00000001 0.00000000 285] 0.6000"
+            "uaxis" "[1.00000000 0.00000001 0.00000000 290] 0.6000"
             "vaxis" "[0.00000006 -1.00000000 0.00000000 0] 0.6000"
             "rotation" "0"
             vertex
@@ -25118,10 +25118,10 @@ entity
     "id" "337"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.75"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "position" "752 469 0"
-    "range" "750"
+    "range" "600"
     "spawnflags" "0"
     "origin" "752.00000000 0.00000000 469.00000000"
     editor
@@ -25138,8 +25138,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[192.24640000 12.46954000 232.79370000]"
-        "look" "[190.92530000 11.88725000 232.38610000]"
+        "position" "[534.36990000 13.10334000 247.77500000]"
+        "look" "[680.91030000 1.79696000 371.31480000]"
     }
 }
 cordon

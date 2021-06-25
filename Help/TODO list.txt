@@ -7,9 +7,9 @@
 "..." - WORKING ON RIGHT NOW.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 48/110;
+TOTAL ROOMS DONE: 49/110;
 LCZ ROOMS DONE: 21/40;
-HCZ ROOMS DONE: 11/31;
+HCZ ROOMS DONE: 12/31;
 EZ ROOMS DONE: 13/35;
 OTHER ROOMS DONE: 3/4;
 OBJECTS DONE: 6/9.
@@ -19,7 +19,7 @@ OBJECTS DONE: 6/9.
 ~~~~~~~~~~~~~~~~~~~~~~~~~ LCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 room1archive       ->    room1_archive                 +
-room1endroom       ->    room1_dead_end_lcz            =
+room1endroom       ->    room1_dead_end_lcz            ...
 room005            ->    cont1_005                     +
 room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
@@ -35,7 +35,7 @@ room2closets       ->    room2_closets                 =
 room2doors         ->    room2_6_lcz                   +
 room2elevator      ->    room2_elevator                +
 room2gw            ->    room2_gw                      + (Still needs pipes as object)
-room2gw_b          ->    room2_gw_b                    + (Still needs pipes as object)
+room2gw_b          ->    room2_gw_2                    + (Still needs pipes as object)
 room2medibay       ->    room2_medibay_lcz             =
 room2posters       ->    room2_js                      -
 room2scps          ->    cont2_427_714_860_1025        =
@@ -68,7 +68,7 @@ room096            ->    cont1_096                     =
 room106            ->    cont1_106                     =
 room895            ->    cont1_895                     x
 room2catwalk       ->    room2_hcz                     +
-room2mt            ->    room2_mt                      -
+room2mt            ->    room2_mt                      +
 room2nuke          ->    room2_nuke                    =
 room2pipes         ->    room2_2_hcz                   =
 room2pipes2        ->    room2_3_hcz                   =
