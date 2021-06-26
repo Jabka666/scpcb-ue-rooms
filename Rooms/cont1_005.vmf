@@ -33,7 +33,7 @@ viewsettings
     "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
-    "nGridSpacing" "1"
+    "nGridSpacing" "2"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
     "bHideNullTextures" "0"
@@ -8833,9 +8833,9 @@ entity
     "id" "137"
     "classname" "waypoint"
     "intensity" "1.0"
-    "position" "-0.00235 32 -829.20692"
+    "position" "0 32 -829.20692"
     "spawnflags" "0"
-    "origin" "-0.00235000 -829.20692000 32.00000000"
+    "origin" "0.00000000 -829.20692000 32.00000000"
     editor
     {
         "color" "255 0 255"
@@ -8850,9 +8850,9 @@ entity
     "id" "138"
     "classname" "waypoint"
     "intensity" "1.0"
-    "position" "-0.00013 32 -447.9999"
+    "position" "0 32 -447.9999"
     "spawnflags" "0"
-    "origin" "-0.00013000 -447.99990000 32.00000000"
+    "origin" "0.00000000 -447.99990000 32.00000000"
     editor
     {
         "color" "255 0 255"
@@ -8867,8 +8867,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-169.36830000 -388.01850000 244.82870000]"
-        "look" "[-132.93970000 -476.83400000 245.78970000]"
+        "position" "[-199.52280000 -394.76750000 223.66420000]"
+        "look" "[-123.01030000 -410.54990000 167.87070000]"
     }
 }
 cordon

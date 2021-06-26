@@ -4,7 +4,7 @@
 "=" - THE ROOM HAS SOME THINGS THAT SHOULD BE CHANGED OR FIXED;
 "x" - THE ROOM HAS A PROBLEM WHILE LAUNCHING THE GAME;
 "->" - THE ROOM SHOULD BE RENAMED ("OLD NAME" -> "NEW NAME");
-"..." - WORKING ON RIGHT NOW.
+"... + NAME" - WORKING ON RIGHT NOW.
 
 [PROGRESS]
 TOTAL ROOMS DONE: 49/110;
@@ -19,7 +19,7 @@ OBJECTS DONE: 8/11.
 ~~~~~~~~~~~~~~~~~~~~~~~~~ LCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 room1archive       ->    room1_archive                 +
-room1endroom       ->    room1_dead_end_lcz            ...
+room1endroom       ->    room1_dead_end_lcz            =
 room005            ->    cont1_005                     +
 room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
@@ -95,7 +95,7 @@ room4tunnels       ->    room4_2_hcz           	       +
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~ EZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-room1endroom3      ->    room1_dead_end_ez             =
+room1endroom3      ->    room1_dead_end_ez             ... Jabka
 room1lifts         ->    room1_lifts                   +
 roomo5             ->    room1_O5                      =
 gateaentrance      ->    gate_a_entrance               +
