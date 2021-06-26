@@ -7,9 +7,9 @@
 "... + NAME" - WORKING ON RIGHT NOW.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 51/110;
-LCZ ROOMS DONE: 22/40;
-HCZ ROOMS DONE: 12/31;
+TOTAL ROOMS DONE: 53/110;
+LCZ ROOMS DONE: 23/40;
+HCZ ROOMS DONE: 13/31;
 EZ ROOMS DONE: 14/35;
 OTHER ROOMS DONE: 3/4;
 OBJECTS DONE: 8/11.
@@ -52,7 +52,7 @@ room2Clockroom     ->    room2C_gw_lcz                 +
 room2Clockroom2    ->    room2C_gw_2_lcz               +
 room1162           ->    cont2C_1162                   +
 room3storage       ->    room3_storage                 -
-room3              ->    room3_lcz                     -
+room3              ->    room3_lcz                     +
 room3_2            ->    room3_2_lcz                   +
 room3_3            ->    room3_3_lcz                   -
 room4              ->    room4_lcz                     +
@@ -86,7 +86,7 @@ room409            ->    cont2_409                     =
 room2Cpit          ->    room2C_pit                    -
 room2Ctunnel       ->    room2C_hcz                    +
 room3pit           ->    room3_hcz                     =
-room3tunnel        ->    room3_2_hcz                   x
+room3tunnel        ->    room3_2_hcz                   +
 room3z2            ->    room3_3_hcz                   -
 room513            ->    cont3_513                     +
 room966            ->    cont3_966                     + (Still needs a cutting for floor and ceiling)
