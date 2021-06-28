@@ -7,10 +7,10 @@
 "... + NAME" - WORKING ON RIGHT NOW.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 56/110;
-LCZ ROOMS DONE: 25/40;
+TOTAL ROOMS DONE: 58/110;
+LCZ ROOMS DONE: 26/40;
 HCZ ROOMS DONE: 13/31;
-EZ ROOMS DONE: 15/35;
+EZ ROOMS DONE: 16/35;
 OTHER ROOMS DONE: 3/4;
 OBJECTS DONE: 8/11.
 
@@ -25,13 +25,13 @@ room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
 room205            ->    cont1_205                     + (Needs more details in the corridor leading to the chamber)
 room372            ->    cont1_372                     +
-room914            ->    cont1_914                     =
+room914            ->    cont1_914                     ... Jabka
 room2              ->    room2_lcz                     +
 room2_2            ->    room2_2_lcz                   +
 room2_3            ->    room2_3_lcz                   +
 room2_4            ->    room2_4_lcz                   +
 room2_5            ->    room2_5_lcz                   +
-room2closets       ->    room2_closets                 =
+room2closets       ->    room2_closets                 ... Jabka
 room2doors         ->    room2_6_lcz                   +
 room2elevator      ->    room2_elevator                +
 room2gw            ->    room2_gw                      + (Still needs pipes as object)
@@ -47,7 +47,7 @@ room2testroom      ->    room2_test_lcz                +
 room012            ->    cont2_012                     =
 room1123           ->    cont2_1123                    -
 room2C             ->    room2C_lcz                    +
-room2C2            ->    room2C_2_lcz                  -
+room2C2            ->    room2C_2_lcz                  +
 room2Clockroom     ->    room2C_gw_lcz                 +
 room2Clockroom2    ->    room2C_gw_2_lcz               +
 room1162           ->    cont2C_1162                   +
@@ -66,11 +66,11 @@ room035            ->    cont1_035                     +
 room079            ->    cont1_079                     =
 room096            ->    cont1_096                     =
 room106            ->    cont1_106                     =
-room895            ->    cont1_895                     x
+room895            ->    cont1_895                     ... Jabka
 room2catwalk       ->    room2_hcz                     +
 room2mt            ->    room2_mt                      +
 room2nuke          ->    room2_nuke                    =
-room2pipes         ->    room2_2_hcz                   =
+room2pipes         ->    room2_2_hcz                   ... Jabka
 room2pipes2        ->    room2_3_hcz                   =
 room2pit           ->    room2_4_hcz                   +
 room2servers       ->    room2_servers_hcz             -
@@ -110,7 +110,7 @@ room2offices2      ->    room2_2_ez                    -
 room2offices3      ->    room2_3_ez                    -
 room2offices4      ->    room2_office                  -
 room2offices5      ->    room2_office_2                -
-room2poffices      ->    room2_scientists              -
+room2poffices      ->    room2_scientists              +
 room2poffices2     ->    room2_scientists_2            + (Save monitor bug in Dr.L's office)
 room2servers2      ->    room2_servers_ez              -
 room2sroom         ->    room2_office_3                -
