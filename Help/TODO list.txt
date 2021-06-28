@@ -7,8 +7,8 @@
 "... + NAME" - WORKING ON RIGHT NOW.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 55/110;
-LCZ ROOMS DONE: 24/40;
+TOTAL ROOMS DONE: 56/110;
+LCZ ROOMS DONE: 25/40;
 HCZ ROOMS DONE: 13/31;
 EZ ROOMS DONE: 15/35;
 OTHER ROOMS DONE: 3/4;
@@ -54,7 +54,7 @@ room1162           ->    cont2C_1162                   +
 room3storage       ->    room3_storage                 -
 room3              ->    room3_lcz                     +
 room3_2            ->    room3_2_lcz                   +
-room3_3            ->    room3_3_lcz                   -
+room3_3            ->    room3_3_lcz                   +
 room4              ->    room4_lcz                     +
 room4_2            ->    room4_2_lcz                   -
 room4info          ->    room4_ic                      +
@@ -111,7 +111,7 @@ room2offices3      ->    room2_3_ez                    -
 room2offices4      ->    room2_office                  -
 room2offices5      ->    room2_office_2                -
 room2poffices      ->    room2_scientists              -
-room2poffices2     ->    room2_scientists_2            +
+room2poffices2     ->    room2_scientists_2            + (Save monitor bug in Dr.L's office)
 room2servers2      ->    room2_servers_ez              -
 room2sroom         ->    room2_office_3                -
 room2tesla         ->    room2_tesla_lcz               +
