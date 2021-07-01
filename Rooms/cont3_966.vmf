@@ -2462,8 +2462,8 @@ world
             "id" "284"
             "plane" "(96.00002650 287.99989414 320.00004256) (96.00002650 287.99989414 448.00004746) (-96.00000130 287.99989414 447.99999310)"
             "material" "metalpanels"
-            "uaxis" "[1.00000000 0.00000000 0.00000028 0] 0.475"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.475"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.4750"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.4750"
             "rotation" "0"
             vertex
             {
@@ -2530,9 +2530,9 @@ world
             "id" "288"
             "plane" "(96.00002647 286.99989424 320.00004256) (96.00002650 287.99989414 320.00004256) (-96.00000130 287.99989414 319.99998820)"
             "material" "metalpanels"
-            "uaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.4750"
-            "vaxis" "[-1.00000000 0.00000003 -0.00000028 215] 0.4750"
-            "rotation" "90.00"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.4750"
+            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.4750"
+            "rotation" "0"
             vertex
             {
                 "count" "4"
@@ -12102,9 +12102,9 @@ world
             "id" "2781"
             "plane" "(95.99992435 271.99999927 319.99999905) (95.99992435 287.00000065 319.99999905) (-96.00001916 287.00000065 319.99999863)"
             "material" "metalpanels"
-            "uaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.4750"
-            "vaxis" "[-1.00000000 0.00000000 0.00000000 215] 0.4750"
-            "rotation" "90.00"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.4750"
+            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.4750"
+            "rotation" "0"
             vertex
             {
                 "count" "4"
@@ -22845,11 +22845,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "45"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "outerconeangle" "95"
     "position" "-880 436 0"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "-880.00000000 0.00000000 436.00000000"
     editor
@@ -22885,9 +22885,9 @@ entity
     "id" "651"
     "classname" "light"
     "color" "255 200 200"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "position" "0 436 -320"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "0.00000000 -320.00000000 436.00000000"
     editor
@@ -22923,9 +22923,9 @@ entity
     "id" "654"
     "classname" "light"
     "color" "255 200 200"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "position" "0 436 128"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "0.00000000 128.00000000 436.00000000"
     editor
@@ -22961,9 +22961,9 @@ entity
     "id" "657"
     "classname" "light"
     "color" "255 50 50"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "position" "-256 436 576"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "-256.00000000 576.00000000 436.00000000"
     editor
@@ -22980,9 +22980,9 @@ entity
     "id" "659"
     "classname" "light"
     "color" "255 50 50"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "position" "256 436 576"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "256.00000000 576.00000000 436.00000000"
     editor
@@ -23001,11 +23001,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.8"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "0 432 -736"
-    "range" "800"
+    "range" "900"
     "spawnflags" "0"
     "origin" "0.00000000 -736.00000000 432.00000000"
     editor
@@ -23043,11 +23043,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.8"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "752 432 0"
-    "range" "800"
+    "range" "900"
     "spawnflags" "0"
     "origin" "752.00000000 0.00000000 432.00000000"
     editor
@@ -23087,8 +23087,8 @@ cameras
     }
     camera
     {
-        "position" "[-1322.04800000 -249.50940000 1114.46500000]"
-        "look" "[-311.34270000 98.23425000 256.20230000]"
+        "position" "[-86.66800000 -286.31420000 259.12500000]"
+        "look" "[242.71710000 -1616.69800000 233.60670000]"
     }
 }
 cordon

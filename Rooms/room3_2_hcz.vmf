@@ -23489,10 +23489,10 @@ entity
     "id" "260"
     "classname" "light"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "linearfalloff" "1"
     "position" "-0.00004 723.96072 192"
-    "range" "600"
+    "range" "700"
     "spawnflags" "0"
     "origin" "-0.00004000 192.00000000 723.96072000"
     editor
@@ -23509,10 +23509,10 @@ entity
     "id" "261"
     "classname" "light"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "linearfalloff" "1"
     "position" "1.04407 724.02197 -191.99999"
-    "range" "600"
+    "range" "700"
     "spawnflags" "0"
     "origin" "1.04407000 -191.99999000 724.02197000"
     editor
@@ -23604,11 +23604,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.7"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "-767.99996 432 0.00012"
-    "range" "700"
+    "range" "800"
     "spawnflags" "0"
     "origin" "-767.99996000 0.00012000 432.00000000"
     editor
@@ -23627,11 +23627,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.7"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "0.00009 432 -767.99999"
-    "range" "700"
+    "range" "800"
     "spawnflags" "0"
     "origin" "0.00009000 -767.99999000 432.00000000"
     editor
@@ -23650,11 +23650,11 @@ entity
     "angles" "450 90 270"
     "color" "255 200 200"
     "innerconeangle" "35"
-    "intensity" "0.7"
+    "intensity" "0.8"
     "linearfalloff" "1"
     "outerconeangle" "45"
     "position" "768.00007 432 -0.00008"
-    "range" "700"
+    "range" "800"
     "spawnflags" "0"
     "origin" "768.00007000 -0.00008000 432.00000000"
     editor
@@ -23686,8 +23686,8 @@ cameras
     }
     camera
     {
-        "position" "[149.42770000 129.84510000 378.53560000]"
-        "look" "[112.12170000 43.45660000 486.35690000]"
+        "position" "[575.70390000 -56.28316000 362.96530000]"
+        "look" "[710.54430000 -24.08802000 398.48570000]"
     }
 }
 cordon
