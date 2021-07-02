@@ -11356,10 +11356,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-352.00003 -0.00013 -640"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-352.00003000 -640.00000000 -0.00013000"
     editor
@@ -11377,10 +11377,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-639.99991 -0.00013 352"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-639.99991000 352.00000000 -0.00013000"
     editor
@@ -11398,10 +11398,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "0.00009 -0.00013 352"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "0.00009000 352.00000000 -0.00013000"
     editor
@@ -11419,10 +11419,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "640.00009 -0.00013 352"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "640.00009000 352.00000000 -0.00013000"
     editor
@@ -11440,10 +11440,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-640.00009 -0.00013 -352"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-640.00009000 -352.00000000 -0.00013000"
     editor
@@ -11533,8 +11533,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[99.86617000 -180.60220000 357.62210000]"
-        "look" "[185.21440000 -219.16890000 336.54290000]"
+        "position" "[-107.28630000 -363.86770000 177.70220000]"
+        "look" "[-180.96700000 -417.49020000 147.50560000]"
     }
 }
 cordon
