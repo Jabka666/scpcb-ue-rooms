@@ -7,12 +7,12 @@
 "... + NAME" - WORKING ON RIGHT NOW.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 60/110;
-LCZ ROOMS DONE: 26/40;
+TOTAL ROOMS DONE: 62/110;
+LCZ ROOMS DONE: 28/40;
 HCZ ROOMS DONE: 15/31;
 EZ ROOMS DONE: 16/35;
 OTHER ROOMS DONE: 3/4;
-OBJECTS DONE: 8/11.
+OBJECTS DONE: 10/13.
 
 [ROOM LIST]
 
@@ -25,7 +25,7 @@ room173            ->    cont1_173                     =
 room173intro       ->    cont1_173_intro               -
 room205            ->    cont1_205                     + (Needs more details in the corridor leading to the chamber)
 room372            ->    cont1_372                     +
-room914            ->    cont1_914                     ... Jabka
+room914            ->    cont1_914                     +
 room2              ->    room2_lcz                     +
 room2_2            ->    room2_2_lcz                   +
 room2_3            ->    room2_3_lcz                   +
@@ -56,7 +56,7 @@ room3              ->    room3_lcz                     +
 room3_2            ->    room3_2_lcz                   +
 room3_3            ->    room3_3_lcz                   +
 room4              ->    room4_lcz                     +
-room4_2            ->    room4_2_lcz                   -
+room4_2            ->    room4_2_lcz                   +
 room4info          ->    room4_ic                      +
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~ HCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -89,7 +89,7 @@ room3pit           ->    room3_hcz                     =
 room3tunnel        ->    room3_2_hcz                   +
 room3z2            ->    room3_3_hcz                   -
 room513            ->    cont3_513                     +
-room966            ->    cont3_966                     + (Still needs a cutting for floor and ceiling)
+room966            ->    cont3_966                     +
 room4pit           ->    room4_hcz                     -
 room4tunnels       ->    room4_2_hcz           	       +
 
@@ -151,3 +151,5 @@ cont1_035_label    ->    cont1_035_label               +
 914knob            ->    cont1_914_knob                +
 ElevatorDoor       ->    elevator_door                 +
 DoorFrame          ->    door_frame                    +
+room2gw_pipes      ->    room2_gw_pipes                +
+room3gw_pipes      ->    room3_gw_pipes                +
