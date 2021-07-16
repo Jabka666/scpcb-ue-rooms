@@ -52473,9 +52473,9 @@ entity
     "id" "537"
     "classname" "screen"
     "imgpath" "096.jpg"
-    "position" "-592 200 664"
+    "position" "-592 200 663"
     "spawnflags" "0"
-    "origin" "-592.00000000 664.00000000 200.00000000"
+    "origin" "-592.00000000 663.00000000 200.00000000"
     editor
     {
         "color" "255 0 255"
@@ -52626,10 +52626,10 @@ entity
     "classname" "light"
     "color" "220 250 255"
     "hassprite" "No"
-    "intensity" "0.3"
+    "intensity" "0.2"
     "linearfalloff" "1"
     "position" "-592 200 628"
-    "range" "300"
+    "range" "200"
     "spawnflags" "0"
     "origin" "-592.00000000 628.00000000 200.00000000"
     editor
@@ -52665,8 +52665,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-1287.50400000 -120.38520000 500.23010000]"
-        "look" "[-1210.25600000 -127.00020000 556.84440000]"
+        "position" "[-625.98580000 555.25370000 245.59590000]"
+        "look" "[-604.78640000 642.71770000 212.17650000]"
     }
 }
 cordon

@@ -58353,10 +58353,10 @@ entity
     "classname" "model"
     "angles" "360 -90 360"
     "file" "keyboard"
-    "position" "-294.44634 992 405.37135"
+    "position" "-294 992 416"
     "scale" "1.5 1.5 1.5"
     "spawnflags" "0"
-    "origin" "-294.44634000 405.37135000 992.00000000"
+    "origin" "-294.00000000 416.00000000 992.00000000"
     editor
     {
         "color" "255 0 255"
@@ -58968,9 +58968,9 @@ entity
     "id" "326"
     "classname" "screen"
     "imgpath" "hooper.jpg"
-    "position" "-246 1102.31975 272"
+    "position" "-224 1102.31975 272"
     "spawnflags" "0"
-    "origin" "-246.00000000 272.00000000 1102.31975000"
+    "origin" "-224.00000000 272.00000000 1102.31975000"
     editor
     {
         "color" "255 0 255"
@@ -59144,11 +59144,11 @@ entity
     "classname" "light"
     "color" "220 250 255"
     "hassprite" "No"
-    "intensity" "0.3"
-    "position" "-245.51889 1102.33359 272.00006"
-    "range" "300"
+    "intensity" "0.2"
+    "position" "-265 1102.33359 272"
+    "range" "200"
     "spawnflags" "0"
-    "origin" "-245.51889000 272.00006000 1102.33359000"
+    "origin" "-265.00000000 272.00000000 1102.33359000"
     editor
     {
         "color" "255 0 255"
@@ -59190,13 +59190,32 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "805"
+    "classname" "model"
+    "angles" "360 -83.61196 360"
+    "file" "mouse"
+    "position" "-292.00003 992 365.00013"
+    "scale" "0.2 0.2 0.2"
+    "spawnflags" "0"
+    "origin" "-292.00003000 365.00013000 992.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-1708.30500000 34.57578000 1322.66900000]"
-        "look" "[-1663.71400000 84.59549000 1253.92500000]"
+        "position" "[-396.96450000 318.07950000 1155.06500000]"
+        "look" "[-304.63810000 305.90950000 1131.74400000]"
     }
 }
 cordon

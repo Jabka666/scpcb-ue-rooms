@@ -81475,12 +81475,12 @@ entity
 {
     "id" "973"
     "classname" "model"
-    "angles" "0 180 0"
+    "angles" "360 -180 360"
     "file" "keyboard"
-    "position" "-1136 96 -912"
+    "position" "-1120 96 -917"
     "scale" "1.7 1.7 1.7"
     "spawnflags" "0"
-    "origin" "-1136.00000000 -912.00000000 96.00000000"
+    "origin" "-1120.00000000 -917.00000000 96.00000000"
     editor
     {
         "color" "255 0 255"
@@ -81666,9 +81666,9 @@ entity
     "id" "1012"
     "classname" "screen"
     "imgpath" "914.jpg"
-    "position" "-1132 192 -980"
+    "position" "-1132 192 -984"
     "spawnflags" "0"
-    "origin" "-1132.00000000 -980.00000000 192.00000000"
+    "origin" "-1132.00000000 -984.00000000 192.00000000"
     editor
     {
         "color" "255 0 255"
@@ -81686,10 +81686,10 @@ entity
     "hassprite" "No"
     "intensity" "0.2"
     "linearfalloff" "1"
-    "position" "-1132 192 -948"
+    "position" "-1132 192 -951"
     "range" "200"
     "spawnflags" "0"
-    "origin" "-1132.00000000 -948.00000000 192.00000000"
+    "origin" "-1132.00000000 -951.00000000 192.00000000"
     editor
     {
         "color" "255 0 255"
@@ -82087,13 +82087,32 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1118"
+    "classname" "model"
+    "angles" "360 -180 360"
+    "file" "mouse"
+    "position" "-1180 96 -916"
+    "scale" "0.2 0.2 0.2"
+    "spawnflags" "0"
+    "origin" "-1180.00000000 -916.00000000 96.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-1143.03600000 -528.88420000 305.61220000]"
-        "look" "[-1052.95700000 -562.06460000 306.68730000]"
+        "position" "[-1092.58200000 -742.87950000 216.93270000]"
+        "look" "[-1086.88600000 -828.00090000 172.90720000]"
     }
 }
 cordon
