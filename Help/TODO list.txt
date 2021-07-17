@@ -7,12 +7,12 @@
 "... + NAME" - WORKING ON RIGHT NOW.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 71/110;
-LCZ ROOMS DONE: 28/40;
+TOTAL ROOMS DONE: 72/110;
+LCZ ROOMS DONE: 29/40;
 HCZ ROOMS DONE: 21/31;
 EZ ROOMS DONE: 19/35;
 OTHER ROOMS DONE: 3/4;
-OBJECTS DONE: 10/13.
+OBJECTS DONE: 11/14.
 
 [ROOM LIST]
 
@@ -41,7 +41,7 @@ room2posters       ->    room2_js                      -
 room2scps          ->    cont2_427_714_860_1025        =
 room2scps2         ->    cont2_500_1499                -
 room2sl            ->    room2_sl                      =
-room2storage       ->    room2_storage                 -
+room2storage       ->    room2_storage                 +
 room2tesla_lcz     ->    room2_tesla_lcz               +
 room2testroom      ->    room2_test_lcz                +
 room012            ->    cont2_012                     =
@@ -146,10 +146,11 @@ pocketdimension4   ->    dimension_106_4               -
 pocketdimension5   ->    dimension_106_5               +
 fan                ->    room2_2_lcz_fan               +
 room012_2          ->    cont2_012_box                 +
-cont1_035_label    ->    cont1_035_label               +
+cont1_035_label                                        +
 914key             ->    cont1_914_key                 +
 914knob            ->    cont1_914_knob                +
 ElevatorDoor       ->    elevator_door                 +
 DoorFrame          ->    door_frame                    +
 room2gw_pipes      ->    room2_gw_pipes                +
 room3gw_pipes      ->    room3_gw_pipes                +
+shelves                                                +

@@ -59209,13 +59209,49 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "806"
+    "classname" "model"
+    "angles" "360 90 360"
+    "file" "shelves_a"
+    "position" "-576 896 992"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "-576.00000000 992.00000000 896.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "807"
+    "classname" "model"
+    "angles" "360 90 360"
+    "file" "shelves_a"
+    "position" "-350 896 992"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "-350.00000000 992.00000000 896.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-396.96450000 318.07950000 1155.06500000]"
-        "look" "[-304.63810000 305.90950000 1131.74400000]"
+        "position" "[-1178.55100000 1342.79000000 1135.95600000]"
+        "look" "[-1084.74700000 1355.30500000 1119.82000000]"
     }
 }
 cordon
