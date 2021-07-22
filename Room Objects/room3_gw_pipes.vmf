@@ -14597,6 +14597,7 @@ entity
     "id" "290"
     "classname" "light"
     "color" "200 200 255"
+    "hassprite" "No"
     "intensity" "0.4"
     "linearfalloff" "1"
     "position" "176 375 316"
@@ -14617,6 +14618,7 @@ entity
     "id" "291"
     "classname" "light"
     "color" "200 200 255"
+    "hassprite" "No"
     "intensity" "0.4"
     "linearfalloff" "1"
     "position" "-328 374.99996 316"
@@ -14637,8 +14639,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[8.18988200 776.98930000 611.87170000]"
-        "look" "[-4.11590500 684.69040000 588.51570000]"
+        "position" "[-3.74143000 810.80630000 611.87170000]"
+        "look" "[0.85281130 725.35720000 568.35900000]"
     }
 }
 cordon
