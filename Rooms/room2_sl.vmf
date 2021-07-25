@@ -71254,13 +71254,48 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "854"
+    "classname" "screen"
+    "imgpath" "sl.png"
+    "position" "330 702.47076 916"
+    "spawnflags" "0"
+    "origin" "330.00000000 916.00000000 702.47076000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "855"
+    "classname" "light"
+    "color" "220 250 255"
+    "hassprite" "No"
+    "intensity" "0.2"
+    "position" "330 702.47076 884"
+    "range" "200"
+    "spawnflags" "0"
+    "origin" "330.00000000 884.00000000 702.47076000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[585.18280000 308.66040000 692.39410000]"
-        "look" "[568.18480000 401.50480000 674.87460000]"
+        "position" "[235.54150000 641.92080000 738.16470000]"
+        "look" "[255.62680000 734.91800000 725.35640000]"
     }
 }
 cordon
