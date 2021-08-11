@@ -8,12 +8,12 @@
 "o" - THE ROOM IS FINISHED, BUT CAN BE OPTIMIZED MORE.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 83/110;
+TOTAL ROOMS DONE: 84/110;
 LCZ ROOMS DONE: 35/40;
-HCZ ROOMS DONE: 24/31;
+HCZ ROOMS DONE: 25/31;
 EZ ROOMS DONE: 21/35;
 OTHER ROOMS DONE: 3/4;
-OBJECTS DONE: 14/17.
+OBJECTS DONE: 18/21.
 
 [ROOM LIST]
 
@@ -40,18 +40,18 @@ room2gw_b          ->    room2_gw_2                    +
 room2medibay       ->    room2_medibay_lcz             =
 room2posters       ->    room2_js                      -
 room2scps          ->    cont2_427_714_860_1025        +
-room2scps2         ->    cont2_500_1499                o
+room2scps2         ->    cont2_500_1499                +
 room2sl            ->    room2_sl                      +
 room2storage       ->    room2_storage                 o
 room2tesla_lcz     ->    room2_tesla_lcz               o
 room2testroom      ->    room2_test_lcz                o
 room012            ->    cont2_012                     +
 room1123           ->    cont2_1123                    +
-room2C             ->    room2C_lcz                    o
+room2C             ->    room2C_lcz                    +
 room2C2            ->    room2C_2_lcz                  o
-room2Clockroom     ->    room2C_gw_lcz                 o
-room2Clockroom2    ->    room2C_gw_2_lcz               o
-room1162           ->    cont2C_1162_arc               o
+room2Clockroom     ->    room2C_gw_lcz                 +
+room2Clockroom2    ->    room2C_gw_2_lcz               +
+room1162           ->    cont2C_1162_arc               +
 room3storage       ->    room3_storage                 x (CBRE doesn't have custom types. Wait until custom types!)
 room3              ->    room3_lcz                     o
 room3_2            ->    room3_2_lcz                   o
@@ -81,7 +81,7 @@ room2testroom2     ->    room2_test_hcz                -
 room2tunnel        ->    room2_5_hcz                   o
 room2tunnel2       ->    room2_6_hcz                   o
 room2tunnel3       ->    room2_7_hcz                   -
-room008            ->    cont2_008                     x
+room008            ->    cont2_008                     +
 room049            ->    cont2_049                     =
 room409            ->    cont2_409                     =
 room2Cpit          ->    room2C_maintenance            +
@@ -110,8 +110,8 @@ room2offices       ->    room2_ez                      -
 room2offices2      ->    room2_2_ez                    -
 room2offices3      ->    room2_3_ez                    -
 room2offices4      ->    room2_office                  -
-room2offices5      ->    room2_office_2                -
-room2poffices      ->    room2_scientists              o
+room2offices5      ->    room2_office_2                x (CBRE has broken transparent textures. Wait until fix!)
+room2poffices      ->    room2_scientists              +
 room2poffices2     ->    room2_scientists_2            o
 room2servers2      ->    room2_servers_ez              +
 room2sroom         ->    room2_office_3                +
@@ -120,13 +120,13 @@ room2z3            ->    room2_4_ez                    o
 room2z3_2          ->    room2_5_ez                    +
 room2toilets       ->    room2_6_ez                    o
 room860            ->    cont2_860_1                   o
-room2Coffices      ->    room2C_2_ez                   -
+room2Coffices      ->    room2C_2_ez                   x (CBRE has broken transparent textures. Wait until fix!)
 room2Ccont         ->    room2C_ec                     +
 room2Clockroom3    ->    room2C_gw_ez                  o
 room2cz3           ->    room2C_ez                     +
 room3gw            ->    room3_gw                      +
-room3offices       ->    room3_office                  -
-room3offices2      ->    room3_ez                      -
+room3offices       ->    room3_office                  x (CBRE has broken transparent textures. Wait until fix!)
+room3offices2      ->    room3_ez                      x (CBRE has broken transparent textures. Wait until fix!)
 room3servers       ->    room3_2_ez                    +
 room3servers2      ->    room3_3_ez                    +
 room3z3            ->    room3_4_ez                    +
@@ -158,3 +158,7 @@ shelves                                                +
 wooden_box                                             +
 bench                                                  +
 garbage_bin                                            +
+system_unit                                            +
+table                                                  +
+water_cooler                                           +
+mouse                                                  +
