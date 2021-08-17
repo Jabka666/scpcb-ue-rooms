@@ -62,7 +62,7 @@ room4info          ->    room4_ic_lcz                  +
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~ HCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-room1endroom2      ->    room1_dead_end_hcz            o
+room1endroom2      ->    room1_dead_end_hcz            +
 room035            ->    cont1_035                     +
 room079            ->    cont1_079                     =
 room096            ->    cont1_096                     +
@@ -95,12 +95,12 @@ room4tunnels       ->    room4_2_hcz                   o
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~ EZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-room1endroom3      ->    room1_dead_end_ez             o
+room1endroom3      ->    room1_dead_end_ez             +
 room1lifts         ->    room1_lifts                   +
 roomo5             ->    room1_O5                      =
 gateaentrance      ->    gate_a_entrance               +
 gatea              ->    gate_a                        -
-gatebentrance      ->    gate_b_entrance               o
+gatebentrance      ->    gate_b_entrance               +
 gateb              ->    gate_b                        -
 room2bio           ->    room2_bio                     -
 room2cafeteria     ->    room2_cafeteria               -
@@ -115,13 +115,13 @@ room2poffices2     ->    room2_scientists_2            o
 room2servers2      ->    room2_servers_ez              +
 room2sroom         ->    room2_office_3                +
 room2tesla         ->    room2_tesla_ez                +
-room2z3            ->    room2_4_ez                    o
+room2z3            ->    room2_4_ez                    +
 room2z3_2          ->    room2_5_ez                    +
-room2toilets       ->    room2_6_ez                    o
-room860            ->    cont2_860_1                   o
+room2toilets       ->    room2_6_ez                    +
+room860            ->    cont2_860_1                   +
 room2Coffices      ->    room2C_2_ez                   x (CBRE has broken transparent textures. Wait until fix!)
 room2Ccont         ->    room2C_ec                     +
-room2Clockroom3    ->    room2C_gw_ez                  o
+room2Clockroom3    ->    room2C_gw_ez                  +
 room2cz3           ->    room2C_ez                     +
 room3gw            ->    room3_gw                      +
 room3offices       ->    room3_office                  x (CBRE has broken transparent textures. Wait until fix!)
