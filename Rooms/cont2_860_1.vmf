@@ -30146,10 +30146,10 @@ world
         {
             "id" "2658"
             "plane" "(879.82862950 -673.00027997 367.67398000) (879.82862950 -673.00027997 407.67398000) (975.82862950 -673.00027997 407.67398000)"
-            "material" "slh_miscsigns2"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 145.1326293071428571428571424] 0.56"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 315.3479600000000000000] 0.5"
-            "rotation" "0"
+            "material" "miscsigns7"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 61.1326293071428571428571424] 0.56"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 304.3479600000000000000] 0.5"
+            "rotation" "0.00"
             vertex
             {
                 "count" "4"
@@ -30260,10 +30260,10 @@ world
         {
             "id" "2664"
             "plane" "(975.82858110 673.00001103 367.67395526) (975.82858110 673.00001103 407.67395526) (879.82858110 673.00001103 407.67395526)"
-            "material" "slh_miscsigns2"
-            "uaxis" "[-1.00000000 0.00000000 0.00000000 389.8062196642773284907183895] 0.56"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 315.3479105260000000000000000] 0.5"
-            "rotation" "0"
+            "material" "miscsigns7"
+            "uaxis" "[-1.00000000 0.00000000 0.00000000 302.8062196642773284907183895] 0.56"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 304.3479105260000000000000000] 0.5"
+            "rotation" "0.00"
             vertex
             {
                 "count" "4"
@@ -35981,29 +35981,6 @@ world
 }
 entity
 {
-    "id" "23"
-    "classname" "model"
-    "angles" "-2.584337E-06 -94.99997 7.289649E-06"
-    "color" "255 255 255"
-    "file" "officeseat_a"
-    "intensity" "1.2"
-    "linearfalloff" "1"
-    "position" "1118.259 0 -199.1368"
-    "range" "800"
-    "scale" "3.5 3.5 3.5"
-    "spawnflags" "0"
-    "origin" "1118.25900000 -199.13680000 0.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "24"
     "classname" "model"
     "angles" "360 -90.00001 374.99999"
@@ -36075,39 +36052,12 @@ entity
 {
     "id" "27"
     "classname" "model"
-    "angles" "-2.584337E-06 85.00002 7.289649E-06"
-    "color" "255 255 255"
+    "angles" "360 79.71638 360"
     "file" "officeseat_a"
-    "intensity" "1.2"
-    "linearfalloff" "1"
-    "position" "714.833 0 405.2199"
-    "range" "800"
+    "position" "763.81978 0 400.03249"
     "scale" "3.5 3.5 3.5"
     "spawnflags" "0"
-    "origin" "714.83300000 405.21990000 0.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "347"
-    "classname" "model"
-    "angles" "359.99999 107.3548 360"
-    "color" "255 255 255"
-    "file" "officeseat_a"
-    "intensity" "1.2"
-    "linearfalloff" "1"
-    "position" "769.85708 0 -393.59472"
-    "range" "800"
-    "scale" "3.5 3.5 3.5"
-    "spawnflags" "0"
-    "origin" "769.85708000 -393.59472000 0.00000000"
+    "origin" "763.81978000 400.03249000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -36557,7 +36507,7 @@ entity
     "id" "489"
     "classname" "model"
     "angles" "360 -90 360"
-    "file" "table"
+    "file" "table_a"
     "position" "675 0 399"
     "scale" "1 1 1"
     "spawnflags" "0"
@@ -36575,7 +36525,7 @@ entity
     "id" "491"
     "classname" "model"
     "angles" "360 -90 360"
-    "file" "table"
+    "file" "table_a"
     "position" "678 0 -399"
     "scale" "1 1 1"
     "spawnflags" "0"
@@ -36593,7 +36543,7 @@ entity
     "id" "493"
     "classname" "model"
     "angles" "360 -90 360"
-    "file" "table"
+    "file" "table_a"
     "position" "1160 0 -192"
     "scale" "1 1 1"
     "spawnflags" "0"
@@ -36643,13 +36593,70 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "541"
+    "classname" "model"
+    "angles" "360 92.53276 360"
+    "file" "cabinet_a"
+    "position" "1156.3817 0.00001 -22.95549"
+    "scale" "4 4 4"
+    "spawnflags" "0"
+    "origin" "1156.38170000 -22.95549000 0.00001000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "542"
+    "classname" "model"
+    "angles" "360 114.00335 360"
+    "file" "officeseat_a"
+    "position" "783.74153 0.00001 -394.6702"
+    "scale" "3.5 3.5 3.5"
+    "spawnflags" "0"
+    "origin" "783.74153000 -394.67020000 0.00001000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "543"
+    "classname" "model"
+    "angles" "360 -71.11983 360"
+    "file" "officeseat_a"
+    "position" "1045.38964 0.00001 -187.84694"
+    "scale" "3.5 3.5 3.5"
+    "spawnflags" "0"
+    "origin" "1045.38964000 -187.84694000 0.00001000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[1002.29900000 -237.86680000 319.37550000]"
-        "look" "[1076.49900000 -298.35950000 312.19460000]"
+        "position" "[951.87860000 826.83190000 383.63370000]"
+        "look" "[955.93350000 731.37290000 392.99450000]"
     }
 }
 cordon

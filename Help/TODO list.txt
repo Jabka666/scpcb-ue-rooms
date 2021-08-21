@@ -8,12 +8,12 @@
 "o" - THE ROOM IS FINISHED, BUT CAN BE OPTIMIZED MORE.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 85/110;
-LCZ ROOMS DONE: 35/40;
+TOTAL ROOMS DONE: 86/110;
+LCZ ROOMS DONE: 35/39;
 HCZ ROOMS DONE: 26/31;
-EZ ROOMS DONE: 21/35;
+EZ ROOMS DONE: 22/36;
 OTHER ROOMS DONE: 3/4;
-OBJECTS DONE: 19/22.
+OBJECTS DONE: 22/25.
 
 [ROOM LIST]
 
@@ -37,7 +37,6 @@ room2doors         ->    room2_6_lcz                   +
 room2elevator      ->    room2_elevator                +
 room2gw            ->    room2_gw                      +
 room2gw_b          ->    room2_gw_2                    +
-room2medibay       ->    room2_medibay_lcz             =
 room2posters       ->    room2_js                      -
 room2scps          ->    cont2_427_714_860_1025        +
 room2scps2         ->    cont2_500_1499                +
@@ -58,7 +57,7 @@ room3_2            ->    room3_2_lcz                   o
 room3_3            ->    room3_3_lcz                   o
 room4              ->    room4_lcz                     o
 room4_2            ->    room4_2_lcz                   o
-room4info          ->    room4_ic_lcz                  +
+room4info          ->    room4_ic                      +
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~ HCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -103,8 +102,9 @@ gatea              ->    gate_a                        -
 gatebentrance      ->    gate_b_entrance               +
 gateb              ->    gate_b                        -
 room2bio           ->    room2_bio                     -
+room2_ic                                               +
 room2cafeteria     ->    room2_cafeteria               -
-room2medibay2      ->    room2_medibay_ez              =
+room2medibay2      ->    room2_medibay                 +
 room2offices       ->    room2_ez                      -
 room2offices2      ->    room2_2_ez                    -
 room2offices3      ->    room2_3_ez                    -
@@ -131,7 +131,6 @@ room3servers2      ->    room3_3_ez                    +
 room3z3            ->    room3_4_ez                    +
 room4z3            ->    room4_ez                      +
 
-room?_ic_ez                                            -
 ~~~~~~~~~~~~~~~~~~~~~~~~ OTHERS ~~~~~~~~~~~~~~~~~~~~~~~~
 
 room2checkpoint    ->    room2_checkpoint_lcz_hcz      o
@@ -155,11 +154,15 @@ room2gw_pipes      ->    room2_gw_pipes                +
 room3gw_pipes      ->    room3_gw_pipes                +
 wall               ->    scp_860_1_wall                +
 cont1_035_label                                        +
-shelves                                                +
+shelves_a                                              +
+shelves_b                                              +
+shelves_c                                              +
 wooden_box                                             +
 bench                                                  +
 garbage_bin                                            +
 system_unit                                            +
-table                                                  +
+table_a                                                +
 water_cooler                                           +
 mouse                                                  +
+mop                                                    +
+wet_floor_sign                                         +

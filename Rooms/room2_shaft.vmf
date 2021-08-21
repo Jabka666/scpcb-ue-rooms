@@ -76609,26 +76609,6 @@ entity
 }
 entity
 {
-    "id" "1366"
-    "classname" "light"
-    "color" "255 220 220"
-    "intensity" "0.6"
-    "linearfalloff" "1"
-    "position" "1170 308 540"
-    "range" "600"
-    "spawnflags" "0"
-    "origin" "1170.00000000 540.00000000 308.00000000"
-    editor
-    {
-        "color" "0 243 146"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1369"
     "classname" "model"
     "angles" "359.99999 -179.99998 360"
@@ -76756,13 +76736,31 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1416"
+    "classname" "model"
+    "angles" "360 0 360"
+    "file" "shelves_b"
+    "position" "1902 0 399"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "1902.00000000 399.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[1587.49600000 145.37310000 309.13250000]"
-        "look" "[1515.64600000 208.57560000 301.43300000]"
+        "position" "[1475.28100000 43.24148000 323.77180000]"
+        "look" "[1531.48400000 117.03590000 299.03650000]"
     }
 }
 cordon
