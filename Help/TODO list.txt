@@ -8,8 +8,8 @@
 "o" - THE ROOM IS FINISHED, BUT CAN BE OPTIMIZED MORE.
 
 [PROGRESS]
-TOTAL ROOMS DONE: 87/110;
-LCZ ROOMS DONE: 35/39;
+TOTAL ROOMS DONE: 88/110;
+LCZ ROOMS DONE: 36/39;
 HCZ ROOMS DONE: 27/30;
 EZ ROOMS DONE: 22/36;
 OTHER ROOMS DONE: 3/4;
@@ -37,7 +37,7 @@ room2doors         ->    room2_6_lcz                   +
 room2elevator      ->    room2_elevator                +
 room2gw            ->    room2_gw                      +
 room2gw_b          ->    room2_gw_2                    +
-room2posters       ->    room2_js                      -
+room2posters       ->    room2_js                      +
 room2scps          ->    cont2_427_714_860_1025        +
 room2scps2         ->    cont2_500_1499                +
 room2sl            ->    room2_sl                      +
@@ -52,11 +52,11 @@ room2Clockroom     ->    room2C_gw_lcz                 +
 room2Clockroom2    ->    room2C_gw_2_lcz               +
 room1162           ->    cont2C_1162_arc               +
 room3storage       ->    room3_storage                 x (CBRE doesn't have custom types. Wait until custom types!)
-room3              ->    room3_lcz                     o
-room3_2            ->    room3_2_lcz                   o
+room3              ->    room3_lcz                     +
+room3_2            ->    room3_2_lcz                   +
 room3_3            ->    room3_3_lcz                   o
-room4              ->    room4_lcz                     o
-room4_2            ->    room4_2_lcz                   o
+room4              ->    room4_lcz                     +
+room4_2            ->    room4_2_lcz                   +
 room4info          ->    room4_ic                      +
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~ HCZ ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,7 +101,7 @@ gateaentrance      ->    gate_a_entrance               +
 gatea              ->    gate_a                        -
 gatebentrance      ->    gate_b_entrance               +
 gateb              ->    gate_b                        -
-room2bio           ->    room2_bio                     -
+room2bio           ->    room2_bio                     x (CBRE has broken transparent textures. Wait until fix!)
 room2_ic                                               +
 room2cafeteria     ->    room2_cafeteria               -
 room2medibay2      ->    room2_medibay                 +
