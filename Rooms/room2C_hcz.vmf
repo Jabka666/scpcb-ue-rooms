@@ -16376,29 +16376,6 @@ entity
 }
 entity
 {
-    "id" "108"
-    "classname" "spotlight"
-    "angles" "450 90 270"
-    "color" "255 200 200"
-    "innerconeangle" "45"
-    "intensity" "0.8"
-    "linearfalloff" "1"
-    "outerconeangle" "95"
-    "position" "-0.00047 435.82245 -831.99994"
-    "range" "800"
-    "spawnflags" "0"
-    "origin" "-0.00047000 -831.99994000 435.82245000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "109"
     "classname" "waypoint"
     "position" "-0.14278 35.99999 -640.00008"
@@ -16415,57 +16392,11 @@ entity
 }
 entity
 {
-    "id" "110"
-    "classname" "spotlight"
-    "angles" "450 90 270"
-    "color" "255 200 200"
-    "innerconeangle" "45"
-    "intensity" "0.8"
-    "linearfalloff" "1"
-    "outerconeangle" "95"
-    "position" "831.99946 435.79147 0.00012"
-    "range" "800"
-    "spawnflags" "0"
-    "origin" "831.99946000 0.00012000 435.79147000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "111"
     "classname" "waypoint"
     "position" "639.85718 35.99999 -0.00001"
     "spawnflags" "0"
     "origin" "639.85718000 -0.00001000 35.99999000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "112"
-    "classname" "spotlight"
-    "angles" "449.99118 180 450"
-    "color" "255 200 200"
-    "innerconeangle" "65"
-    "intensity" "0.6"
-    "linearfalloff" "1"
-    "outerconeangle" "105"
-    "position" "192.00008 435.79127 0.00189"
-    "range" "600"
-    "spawnflags" "0"
-    "origin" "192.00008000 0.00189000 435.79127000"
     editor
     {
         "color" "255 0 255"
@@ -16586,18 +16517,71 @@ entity
 }
 entity
 {
-    "id" "148"
-    "classname" "spotlight"
-    "angles" "450 90 270"
+    "id" "260"
+    "classname" "light"
     "color" "255 200 200"
-    "innerconeangle" "65"
+    "intensity" "0.7"
+    "position" "831.99946 435.79147 0.00012"
+    "range" "700"
+    "spawnflags" "0"
+    "origin" "831.99946000 0.00012000 435.79147000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "261"
+    "classname" "light"
+    "color" "255 200 200"
+    "intensity" "0.7"
+    "position" "-0.00047 435.82245 -831.99994"
+    "range" "700"
+    "spawnflags" "0"
+    "origin" "-0.00047000 -831.99994000 435.82245000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "262"
+    "classname" "light"
+    "color" "255 200 200"
     "intensity" "0.6"
-    "linearfalloff" "1"
-    "outerconeangle" "105"
     "position" "-0.0004 435.79127 -191.99968"
     "range" "600"
     "spawnflags" "0"
     "origin" "-0.00040000 -191.99968000 435.79127000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "263"
+    "classname" "light"
+    "color" "255 200 200"
+    "intensity" "0.6"
+    "position" "192.00008 435.79127 0.00189"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "192.00008000 0.00189000 435.79127000"
     editor
     {
         "color" "255 0 255"
@@ -16612,8 +16596,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-13.50978000 -731.52470000 206.25680000]"
-        "look" "[-51.05486000 -813.49380000 173.27490000]"
+        "position" "[194.99840000 63.67052000 309.85450000]"
+        "look" "[140.45210000 -7.35124200 344.45200000]"
     }
 }
 cordon
