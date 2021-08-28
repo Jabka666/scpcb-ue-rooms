@@ -20961,13 +20961,49 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "537"
+    "classname" "model"
+    "angles" "360 -90 360"
+    "file" "cabinet_c"
+    "position" "-98 0 -230"
+    "scale" "2 1 1"
+    "spawnflags" "0"
+    "origin" "-98.00000000 -230.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "538"
+    "classname" "model"
+    "angles" "360 -90 360"
+    "file" "cabinet_c"
+    "position" "-98 0 -99"
+    "scale" "2 1 1"
+    "spawnflags" "0"
+    "origin" "-98.00000000 -99.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-308.29890000 -199.51140000 306.23550000]"
-        "look" "[-459.13760000 -80.75879000 309.37030000]"
+        "position" "[59.62986000 -164.11340000 228.50250000]"
+        "look" "[-98.17455000 -117.64550000 129.49340000]"
     }
 }
 cordon

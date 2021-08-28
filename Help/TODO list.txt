@@ -11,9 +11,9 @@
 TOTAL ROOMS DONE: 91/110;
 LCZ ROOMS DONE: 36/39;
 HCZ ROOMS DONE: 27/30;
-EZ ROOMS DONE: 25/36;
+EZ ROOMS DONE: 26/36;
 OTHER ROOMS DONE: 3/4;
-OBJECTS DONE: 24/27.
+OBJECTS DONE: 25/28.
 
 [ROOM LIST]
 
@@ -96,18 +96,18 @@ room4tunnels       ->    room4_2_hcz                   +
 
 room1endroom3      ->    room1_dead_end_ez             +
 room1lifts         ->    room1_lifts                   +
-roomo5             ->    room1_O5                      ... Soylien
+roomo5             ->    room1_O5                      +
 gateaentrance      ->    gate_a_entrance               +
 gatea              ->    gate_a                        -
 gatebentrance      ->    gate_b_entrance               +
 gateb              ->    gate_b                        -
 room2bio           ->    room2_bio                     x (CBRE has broken transparent textures. Wait until fix!)
 room2_ic                                               +
-room2cafeteria     ->    room2_cafeteria               -
+room2cafeteria     ->    room2_cafeteria               +
 room2medibay2      ->    room2_medibay                 +
 room2offices       ->    room2_ez                      +
 room2offices2      ->    room2_2_ez                    +
-room2offices3      ->    room2_3_ez                    -
+room2offices3      ->    room2_3_ez                    =
 room2offices4      ->    room2_office                  -
 room2offices5      ->    room2_office_2                x (CBRE has broken transparent textures. Wait until fix!)
 room2poffices      ->    room2_scientists              +
@@ -168,3 +168,4 @@ mop                                                    +
 wet_floor_sign                                         +
 cabinet_c                                              +
 table_b                                                +
+table_c                                                +
