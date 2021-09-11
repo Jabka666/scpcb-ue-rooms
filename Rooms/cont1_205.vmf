@@ -18142,42 +18142,6 @@ entity
 }
 entity
 {
-    "id" "507"
-    "classname" "model"
-    "angles" "360 88.06389 360"
-    "file" "elecbox"
-    "position" "735.0005 161.64955 657.72389"
-    "scale" "8 8 8"
-    "spawnflags" "0"
-    "origin" "735.00050000 657.72389000 161.64955000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "509"
-    "classname" "model"
-    "angles" "360 88.06389 360"
-    "file" "elecbox"
-    "position" "735.0005 161.64955 499.72389"
-    "scale" "8 8 8"
-    "spawnflags" "0"
-    "origin" "735.00050000 499.72389000 161.64955000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "510"
     "classname" "model"
     "angles" "360 -101.38772 360"
@@ -18303,13 +18267,51 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "577"
+    "classname" "model"
+    "angles" "360 90 360"
+    "file" "elecbox"
+    "position" "728 145.248 497"
+    "scale" "10 10 10"
+    "spawnflags" "0"
+    "origin" "728.00000000 497.00000000 145.24800000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "578"
+    "classname" "model"
+    "angles" "360 90 360"
+    "file" "elecbox"
+    "position" "727 145.248 653"
+    "scale" "10 10 10"
+    "spawnflags" "0"
+    "origin" "727.00000000 653.00000000 145.24800000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-963.05620000 384.93820000 161.30270000]"
-        "look" "[-982.41560000 319.09650000 94.17485000]"
+        "position" "[423.17890000 706.80710000 250.64320000]"
+        "look" "[518.64990000 702.16060000 241.71200000]"
     }
 }
 cordon
