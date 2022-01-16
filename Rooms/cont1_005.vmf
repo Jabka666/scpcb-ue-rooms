@@ -33,7 +33,7 @@ viewsettings
     "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
-    "nGridSpacing" "64"
+    "nGridSpacing" "1"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
     "bHideNullTextures" "0"
@@ -4810,10 +4810,10 @@ entity
     "id" "59"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.3"
+    "intensity" "0.4"
     "linearfalloff" "1"
     "position" "255.99737 404.03846 -829.20666"
-    "range" "300"
+    "range" "400"
     "spawnflags" "0"
     "origin" "255.99737000 -829.20666000 404.03846000"
     editor
@@ -4849,10 +4849,10 @@ entity
     "id" "76"
     "classname" "light"
     "color" "255 255 255"
-    "intensity" "0.3"
+    "intensity" "0.4"
     "linearfalloff" "1"
     "position" "-255.99998 404.00817 -829.01616"
-    "range" "300"
+    "range" "400"
     "spawnflags" "0"
     "origin" "-255.99998000 -829.01616000 404.00817000"
     editor
@@ -4979,10 +4979,10 @@ entity
     "classname" "model"
     "angles" "360 88.06389 360"
     "file" "elecbox"
-    "position" "350.02282 161.64955 -826.41781"
-    "scale" "8 8 8"
+    "position" "342 161.64955 -854"
+    "scale" "10 10 10"
     "spawnflags" "0"
-    "origin" "350.02282000 -826.41781000 161.64955000"
+    "origin" "342.00000000 -854.00000000 161.64955000"
     editor
     {
         "color" "255 0 255"
@@ -5102,8 +5102,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-190.48390000 -841.66440000 310.65460000]"
-        "look" "[-194.29550000 -752.58270000 275.07290000]"
+        "position" "[135.64560000 -813.03640000 333.71110000]"
+        "look" "[62.72769000 -779.94220000 280.75930000]"
     }
 }
 cordon
