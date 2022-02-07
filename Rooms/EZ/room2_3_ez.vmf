@@ -8559,7 +8559,7 @@ world
             "plane" "(-96.00000000 -1024.00000000 320.00000000) (96.00000000 -1024.00000000 320.00000000) (96.00000000 -992.00000000 320.00000000)"
             "material" "officewall"
             "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.355"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.355"
+            "vaxis" "[0.00000000 -1.00000000 0.00000000 -65] 0.355"
             "rotation" "0"
             vertex
             {
@@ -8898,7 +8898,7 @@ world
             "plane" "(-96.00000000 992.00000000 320.00000000) (96.00000000 992.00000000 320.00000000) (96.00000000 1024.00000000 320.00000000)"
             "material" "officewall"
             "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.355"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.355"
+            "vaxis" "[0.00000000 -1.00000000 0.00000000 115] 0.355"
             "rotation" "0"
             vertex
             {
@@ -28926,24 +28926,6 @@ entity
 }
 entity
 {
-    "id" "839"
-    "classname" "model"
-    "angles" "360 90 360"
-    "file" "system_unit"
-    "position" "-1133 384 -341"
-    "scale" "6 6 4.5"
-    "spawnflags" "0"
-    "origin" "-1133.00000000 -341.00000000 384.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "843"
     "classname" "model"
     "angles" "360 -90 360"
@@ -30115,13 +30097,51 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1114"
+    "classname" "model"
+    "angles" "360 -10.00001 360"
+    "file" "monitor"
+    "position" "-1292 382 -248"
+    "scale" "1.7 1.7 1.7"
+    "spawnflags" "0"
+    "origin" "-1292.00000000 -248.00000000 382.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1116"
+    "classname" "model"
+    "angles" "360 -100.73479 360"
+    "file" "monitor"
+    "position" "-1109 484 -272"
+    "scale" "1.7 1.7 1.7"
+    "spawnflags" "0"
+    "origin" "-1109.00000000 -272.00000000 484.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[139.41140000 426.30100000 512.68480000]"
-        "look" "[136.04360000 332.22680000 493.85240000]"
+        "position" "[-250.07270000 221.54360000 277.04750000]"
+        "look" "[-194.96350000 290.04010000 238.48380000]"
     }
 }
 cordon

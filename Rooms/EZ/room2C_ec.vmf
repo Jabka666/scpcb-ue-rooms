@@ -56559,12 +56559,12 @@ entity
 {
     "id" "27"
     "classname" "model"
-    "angles" "0 -90 0"
+    "angles" "360 -90 360"
     "file" "elecbox"
-    "position" "-2188.64 1024 1576.95"
-    "scale" "13 13 13"
+    "position" "-2199.33644 1024 1577.02501"
+    "scale" "10 10 10"
     "spawnflags" "0"
-    "origin" "-2188.64000000 1576.95000000 1024.00000000"
+    "origin" "-2199.33644000 1577.02501000 1024.00000000"
     editor
     {
         "color" "255 0 255"
@@ -56597,12 +56597,12 @@ entity
 {
     "id" "30"
     "classname" "model"
-    "angles" "0 90 0"
+    "angles" "360 90 360"
     "file" "elecbox"
-    "position" "-275.976 1024 1242.08"
-    "scale" "13 13 13"
+    "position" "-264 1024 1242"
+    "scale" "10 10 10"
     "spawnflags" "0"
-    "origin" "-275.97600000 1242.08000000 1024.00000000"
+    "origin" "-264.00000000 1242.00000000 1024.00000000"
     editor
     {
         "color" "255 0 255"
@@ -56787,12 +56787,12 @@ entity
 {
     "id" "43"
     "classname" "model"
-    "angles" "0 -90 0"
+    "angles" "360 -90 360"
     "file" "elecbox"
-    "position" "-2188.64 1024 1000.95"
-    "scale" "13 13 13"
+    "position" "-2199.33644 1024 1001.02501"
+    "scale" "10 10 10"
     "spawnflags" "0"
-    "origin" "-2188.64000000 1000.95000000 1024.00000000"
+    "origin" "-2199.33644000 1001.02501000 1024.00000000"
     editor
     {
         "color" "255 0 255"
@@ -57544,13 +57544,69 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "958"
+    "classname" "model"
+    "angles" "360 -90 360"
+    "file" "elecbox"
+    "position" "-2200 1024 1289"
+    "scale" "10 10 10"
+    "spawnflags" "0"
+    "origin" "-2200.00000000 1289.00000000 1024.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "959"
+    "classname" "model"
+    "angles" "360 180 360"
+    "file" "tank2"
+    "position" "-1962 896 416"
+    "scale" "3 3 3"
+    "spawnflags" "0"
+    "origin" "-1962.00000000 416.00000000 896.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "960"
+    "classname" "soundemitter"
+    "position" "-2053 994 416"
+    "range" "2"
+    "sound" "8"
+    "spawnflags" "0"
+    "origin" "-2053.00000000 416.00000000 994.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-531.21850000 484.58870000 1192.62200000]"
-        "look" "[-477.69360000 416.38620000 1151.39600000]"
+        "position" "[-1981.78500000 841.44050000 1194.46300000]"
+        "look" "[-1992.85900000 754.79310000 1154.64300000]"
     }
 }
 cordon

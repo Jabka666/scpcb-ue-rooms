@@ -45071,13 +45071,9 @@ entity
 entity
 {
     "id" "259"
-    "classname" "spotlight"
-    "angles" "450 135 270"
+    "classname" "light"
     "color" "255 200 200"
-    "innerconeangle" "45"
     "intensity" "0.5"
-    "linearfalloff" "1"
-    "outerconeangle" "55"
     "position" "-896 372 0"
     "range" "500"
     "spawnflags" "0"
@@ -45094,13 +45090,9 @@ entity
 entity
 {
     "id" "260"
-    "classname" "spotlight"
-    "angles" "450 45 270"
+    "classname" "light"
     "color" "255 200 200"
-    "innerconeangle" "45"
     "intensity" "0.5"
-    "linearfalloff" "1"
-    "outerconeangle" "55"
     "position" "896 372 0"
     "range" "500"
     "spawnflags" "0"
@@ -45137,13 +45129,9 @@ entity
 entity
 {
     "id" "262"
-    "classname" "spotlight"
-    "angles" "450 90 270"
+    "classname" "light"
     "color" "255 200 200"
-    "innerconeangle" "45"
     "intensity" "0.5"
-    "linearfalloff" "1"
-    "outerconeangle" "55"
     "position" "0 372 -896"
     "range" "500"
     "spawnflags" "0"
@@ -45382,13 +45370,9 @@ entity
 entity
 {
     "id" "482"
-    "classname" "spotlight"
-    "angles" "450 -90 270"
+    "classname" "light"
     "color" "255 200 200"
-    "innerconeangle" "45"
     "intensity" "0.5"
-    "linearfalloff" "1"
-    "outerconeangle" "55"
     "position" "0 372 896"
     "range" "500"
     "spawnflags" "0"
@@ -45445,8 +45429,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[270.06570000 1183.51200000 457.36570000]"
-        "look" "[122.73790000 1078.86400000 392.50260000]"
+        "position" "[275.83130000 383.41410000 313.30460000]"
+        "look" "[181.14310000 549.19470000 333.67190000]"
     }
 }
 cordon
