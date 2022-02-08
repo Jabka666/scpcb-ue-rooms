@@ -4486,9 +4486,9 @@ world
             "id" "5881"
             "plane" "(1024.00019911 95.99999248 320.00001834) (992.00000000 95.99999249 320.00000000) (992.00000000 -95.99999101 320.00000000)"
             "material" "officewall"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.355000"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.355000"
-            "rotation" "0"
+            "uaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.355000"
+            "vaxis" "[-1.00000000 0.00000000 0.00000000 -110] 0.355000"
+            "rotation" "90"
             vertex
             {
                 "count" "4"
@@ -43274,10 +43274,10 @@ entity
     "id" "1609"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-736 375 288"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-736.00000000 288.00000000 375.00000000"
     editor
@@ -43294,10 +43294,10 @@ entity
     "id" "1611"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-736 375 -288"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-736.00000000 -288.00000000 375.00000000"
     editor
@@ -43333,10 +43333,10 @@ entity
     "id" "1627"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "697.99991 374.99996 -288.00006"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "697.99991000 -288.00006000 374.99996000"
     editor
@@ -43372,10 +43372,10 @@ entity
     "id" "1629"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "697.99991 374.99996 287.99994"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "697.99991000 287.99994000 374.99996000"
     editor
@@ -43392,10 +43392,10 @@ entity
     "id" "1638"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-328 374.99996 316"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-328.00000000 316.00000000 374.99996000"
     editor
@@ -43412,10 +43412,10 @@ entity
     "id" "1640"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "176 375 316"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "176.00000000 316.00000000 375.00000000"
     editor
@@ -43488,10 +43488,10 @@ entity
     "id" "1692"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-736 375 -736"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-736.00000000 -736.00000000 375.00000000"
     editor
@@ -43508,10 +43508,10 @@ entity
     "id" "1694"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-352 375 -736"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-352.00000000 -736.00000000 375.00000000"
     editor
@@ -43761,8 +43761,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[29.19676000 -856.69740000 254.36900000]"
-        "look" "[27.86141000 -856.22430000 253.87560000]"
+        "position" "[-3.92016600 -791.82430000 234.76590000]"
+        "look" "[-4.22771400 -793.29140000 234.82480000]"
     }
 }
 cordon

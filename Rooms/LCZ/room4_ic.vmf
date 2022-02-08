@@ -17666,7 +17666,7 @@ world
             "id" "2530"
             "plane" "(320.00000000 415.99999000 0.00006378) (416.00000000 319.99999960 0.00006378) (416.00000000 319.99999960 544.00003689)"
             "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 -224.0000000000000000] 1"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 0.0000000000000000] 1"
             "vaxis" "[0.00000000 0.00000000 -1.00000000 25.00000000000000000] 1"
             "rotation" "0"
             vertex
@@ -18268,86 +18268,6 @@ entity
 }
 entity
 {
-    "id" "357"
-    "classname" "light"
-    "color" "255 255 255"
-    "intensity" "0.4"
-    "linearfalloff" "1"
-    "position" "-639.99977 532.03885 0.00001"
-    "range" "400"
-    "spawnflags" "0"
-    "origin" "-639.99977000 0.00001000 532.03885000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "359"
-    "classname" "light"
-    "color" "255 255 255"
-    "intensity" "0.4"
-    "linearfalloff" "1"
-    "position" "-0.00012 531.98361 640.00011"
-    "range" "400"
-    "spawnflags" "0"
-    "origin" "-0.00012000 640.00011000 531.98361000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "361"
-    "classname" "light"
-    "color" "255 255 255"
-    "intensity" "0.4"
-    "linearfalloff" "1"
-    "position" "639.99991 532.03886 -0.00027"
-    "range" "400"
-    "spawnflags" "0"
-    "origin" "639.99991000 -0.00027000 532.03886000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "363"
-    "classname" "light"
-    "color" "255 255 255"
-    "intensity" "0.4"
-    "linearfalloff" "1"
-    "position" "-0.00014 531.98358 -640.00029"
-    "range" "400"
-    "spawnflags" "0"
-    "origin" "-0.00014000 -640.00029000 531.98358000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "423"
     "classname" "model"
     "angles" "359.99999 90 360"
@@ -18428,10 +18348,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-352.00003 -0.00013 -640"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-352.00003000 -640.00000000 -0.00013000"
     editor
@@ -18449,10 +18369,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-640.00009 -0.00013 -352"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-640.00009000 -352.00000000 -0.00013000"
     editor
@@ -18470,10 +18390,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "352 -0.00013 640"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "352.00000000 640.00000000 -0.00013000"
     editor
@@ -18491,10 +18411,10 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
-    "intensity" "0.4"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "640.00006 -0.00013 352"
-    "range" "400"
+    "range" "500"
     "spawnflags" "0"
     "origin" "640.00006000 352.00000000 -0.00013000"
     editor
@@ -18712,8 +18632,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[322.48920000 -153.84590000 523.25190000]"
-        "look" "[297.92080000 -218.82210000 456.98810000]"
+        "position" "[37.22363000 -3.15605000 199.65880000]"
+        "look" "[-49.85661000 -2.67847800 240.07180000]"
     }
 }
 cordon

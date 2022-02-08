@@ -32413,10 +32413,10 @@ entity
     "id" "596"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "1.0"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "position" "0 692 256"
-    "range" "1000"
+    "range" "900"
     "spawnflags" "0"
     "origin" "0.00000000 256.00000000 692.00000000"
     editor
@@ -32433,10 +32433,10 @@ entity
     "id" "597"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "1.0"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "position" "0 692 -256"
-    "range" "1000"
+    "range" "900"
     "spawnflags" "0"
     "origin" "0.00000000 -256.00000000 692.00000000"
     editor
@@ -32773,10 +32773,10 @@ entity
     "id" "749"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "1.0"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "position" "1520 564 -320"
-    "range" "1000"
+    "range" "900"
     "spawnflags" "0"
     "origin" "1520.00000000 -320.00000000 564.00000000"
     editor
@@ -32793,10 +32793,10 @@ entity
     "id" "750"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "1.0"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "position" "1520 564 320"
-    "range" "1000"
+    "range" "900"
     "spawnflags" "0"
     "origin" "1520.00000000 320.00000000 564.00000000"
     editor
@@ -32813,10 +32813,10 @@ entity
     "id" "751"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "1.0"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "position" "-1008 564 -320"
-    "range" "1000"
+    "range" "900"
     "spawnflags" "0"
     "origin" "-1008.00000000 -320.00000000 564.00000000"
     editor
@@ -32833,10 +32833,10 @@ entity
     "id" "752"
     "classname" "light"
     "color" "200 200 255"
-    "intensity" "1.0"
+    "intensity" "0.9"
     "linearfalloff" "1"
     "position" "-1008 564 320"
-    "range" "1000"
+    "range" "900"
     "spawnflags" "0"
     "origin" "-1008.00000000 320.00000000 564.00000000"
     editor
@@ -32959,8 +32959,8 @@ cameras
     }
     camera
     {
-        "position" "[789.90690000 -309.43880000 2.00585000]"
-        "look" "[788.53300000 -309.98680000 1.75062400]"
+        "position" "[256.76490000 42.88007000 370.81410000]"
+        "look" "[255.82170000 43.61422000 371.72210000]"
     }
 }
 cordon
