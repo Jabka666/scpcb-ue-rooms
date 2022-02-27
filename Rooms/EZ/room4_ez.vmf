@@ -21911,10 +21911,10 @@ entity
     "classname" "light"
     "color" "200 200 255"
     "hassprite" "Yes"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "linearfalloff" "1"
     "position" "0 820 184"
-    "range" "600"
+    "range" "700"
     "spawnflags" "0"
     "origin" "0.00000000 184.00000000 820.00000000"
     editor
@@ -21932,10 +21932,10 @@ entity
     "classname" "light"
     "color" "200 200 255"
     "hassprite" "Yes"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "linearfalloff" "1"
     "position" "0 820 -200"
-    "range" "600"
+    "range" "700"
     "spawnflags" "0"
     "origin" "0.00000000 -200.00000000 820.00000000"
     editor
@@ -22044,10 +22044,10 @@ entity
     "classname" "light"
     "color" "200 200 255"
     "hassprite" "No"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "position" "0 383.99997 -768"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "0.00000000 -768.00000000 383.99997000"
     editor
@@ -22084,10 +22084,10 @@ entity
     "classname" "light"
     "color" "200 200 255"
     "hassprite" "No"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "position" "768.0002 383.99997 0"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "768.00020000 0.00000000 383.99997000"
     editor
@@ -22124,10 +22124,10 @@ entity
     "classname" "light"
     "color" "200 200 255"
     "hassprite" "No"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "position" "0 383.99997 768.0002"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "0.00000000 768.00020000 383.99997000"
     editor
@@ -22164,10 +22164,10 @@ entity
     "classname" "light"
     "color" "200 200 255"
     "hassprite" "No"
-    "intensity" "0.5"
+    "intensity" "0.6"
     "linearfalloff" "1"
     "position" "-768.0002 383.99997 0"
-    "range" "500"
+    "range" "600"
     "spawnflags" "0"
     "origin" "-768.00020000 0.00000000 383.99997000"
     editor
@@ -22184,8 +22184,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[174.79560000 70.79755000 325.54620000]"
-        "look" "[138.29020000 92.36297000 411.67610000]"
+        "position" "[-5.13488000 459.55180000 251.60480000]"
+        "look" "[-7.77206200 363.60430000 249.81330000]"
     }
 }
 cordon
