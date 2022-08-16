@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -30,7 +30,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -6106,10 +6108,10 @@ entity
     "classname" "model"
     "angles" "360 -90 360"
     "file" "bench"
-    "position" "-505 0 -111"
+    "position" "-503 0 -110"
     "scale" "1 1 1"
     "spawnflags" "0"
-    "origin" "-505.00000000 -111.00000000 0.00000000"
+    "origin" "-503.00000000 -110.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -6182,10 +6184,10 @@ entity
     "classname" "model"
     "angles" "360 100.65211 360"
     "file" "garbage_bin"
-    "position" "-488 0 -298.99997"
+    "position" "-500 0 -299"
     "scale" "1 1 1"
     "spawnflags" "0"
-    "origin" "-488.00000000 -298.99997000 0.00000000"
+    "origin" "-500.00000000 -299.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -6252,13 +6254,31 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "232"
+    "classname" "model"
+    "angles" "360 -180 360"
+    "file" "fire_extinguisher"
+    "position" "-520 179 -309"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "-520.00000000 -309.00000000 179.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-26.27475000 -35.02735000 268.45100000]"
-        "look" "[-0.01207733 55.55604000 286.36910000]"
+        "position" "[128.88170000 -157.95930000 230.55200000]"
+        "look" "[32.95724000 -156.94710000 226.86210000]"
     }
 }
 cordon

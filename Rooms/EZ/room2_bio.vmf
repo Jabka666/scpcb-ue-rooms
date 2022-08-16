@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -2950,8 +2952,8 @@ world
             "id" "707"
             "plane" "(244.00000028 992.00003200 384.00000000) (243.99999403 -992.00000000 384.00000000) (243.99999403 -992.00000000 768.00000000)"
             "material" "tooltextures/block_light"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 48] 0.5"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 511] 0.5"
+            "uaxis" "[0.00000000 1.00000000 0.00000000 16] 0.5"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 31] 0.5"
             "rotation" "0"
             vertex
             {
@@ -15576,8 +15578,8 @@ world
             "id" "2530"
             "plane" "(244.00000000 959.99993896 0.00000000) (244.00000000 959.99993896 384.00000000) (244.00000000 991.99993896 384.00000000)"
             "material" "tooltextures/block_light"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 48] 0.5"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 511] 0.5"
+            "uaxis" "[0.00000000 1.00000000 0.00000000 16] 0.5"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 31] 0.5"
             "rotation" "0"
             vertex
             {
@@ -15655,8 +15657,8 @@ world
             "id" "2534"
             "plane" "(244.00000000 -992.00000000 0.00000000) (244.00000000 -992.00000000 384.00000000) (244.00000000 -960.00000000 384.00000000)"
             "material" "tooltextures/block_light"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 48] 0.5"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 511] 0.5"
+            "uaxis" "[0.00000000 1.00000000 0.00000000 16] 0.5"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 31] 0.5"
             "rotation" "0"
             vertex
             {
@@ -28022,13 +28024,31 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "885"
+    "classname" "model"
+    "angles" "360 -180 360"
+    "file" "fire_extinguisher"
+    "position" "-527 179 0"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "-527.00000000 0.00000000 179.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-46.78296000 -835.93070000 350.67440000]"
-        "look" "[18.16415000 -771.93650000 320.63430000]"
+        "position" "[-29.84181000 43.32278000 307.63960000]"
+        "look" "[-124.43620000 36.57101000 292.73650000]"
     }
 }
 cordon

@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -32949,6 +32951,24 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "847"
+    "classname" "model"
+    "angles" "360 0 360"
+    "file" "fire_extinguisher"
+    "position" "1902 -280 -480"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "1902.00000000 -480.00000000 -280.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "1"
@@ -32959,8 +32979,8 @@ cameras
     }
     camera
     {
-        "position" "[256.76490000 42.88007000 370.81410000]"
-        "look" "[255.82170000 43.61422000 371.72210000]"
+        "position" "[1199.78900000 -449.13150000 -108.03720000]"
+        "look" "[1201.21300000 -449.23190000 -108.50160000]"
     }
 }
 cordon
