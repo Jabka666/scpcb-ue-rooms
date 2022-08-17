@@ -24049,13 +24049,31 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "734"
+    "classname" "model"
+    "angles" "360 -90 360"
+    "file" "fire_extinguisher"
+    "position" "662 179 -975"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "662.00000000 -975.00000000 179.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-902.85740000 -735.30100000 326.18500000]"
-        "look" "[-809.80100000 -711.71170000 326.04150000]"
+        "position" "[563.84170000 -816.08140000 300.15770000]"
+        "look" "[596.91780000 -902.31960000 273.98690000]"
     }
 }
 cordon
