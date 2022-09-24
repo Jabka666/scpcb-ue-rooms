@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -14949,44 +14951,6 @@ entity
 }
 entity
 {
-    "id" "170"
-    "classname" "model"
-    "angles" "0 0 -1.539293E-14"
-    "file" "monitor"
-    "position" "463.8926 118.8571 476.9446"
-    "scale" "1.7 1.7 1.7"
-    "spawnflags" "0"
-    "origin" "463.89260000 476.94460000 118.85710000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "171"
-    "classname" "model"
-    "angles" "0 0 -1.539293E-14"
-    "file" "keyboard"
-    "position" "464.7206 119.8571 437.0471"
-    "scale" "1.7 1.7 1.7"
-    "spawnflags" "0"
-    "origin" "464.72060000 437.04710000 119.85710000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "172"
     "classname" "model"
     "angles" "0 0 -1.539293E-14"
@@ -15546,25 +15510,6 @@ entity
     "scale" "3.5 3.5 3.5"
     "spawnflags" "0"
     "origin" "-498.00000000 -119.00000000 0.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "207"
-    "classname" "model"
-    "angles" "360 -165 360"
-    "file" "officeseat_a"
-    "position" "-461 0 148"
-    "scale" "3.5 3.5 3.5"
-    "spawnflags" "0"
-    "origin" "-461.00000000 148.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -16958,24 +16903,6 @@ entity
 }
 entity
 {
-    "id" "936"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "cabinet_c"
-    "position" "-392 0 565"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "-392.00000000 565.00000000 0.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "937"
     "classname" "model"
     "angles" "360 0 360"
@@ -17066,24 +16993,6 @@ entity
 }
 entity
 {
-    "id" "944"
-    "classname" "model"
-    "angles" "360 -180 360"
-    "file" "cabinet_c"
-    "position" "400 0 457"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "400.00000000 457.00000000 0.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "945"
     "classname" "model"
     "angles" "360 0 360"
@@ -17149,25 +17058,6 @@ entity
     "scale" "0.2 0.2 0.2"
     "spawnflags" "0"
     "origin" "756.00000000 439.00000000 119.85708000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "949"
-    "classname" "model"
-    "angles" "360 16.45282 360"
-    "file" "mouse"
-    "position" "518.99962 119.85708 436.99985"
-    "scale" "0.2 0.2 0.2"
-    "spawnflags" "0"
-    "origin" "518.99962000 436.99985000 119.85708000"
     editor
     {
         "color" "255 0 255"
@@ -17823,13 +17713,31 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "993"
+    "classname" "model"
+    "angles" "360 0 360"
+    "file" "table_b"
+    "position" "463 0 11"
+    "scale" "1 1 1"
+    "spawnflags" "0"
+    "origin" "463.00000000 11.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[538.87020000 307.88160000 281.39290000]"
-        "look" "[472.28870000 376.64580000 288.78170000]"
+        "position" "[-80.74527000 785.22190000 250.85820000]"
+        "look" "[-70.74819000 700.82130000 206.21740000]"
     }
 }
 cordon

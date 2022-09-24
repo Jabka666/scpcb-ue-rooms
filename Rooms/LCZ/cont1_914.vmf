@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -42,7 +42,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -75677,8 +75679,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[149.61830000 -93.74728000 243.82640000]"
-        "look" "[99.46365000 -11.89542000 242.74530000]"
+        "position" "[-722.92810000 -159.45780000 238.64220000]"
+        "look" "[-710.15440000 -254.43310000 232.90580000]"
     }
 }
 cordon

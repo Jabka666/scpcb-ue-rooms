@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -32870,7 +32872,7 @@ world
         {
             "id" "2091"
             "plane" "(-107.78943505 -959.99912037 -190.43545481) (107.78956495 -959.99912037 -190.43545481) (107.78955076 959.99991734 -190.43545481)"
-            "material" "dirtymetal"
+            "material" "tooltextures/remove_face"
             "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.5"
             "vaxis" "[0.00000001 -1.00000000 0.00000000 0] 0.5"
             "rotation" "0"
@@ -44117,8 +44119,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-18.54282000 331.15680000 348.61980000]"
-        "look" "[-6.48682900 236.72460000 336.22990000]"
+        "position" "[-52.73536000 -815.99630000 246.05720000]"
+        "look" "[-44.00773000 -723.58120000 221.57060000]"
     }
 }
 cordon
