@@ -41056,17 +41056,15 @@ entity
 }
 entity
 {
-    "id" "672"
-    "classname" "model"
-    "angles" "360 -180 360"
-    "file" "button"
-    "position" "-1105 495 -5.59762"
-    "scale" "9 9 9"
+    "id" "693"
+    "classname" "waypoint"
+    "position" "0 32 -768"
     "spawnflags" "0"
-    "origin" "-1105.00000000 -5.59762000 495.00000000"
+    "origin" "0.00000000 -768.00000000 32.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -41077,8 +41075,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[118.99640000 54.22093000 397.20310000]"
-        "look" "[109.22100000 100.77350000 390.77530000]"
+        "position" "[22.92619000 1073.24900000 206.06680000]"
+        "look" "[-20.43512000 1092.33300000 198.34630000]"
     }
 }
 cordon
