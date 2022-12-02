@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,19 +13,19 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "2"
-        "color" "0 171 113"
+        "color" "0 255 255"
     }
     visgroup
     {
         "name" "models"
         "visgroupid" "3"
-        "color" "0 139 155"
+        "color" "0 128 128"
     }
 }
 viewsettings
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -5328,44 +5330,6 @@ world
 }
 entity
 {
-    "id" "3"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "-0.00004 488 -640.12185"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "-0.00004000 -640.12185000 488.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "4"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "-0.00001 488 639.87816"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "-0.00001000 639.87816000 488.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "25"
     "classname" "light"
     "color" "255 255 255"
@@ -5492,14 +5456,33 @@ entity
 }
 entity
 {
-    "id" "43"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "-0.00001 488 -0.12206"
-    "scale" "1 1 1"
+    "id" "44"
+    "classname" "waypoint"
+    "position" "0.00003 31.99984 0.00021"
     "spawnflags" "0"
-    "origin" "-0.00001000 -0.12206000 488.00000000"
+    "origin" "0.00003000 0.00021000 31.99984000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "94"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
+    "position" "-0.00004 488 -640.12185"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-0.00004000 -640.12185000 488.00000000"
     editor
     {
         "color" "255 0 255"
@@ -5511,11 +5494,39 @@ entity
 }
 entity
 {
-    "id" "44"
-    "classname" "waypoint"
-    "position" "0.00003 31.99984 0.00021"
+    "id" "95"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
+    "position" "-0.00001 488 639.87816"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "0.00003000 0.00021000 31.99984000"
+    "origin" "-0.00001000 639.87816000 488.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "96"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
+    "position" "-0.00001 488 -0.12206"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-0.00001000 -0.12206000 488.00000000"
     editor
     {
         "color" "255 0 255"
@@ -5530,8 +5541,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-59.59589000 672.69080000 315.58260000]"
-        "look" "[-58.72578000 577.44220000 303.62080000]"
+        "position" "[90.70605000 835.16380000 353.25270000]"
+        "look" "[84.61311000 739.42860000 349.54080000]"
     }
 }
 cordon

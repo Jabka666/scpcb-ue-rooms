@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,13 +13,19 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "2"
-        "color" "0 184 225"
+        "color" "0 255 255"
+    }
+    visgroup
+    {
+        "name" "models"
+        "visgroupid" "3"
+        "color" "0 128 128"
     }
 }
 viewsettings
@@ -30,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -24194,44 +24202,6 @@ entity
     editor
     {
         "color" "0 130 140"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "328"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "0 748 0"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "0.00000000 0.00000000 748.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "332"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "0 748 -704"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "0.00000000 -704.00000000 748.00000000"
-    editor
-    {
-        "color" "255 0 255"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -24252,25 +24222,6 @@ entity
     editor
     {
         "color" "0 130 140"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "335"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "0 748 704"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "0.00000000 704.00000000 748.00000000"
-    editor
-    {
-        "color" "255 0 255"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -24297,13 +24248,79 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "381"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
+    "position" "0 748 0"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "0.00000000 0.00000000 748.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "382"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
+    "position" "0 748 -704"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "0.00000000 -704.00000000 748.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "383"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
+    "position" "0 748 704"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "0.00000000 704.00000000 748.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[440.90860000 -2.32239600 155.51300000]"
-        "look" "[457.97110000 114.36590000 3.99795500]"
+        "position" "[1.99944300 -314.11510000 376.69410000]"
+        "look" "[62.69539000 -135.79660000 413.87770000]"
     }
 }
 cordon

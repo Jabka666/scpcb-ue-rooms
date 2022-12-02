@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -43297,18 +43299,21 @@ world
 }
 entity
 {
-    "id" "8"
-    "classname" "model"
+    "id" "576"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 620 -576"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 -576.00000000 620.00000000"
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -43316,18 +43321,21 @@ entity
 }
 entity
 {
-    "id" "10"
-    "classname" "model"
+    "id" "577"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 620 448"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 448.00000000 620.00000000"
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -43335,7 +43343,7 @@ entity
 }
 entity
 {
-    "id" "165"
+    "id" "578"
     "classname" "light"
     "color" "255 50 50"
     "intensity" "0.7"
@@ -43355,7 +43363,7 @@ entity
 }
 entity
 {
-    "id" "166"
+    "id" "579"
     "classname" "waypoint"
     "position" "0 32 448"
     "spawnflags" "0"
@@ -43371,7 +43379,7 @@ entity
 }
 entity
 {
-    "id" "167"
+    "id" "580"
     "classname" "soundemitter"
     "position" "0 192 1602"
     "range" "10"
@@ -43389,7 +43397,7 @@ entity
 }
 entity
 {
-    "id" "548"
+    "id" "581"
     "classname" "light"
     "color" "255 50 50"
     "intensity" "0.7"
@@ -43409,7 +43417,7 @@ entity
 }
 entity
 {
-    "id" "550"
+    "id" "582"
     "classname" "light"
     "color" "255 50 50"
     "intensity" "0.8"
@@ -43429,7 +43437,7 @@ entity
 }
 entity
 {
-    "id" "552"
+    "id" "583"
     "classname" "light"
     "color" "255 50 50"
     "intensity" "0.8"
@@ -43452,8 +43460,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-102.90230000 -21.57933000 566.43680000]"
-        "look" "[-120.91070000 22.63002000 571.46120000]"
+        "position" "[120.61160000 723.51430000 333.67580000]"
+        "look" "[125.44020000 675.82100000 331.21780000]"
     }
 }
 cordon

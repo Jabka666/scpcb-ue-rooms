@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,19 +13,19 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "models"
         "visgroupid" "2"
-        "color" "0 139 155"
+        "color" "0 128 128"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "3"
-        "color" "0 184 225"
+        "color" "0 255 255"
     }
 }
 viewsettings
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -44322,11 +44324,14 @@ entity
 entity
 {
     "id" "634"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 -90 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-383.9999 748 0.00006"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-383.99990000 0.00006000 748.00000000"
     editor
@@ -44381,11 +44386,14 @@ entity
 entity
 {
     "id" "637"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 0 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 748 -383.9999"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 -383.99990000 748.00000000"
     editor
@@ -44400,11 +44408,14 @@ entity
 entity
 {
     "id" "638"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 -90 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "384 748 0.00006"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "384.00000000 0.00006000 748.00000000"
     editor
@@ -44439,11 +44450,14 @@ entity
 entity
 {
     "id" "729"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 180 360"
-    "file" "elecbox"
+    "file" "elecbox.b3d"
     "position" "51 104 868"
     "scale" "10 10 10"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "51.00000000 868.00000000 104.00000000"
     editor
@@ -44478,17 +44492,20 @@ entity
 entity
 {
     "id" "775"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "door01"
+    "file" "door01.b3d"
     "position" "-247 -4.0249 720"
     "scale" "19 13.5 10"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-247.00000000 720.00000000 -4.02490000"
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -44497,17 +44514,20 @@ entity
 entity
 {
     "id" "776"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "doorframe"
+    "file" "doorframe.b3d"
     "position" "-256 0 720"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-256.00000000 720.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -44516,11 +44536,14 @@ entity
 entity
 {
     "id" "777"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 89.08027 360"
-    "file" "buttonkeycard"
+    "file" "buttonkeycard.b3d"
     "position" "-227.72495 176 834.58091"
     "scale" "8 8 5"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-227.72495000 834.58091000 176.00000000"
     editor
@@ -44537,8 +44560,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-407.25650000 50.70819000 662.11950000]"
-        "look" "[-404.35240000 50.58578000 661.37850000]"
+        "position" "[454.41620000 26.89187000 523.91070000]"
+        "look" "[451.48230000 26.99393000 523.29440000]"
     }
 }
 cordon

@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,19 +13,19 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "2"
-        "color" "0 184 225"
+        "color" "0 255 255"
     }
     visgroup
     {
         "name" "models"
         "visgroupid" "3"
-        "color" "0 139 155"
+        "color" "0 128 128"
     }
 }
 viewsettings
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -4828,11 +4830,14 @@ entity
 entity
 {
     "id" "74"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-0.00261 352 -829.20674"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-0.00261000 -829.20674000 352.00000000"
     editor
@@ -4867,11 +4872,14 @@ entity
 entity
 {
     "id" "77"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 352 -210"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 -210.00000000 352.00000000"
     editor
@@ -4886,16 +4894,20 @@ entity
 entity
 {
     "id" "83"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -138.7309 360"
-    "file" "crate1"
+    "file" "crate1.b3d"
     "position" "-236.6149 0 54.46305"
     "scale" "5 5 5"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-236.61490000 54.46305000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -4904,16 +4916,20 @@ entity
 entity
 {
     "id" "84"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 145.71807 360"
-    "file" "crate2"
+    "file" "crate2.b3d"
     "position" "283.46948 0 95.76587"
     "scale" "5 5 5"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "283.46948000 95.76587000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -4922,16 +4938,20 @@ entity
 entity
 {
     "id" "85"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 163.45993 360"
-    "file" "crate2"
+    "file" "crate2.b3d"
     "position" "283.47124 48.99999 89.89637"
     "scale" "5 5 5"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "283.47124000 89.89637000 48.99999000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -4940,16 +4960,20 @@ entity
 entity
 {
     "id" "86"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -126.17967 360"
-    "file" "crate3"
+    "file" "crate3.b3d"
     "position" "-230.90402 128.30229 41.43909"
     "scale" "4 6 4"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-230.90402000 41.43909000 128.30229000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -4958,16 +4982,20 @@ entity
 entity
 {
     "id" "110"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -76.10338 360"
-    "file" "crate1"
+    "file" "crate1.b3d"
     "position" "-286.99481 0 -826.16357"
     "scale" "5 5 5"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-286.99481000 -826.16357000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -4976,16 +5004,20 @@ entity
 entity
 {
     "id" "111"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 88.06389 360"
-    "file" "elecbox"
+    "file" "elecbox.b3d"
     "position" "342 161.64955 -855"
     "scale" "10 10 10"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "342.00000000 -855.00000000 161.64955000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -5028,16 +5060,20 @@ entity
 entity
 {
     "id" "141"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "shelves_a"
+    "file" "shelves_a.b3d"
     "position" "352 0 -464"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "352.00000000 -464.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -5046,16 +5082,20 @@ entity
 entity
 {
     "id" "142"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "shelves_a"
+    "file" "shelves_a.b3d"
     "position" "352 0 -176"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "352.00000000 -176.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -5064,16 +5104,20 @@ entity
 entity
 {
     "id" "143"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -180 360"
-    "file" "shelves_a"
+    "file" "shelves_a.b3d"
     "position" "-352 0 -464"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-352.00000000 -464.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -5082,16 +5126,20 @@ entity
 entity
 {
     "id" "144"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -180 360"
-    "file" "shelves_a"
+    "file" "shelves_a.b3d"
     "position" "-352 0 -176"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-352.00000000 -176.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -5102,8 +5150,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-88.91973000 -509.82820000 271.33600000]"
-        "look" "[-20.95786000 -442.14610000 267.27840000]"
+        "position" "[293.92750000 -950.47060000 326.62090000]"
+        "look" "[202.24980000 -922.02860000 328.17070000]"
     }
 }
 cordon

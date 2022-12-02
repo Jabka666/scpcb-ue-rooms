@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,13 +13,19 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "2"
-        "color" "0 184 225"
+        "color" "0 255 255"
+    }
+    visgroup
+    {
+        "name" "models"
+        "visgroupid" "3"
+        "color" "0 128 128"
     }
 }
 viewsettings
@@ -30,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -27485,44 +27493,6 @@ world
 }
 entity
 {
-    "id" "17"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "0.58318 332 853.33639"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "0.58318000 853.33639000 332.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "18"
-    "classname" "model"
-    "angles" "360 0 360"
-    "file" "lamp2"
-    "position" "0.99996 332 -869"
-    "scale" "1 1 1"
-    "spawnflags" "0"
-    "origin" "0.99996000 -869.00000000 332.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "241"
     "classname" "light"
     "color" "255 50 50"
@@ -27675,18 +27645,99 @@ entity
 }
 entity
 {
-    "id" "253"
-    "classname" "model"
+    "id" "378"
+    "classname" "waypoint"
+    "intensity" "1.0"
+    "position" "0 44 768"
+    "spawnflags" "0"
+    "origin" "0.00000000 768.00000000 44.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "379"
+    "classname" "waypoint"
+    "intensity" "1.0"
+    "position" "0 44 -768"
+    "spawnflags" "0"
+    "origin" "0.00000000 -768.00000000 44.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "380"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
+    "position" "0.58318 332 853.33639"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "0.58318000 853.33639000 332.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "381"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
+    "position" "0.99996 332 -869"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "0.99996000 -869.00000000 332.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "382"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp2.b3d"
     "position" "0.3091 332 -0.84181"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.30910000 -0.84181000 332.00000000"
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27694,18 +27745,21 @@ entity
 }
 entity
 {
-    "id" "324"
-    "classname" "model"
+    "id" "383"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-383.98496 332 -0.75224"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-383.98496000 -0.75224000 332.00000000"
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27713,17 +27767,21 @@ entity
 }
 entity
 {
-    "id" "376"
-    "classname" "model"
+    "id" "384"
+    "classname" "mesh"
     "angles" "360 20.73683 360"
-    "file" "ventilation_grate"
+    "file" "ventilation_grate.b3d"
     "position" "-814.99999 4 0.00008"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-814.99999000 0.00008000 4.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27754,8 +27812,8 @@ cameras
     }
     camera
     {
-        "position" "[23.24175000 342.33010000 279.69910000]"
-        "look" "[16.17901000 248.46780000 260.78310000]"
+        "position" "[-566.89980000 74.26591000 189.66750000]"
+        "look" "[-470.90140000 72.92763000 190.26230000]"
     }
 }
 cordon

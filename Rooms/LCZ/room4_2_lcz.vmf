@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,19 +13,19 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "models"
         "visgroupid" "2"
-        "color" "0 139 155"
+        "color" "0 128 128"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "3"
-        "color" "0 184 225"
+        "color" "0 255 255"
     }
 }
 viewsettings
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -40263,11 +40265,14 @@ world
 entity
 {
     "id" "826"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 0 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 748 -383.9999"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 -383.99990000 748.00000000"
     editor
@@ -40282,11 +40287,14 @@ entity
 entity
 {
     "id" "827"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 0 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 748 383.9999"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 383.99990000 748.00000000"
     editor
@@ -40301,11 +40309,14 @@ entity
 entity
 {
     "id" "828"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 -90 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-383.9999 748 0.00006"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-383.99990000 0.00006000 748.00000000"
     editor
@@ -40320,11 +40331,14 @@ entity
 entity
 {
     "id" "829"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 -90 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "384 748 0.00006"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "384.00000000 0.00006000 748.00000000"
     editor
@@ -40437,8 +40451,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[266.81460000 151.63660000 684.24460000]"
-        "look" "[440.99270000 79.96379000 721.52240000]"
+        "position" "[-143.12870000 -232.97120000 500.83120000]"
+        "look" "[-108.07490000 -69.61392000 406.22530000]"
     }
 }
 cordon

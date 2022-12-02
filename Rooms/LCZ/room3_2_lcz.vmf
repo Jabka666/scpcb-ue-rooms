@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,19 +13,19 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "models"
         "visgroupid" "2"
-        "color" "0 139 155"
+        "color" "0 128 128"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "3"
-        "color" "0 184 225"
+        "color" "0 255 255"
     }
 }
 viewsettings
@@ -36,7 +36,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -31348,11 +31350,14 @@ world
 entity
 {
     "id" "339"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "pipe_curved"
+    "file" "pipe_curved.b3d"
     "position" "-132.75517 637.16571 312.61798"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-132.75517000 312.61798000 637.16571000"
     editor
@@ -31368,11 +31373,14 @@ entity
 entity
 {
     "id" "345"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "pipe_curved"
+    "file" "pipe_curved.b3d"
     "position" "123.24486 637.16571 312.61798"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "123.24486000 312.61798000 637.16571000"
     editor
@@ -31406,11 +31414,14 @@ entity
 entity
 {
     "id" "369"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "359.99998 0 360"
-    "file" "pipe_long"
+    "file" "pipe_long.b3d"
     "position" "-133.39575 106.3907 312.2106"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-133.39575000 312.21060000 106.39070000"
     editor
@@ -31425,11 +31436,14 @@ entity
 entity
 {
     "id" "370"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 180"
-    "file" "pipe_t"
+    "file" "pipe_t.b3d"
     "position" "-133.82299 425.0464 312.8963"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-133.82299000 312.89630000 425.04640000"
     editor
@@ -31444,11 +31458,14 @@ entity
 entity
 {
     "id" "371"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "359.99999 -13.21286 180"
-    "file" "pipe_short"
+    "file" "pipe_short.b3d"
     "position" "-132.84254 106.39068 312.1723"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-132.84254000 312.17230000 106.39068000"
     editor
@@ -31463,11 +31480,14 @@ entity
 entity
 {
     "id" "372"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "359.99999 12.7749 180"
-    "file" "pipe_short"
+    "file" "pipe_short.b3d"
     "position" "122.37883 106.39068 312.24752"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "122.37883000 312.24752000 106.39068000"
     editor
@@ -31482,11 +31502,14 @@ entity
 entity
 {
     "id" "373"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "359.99998 0 360"
-    "file" "pipe_long"
+    "file" "pipe_long.b3d"
     "position" "122.60423 106.3907 312.2105"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "122.60423000 312.21050000 106.39070000"
     editor
@@ -31501,11 +31524,14 @@ entity
 entity
 {
     "id" "374"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 180"
-    "file" "pipe_t"
+    "file" "pipe_t.b3d"
     "position" "122.17703 425.0464 312.8963"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "122.17703000 312.89630000 425.04640000"
     editor
@@ -31520,11 +31546,14 @@ entity
 entity
 {
     "id" "375"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "359.99998 0 360"
-    "file" "pipe_long"
+    "file" "pipe_long.b3d"
     "position" "-133.39587 424.3906 312.2106"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-133.39587000 312.21060000 424.39060000"
     editor
@@ -31539,11 +31568,14 @@ entity
 entity
 {
     "id" "376"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "359.99998 0 360"
-    "file" "pipe_long"
+    "file" "pipe_long.b3d"
     "position" "122.60413 424.3906 312.2105"
     "scale" "0.6 0.6 0.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "122.60413000 312.21050000 424.39060000"
     editor
@@ -31574,11 +31606,14 @@ entity
 entity
 {
     "id" "634"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 -90 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-383.9999 748 0.00006"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-383.99990000 0.00006000 748.00000000"
     editor
@@ -31613,11 +31648,14 @@ entity
 entity
 {
     "id" "638"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 -90 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "384 748 0.00006"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "384.00000000 0.00006000 748.00000000"
     editor
@@ -31672,11 +31710,14 @@ entity
 entity
 {
     "id" "741"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "0 0 0"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 748 -383.9999"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 -383.99990000 748.00000000"
     editor
@@ -31693,8 +31734,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-129.22110000 -248.90560000 324.93620000]"
-        "look" "[-130.13490000 -246.58430000 326.60070000]"
+        "position" "[740.52730000 -76.92134000 571.18390000]"
+        "look" "[737.59860000 -77.47343000 570.84820000]"
     }
 }
 cordon
