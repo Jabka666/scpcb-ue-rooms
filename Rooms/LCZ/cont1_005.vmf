@@ -27,6 +27,12 @@ visgroups
         "visgroupid" "3"
         "color" "0 128 128"
     }
+    visgroup
+    {
+        "name" "light_blocks"
+        "visgroupid" "4"
+        "color" "128 0 255"
+    }
 }
 viewsettings
 {
@@ -271,6 +277,7 @@ world
         editor
         {
             "color" "0 137 141"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -384,6 +391,7 @@ world
         editor
         {
             "color" "0 223 211"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -497,6 +505,7 @@ world
         editor
         {
             "color" "0 207 210"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -610,6 +619,7 @@ world
         editor
         {
             "color" "0 133 183"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -723,6 +733,7 @@ world
         editor
         {
             "color" "0 130 143"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -836,6 +847,7 @@ world
         editor
         {
             "color" "0 231 151"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1861,6 +1873,7 @@ world
         editor
         {
             "color" "0 231 151"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1974,6 +1987,7 @@ world
         editor
         {
             "color" "0 231 151"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2087,6 +2101,7 @@ world
         editor
         {
             "color" "0 130 143"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2200,6 +2215,7 @@ world
         editor
         {
             "color" "0 130 143"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2313,6 +2329,7 @@ world
         editor
         {
             "color" "0 133 183"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2426,6 +2443,7 @@ world
         editor
         {
             "color" "0 133 183"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2767,6 +2785,7 @@ world
         editor
         {
             "color" "0 207 210"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2880,6 +2899,7 @@ world
         editor
         {
             "color" "0 223 211"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3107,6 +3127,7 @@ world
         editor
         {
             "color" "0 137 141"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3904,6 +3925,7 @@ world
         editor
         {
             "color" "0 223 211"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4017,6 +4039,7 @@ world
         editor
         {
             "color" "0 223 211"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4111,6 +4134,7 @@ world
         editor
         {
             "color" "0 189 238"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4205,6 +4229,7 @@ world
         editor
         {
             "color" "0 189 238"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4299,6 +4324,7 @@ world
         editor
         {
             "color" "0 189 238"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4393,6 +4419,7 @@ world
         editor
         {
             "color" "0 189 238"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4620,6 +4647,7 @@ world
         editor
         {
             "color" "0 167 255"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4801,6 +4829,7 @@ world
         editor
         {
             "color" "0 202 185"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5007,13 +5036,13 @@ entity
     "classname" "mesh"
     "angles" "360 88.06389 360"
     "file" "elecbox.b3d"
-    "position" "342 161.64955 -855"
+    "position" "342 119.88854 -855"
     "scale" "10 10 10"
     "hasCollision" "Yes"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "342.00000000 -855.00000000 161.64955000"
+    "origin" "342.00000000 -855.00000000 119.88854000"
     editor
     {
         "color" "255 0 255"
@@ -5150,8 +5179,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[293.92750000 -950.47060000 326.62090000]"
-        "look" "[202.24980000 -922.02860000 328.17070000]"
+        "position" "[-83.13102000 -883.60540000 354.08910000]"
+        "look" "[-64.73643000 -796.08130000 319.19850000]"
     }
 }
 cordon

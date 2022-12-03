@@ -27,6 +27,12 @@ visgroups
         "visgroupid" "3"
         "color" "0 128 128"
     }
+    visgroup
+    {
+        "name" "light_blocks"
+        "visgroupid" "4"
+        "color" "128 0 255"
+    }
 }
 viewsettings
 {
@@ -157,6 +163,7 @@ world
         editor
         {
             "color" "0 232 211"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -270,6 +277,7 @@ world
         editor
         {
             "color" "0 209 137"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -383,6 +391,7 @@ world
         editor
         {
             "color" "0 245 135"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1522,6 +1531,7 @@ world
         editor
         {
             "color" "0 130 179"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1635,6 +1645,7 @@ world
         editor
         {
             "color" "0 206 211"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1748,6 +1759,7 @@ world
         editor
         {
             "color" "0 131 148"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2659,6 +2671,7 @@ world
         editor
         {
             "color" "0 245 135"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2772,6 +2785,7 @@ world
         editor
         {
             "color" "0 209 137"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2885,6 +2899,7 @@ world
         editor
         {
             "color" "0 232 211"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2998,6 +3013,7 @@ world
         editor
         {
             "color" "0 131 148"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3111,6 +3127,7 @@ world
         editor
         {
             "color" "0 206 211"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3224,6 +3241,7 @@ world
         editor
         {
             "color" "0 130 179"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4069,6 +4087,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4182,6 +4201,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5541,8 +5561,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[90.70605000 835.16380000 353.25270000]"
-        "look" "[84.61311000 739.42860000 349.54080000]"
+        "position" "[56.08245000 117.80460000 391.35460000]"
+        "look" "[58.04169000 23.96112000 371.21290000]"
     }
 }
 cordon

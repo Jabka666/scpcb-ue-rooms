@@ -27,6 +27,12 @@ visgroups
         "visgroupid" "3"
         "color" "0 128 128"
     }
+    visgroup
+    {
+        "name" "light_blocks"
+        "visgroupid" "4"
+        "color" "128 0 255"
+    }
 }
 viewsettings
 {
@@ -4307,6 +4313,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4420,6 +4427,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5195,6 +5203,7 @@ world
         editor
         {
             "color" "0 147 218"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5721,8 +5730,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[135.55700000 -900.79570000 193.21210000]"
-        "look" "[43.67216000 -874.58090000 202.48010000]"
+        "position" "[-302.64030000 231.62690000 276.32730000]"
+        "look" "[-286.88730000 137.96180000 262.37610000]"
     }
 }
 cordon
