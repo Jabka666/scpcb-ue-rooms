@@ -39,6 +39,12 @@ visgroups
         "visgroupid" "5"
         "color" "255 128 128"
     }
+    visgroup
+    {
+        "name" "windows"
+        "visgroupid" "6"
+        "color" "0 255 0"
+    }
 }
 viewsettings
 {
@@ -1765,7 +1771,7 @@ world
         editor
         {
             "color" "0 190 128"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1879,7 +1885,7 @@ world
         editor
         {
             "color" "0 237 172"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1993,7 +1999,7 @@ world
         editor
         {
             "color" "0 186 179"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2943,7 +2949,7 @@ world
         editor
         {
             "color" "0 211 143"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3057,7 +3063,7 @@ world
         editor
         {
             "color" "0 205 167"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3171,7 +3177,7 @@ world
         editor
         {
             "color" "0 218 155"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -40079,7 +40085,7 @@ world
         editor
         {
             "color" "0 147 189"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -40934,7 +40940,7 @@ world
         editor
         {
             "color" "0 233 172"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -41341,7 +41347,7 @@ world
         editor
         {
             "color" "0 174 154"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -42265,8 +42271,8 @@ cameras
     }
     camera
     {
-        "position" "[87.91080000 561.00640000 504.58790000]"
-        "look" "[87.88057000 556.79860000 502.70900000]"
+        "position" "[-29.75551000 229.10680000 409.57450000]"
+        "look" "[-33.62352000 231.43980000 410.48680000]"
     }
 }
 cordon

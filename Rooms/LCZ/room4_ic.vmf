@@ -33,6 +33,12 @@ visgroups
         "visgroupid" "4"
         "color" "128 0 255"
     }
+    visgroup
+    {
+        "name" "windows"
+        "visgroupid" "5"
+        "color" "0 255 0"
+    }
 }
 viewsettings
 {
@@ -2329,7 +2335,7 @@ world
         editor
         {
             "color" "0 234 190"
-            "visgroupid" "1"
+            "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3583,7 +3589,7 @@ world
         editor
         {
             "color" "0 229 174"
-            "visgroupid" "1"
+            "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3697,7 +3703,7 @@ world
         editor
         {
             "color" "0 191 230"
-            "visgroupid" "1"
+            "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -18819,8 +18825,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[209.74430000 -154.99640000 299.01930000]"
-        "look" "[304.19740000 -168.77200000 288.76240000]"
+        "position" "[62.08885000 -733.97100000 285.42160000]"
+        "look" "[150.28730000 -703.81240000 262.44670000]"
     }
 }
 cordon

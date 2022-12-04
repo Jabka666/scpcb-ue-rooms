@@ -39,6 +39,12 @@ visgroups
         "visgroupid" "5"
         "color" "0 128 255"
     }
+    visgroup
+    {
+        "name" "windows"
+        "visgroupid" "6"
+        "color" "0 255 0"
+    }
 }
 viewsettings
 {
@@ -169,7 +175,7 @@ world
         editor
         {
             "color" "0 227 182"
-            "visgroupid" "5"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -283,7 +289,7 @@ world
         editor
         {
             "color" "0 144 193"
-            "visgroupid" "5"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1081,7 +1087,7 @@ world
         editor
         {
             "color" "0 236 196"
-            "visgroupid" "5"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16357,7 +16363,7 @@ world
         editor
         {
             "color" "0 160 139"
-            "visgroupid" "5"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -17003,7 +17009,7 @@ world
         editor
         {
             "color" "0 160 139"
-            "visgroupid" "5"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -21297,7 +21303,7 @@ world
         editor
         {
             "color" "0 160 139"
-            "visgroupid" "5"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -43163,7 +43169,7 @@ world
         editor
         {
             "color" "0 187 194"
-            "visgroupid" "5"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -46839,8 +46845,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[2.63579800 830.15330000 389.98550000]"
-        "look" "[-5.17998300 734.61350000 384.77050000]"
+        "position" "[-3.41715300 639.49650000 321.74580000]"
+        "look" "[89.14390000 615.59050000 330.52590000]"
     }
 }
 cordon

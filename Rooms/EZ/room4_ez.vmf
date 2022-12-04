@@ -13,19 +13,25 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "models"
         "visgroupid" "2"
-        "color" "0 139 155"
+        "color" "0 128 128"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "3"
-        "color" "0 184 225"
+        "color" "0 255 255"
+    }
+    visgroup
+    {
+        "name" "light_blocks"
+        "visgroupid" "4"
+        "color" "128 0 255"
     }
 }
 viewsettings
@@ -157,6 +163,7 @@ world
         editor
         {
             "color" "0 177 237"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -270,6 +277,7 @@ world
         editor
         {
             "color" "0 192 210"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -383,6 +391,7 @@ world
         editor
         {
             "color" "0 211 252"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -496,6 +505,7 @@ world
         editor
         {
             "color" "0 194 152"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -609,6 +619,7 @@ world
         editor
         {
             "color" "0 202 234"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -722,6 +733,7 @@ world
         editor
         {
             "color" "0 186 209"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -835,6 +847,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1176,6 +1189,7 @@ world
         editor
         {
             "color" "0 184 141"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1289,6 +1303,7 @@ world
         editor
         {
             "color" "0 216 169"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1402,6 +1417,7 @@ world
         editor
         {
             "color" "0 200 179"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1515,6 +1531,7 @@ world
         editor
         {
             "color" "0 210 186"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1628,6 +1645,7 @@ world
         editor
         {
             "color" "0 219 243"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1741,6 +1759,7 @@ world
         editor
         {
             "color" "0 194 252"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2082,6 +2101,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2195,6 +2215,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2308,6 +2329,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2421,6 +2443,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2876,6 +2899,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2989,6 +3013,7 @@ world
         editor
         {
             "color" "0 192 210"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3102,6 +3127,7 @@ world
         editor
         {
             "color" "0 211 252"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3215,6 +3241,7 @@ world
         editor
         {
             "color" "0 177 237"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3328,6 +3355,7 @@ world
         editor
         {
             "color" "0 219 243"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3441,6 +3469,7 @@ world
         editor
         {
             "color" "0 194 252"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3554,6 +3583,7 @@ world
         editor
         {
             "color" "0 210 186"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3667,6 +3697,7 @@ world
         editor
         {
             "color" "0 216 169"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3780,6 +3811,7 @@ world
         editor
         {
             "color" "0 200 179"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3893,6 +3925,7 @@ world
         editor
         {
             "color" "0 184 141"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4006,6 +4039,7 @@ world
         editor
         {
             "color" "0 186 209"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4119,6 +4153,7 @@ world
         editor
         {
             "color" "0 194 152"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4232,6 +4267,7 @@ world
         editor
         {
             "color" "0 202 234"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4345,6 +4381,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4458,6 +4495,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4571,6 +4609,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4684,6 +4723,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4797,6 +4837,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -4910,6 +4951,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5023,6 +5065,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5136,6 +5179,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5249,6 +5293,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5362,6 +5407,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5475,6 +5521,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5588,6 +5635,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5701,6 +5749,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -5814,6 +5863,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -6003,6 +6053,7 @@ world
         editor
         {
             "color" "0 244 216"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -6116,6 +6167,7 @@ world
         editor
         {
             "color" "0 190 246"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -6305,6 +6357,7 @@ world
         editor
         {
             "color" "0 244 216"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -7330,6 +7383,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -7443,6 +7497,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -7556,6 +7611,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -7669,6 +7725,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -7782,6 +7839,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -7895,6 +7953,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8008,6 +8067,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8121,6 +8181,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8234,6 +8295,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8347,6 +8409,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8574,6 +8637,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8687,6 +8751,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8800,6 +8865,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -8913,6 +8979,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9026,6 +9093,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9139,6 +9207,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9252,6 +9321,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9365,6 +9435,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9478,6 +9549,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9591,6 +9663,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9704,6 +9777,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -9931,6 +10005,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10044,6 +10119,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10157,6 +10233,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10270,6 +10347,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10383,6 +10461,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10496,6 +10575,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10609,6 +10689,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10722,6 +10803,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10835,6 +10917,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -10948,6 +11031,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -11175,6 +11259,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -11288,6 +11373,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -11401,6 +11487,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -11514,6 +11601,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -11627,6 +11715,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -11854,6 +11943,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -11967,6 +12057,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12080,6 +12171,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12193,6 +12285,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12306,6 +12399,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12419,6 +12513,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12532,6 +12627,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12645,6 +12741,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12758,6 +12855,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12871,6 +12969,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -12984,6 +13083,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13097,6 +13197,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13210,6 +13311,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13323,6 +13425,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13436,6 +13539,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13549,6 +13653,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13662,6 +13767,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13775,6 +13881,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -13888,6 +13995,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -14115,6 +14223,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -14228,6 +14337,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -14455,6 +14565,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -14568,6 +14679,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -14681,6 +14793,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -14794,6 +14907,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -14907,6 +15021,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15020,6 +15135,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15133,6 +15249,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15246,6 +15363,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15359,6 +15477,7 @@ world
         editor
         {
             "color" "0 235 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15472,6 +15591,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15585,6 +15705,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15698,6 +15819,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15811,6 +15933,7 @@ world
         editor
         {
             "color" "0 202 201"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -15924,6 +16047,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16037,6 +16161,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16150,6 +16275,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16263,6 +16389,7 @@ world
         editor
         {
             "color" "0 150 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16376,6 +16503,7 @@ world
         editor
         {
             "color" "0 198 232"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16603,6 +16731,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16716,6 +16845,7 @@ world
         editor
         {
             "color" "0 154 182"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16829,6 +16959,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16942,6 +17073,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -17055,6 +17187,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -17168,6 +17301,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -17281,6 +17415,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -17394,6 +17529,7 @@ world
         editor
         {
             "color" "0 236 150"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -21891,11 +22027,14 @@ entity
 entity
 {
     "id" "157"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0 753 0"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00000000 0.00000000 753.00000000"
     editor
@@ -21952,16 +22091,20 @@ entity
 entity
 {
     "id" "403"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "garbage_bin"
+    "file" "garbage_bin.b3d"
     "position" "-597 0 188"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-597.00000000 188.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -21970,16 +22113,20 @@ entity
 entity
 {
     "id" "404"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "garbage_bin"
+    "file" "garbage_bin.b3d"
     "position" "603 0 189"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "603.00000000 189.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -21988,16 +22135,20 @@ entity
 entity
 {
     "id" "405"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -180 360"
-    "file" "bench"
+    "file" "bench.b3d"
     "position" "813 0 185"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "813.00000000 185.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -22006,16 +22157,20 @@ entity
 entity
 {
     "id" "406"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -180 360"
-    "file" "bench"
+    "file" "bench.b3d"
     "position" "-811 0 185"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-811.00000000 185.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -22045,11 +22200,14 @@ entity
 entity
 {
     "id" "609"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 90 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-512.00009 332 -0.00008"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-512.00009000 -0.00008000 332.00000000"
     editor
@@ -22085,11 +22243,14 @@ entity
 entity
 {
     "id" "620"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-0.00006 332 512.00009"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-0.00006000 512.00009000 332.00000000"
     editor
@@ -22125,11 +22286,14 @@ entity
 entity
 {
     "id" "631"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "512.00009 332 0.00006"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "512.00009000 0.00006000 332.00000000"
     editor
@@ -22165,11 +22329,14 @@ entity
 entity
 {
     "id" "642"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 180 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "0.00008 332 -512.00009"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "0.00008000 -512.00009000 332.00000000"
     editor
@@ -22186,8 +22353,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[112.90830000 -225.90440000 185.90780000]"
-        "look" "[107.90440000 -305.79430000 238.90450000]"
+        "position" "[267.17370000 63.29706000 395.16910000]"
+        "look" "[179.95950000 32.52023000 369.42880000]"
     }
 }
 cordon

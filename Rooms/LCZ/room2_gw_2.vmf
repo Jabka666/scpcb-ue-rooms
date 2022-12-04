@@ -33,6 +33,18 @@ visgroups
         "visgroupid" "4"
         "color" "128 0 255"
     }
+    visgroup
+    {
+        "name" "windows"
+        "visgroupid" "5"
+        "color" "0 255 0"
+    }
+    visgroup
+    {
+        "name" "hitboxes"
+        "visgroupid" "6"
+        "color" "255 128 128"
+    }
 }
 viewsettings
 {
@@ -16404,7 +16416,7 @@ world
         editor
         {
             "color" "0 234 229"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -16746,7 +16758,7 @@ world
         editor
         {
             "color" "0 234 229"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -17483,7 +17495,7 @@ world
         editor
         {
             "color" "0 142 160"
-            "visgroupid" "1"
+            "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -17939,7 +17951,7 @@ world
         editor
         {
             "color" "0 234 229"
-            "visgroupid" "1"
+            "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -19421,7 +19433,7 @@ world
         editor
         {
             "color" "0 142 160"
-            "visgroupid" "1"
+            "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -19649,7 +19661,7 @@ world
         editor
         {
             "color" "0 142 160"
-            "visgroupid" "1"
+            "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -43860,8 +43872,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[232.38840000 -1205.75600000 626.78140000]"
-        "look" "[225.52670000 -1113.73500000 600.30140000]"
+        "position" "[276.71990000 -160.24870000 255.07790000]"
+        "look" "[277.83320000 -64.26624000 253.57060000]"
     }
 }
 cordon

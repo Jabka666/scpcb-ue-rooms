@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,19 +13,25 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
+        "color" "0 128 255"
     }
     visgroup
     {
         "name" "entities"
         "visgroupid" "2"
-        "color" "0 184 225"
+        "color" "0 255 255"
     }
     visgroup
     {
         "name" "models"
         "visgroupid" "3"
-        "color" "0 139 155"
+        "color" "0 128 128"
+    }
+    visgroup
+    {
+        "name" "light_blocks"
+        "visgroupid" "4"
+        "color" "128 0 255"
     }
 }
 viewsettings
@@ -36,7 +42,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -155,6 +163,7 @@ world
         editor
         {
             "color" "0 202 219"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -268,6 +277,7 @@ world
         editor
         {
             "color" "0 131 245"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -381,6 +391,7 @@ world
         editor
         {
             "color" "0 195 175"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -608,6 +619,7 @@ world
         editor
         {
             "color" "0 182 156"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1861,6 +1873,7 @@ world
         editor
         {
             "color" "0 202 219"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1974,6 +1987,7 @@ world
         editor
         {
             "color" "0 131 245"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2087,6 +2101,7 @@ world
         editor
         {
             "color" "0 195 175"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3340,6 +3355,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3681,6 +3697,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3794,6 +3811,7 @@ world
         editor
         {
             "color" "0 192 187"
+            "visgroupid" "4"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -3803,11 +3821,14 @@ world
 entity
 {
     "id" "4"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "lamp2"
+    "file" "lamp2.b3d"
     "position" "-0.00014 334 -455.76548"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-0.00014000 -455.76548000 334.00000000"
     editor
@@ -3822,11 +3843,14 @@ entity
 entity
 {
     "id" "5"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "sofa"
+    "file" "sofa.b3d"
     "position" "-365 0 -550"
     "scale" "1.8 1.8 1.2"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-365.00000000 -550.00000000 0.00000000"
     editor
@@ -3841,11 +3865,14 @@ entity
 entity
 {
     "id" "6"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 89.99999 360"
-    "file" "sofa"
+    "file" "sofa.b3d"
     "position" "365 0 -549"
     "scale" "1.8 1.8 1.2"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "365.00000000 -549.00000000 0.00000000"
     editor
@@ -3916,16 +3943,20 @@ entity
 entity
 {
     "id" "97"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "yucca"
+    "file" "yucca.b3d"
     "position" "-357.43165 0 -894.20967"
     "scale" "1.5 1.5 1.5"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-357.43165000 -894.20967000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -3934,16 +3965,20 @@ entity
 entity
 {
     "id" "101"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90.14403 360"
-    "file" "garbage_bin"
+    "file" "garbage_bin.b3d"
     "position" "385 0 -228"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "385.00000000 -228.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -3952,16 +3987,20 @@ entity
 entity
 {
     "id" "102"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 89.85597 360"
-    "file" "garbage_bin"
+    "file" "garbage_bin.b3d"
     "position" "-393 0 -228"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-393.00000000 -228.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -3970,16 +4009,20 @@ entity
 entity
 {
     "id" "103"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 90 360"
-    "file" "water_cooler"
+    "file" "water_cooler.b3d"
     "position" "381 0 -901"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "381.00000000 -901.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -3990,8 +4033,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-3.25359400 -751.27460000 281.02900000]"
-        "look" "[-3.87218100 -655.87650000 270.31200000]"
+        "position" "[-106.90630000 -357.36970000 270.46620000]"
+        "look" "[-132.99730000 -441.94960000 233.29730000]"
     }
 }
 cordon
