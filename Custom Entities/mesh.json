@@ -1,0 +1,45 @@
+{
+  "Name": "mesh",
+  "Description": "Mesh model",
+  "Sprite": "sprites/templatesprite",
+  "UseModelRendering": true,
+  "Properties": [
+    {
+		"Name": "file",
+		"SmartEditName": "File",
+		"Type": "String"
+    },
+    {
+		"Name": "angles",
+		"SmartEditName": "Rotation",
+		"Type": "Vector",
+		"DefaultValue": "0 0 0"
+    },
+	{
+		"Name": "scale",
+		"SmartEditName": "Scale",
+		"Type": "Vector",
+		"DefaultValue": "1.0 1.0 1.0"
+    },
+	{
+		"Name": "hasCollision",
+		"SmartEditName": "Has Collision?",
+		"Type": "Bool",
+		"HelpText": "Set the value to False to disable collision for the mesh.",
+		"DefaultValue": "Yes"
+	},
+	{
+		"Name": "meshFX",
+		"SmartEditName": "Mesh FX",
+		"Type": "Integer",
+		"HelpText": "Sets miscellaneous effects for an entity.\r\n\r\nFlags can be added to combine two or more effects. For example, specifying a flag of 3 (1+2) will result in a full-bright and vertex-coloured brush.",
+		"DefaultValue": "0"
+	},
+	{
+		"Name": "textureOverwrite",
+		"SmartEditName": "Texture Overwrite",
+		"Type": "String",
+		"HelpText": "Overwrite the model's default texture"
+	}
+  ]
+}
