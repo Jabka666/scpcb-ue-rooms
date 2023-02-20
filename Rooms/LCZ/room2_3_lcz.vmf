@@ -5350,124 +5350,19 @@ world
 }
 entity
 {
-    "id" "25"
-    "classname" "light"
-    "color" "255 255 255"
-    "hassprite" "No"
-    "intensity" "0.5"
-    "linearfalloff" "1"
-    "position" "352 0 -640"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "352.00000000 -640.00000000 0.00000000"
-    editor
-    {
-        "color" "0 171 229"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "26"
-    "classname" "light"
-    "color" "255 255 255"
-    "hassprite" "No"
-    "intensity" "0.5"
-    "linearfalloff" "1"
-    "position" "-352 -0.00009 -640"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "-352.00000000 -640.00000000 -0.00009000"
-    editor
-    {
-        "color" "0 176 205"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "27"
-    "classname" "light"
-    "color" "255 255 255"
-    "hassprite" "No"
-    "intensity" "0.5"
-    "linearfalloff" "1"
-    "position" "352 -0.00012 0"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "352.00000000 0.00000000 -0.00012000"
-    editor
-    {
-        "color" "0 230 148"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "28"
-    "classname" "light"
-    "color" "255 255 255"
-    "hassprite" "No"
-    "intensity" "0.5"
-    "linearfalloff" "1"
-    "position" "-352 -0.00007 0"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "-352.00000000 0.00000000 -0.00007000"
-    editor
-    {
-        "color" "0 255 143"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "29"
     "classname" "light"
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.5"
     "linearfalloff" "1"
-    "position" "352 -0.00013 640"
+    "position" "352 15.99987 640"
     "range" "500"
     "spawnflags" "0"
-    "origin" "352.00000000 640.00000000 -0.00013000"
+    "origin" "352.00000000 640.00000000 15.99987000"
     editor
     {
         "color" "0 245 183"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "30"
-    "classname" "light"
-    "color" "255 255 255"
-    "hassprite" "No"
-    "intensity" "0.5"
-    "linearfalloff" "1"
-    "position" "-352 -0.00003 640"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "-352.00000000 640.00000000 -0.00003000"
-    editor
-    {
-        "color" "0 193 240"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -5556,13 +5451,248 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "103"
+    "classname" "light"
+    "color" "255 255 255"
+    "range" "500"
+    "position" "-352 16 -640"
+    "intensity" "0.5"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "-352.00000000 -640.00000000 16.00000000"
+    editor
+    {
+        "color" "0 146 141"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "104"
+    "classname" "spotlight"
+    "angles" "270 -90 270"
+    "color" "255 255 255"
+    "innerconeangle" "25"
+    "outerconeangle" "90"
+    "range" "500"
+    "position" "-352 16 0"
+    "intensity" "0.5"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "-352.00000000 0.00000000 16.00000000"
+    editor
+    {
+        "color" "0 146 141"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "105"
+    "classname" "spotlight"
+    "angles" "270 -90 270"
+    "color" "255 255 255"
+    "innerconeangle" "25"
+    "outerconeangle" "90"
+    "range" "500"
+    "position" "-352 16 640"
+    "intensity" "0.5"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "-352.00000000 640.00000000 16.00000000"
+    editor
+    {
+        "color" "0 146 141"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "107"
+    "classname" "spotlight"
+    "angles" "270 90 270"
+    "color" "255 255 255"
+    "innerconeangle" "25"
+    "outerconeangle" "90"
+    "range" "500"
+    "position" "352 16 0"
+    "intensity" "0.5"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "352.00000000 0.00000000 16.00000000"
+    editor
+    {
+        "color" "0 146 141"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "108"
+    "classname" "spotlight"
+    "angles" "270 90 270"
+    "color" "255 255 255"
+    "innerconeangle" "25"
+    "outerconeangle" "90"
+    "range" "500"
+    "position" "352 16 -640"
+    "intensity" "0.5"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "352.00000000 -640.00000000 16.00000000"
+    editor
+    {
+        "color" "0 146 141"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "109"
+    "classname" "spotlight"
+    "angles" "270 90 270"
+    "color" "255 255 255"
+    "innerconeangle" "25"
+    "outerconeangle" "90"
+    "range" "500"
+    "position" "352 16 640"
+    "intensity" "0.5"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "352.00000000 640.00000000 16.00000000"
+    editor
+    {
+        "color" "0 146 141"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "110"
+    "classname" "light"
+    "color" "255 255 255"
+    "hassprite" "No"
+    "intensity" "0.5"
+    "linearfalloff" "1"
+    "position" "352 15.99988 0"
+    "range" "500"
+    "spawnflags" "0"
+    "origin" "352.00000000 0.00000000 15.99988000"
+    editor
+    {
+        "color" "0 230 148"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "111"
+    "classname" "light"
+    "color" "255 255 255"
+    "hassprite" "No"
+    "intensity" "0.5"
+    "linearfalloff" "1"
+    "position" "352 16 -640"
+    "range" "500"
+    "spawnflags" "0"
+    "origin" "352.00000000 -640.00000000 16.00000000"
+    editor
+    {
+        "color" "0 171 229"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "112"
+    "classname" "spotlight"
+    "angles" "270 -90 270"
+    "color" "255 255 255"
+    "innerconeangle" "25"
+    "outerconeangle" "90"
+    "range" "500"
+    "position" "-352 16 -640"
+    "intensity" "0.5"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "-352.00000000 -640.00000000 16.00000000"
+    editor
+    {
+        "color" "0 146 141"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "113"
+    "classname" "light"
+    "color" "255 255 255"
+    "hassprite" "No"
+    "intensity" "0.5"
+    "linearfalloff" "1"
+    "position" "-352 15.99993 0"
+    "range" "500"
+    "spawnflags" "0"
+    "origin" "-352.00000000 0.00000000 15.99993000"
+    editor
+    {
+        "color" "0 255 143"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "114"
+    "classname" "light"
+    "color" "255 255 255"
+    "hassprite" "No"
+    "intensity" "0.5"
+    "linearfalloff" "1"
+    "position" "-352 15.99997 640"
+    "range" "500"
+    "spawnflags" "0"
+    "origin" "-352.00000000 640.00000000 15.99997000"
+    editor
+    {
+        "color" "0 193 240"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[56.08245000 117.80460000 391.35460000]"
-        "look" "[58.04169000 23.96112000 371.21290000]"
+        "position" "[-37.52547000 559.20700000 128.31360000]"
+        "look" "[-126.93170000 577.75200000 98.67105000]"
     }
 }
 cordon
