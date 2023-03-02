@@ -95557,13 +95557,79 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "17484"
+    "classname" "light"
+    "position" "3558.37567 702.74993 1325.46808"
+    "color" "255 50 50"
+    "intensity" "0.1"
+    "range" "1000"
+    "linearfalloff" "1"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "3558.37567000 1325.46808000 702.74993000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "13"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "17485"
+    "classname" "light"
+    "position" "3558.37567 702.74993 1837.5617"
+    "color" "255 50 50"
+    "intensity" "0.1"
+    "range" "1000"
+    "linearfalloff" "1"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "3558.37567000 1837.56170000 702.74993000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "13"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "17487"
+    "classname" "light"
+    "position" "3558.37224 702.74936 813.43974"
+    "color" "255 50 50"
+    "intensity" "0.1"
+    "range" "1000"
+    "linearfalloff" "1"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "3558.37224000 813.43974000 702.74936000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "13"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[446.88530000 169.35100000 229.83310000]"
-        "look" "[485.49400000 234.15930000 170.45510000]"
+        "position" "[3456.17000000 699.21450000 736.96980000]"
+        "look" "[3472.45900000 789.17770000 707.68520000]"
     }
 }
 cordon
