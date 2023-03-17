@@ -21,6 +21,12 @@ visgroups
         "visgroupid" "2"
         "color" "0 255 255"
     }
+    visgroup
+    {
+        "name" "models"
+        "visgroupid" "3"
+        "color" "0 128 128"
+    }
 }
 viewsettings
 {
@@ -3266,6 +3272,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupid" "4"
         "visgroupid" "9"
         "visgroupshown" "1"
@@ -3328,6 +3335,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupid" "4"
         "visgroupid" "9"
         "visgroupshown" "1"
@@ -3390,6 +3398,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupid" "4"
         "visgroupid" "9"
         "visgroupshown" "1"
@@ -3624,8 +3633,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-397.83310000 7644.64500000 6078.07800000]"
-        "look" "[-394.42540000 7682.10300000 5989.75400000]"
+        "position" "[-569.31200000 8365.14600000 3510.96500000]"
+        "look" "[-514.73990000 8307.11700000 3457.38900000]"
     }
 }
 cordon

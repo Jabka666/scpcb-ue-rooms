@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -9,6 +9,18 @@ versioninfo
 }
 visgroups
 {
+    visgroup
+    {
+        "name" "entities"
+        "visgroupid" "1"
+        "color" "0 255 255"
+    }
+    visgroup
+    {
+        "name" "solids"
+        "visgroupid" "2"
+        "color" "0 128 192"
+    }
 }
 viewsettings
 {
@@ -18,7 +30,9 @@ viewsettings
     "nGridSpacing" "64"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -137,7 +151,7 @@ world
         editor
         {
             "color" "0 215 159"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -251,7 +265,7 @@ world
         editor
         {
             "color" "0 215 159"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -365,7 +379,7 @@ world
         editor
         {
             "color" "0 215 159"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -479,7 +493,7 @@ world
         editor
         {
             "color" "0 215 159"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -593,7 +607,7 @@ world
         editor
         {
             "color" "0 215 159"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -707,7 +721,7 @@ world
         editor
         {
             "color" "0 215 159"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -753,6 +767,7 @@ world
         editor
         {
             "color" "0 250 224"
+            "visgroupid" "2"
             "visgroupid" "3"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -867,6 +882,7 @@ world
         editor
         {
             "color" "0 195 241"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -980,7 +996,7 @@ world
         editor
         {
             "color" "0 215 159"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1094,6 +1110,7 @@ world
         editor
         {
             "color" "0 214 193"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1114,6 +1131,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "1"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -1125,7 +1143,7 @@ cameras
     camera
     {
         "position" "[-43.13011000 849.39870000 893.65890000]"
-        "look" "[-34.17828000 775.02730000 833.61930000]"
+        "look" "[-34.17827000 775.02720000 833.61930000]"
     }
 }
 cordon

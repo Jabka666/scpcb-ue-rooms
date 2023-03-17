@@ -9,13 +9,19 @@ versioninfo
 }
 visgroups
 {
+    visgroup
+    {
+        "name" "hitboxes"
+        "visgroupid" "1"
+        "color" "255 128 128"
+    }
 }
 viewsettings
 {
     "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
-    "nGridSpacing" "64"
+    "nGridSpacing" "128"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
     "bHideToolTextures" "0"

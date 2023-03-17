@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -9,6 +9,18 @@ versioninfo
 }
 visgroups
 {
+    visgroup
+    {
+        "name" "entities"
+        "visgroupid" "1"
+        "color" "0 255 255"
+    }
+    visgroup
+    {
+        "name" "solids"
+        "visgroupid" "2"
+        "color" "0 128 192"
+    }
 }
 viewsettings
 {
@@ -18,7 +30,9 @@ viewsettings
     "nGridSpacing" "1"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -193,11 +207,11 @@ world
         }
         editor
         {
-            "color" "0 205 175"
+            "color" "0 135 195"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "57"
-            "parentid" "57"
+            "parentid" "1"
         }
     }
     solid
@@ -345,12 +359,11 @@ world
         }
         editor
         {
-            "color" "0 203 186"
-            "visgroupid" "1"
+            "color" "0 169 191"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -498,12 +511,11 @@ world
         }
         editor
         {
-            "color" "0 173 239"
-            "visgroupid" "1"
+            "color" "0 128 235"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -651,12 +663,11 @@ world
         }
         editor
         {
-            "color" "0 181 222"
-            "visgroupid" "1"
+            "color" "0 154 233"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -766,12 +777,11 @@ world
         }
         editor
         {
-            "color" "0 175 219"
-            "visgroupid" "1"
+            "color" "0 210 164"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -881,12 +891,11 @@ world
         }
         editor
         {
-            "color" "0 182 208"
-            "visgroupid" "1"
+            "color" "0 135 160"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -1034,12 +1043,11 @@ world
         }
         editor
         {
-            "color" "0 228 178"
-            "visgroupid" "1"
+            "color" "0 128 226"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -1149,12 +1157,11 @@ world
         }
         editor
         {
-            "color" "0 231 173"
-            "visgroupid" "1"
+            "color" "0 135 198"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -1264,12 +1271,11 @@ world
         }
         editor
         {
-            "color" "0 187 169"
-            "visgroupid" "1"
+            "color" "0 173 148"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "66"
-            "parentid" "66"
+            "parentid" "1"
         }
     }
     solid
@@ -1379,12 +1385,11 @@ world
         }
         editor
         {
-            "color" "0 252 246"
-            "visgroupid" "1"
+            "color" "0 225 250"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "71"
-            "parentid" "71"
+            "parentid" "1"
         }
     }
     solid
@@ -1494,12 +1499,11 @@ world
         }
         editor
         {
-            "color" "0 202 157"
-            "visgroupid" "1"
+            "color" "0 207 159"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "71"
-            "parentid" "71"
+            "parentid" "1"
         }
     }
     solid
@@ -1609,12 +1613,11 @@ world
         }
         editor
         {
-            "color" "0 177 251"
-            "visgroupid" "1"
+            "color" "0 141 160"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "71"
-            "parentid" "71"
+            "parentid" "1"
         }
     }
     solid
@@ -1724,12 +1727,11 @@ world
         }
         editor
         {
-            "color" "0 180 198"
-            "visgroupid" "1"
+            "color" "0 183 173"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
-            "groupid" "71"
-            "parentid" "71"
+            "parentid" "1"
         }
     }
     solid
@@ -1840,6 +1842,7 @@ world
         editor
         {
             "color" "0 247 152"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1953,6 +1956,7 @@ world
         editor
         {
             "color" "0 140 145"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2047,7 +2051,7 @@ world
         editor
         {
             "color" "0 145 197"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2142,7 +2146,7 @@ world
         editor
         {
             "color" "0 195 248"
-            "visgroupid" "1"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2256,6 +2260,7 @@ world
         editor
         {
             "color" "0 225 212"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2369,6 +2374,7 @@ world
         editor
         {
             "color" "0 161 190"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2482,6 +2488,7 @@ world
         editor
         {
             "color" "0 188 200"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2595,39 +2602,7 @@ world
         editor
         {
             "color" "0 130 152"
-            "visgroupshown" "1"
-            "visgroupautoshown" "1"
-            "parentid" "1"
-        }
-    }
-    group
-    {
-        "id" "57"
-        editor
-        {
-            "color" "0 0 0"
-            "visgroupshown" "1"
-            "visgroupautoshown" "1"
-            "parentid" "1"
-        }
-    }
-    group
-    {
-        "id" "66"
-        editor
-        {
-            "color" "0 0 0"
-            "visgroupshown" "1"
-            "visgroupautoshown" "1"
-            "parentid" "1"
-        }
-    }
-    group
-    {
-        "id" "71"
-        editor
-        {
-            "color" "0 0 0"
+            "visgroupid" "2"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2649,6 +2624,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "1"
         "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -2660,8 +2636,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-5.31849400 -731.53700000 228.38310000]"
-        "look" "[-3.09408300 -636.88270000 212.52150000]"
+        "position" "[-179.96030000 -614.26600000 178.79880000]"
+        "look" "[-163.52870000 -520.77190000 164.48700000]"
     }
 }
 cordon
