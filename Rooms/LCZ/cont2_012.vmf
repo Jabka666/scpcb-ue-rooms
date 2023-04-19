@@ -44284,7 +44284,7 @@ entity
     "id" "662"
     "classname" "mesh"
     "angles" "360 0 360"
-    "file" "elecbox.b3d"
+    "file" "elecbox"
     "position" "-727 -648.0001 -968"
     "scale" "10 10 10"
     "hasCollision" "Yes"
@@ -44394,7 +44394,7 @@ entity
     "id" "667"
     "classname" "mesh"
     "angles" "0 -90 0"
-    "file" "cabinet_b.b3d"
+    "file" "cabinet_b"
     "position" "-960 -768 -712"
     "scale" "4 4 4"
     "hasCollision" "Yes"
@@ -44565,13 +44565,34 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "675"
+    "classname" "light"
+    "color" "255 50 50"
+    "intensity" "0.9"
+    "linearfalloff" "1"
+    "position" "-352 -353 48"
+    "range" "900"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "-352.00000000 48.00000000 -353.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-246.40230000 -395.28680000 -495.94680000]"
-        "look" "[-168.46960000 -340.71340000 -508.78230000]"
+        "position" "[-842.02310000 169.44090000 -130.36860000]"
+        "look" "[-762.18790000 136.43890000 -172.24620000]"
     }
 }
 cordon

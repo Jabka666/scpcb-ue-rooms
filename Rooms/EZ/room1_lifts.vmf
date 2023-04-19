@@ -3845,7 +3845,7 @@ entity
     "id" "5"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "sofa.b3d"
+    "file" "sofa"
     "position" "-365 0 -550"
     "scale" "1.8 1.8 1.2"
     "hasCollision" "Yes"
@@ -3867,7 +3867,7 @@ entity
     "id" "6"
     "classname" "mesh"
     "angles" "360 89.99999 360"
-    "file" "sofa.b3d"
+    "file" "sofa"
     "position" "365 0 -549"
     "scale" "1.8 1.8 1.2"
     "hasCollision" "Yes"
@@ -3967,7 +3967,7 @@ entity
     "id" "101"
     "classname" "mesh"
     "angles" "360 -90.14403 360"
-    "file" "garbage_bin.b3d"
+    "file" "garbage_bin"
     "position" "385 0 -228"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -3989,7 +3989,7 @@ entity
     "id" "102"
     "classname" "mesh"
     "angles" "360 89.85597 360"
-    "file" "garbage_bin.b3d"
+    "file" "garbage_bin"
     "position" "-393 0 -228"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -4033,8 +4033,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-106.90630000 -357.36970000 270.46620000]"
-        "look" "[-132.99730000 -441.94960000 233.29730000]"
+        "position" "[-5.49134400 -473.43180000 201.46480000]"
+        "look" "[76.87558000 -426.24620000 187.13860000]"
     }
 }
 cordon

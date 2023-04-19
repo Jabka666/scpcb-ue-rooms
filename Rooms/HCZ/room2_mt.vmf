@@ -13714,22 +13714,6 @@ entity
 }
 entity
 {
-    "id" "1057"
-    "classname" "waypoint"
-    "position" "560 32 656"
-    "spawnflags" "0"
-    "origin" "560.00000000 656.00000000 32.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1079"
     "classname" "light"
     "color" "255 200 200"
@@ -13739,22 +13723,6 @@ entity
     "range" "600"
     "spawnflags" "0"
     "origin" "-560.00013000 -656.00009000 469.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1080"
-    "classname" "waypoint"
-    "position" "-560 32 -656"
-    "spawnflags" "0"
-    "origin" "-560.00000000 -656.00000000 32.00000000"
     editor
     {
         "color" "255 0 255"
@@ -13885,7 +13853,7 @@ entity
     "id" "1179"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "bench.b3d"
+    "file" "bench"
     "position" "-183.67509 0 467.15"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -13995,7 +13963,7 @@ entity
     "id" "1185"
     "classname" "mesh"
     "angles" "360 97.02645 360"
-    "file" "bench.b3d"
+    "file" "bench"
     "position" "168.00001 0 -470.99998"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -14017,8 +13985,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-55.01615000 770.99590000 408.57670000]"
-        "look" "[-26.85618000 583.96590000 375.54760000]"
+        "position" "[-88.96601000 -439.76570000 350.50370000]"
+        "look" "[38.64245000 -472.68950000 210.87470000]"
     }
 }
 cordon

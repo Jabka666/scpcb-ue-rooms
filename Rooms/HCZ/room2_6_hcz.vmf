@@ -16198,7 +16198,7 @@ entity
     "id" "14"
     "classname" "mesh"
     "angles" "360 89.99999 360"
-    "file" "elecbox.b3d"
+    "file" "elecbox"
     "position" "472 120 17"
     "scale" "10 10 10"
     "hasCollision" "Yes"
@@ -16391,7 +16391,7 @@ entity
     "id" "220"
     "classname" "mesh"
     "angles" "359.06639 33.14432 358.57062"
-    "file" "ventilation_grate.b3d"
+    "file" "ventilation_grate"
     "position" "170.4905 2.20856 -27.65587"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -16413,7 +16413,7 @@ entity
     "id" "237"
     "classname" "mesh"
     "position" "368 8 -128"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "angles" "360 0 360"
     "scale" "1 1.22 1"
     "hasCollision" "Yes"
@@ -16434,7 +16434,7 @@ entity
     "id" "238"
     "classname" "mesh"
     "position" "464 8 -128"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "angles" "360 0 360"
     "scale" "1 1.22 1"
     "hasCollision" "Yes"
@@ -16455,8 +16455,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[114.53290000 -123.49690000 293.11970000]"
-        "look" "[97.37364000 -29.76758000 281.43900000]"
+        "position" "[77.50955000 209.89860000 115.60500000]"
+        "look" "[131.95810000 153.67610000 60.01315000]"
     }
 }
 cordon

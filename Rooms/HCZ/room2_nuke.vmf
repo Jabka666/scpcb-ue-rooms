@@ -44069,27 +44069,10 @@ entity
 }
 entity
 {
-    "id" "556"
-    "classname" "waypoint"
-    "position" "1504.00013 32 -0.00026"
-    "spawnflags" "0"
-    "origin" "1504.00013000 -0.00026000 32.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "569"
     "classname" "mesh"
     "angles" "360 0 360"
-    "file" "bench.b3d"
+    "file" "bench"
     "position" "777 0 -281"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -44294,23 +44277,6 @@ entity
     "range" "600"
     "spawnflags" "0"
     "origin" "1504.00000000 0.00009000 4277.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "6"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "662"
-    "classname" "waypoint"
-    "position" "1504 3840 0.00009"
-    "spawnflags" "0"
-    "origin" "1504.00000000 0.00009000 3840.00000000"
     editor
     {
         "color" "255 0 255"
@@ -44909,7 +44875,7 @@ entity
     "id" "1230"
     "classname" "mesh"
     "angles" "360 -180 360"
-    "file" "garbage_bin.b3d"
+    "file" "garbage_bin"
     "position" "964 0 -285"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -44932,7 +44898,7 @@ entity
     "id" "1232"
     "classname" "mesh"
     "angles" "360 0 360"
-    "file" "table_a.b3d"
+    "file" "table_a"
     "position" "-294 3808 -816"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -44955,7 +44921,7 @@ entity
     "id" "1234"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "table_a.b3d"
+    "file" "table_a"
     "position" "-462 3808 -749"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -44978,7 +44944,7 @@ entity
     "id" "1236"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "elecbox.b3d"
+    "file" "elecbox"
     "position" "-472 3910 490"
     "scale" "10 10 10"
     "hasCollision" "Yes"
@@ -45001,7 +44967,7 @@ entity
     "id" "1237"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "elecbox.b3d"
+    "file" "elecbox"
     "position" "-472 3910 615"
     "scale" "10 10 10"
     "hasCollision" "Yes"
@@ -45058,8 +45024,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[734.50770000 -361.93460000 4017.16200000]"
-        "look" "[647.21340000 -322.01990000 4015.47500000]"
+        "position" "[1065.14800000 95.61723000 4084.88200000]"
+        "look" "[978.96500000 53.62089000 4079.86600000]"
     }
 }
 cordon

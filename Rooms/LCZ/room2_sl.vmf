@@ -71168,7 +71168,7 @@ entity
     "id" "937"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "elecbox.b3d"
+    "file" "elecbox"
     "position" "-216 573.53497 -296"
     "scale" "10 10 10"
     "hasCollision" "Yes"
@@ -71630,7 +71630,7 @@ entity
     "id" "959"
     "classname" "mesh"
     "angles" "360.00001 5.00001 360"
-    "file" "crate1.b3d"
+    "file" "crate1"
     "position" "-29.13191 480 -360.0644"
     "scale" "4 4 4"
     "hasCollision" "Yes"
@@ -71674,8 +71674,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[309.13280000 597.52810000 878.65280000]"
-        "look" "[288.87190000 680.64610000 835.09590000]"
+        "position" "[339.48820000 -612.31590000 282.13160000]"
+        "look" "[255.46100000 -656.98820000 294.78510000]"
     }
 }
 cordon

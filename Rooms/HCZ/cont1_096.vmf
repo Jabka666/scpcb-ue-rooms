@@ -49649,7 +49649,7 @@ entity
     "id" "51"
     "classname" "mesh"
     "angles" "359.99999 -89.99996 360"
-    "file" "elecbox.b3d"
+    "file" "elecbox"
     "position" "-984 112 272"
     "scale" "10 10 10"
     "hasCollision" "No"
@@ -49693,7 +49693,7 @@ entity
     "id" "53"
     "classname" "mesh"
     "angles" "-5.232228E-06 -99.99999 4.390361E-06"
-    "file" "officeseat_a.b3d"
+    "file" "officeseat_a"
     "position" "-759.9829 0 504.0007"
     "scale" "3.5 3.5 3.5"
     "hasCollision" "Yes"
@@ -49891,7 +49891,7 @@ entity
     "id" "63"
     "classname" "mesh"
     "angles" "0 0 0"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "position" "-992 0 496"
     "scale" "1 1.27 1"
     "hasCollision" "Yes"
@@ -49913,7 +49913,7 @@ entity
     "id" "64"
     "classname" "mesh"
     "angles" "0 0 0"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "position" "-992 0 432"
     "scale" "1 1.27 1"
     "hasCollision" "Yes"
@@ -49935,7 +49935,7 @@ entity
     "id" "65"
     "classname" "mesh"
     "angles" "0 0 0"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "position" "-1184 0 -64"
     "scale" "1 0.815 1"
     "hasCollision" "Yes"
@@ -49957,7 +49957,7 @@ entity
     "id" "66"
     "classname" "mesh"
     "angles" "0 0 0"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "position" "-1184 288 -64"
     "scale" "1 0.815 1"
     "hasCollision" "No"
@@ -49979,7 +49979,7 @@ entity
     "id" "67"
     "classname" "mesh"
     "angles" "0 0 0"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "position" "-672 0 -64"
     "scale" "1 0.815 1"
     "hasCollision" "Yes"
@@ -50001,7 +50001,7 @@ entity
     "id" "68"
     "classname" "mesh"
     "angles" "0 0 0"
-    "file" "pipe_long.b3d"
+    "file" "pipe_long"
     "position" "-672 288 -64"
     "scale" "1 0.815 1"
     "hasCollision" "No"
@@ -50565,7 +50565,7 @@ entity
     "id" "661"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "shelves_a.b3d"
+    "file" "shelves_a"
     "position" "-510 0 64"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -50587,7 +50587,7 @@ entity
     "id" "697"
     "classname" "mesh"
     "angles" "360 0 360"
-    "file" "table_a.b3d"
+    "file" "table_a"
     "position" "-850 0 81"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -50670,13 +50670,79 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "729"
+    "classname" "mesh"
+    "angles" "360 89.08027 360"
+    "file" "buttonkeycard.b3d"
+    "position" "-356 176 -357"
+    "scale" "8 8 5"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-356.00000000 -357.00000000 176.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "731"
+    "classname" "mesh"
+    "angles" "360 89.08027 360"
+    "file" "buttonkeycard.b3d"
+    "position" "-356 176 -357"
+    "scale" "8 8 5"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-356.00000000 -357.00000000 176.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "733"
+    "classname" "mesh"
+    "angles" "360 -90.01192 360"
+    "file" "buttonkeycard.b3d"
+    "position" "-412 176 -667"
+    "scale" "8 8 5"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-412.00000000 -667.00000000 176.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-684.27080000 572.07300000 231.01680000]"
-        "look" "[-613.06720000 630.52650000 204.00780000]"
+        "position" "[-61.37825000 -495.92620000 330.51720000]"
+        "look" "[-155.07230000 -486.92020000 311.63520000]"
     }
 }
 cordon

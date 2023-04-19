@@ -75407,7 +75407,7 @@ entity
     "id" "1615"
     "classname" "mesh"
     "angles" "360.00001 -170 360"
-    "file" "officeseat_a.b3d"
+    "file" "officeseat_a"
     "position" "-1217 -10688 416"
     "scale" "3.5 3.5 3.5"
     "hasCollision" "Yes"
@@ -75454,23 +75454,6 @@ entity
     "range" "600"
     "spawnflags" "0"
     "origin" "816.00000000 -255.99991000 -9771.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1681"
-    "classname" "waypoint"
-    "position" "816 -10208 -255.99991"
-    "spawnflags" "0"
-    "origin" "816.00000000 -255.99991000 -10208.00000000"
     editor
     {
         "color" "255 0 255"
@@ -75844,7 +75827,7 @@ entity
     "id" "2603"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "shelves_c.b3d"
+    "file" "shelves_c"
     "position" "-909.52 -10688 287"
     "scale" "1 1.2 1"
     "hasCollision" "Yes"
@@ -75867,7 +75850,7 @@ entity
     "id" "2604"
     "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "shelves_c.b3d"
+    "file" "shelves_c"
     "position" "-782.03273 -10688 287"
     "scale" "1 1.2 1"
     "hasCollision" "Yes"
@@ -76304,23 +76287,6 @@ entity
 }
 entity
 {
-    "id" "3077"
-    "classname" "waypoint"
-    "position" "816 32 -255.99991"
-    "spawnflags" "0"
-    "origin" "816.00000000 -255.99991000 32.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "8"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "3078"
     "classname" "light"
     "color" "255 200 200"
@@ -76494,8 +76460,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-979.81820000 288.02430000 -10482.79000000]"
-        "look" "[-1050.61800000 224.10280000 -10493.57000000]"
+        "position" "[-1186.10100000 654.87500000 -10560.08000000]"
+        "look" "[-1242.42300000 580.13700000 -10581.45000000]"
     }
 }
 cordon

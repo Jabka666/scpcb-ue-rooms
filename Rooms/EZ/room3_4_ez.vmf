@@ -8077,7 +8077,7 @@ entity
     "id" "178"
     "classname" "mesh"
     "angles" "360 180 360"
-    "file" "bench.b3d"
+    "file" "bench"
     "position" "-209 0 504"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -8099,7 +8099,7 @@ entity
     "id" "179"
     "classname" "mesh"
     "angles" "360 180 360"
-    "file" "bench.b3d"
+    "file" "bench"
     "position" "209 0 504"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -8121,7 +8121,7 @@ entity
     "id" "181"
     "classname" "mesh"
     "angles" "360 0 360"
-    "file" "garbage_bin.b3d"
+    "file" "garbage_bin"
     "position" "0 0 508"
     "scale" "1 1 1"
     "hasCollision" "Yes"
@@ -8206,7 +8206,7 @@ entity
     "id" "270"
     "classname" "mesh"
     "angles" "360 90 360"
-    "file" "fire_extinguisher.b3d"
+    "file" "fire_extinguisher"
     "position" "0 179 527"
     "scale" "1 1 1"
     "hasCollision" "No"
@@ -8294,8 +8294,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[766.30220000 -60.74495000 314.88650000]"
-        "look" "[671.70890000 -53.93639000 299.99500000]"
+        "position" "[21.60419000 -130.56890000 294.98040000]"
+        "look" "[0.05072403 -39.76427000 272.48650000]"
     }
 }
 cordon
