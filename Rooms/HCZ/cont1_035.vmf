@@ -63665,13 +63665,13 @@ entity
     "classname" "mesh"
     "angles" "361.88387 -132.93685 360"
     "file" "leverhandle.b3d"
-    "position" "251.58647 98 -264"
+    "position" "251 99 -264"
     "scale" "9 9 11"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "251.58647000 -264.00000000 98.00000000"
+    "origin" "251.00000000 -264.00000000 99.00000000"
     editor
     {
         "color" "255 0 255"
@@ -63820,7 +63820,7 @@ entity
     "angles" "360 0 360"
     "file" "keyboard.b3d"
     "position" "510.37091 120 794"
-    "scale" "1.5 1.5 1.5"
+    "scale" "1.7 1.7 1.7"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -63886,7 +63886,7 @@ entity
     "angles" "360 -90 360"
     "file" "keyboard.b3d"
     "position" "665.92699 120 -52"
-    "scale" "1.5 1.5 1.5"
+    "scale" "1.7 1.7 1.7"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -64661,13 +64661,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "924"
+    "classname" "mesh"
+    "angles" "360 90 360"
+    "file" "keyboard.b3d"
+    "position" "259.57056 96 -200.99983"
+    "scale" "1.7 1.7 1.7"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "259.57056000 -200.99983000 96.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[321.66450000 -282.16070000 362.76260000]"
-        "look" "[324.33440000 -281.93980000 361.41050000]"
+        "position" "[506.88130000 -199.09330000 299.96300000]"
+        "look" "[504.70280000 -199.08180000 297.89920000]"
     }
 }
 cordon

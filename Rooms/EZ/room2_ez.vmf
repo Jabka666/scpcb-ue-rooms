@@ -14859,7 +14859,7 @@ entity
     "angles" "0 180 0"
     "file" "keyboard.b3d"
     "position" "384.5717 120 -916.5042"
-    "scale" "1.5 1.5 1.5"
+    "scale" "1.7 1.7 1.7"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -14903,7 +14903,7 @@ entity
     "angles" "1.587582E-06 175 6.931527E-08"
     "file" "keyboard.b3d"
     "position" "615.0151 120 -916.5359"
-    "scale" "1.5 1.5 1.5"
+    "scale" "1.7 1.7 1.7"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -14966,15 +14966,15 @@ entity
 {
     "id" "209"
     "classname" "mesh"
-    "angles" "360.00001 10.00003 360"
+    "angles" "359.99999 -31.16633 360"
     "file" "officeseat_a"
-    "position" "-480 0 381"
+    "position" "-499 0 316"
     "scale" "3.5 3.5 3.5"
     "hasCollision" "Yes"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-480.00000000 381.00000000 0.00000000"
+    "origin" "-499.00000000 316.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -15098,15 +15098,15 @@ entity
 {
     "id" "216"
     "classname" "mesh"
-    "angles" "360.00001 -170 360"
+    "angles" "359.99999 -170 360"
     "file" "officeseat_a"
-    "position" "691 0 142"
+    "position" "644 0 188"
     "scale" "3.5 3.5 3.5"
     "hasCollision" "Yes"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "691.00000000 142.00000000 0.00000000"
+    "origin" "644.00000000 188.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -17576,8 +17576,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[475.29900000 -761.68370000 276.57110000]"
-        "look" "[508.96500000 -846.33060000 246.27730000]"
+        "position" "[-403.39250000 220.43300000 246.28320000]"
+        "look" "[-458.21910000 288.22060000 206.09490000]"
     }
 }
 cordon
