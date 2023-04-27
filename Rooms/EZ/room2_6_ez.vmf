@@ -38936,9 +38936,9 @@ entity
 {
     "id" "290"
     "classname" "waypoint"
-    "position" "928 32 640"
+    "position" "927.99994 32 584"
     "spawnflags" "0"
-    "origin" "928.00000000 640.00000000 32.00000000"
+    "origin" "927.99994000 584.00000000 32.00000000"
     editor
     {
         "color" "255 0 255"
@@ -38952,9 +38952,9 @@ entity
 {
     "id" "291"
     "classname" "waypoint"
-    "position" "928 32 -640"
+    "position" "927.99994 32 -610"
     "spawnflags" "0"
-    "origin" "928.00000000 -640.00000000 32.00000000"
+    "origin" "927.99994000 -610.00000000 32.00000000"
     editor
     {
         "color" "255 0 255"
@@ -39482,13 +39482,145 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "387"
+    "classname" "mesh"
+    "angles" "0 0 0"
+    "file" "garbage_bin"
+    "position" "944 0 720"
+    "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "944.00000000 720.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "388"
+    "classname" "mesh"
+    "angles" "0 90 0"
+    "file" "fire_extinguisher"
+    "position" "1456 160 751"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "1456.00000000 751.00000000 160.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "389"
+    "classname" "mesh"
+    "angles" "0 24 0"
+    "file" "wet_floor_sign"
+    "position" "667 0 326"
+    "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "667.00000000 326.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "390"
+    "classname" "mesh"
+    "angles" "0 90 0"
+    "file" "bench.b3d"
+    "position" "472 0 0"
+    "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "472.00000000 0.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "391"
+    "classname" "mesh"
+    "angles" "0 180 0"
+    "file" "garbage_bin"
+    "position" "944 0 -720"
+    "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "944.00000000 -720.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "392"
+    "classname" "mesh"
+    "angles" "0 270 0"
+    "file" "fire_extinguisher"
+    "position" "1456 160 -751"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "1456.00000000 -751.00000000 160.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[964.88890000 523.89180000 242.59730000]"
-        "look" "[1008.65300000 607.95170000 227.26900000]"
+        "position" "[308.82460000 651.64150000 304.21330000]"
+        "look" "[391.45400000 636.60040000 257.71010000]"
     }
 }
 cordon
