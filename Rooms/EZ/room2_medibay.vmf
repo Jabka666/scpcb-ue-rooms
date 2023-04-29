@@ -28894,13 +28894,13 @@ entity
     "classname" "mesh"
     "angles" "360 -90 360"
     "file" "alcohol_hand_gel.b3d"
-    "position" "-984 176 -233"
+    "position" "-984 176 -235"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\Map\Textures\alcohol_hand_gel_bloody.png"
     "spawnflags" "0"
-    "origin" "-984.00000000 -233.00000000 176.00000000"
+    "origin" "-984.00000000 -235.00000000 176.00000000"
     editor
     {
         "color" "255 0 255"
@@ -28974,13 +28974,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "583"
+    "classname" "mesh"
+    "angles" "360 -90 360"
+    "file" "alcohol_hand_gel.b3d"
+    "position" "-984 176 -45"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\alcohol_hand_gel_bloody.png"
+    "spawnflags" "0"
+    "origin" "-984.00000000 -45.00000000 176.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-432.19150000 379.32170000 214.92400000]"
-        "look" "[-423.43170000 283.72600000 213.99820000]"
+        "position" "[-903.13540000 -375.22610000 276.18300000]"
+        "look" "[-948.69870000 -298.65750000 240.44320000]"
     }
 }
 cordon
