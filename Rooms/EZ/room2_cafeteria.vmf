@@ -51,7 +51,7 @@ viewsettings
     "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
-    "nGridSpacing" "1"
+    "nGridSpacing" "16"
     "bIgnoreGrouping" "0"
     "bHideFaceMask" "0"
     "bHideToolTextures" "0"
@@ -44833,13 +44833,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1024"
+    "classname" "mesh"
+    "angles" "360 90 450"
+    "file" "lamp3.b3d"
+    "position" "0 -88 406.5"
+    "scale" "350 350 350"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "0.00000000 406.50000000 -88.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[384.34440000 -386.65020000 -169.18520000]"
-        "look" "[324.62540000 -312.32080000 -180.35170000]"
+        "position" "[452.88600000 -273.69530000 -149.76520000]"
+        "look" "[392.71040000 -199.24330000 -156.95750000]"
     }
 }
 cordon
