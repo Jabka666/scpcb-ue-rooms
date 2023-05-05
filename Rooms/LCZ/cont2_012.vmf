@@ -46,7 +46,7 @@ viewsettings
     "bShowGrid" "1"
     "bShow3DGrid" "0"
     "nGridSpacing" "1"
-    "bIgnoreGrouping" "0"
+    "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
     "bHideToolTextures" "0"
     "bHideEntitySprites" "0"
@@ -37245,10 +37245,10 @@ entity
     "id" "281"
     "classname" "light"
     "color" "255 50 50"
-    "intensity" "0.9"
+    "intensity" "0.5"
     "linearfalloff" "1"
     "position" "-352 -44 48"
-    "range" "900"
+    "range" "500"
     "spawnflags" "0"
     "origin" "-352.00000000 48.00000000 -44.00000000"
     editor
@@ -37824,13 +37824,13 @@ entity
     "id" "675"
     "classname" "light"
     "color" "255 50 50"
-    "intensity" "0.9"
+    "intensity" "0.5"
     "linearfalloff" "1"
-    "position" "-352 -353 48"
-    "range" "900"
+    "position" "-352 -583.50032 48"
+    "range" "500"
     "hassprite" "No"
     "spawnflags" "0"
-    "origin" "-352.00000000 48.00000000 -353.00000000"
+    "origin" "-352.00000000 48.00000000 -583.50032000"
     editor
     {
         "color" "255 0 255"
@@ -37950,13 +37950,55 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "745"
+    "classname" "light"
+    "color" "255 50 50"
+    "intensity" "0.5"
+    "linearfalloff" "1"
+    "position" "-352 -517.50054 345"
+    "range" "500"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "-352.00000000 345.00000000 -517.50054000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "746"
+    "classname" "light"
+    "color" "255 50 50"
+    "intensity" "0.5"
+    "linearfalloff" "1"
+    "position" "-352 -246.43747 345"
+    "range" "500"
+    "hassprite" "No"
+    "spawnflags" "0"
+    "origin" "-352.00000000 345.00000000 -246.43747000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-15.05904000 -1021.87600000 258.87580000]"
-        "look" "[-10.94602000 -926.01430000 262.05170000]"
+        "position" "[-488.79760000 -304.72230000 -577.51880000]"
+        "look" "[-473.80320000 -210.39640000 -587.22800000]"
     }
 }
 cordon
