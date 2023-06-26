@@ -22329,6 +22329,28 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "687"
+    "classname" "mesh"
+    "angles" "360 180 360"
+    "file" "toolbox.b3d"
+    "position" "200 349 126"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "200.00000000 126.00000000 349.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "4"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
