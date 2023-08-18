@@ -93951,7 +93951,7 @@ entity
 {
     "id" "16720"
     "classname" "mesh"
-    "position" "2916.99973 384 574.00046"
+    "position" "2909 384 522"
     "file" "ventilation_grate.b3d"
     "angles" "360 -43.28552 360"
     "scale" "1.0 1.0 1.0"
@@ -93959,7 +93959,7 @@ entity
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "2916.99973000 574.00046000 384.00000000"
+    "origin" "2909.00000000 522.00000000 384.00000000"
     editor
     {
         "color" "255 0 255"
@@ -95475,9 +95475,9 @@ entity
 {
     "id" "17465"
     "classname" "waypoint"
-    "position" "2704 416 654"
+    "position" "2704 459 654"
     "spawnflags" "0"
-    "origin" "2704.00000000 654.00000000 416.00000000"
+    "origin" "2704.00000000 654.00000000 459.00000000"
     editor
     {
         "color" "255 0 255"
@@ -95623,13 +95623,30 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "17488"
+    "classname" "waypoint"
+    "position" "3101.51345 459 746.49975"
+    "spawnflags" "0"
+    "origin" "3101.51345000 746.49975000 459.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "10"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[163.43080000 -807.51710000 324.01120000]"
-        "look" "[229.73920000 -832.39100000 259.19550000]"
+        "position" "[3280.16700000 747.74600000 687.17320000]"
+        "look" "[3201.06900000 731.95570000 635.10920000]"
     }
 }
 cordon

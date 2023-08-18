@@ -36749,9 +36749,9 @@ entity
 {
     "id" "255"
     "classname" "waypoint"
-    "position" "-985 -352 0"
+    "position" "-984.99994 -321.99997 0"
     "spawnflags" "0"
-    "origin" "-985.00000000 0.00000000 -352.00000000"
+    "origin" "-984.99994000 0.00000000 -321.99997000"
     editor
     {
         "color" "255 0 255"
@@ -38616,13 +38616,77 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "660"
+    "classname" "waypoint"
+    "position" "-1216 -352 576"
+    "spawnflags" "0"
+    "origin" "-1216.00000000 576.00000000 -352.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "661"
+    "classname" "waypoint"
+    "position" "-1216 -352 -576"
+    "spawnflags" "0"
+    "origin" "-1216.00000000 -576.00000000 -352.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "662"
+    "classname" "waypoint"
+    "position" "-680 -352 -576"
+    "spawnflags" "0"
+    "origin" "-680.00000000 -576.00000000 -352.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "663"
+    "classname" "waypoint"
+    "position" "-680 -352 576"
+    "spawnflags" "0"
+    "origin" "-680.00000000 576.00000000 -352.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-669.15510000 627.72530000 -86.65326000]"
-        "look" "[-656.58040000 540.83920000 -125.50970000]"
+        "position" "[-1222.29700000 -150.31130000 102.43190000]"
+        "look" "[-1165.77300000 -208.46380000 51.04520000]"
     }
 }
 cordon
