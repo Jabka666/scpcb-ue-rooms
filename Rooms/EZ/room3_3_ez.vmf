@@ -44461,23 +44461,6 @@ entity
 }
 entity
 {
-    "id" "546"
-    "classname" "waypoint"
-    "intensity" "1.0"
-    "position" "0 -570 256"
-    "spawnflags" "0"
-    "origin" "0.00000000 256.00000000 -570.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "548"
     "classname" "waypoint"
     "intensity" "1.0"
@@ -44665,23 +44648,6 @@ entity
     {
         "color" "255 0 255"
         "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "874"
-    "classname" "waypoint"
-    "intensity" "1.0"
-    "position" "0 -336 911"
-    "spawnflags" "0"
-    "origin" "0.00000000 911.00000000 -336.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -45108,13 +45074,64 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1109"
+    "classname" "waypoint"
+    "intensity" "1.0"
+    "position" "0 -572 304"
+    "spawnflags" "0"
+    "origin" "0.00000000 304.00000000 -572.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1110"
+    "classname" "waypoint"
+    "intensity" "1.0"
+    "position" "0 -336 911"
+    "spawnflags" "0"
+    "origin" "0.00000000 911.00000000 -336.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1111"
+    "classname" "waypoint"
+    "intensity" "1.0"
+    "position" "-252.50002 -238.56262 910.99994"
+    "spawnflags" "0"
+    "origin" "-252.50002000 910.99994000 -238.56262000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-263.01610000 -493.79730000 313.85980000]"
-        "look" "[-189.71280000 -432.07540000 308.07050000]"
+        "position" "[-150.14680000 889.44650000 -186.34460000]"
+        "look" "[-235.42740000 911.17980000 -224.70300000]"
     }
 }
 cordon
