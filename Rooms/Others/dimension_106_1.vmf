@@ -3301,26 +3301,6 @@ entity
 }
 entity
 {
-    "id" "78"
-    "classname" "light"
-    "color" "255 200 200"
-    "intensity" "0.7"
-    "position" "0 2480 7936"
-    "range" "700"
-    "spawnflags" "0"
-    "origin" "0.00000000 7936.00000000 2480.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "4"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "79"
     "classname" "mesh"
     "angles" "360 0 360"
@@ -3789,13 +3769,355 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1846"
+    "classname" "light"
+    "color" "255 200 200"
+    "intensity" "0.7"
+    "position" "0 2480 7936"
+    "range" "700"
+    "spawnflags" "0"
+    "origin" "0.00000000 7936.00000000 2480.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "4"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1867"
+    "classname" "mesh"
+    "position" "4462 4916.9405 9821"
+    "file" "scp_895.b3d"
+    "angles" "373.1927 -143.99454 198.18939"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "4462.00000000 9821.00000000 4916.94050000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1868"
+    "classname" "mesh"
+    "position" "5337.99998 3260.63649 9996"
+    "file" "scp_895.b3d"
+    "angles" "373.1927 -143.99454 198.18939"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "5337.99998000 9996.00000000 3260.63649000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1869"
+    "classname" "mesh"
+    "position" "5160 2860 8975.99996"
+    "file" "scp_895.b3d"
+    "angles" "308.93588 -4.99895 174.9293"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "5160.00000000 8975.99996000 2860.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1870"
+    "classname" "mesh"
+    "position" "5705.99997 3126.51633 11096"
+    "file" "scp_895.b3d"
+    "angles" "396.49923 163.3808 354.86671"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "5705.99997000 11096.00000000 3126.51633000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1871"
+    "classname" "mesh"
+    "position" "6388 2995.27878 10543"
+    "file" "scp_895.b3d"
+    "angles" "371.96343 -113.44206 360.83366"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "6388.00000000 10543.00000000 2995.27878000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1872"
+    "classname" "mesh"
+    "position" "6774 3185 9937.99999"
+    "file" "scp_895.b3d"
+    "angles" "349.58378 93.94379 379.72408"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "6774.00000000 9937.99999000 3185.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1873"
+    "classname" "mesh"
+    "position" "7474.99998 2526 9289"
+    "file" "scp_895.b3d"
+    "angles" "308.93588 85.00105 174.9293"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "7474.99998000 9289.00000000 2526.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1874"
+    "classname" "mesh"
+    "position" "8187 3041 9199"
+    "file" "scp_895.b3d"
+    "angles" "331.46132 1.5372 93.21497"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "8187.00000000 9199.00000000 3041.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1875"
+    "classname" "mesh"
+    "position" "8547 2979 10133"
+    "file" "scp_895.b3d"
+    "angles" "360 -28.57657 360"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "8547.00000000 10133.00000000 2979.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1876"
+    "classname" "mesh"
+    "position" "8565 1952.565 8999"
+    "file" "scp_895.b3d"
+    "angles" "349.58378 93.94379 379.72408"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "8565.00000000 8999.00000000 1952.56500000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1877"
+    "classname" "mesh"
+    "position" "8830 1894.08133 8568"
+    "file" "scp_895.b3d"
+    "angles" "396.49923 163.3808 354.86671"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "8830.00000000 8568.00000000 1894.08133000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1878"
+    "classname" "mesh"
+    "position" "9149.20937 3045.75032 10495.613"
+    "file" "scp_895.b3d"
+    "angles" "383.91075 -16.13261 305.51356"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "9149.20937000 10495.61300000 3045.75032000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1879"
+    "classname" "mesh"
+    "position" "9390 2204.00003 9339"
+    "file" "scp_895.b3d"
+    "angles" "396.49923 163.3808 354.86671"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "9390.00000000 9339.00000000 2204.00003000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1880"
+    "classname" "mesh"
+    "position" "10085 2425.60768 10017"
+    "file" "scp_895.b3d"
+    "angles" "290.64511 163.1869 296.28842"
+    "scale" "150 150 150"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\rockmoss.jpg"
+    "spawnflags" "0"
+    "origin" "10085.00000000 10017.00000000 2425.60768000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "9"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[2112.61500000 8690.25200000 9213.98200000]"
-        "look" "[2037.80100000 8692.97100000 9153.88800000]"
+        "position" "[4951.42200000 9911.81200000 3501.26200000]"
+        "look" "[5018.36300000 9937.87600000 3437.57900000]"
     }
 }
 cordon
