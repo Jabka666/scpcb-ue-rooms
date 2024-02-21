@@ -60865,94 +60865,6 @@ entity
 }
 entity
 {
-    "id" "1470"
-    "classname" "mesh"
-    "angles" "360 -90 450"
-    "file" "pipe_short"
-    "position" "468.64133 219.92749 36.25263"
-    "scale" "0.8 1 0.8"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
-    "spawnflags" "0"
-    "origin" "468.64133000 36.25263000 219.92749000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1471"
-    "classname" "mesh"
-    "angles" "360 -90 450"
-    "file" "pipe_short"
-    "position" "468.64133 164.96374 -138.99987"
-    "scale" "0.8 1 0.8"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
-    "spawnflags" "0"
-    "origin" "468.64133000 -138.99987000 164.96374000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1472"
-    "classname" "mesh"
-    "angles" "360 -90 450"
-    "file" "pipe_short"
-    "position" "468.64133 164.96374 36.25263"
-    "scale" "0.8 1 0.8"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
-    "spawnflags" "0"
-    "origin" "468.64133000 36.25263000 164.96374000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1473"
-    "classname" "mesh"
-    "angles" "360 -90 450"
-    "file" "pipe_short"
-    "position" "468.64133 219.92749 -138.99987"
-    "scale" "0.8 1 0.8"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
-    "spawnflags" "0"
-    "origin" "468.64133000 -138.99987000 219.92749000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1552"
     "classname" "mesh"
     "angles" "360 90 360"
@@ -61309,13 +61221,101 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1680"
+    "classname" "mesh"
+    "angles" "360 -90 450"
+    "file" "pipe_short"
+    "position" "468.35867 164.96374 -139.7475"
+    "scale" "0.8 1 0.8"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
+    "spawnflags" "0"
+    "origin" "468.35867000 -139.74750000 164.96374000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1681"
+    "classname" "mesh"
+    "angles" "360 -90 450"
+    "file" "pipe_short"
+    "position" "468.35867 219.92749 -139.7475"
+    "scale" "0.8 1 0.8"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
+    "spawnflags" "0"
+    "origin" "468.35867000 -139.74750000 219.92749000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1682"
+    "classname" "mesh"
+    "angles" "360 -90 450"
+    "file" "pipe_short"
+    "position" "468.35867 219.92749 37"
+    "scale" "0.8 1 0.8"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
+    "spawnflags" "0"
+    "origin" "468.35867000 37.00000000 219.92749000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1683"
+    "classname" "mesh"
+    "angles" "360 -90 450"
+    "file" "pipe_short"
+    "position" "468.35867 164.96374 37"
+    "scale" "0.8 1 0.8"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Pipes_NoRust.png"
+    "spawnflags" "0"
+    "origin" "468.35867000 37.00000000 164.96374000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-393.26040000 291.32870000 203.35480000]"
-        "look" "[-451.47380000 366.11250000 218.68010000]"
+        "position" "[248.37990000 -62.72672000 241.13210000]"
+        "look" "[336.42570000 -28.75098000 223.52880000]"
     }
 }
 cordon
