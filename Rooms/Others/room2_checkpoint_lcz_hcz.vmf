@@ -48731,50 +48731,6 @@ entity
 }
 entity
 {
-    "id" "821"
-    "classname" "mesh"
-    "angles" "359.99823 -180 360"
-    "file" "button.b3d"
-    "position" "873 175.91518 25"
-    "scale" "8 8 8"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "873.00000000 25.00000000 175.91518000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "4"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "822"
-    "classname" "mesh"
-    "angles" "360 0 360"
-    "file" "button.b3d"
-    "position" "1160 175.9152 -25"
-    "scale" "8 8 8"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "1160.00000000 -25.00000000 175.91520000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "4"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "848"
     "classname" "mesh"
     "angles" "359.99823 180 360"
@@ -48824,7 +48780,7 @@ entity
     "angles" "360 0 360"
     "file" "door01.b3d"
     "position" "1016 -4.0249 -662"
-    "scale" "19 13.5 10"
+    "scale" "18 13.5 10"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -48868,34 +48824,12 @@ entity
     "angles" "360 -180 360"
     "file" "door01.b3d"
     "position" "1016 -4.0249 663"
-    "scale" "19 13.5 10"
+    "scale" "18 13.5 10"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "1016.00000000 663.00000000 -4.02490000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "4"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "965"
-    "classname" "mesh"
-    "angles" "360 0 360"
-    "file" "doorframe.b3d"
-    "position" "1016 -0.0001 0"
-    "scale" "1 1 1"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "1016.00000000 0.00000000 -0.00010000"
     editor
     {
         "color" "255 0 255"
@@ -49125,13 +49059,57 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1115"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "officedoor.b3d"
+    "position" "1108 0 0.07808"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "1108.00000000 0.07808000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1116"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "officedoorframe.b3d"
+    "position" "1016 0 1.07808"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "1016.00000000 1.07808000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[519.00010000 244.68570000 267.74350000]"
-        "look" "[613.28200000 231.21720000 255.64920000]"
+        "position" "[150.13490000 313.24030000 282.09930000]"
+        "look" "[137.83110000 408.07290000 290.59280000]"
     }
 }
 cordon
