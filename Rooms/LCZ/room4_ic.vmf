@@ -18860,15 +18860,15 @@ entity
 {
     "id" "537"
     "classname" "mesh"
-    "angles" "450 -90 270"
+    "angles" "270 90 270"
     "file" "book.b3d"
-    "position" "945.5357 162 -460.81318"
+    "position" "945.5357 162 -466"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" "GFX\Map\Textures\Book2.png"
     "spawnflags" "0"
-    "origin" "945.53570000 -460.81318000 162.00000000"
+    "origin" "945.53570000 -466.00000000 162.00000000"
     editor
     {
         "color" "255 0 255"
@@ -18882,15 +18882,15 @@ entity
 {
     "id" "538"
     "classname" "mesh"
-    "angles" "450 -90 270"
+    "angles" "270 90 270"
     "file" "book.b3d"
-    "position" "943 162 -398"
+    "position" "943 162 -403.18682"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" "GFX\Map\Textures\Book6.png"
     "spawnflags" "0"
-    "origin" "943.00000000 -398.00000000 162.00000000"
+    "origin" "943.00000000 -403.18682000 162.00000000"
     editor
     {
         "color" "255 0 255"
@@ -18926,15 +18926,15 @@ entity
 {
     "id" "540"
     "classname" "mesh"
-    "angles" "450 -90 270"
+    "angles" "270 90 270"
     "file" "book.b3d"
-    "position" "944 226 -472"
+    "position" "944 226 -477.18682"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" "GFX\Map\Textures\Book5.png"
     "spawnflags" "0"
-    "origin" "944.00000000 -472.00000000 226.00000000"
+    "origin" "944.00000000 -477.18682000 226.00000000"
     editor
     {
         "color" "255 0 255"
@@ -18970,15 +18970,15 @@ entity
 {
     "id" "543"
     "classname" "mesh"
-    "angles" "450 -90 270"
+    "angles" "270 90 270"
     "file" "book.b3d"
-    "position" "943 226 -408"
+    "position" "943 226 -413.18682"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" "GFX\Map\Textures\Book7.png"
     "spawnflags" "0"
-    "origin" "943.00000000 -408.00000000 226.00000000"
+    "origin" "943.00000000 -413.18682000 226.00000000"
     editor
     {
         "color" "255 0 255"
@@ -18993,8 +18993,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[671.73330000 -656.71620000 235.39680000]"
-        "look" "[763.80490000 -633.36580000 221.47290000]"
+        "position" "[886.65920000 -405.06880000 179.71680000]"
+        "look" "[977.73720000 -375.96540000 171.10790000]"
     }
 }
 cordon
