@@ -17017,12 +17017,12 @@ entity
     "id" "70"
     "classname" "mesh"
     "angles" "0 180 0"
-    "file" "boxfile_b.b3d"
+    "file" "boxfile_a.b3d"
     "position" "682.2249 136 24"
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\Map\Textures\BoxFile_Red.png"
     "spawnflags" "0"
     "origin" "682.22490000 24.00000000 136.00000000"
     editor
@@ -17105,12 +17105,12 @@ entity
     "id" "74"
     "classname" "mesh"
     "angles" "0 180 0"
-    "file" "boxfile_b.b3d"
+    "file" "boxfile_a.b3d"
     "position" "658.2249 136 24"
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\Map\Textures\BoxFile_Red.png"
     "spawnflags" "0"
     "origin" "658.22490000 24.00000000 136.00000000"
     editor
@@ -17127,12 +17127,12 @@ entity
     "id" "75"
     "classname" "mesh"
     "angles" "0 180 0"
-    "file" "boxfile_b.b3d"
+    "file" "boxfile_a.b3d"
     "position" "538.2249 136 24"
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\Map\Textures\BoxFile_Red.png"
     "spawnflags" "0"
     "origin" "538.22490000 24.00000000 136.00000000"
     editor
@@ -17149,12 +17149,12 @@ entity
     "id" "76"
     "classname" "mesh"
     "angles" "0 180 0"
-    "file" "boxfile_b.b3d"
+    "file" "boxfile_a.b3d"
     "position" "526.2249 136 24"
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\Map\Textures\BoxFile_Red.png"
     "spawnflags" "0"
     "origin" "526.22490000 24.00000000 136.00000000"
     editor
@@ -18628,8 +18628,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[665.58170000 -295.52300000 190.35920000]"
-        "look" "[760.13970000 -282.53290000 180.05990000]"
+        "position" "[887.85310000 297.88540000 213.02280000]"
+        "look" "[888.75550000 378.10040000 160.28980000]"
     }
 }
 cordon
