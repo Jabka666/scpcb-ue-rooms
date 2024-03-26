@@ -42738,12 +42738,12 @@ entity
     "id" "91"
     "classname" "mesh"
     "angles" "4.91931E-06 90 -4.74003E-06"
-    "file" "boxfile_a.b3d"
+    "file" "boxfile_b.b3d"
     "position" "1361.48 -264 -765.279"
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" "GFX\Map\Textures\BoxFile_Red.png"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "1361.48000000 -765.27900000 -264.00000000"
     editor
@@ -43654,8 +43654,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[332.86140000 -136.01590000 -104.85610000]"
-        "look" "[428.58000000 -132.34060000 -98.51557000]"
+        "position" "[-1265.63400000 327.21450000 -74.70633000]"
+        "look" "[-1361.44400000 325.40690000 -80.44765000]"
     }
 }
 cordon
