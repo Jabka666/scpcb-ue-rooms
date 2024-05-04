@@ -23316,7 +23316,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23376,6 +23376,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23397,7 +23398,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23419,51 +23420,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "685"
-    "classname" "mesh"
-    "angles" "443.46144 90 360"
-    "file" "leverhandle.b3d"
-    "position" "80.01947 192.98489 -163.92683"
-    "scale" "9 9 9"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "80.01947000 -163.92683000 192.98489000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "686"
-    "classname" "mesh"
-    "angles" "360 -90 360"
-    "file" "leverbase.b3d"
-    "position" "80.36998 193.00008 -163.92683"
-    "scale" "9 9 9"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "80.36998000 -163.92683000 193.00008000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23485,7 +23442,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "4"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23507,7 +23464,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "4"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23518,8 +23475,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-122.14800000 553.91750000 292.55920000]"
-        "look" "[-201.40570000 501.63280000 306.73050000]"
+        "position" "[517.26240000 455.34330000 333.38730000]"
+        "look" "[473.89640000 370.85560000 319.33340000]"
     }
 }
 cordon
