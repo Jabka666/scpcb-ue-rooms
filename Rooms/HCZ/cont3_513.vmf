@@ -43181,13 +43181,76 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "735"
+    "classname" "mesh"
+    "position" "-466 0 -949"
+    "file" "bench"
+    "angles" "360 0 360"
+    "scale" "1.0 1.0 1.0"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-466.00000000 -949.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "736"
+    "classname" "mesh"
+    "position" "-902 0 -920"
+    "file" "garbage_bin"
+    "angles" "360 134.00873 360"
+    "scale" "1.0 1.0 1.0"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-902.00000000 -920.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "738"
+    "classname" "mesh"
+    "position" "-949 0 -512"
+    "file" "bench"
+    "angles" "360 -90 360"
+    "scale" "1.0 1.0 1.0"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-949.00000000 -512.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-127.16720000 1016.34600000 340.10030000]"
-        "look" "[-153.70590000 924.75470000 329.00230000]"
+        "position" "[-578.02540000 -437.94830000 424.95390000]"
+        "look" "[-592.04120000 -522.57060000 381.83700000]"
     }
 }
 cordon
