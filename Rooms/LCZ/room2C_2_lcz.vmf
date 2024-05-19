@@ -42325,35 +42325,13 @@ entity
         "parentid" "1"
     }
 }
-entity
-{
-    "id" "777"
-    "classname" "mesh"
-    "angles" "360 89.08027 360"
-    "file" "buttonkeycard.b3d"
-    "position" "-227.72495 176 834.58091"
-    "scale" "8 8 5"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-227.72495000 834.58091000 176.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[61.15469000 36.68519000 349.73470000]"
-        "look" "[64.01015000 35.80789000 350.00270000]"
+        "position" "[-106.07660000 661.32860000 223.40720000]"
+        "look" "[-107.69670000 663.77940000 222.80390000]"
     }
 }
 cordon
