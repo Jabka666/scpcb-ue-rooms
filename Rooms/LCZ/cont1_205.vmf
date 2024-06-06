@@ -23492,13 +23492,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "727"
+    "classname" "mesh"
+    "angles" "360 -23.81299 360"
+    "file" "marker.b3d"
+    "position" "44.58283 122 265.1847"
+    "scale" "6 6 6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\marker_red.png"
+    "spawnflags" "0"
+    "origin" "44.58283000 265.18470000 122.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-579.69550000 377.78990000 153.06840000]"
-        "look" "[-505.56700000 349.76970000 98.88264000]"
+        "position" "[-244.09460000 691.46590000 241.39180000]"
+        "look" "[-212.23410000 601.83480000 228.45130000]"
     }
 }
 cordon

@@ -48268,13 +48268,35 @@ entity
     "classname" "mesh"
     "angles" "360 70.22291 360"
     "file" "sharpie.b3d"
-    "position" "375 137 553"
+    "position" "380 137 553"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "375.00000000 553.00000000 137.00000000"
+    "origin" "380.00000000 553.00000000 137.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1064"
+    "classname" "mesh"
+    "angles" "360 122.07701 360"
+    "file" "marker.b3d"
+    "position" "429 138 568"
+    "scale" "6 6 6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\marker_blue.png"
+    "spawnflags" "0"
+    "origin" "429.00000000 568.00000000 138.00000000"
     editor
     {
         "color" "255 0 255"
@@ -48289,8 +48311,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[409.70360000 289.88510000 225.61480000]"
-        "look" "[393.61960000 380.65870000 198.83010000]"
+        "position" "[359.43970000 402.21750000 232.30420000]"
+        "look" "[356.91430000 481.57140000 178.33620000]"
     }
 }
 cordon

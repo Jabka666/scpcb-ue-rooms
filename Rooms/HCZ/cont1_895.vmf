@@ -44259,13 +44259,57 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1705"
+    "classname" "mesh"
+    "angles" "360 115.42288 360"
+    "file" "marker.b3d"
+    "position" "-839 3 45"
+    "scale" "6 6 6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\marker_green.png"
+    "spawnflags" "0"
+    "origin" "-839.00000000 45.00000000 3.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1706"
+    "classname" "mesh"
+    "angles" "360 159.29545 360"
+    "file" "marker.b3d"
+    "position" "-648.88448 122 -328.87477"
+    "scale" "6 6 6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\marker_yellow.png"
+    "spawnflags" "0"
+    "origin" "-648.88448000 -328.87477000 122.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-860.47220000 242.15330000 235.66690000]"
-        "look" "[-872.32600000 148.26080000 251.78930000]"
+        "position" "[-622.05850000 -186.25090000 177.85200000]"
+        "look" "[-623.20110000 -272.81070000 136.35110000]"
     }
 }
 cordon
