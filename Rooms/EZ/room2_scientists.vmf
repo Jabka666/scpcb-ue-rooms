@@ -27092,13 +27092,145 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1284"
+    "classname" "mesh"
+    "angles" "360 43.05502 360"
+    "file" "sharpie.b3d"
+    "position" "756 120.99999 597"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "756.00000000 597.00000000 120.99999000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1285"
+    "classname" "mesh"
+    "angles" "360 -161.20414 360"
+    "file" "sharpie.b3d"
+    "position" "701 120.99999 -628"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "701.00000000 -628.00000000 120.99999000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1286"
+    "classname" "mesh"
+    "angles" "360 43.05502 360"
+    "file" "sharpie.b3d"
+    "position" "-597 123 308"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-597.00000000 308.00000000 123.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1287"
+    "classname" "mesh"
+    "angles" "360 0 450"
+    "file" "sharpie.b3d"
+    "position" "221 205 591"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "221.00000000 591.00000000 205.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1288"
+    "classname" "mesh"
+    "angles" "360 0 450"
+    "file" "sharpie.b3d"
+    "position" "221 205 -433"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "221.00000000 -433.00000000 205.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1289"
+    "classname" "mesh"
+    "angles" "360 180 450"
+    "file" "sharpie.b3d"
+    "position" "-317.01172 205 -149.05998"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-317.01172000 -149.05998000 205.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-825.27470000 292.18700000 243.40640000]"
-        "look" "[-767.86470000 215.27420000 245.52010000]"
+        "position" "[-231.29680000 -177.60640000 207.32170000]"
+        "look" "[-324.30360000 -158.45950000 221.43240000]"
     }
 }
 cordon

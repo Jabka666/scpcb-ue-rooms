@@ -17479,13 +17479,123 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1081"
+    "classname" "mesh"
+    "angles" "360 23.54077 360"
+    "file" "sharpie.b3d"
+    "position" "734.50007 120.99998 529.76548"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "734.50007000 529.76548000 120.99998000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1082"
+    "classname" "mesh"
+    "angles" "360 16.12184 360"
+    "file" "sharpie.b3d"
+    "position" "737.26818 120.99998 525.60653"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "737.26818000 525.60653000 120.99998000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1083"
+    "classname" "mesh"
+    "angles" "360 23.54077 360"
+    "file" "sharpie.b3d"
+    "position" "716.66609 120.99998 -903.62452"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "716.66609000 -903.62452000 120.99998000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1084"
+    "classname" "mesh"
+    "angles" "360 16.12184 360"
+    "file" "sharpie.b3d"
+    "position" "719.4342 120.99998 -907.78347"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "719.43420000 -907.78347000 120.99998000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1085"
+    "classname" "mesh"
+    "angles" "360 -58.60425 360"
+    "file" "sharpie.b3d"
+    "position" "718.07466 120.99997 -942.90708"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "718.07466000 -942.90708000 120.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-235.15570000 -586.29750000 231.90600000]"
-        "look" "[-181.78250000 -506.63340000 227.31670000]"
+        "position" "[817.81970000 -488.31480000 290.05790000]"
+        "look" "[781.44420000 -572.81990000 262.63850000]"
     }
 }
 cordon

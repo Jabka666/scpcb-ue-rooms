@@ -75492,13 +75492,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1224"
+    "classname" "mesh"
+    "angles" "360 -64.77709 360"
+    "file" "sharpie.b3d"
+    "position" "-816 121 -379"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-816.00000000 -379.00000000 121.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-968.28210000 -614.29850000 86.89986000]"
-        "look" "[-874.91010000 -602.67390000 67.86042000]"
+        "position" "[-833.20830000 -473.55790000 182.57550000]"
+        "look" "[-851.24360000 -386.67120000 145.94960000]"
     }
 }
 cordon
