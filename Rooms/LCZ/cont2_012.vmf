@@ -38722,7 +38722,7 @@ entity
     "id" "664"
     "classname" "mesh"
     "angles" "2.802361E-06 -9.886964E-06 14.99999"
-    "file" "boxfile_a.b3d"
+    "file" "boxfile.b3d"
     "position" "-170.6893 -647.0637 -383.457"
     "scale" "3 3 3"
     "hasCollision" "No"
@@ -38744,7 +38744,7 @@ entity
     "id" "665"
     "classname" "mesh"
     "angles" "0 0 -1.539293E-14"
-    "file" "boxfile_a.b3d"
+    "file" "boxfile.b3d"
     "position" "-197.8013 -648 -383.457"
     "scale" "3 3 3"
     "hasCollision" "No"
@@ -38766,12 +38766,12 @@ entity
     "id" "666"
     "classname" "mesh"
     "angles" "0 0 -1.539293E-14"
-    "file" "boxfile_b.b3d"
+    "file" "boxfile.b3d"
     "position" "-209.8013 -648 -383.457"
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
     "spawnflags" "0"
     "origin" "-209.80130000 -383.45700000 -648.00000000"
     editor
@@ -39073,7 +39073,7 @@ entity
     "id" "744"
     "classname" "mesh"
     "angles" "0 160 90"
-    "file" "boxfile_a.b3d"
+    "file" "boxfile.b3d"
     "position" "-332 82 -396"
     "scale" "3 3 3"
     "hasCollision" "No"
@@ -39211,8 +39211,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-570.12960000 -815.01970000 -377.17600000]"
-        "look" "[-547.96890000 -739.48480000 -432.12930000]"
+        "position" "[-295.50870000 -472.38740000 98.84800000]"
+        "look" "[-326.97450000 -385.08910000 74.24306000]"
     }
 }
 cordon

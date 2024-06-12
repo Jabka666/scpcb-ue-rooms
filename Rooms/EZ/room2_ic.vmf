@@ -20974,7 +20974,7 @@ entity
     "id" "115"
     "classname" "mesh"
     "angles" "359.99999 0 450"
-    "file" "boxfile_a.b3d"
+    "file" "boxfile.b3d"
     "position" "28 79 339.1569"
     "scale" "3 3 3"
     "hasCollision" "No"
@@ -20996,7 +20996,7 @@ entity
     "id" "116"
     "classname" "mesh"
     "angles" "359.99999 0 450"
-    "file" "boxfile_a.b3d"
+    "file" "boxfile.b3d"
     "position" "24 93 339.1569"
     "scale" "3 3 3"
     "hasCollision" "No"
@@ -21018,12 +21018,12 @@ entity
     "id" "134"
     "classname" "mesh"
     "angles" "360 0 417.54323"
-    "file" "boxfile_b.b3d"
+    "file" "boxfile.b3d"
     "position" "70 76 339.99999"
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
     "spawnflags" "0"
     "origin" "70.00000000 339.99999000 76.00000000"
     editor
@@ -21824,8 +21824,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[714.48370000 -298.02510000 120.91340000]"
-        "look" "[563.36450000 -179.82520000 113.39700000]"
+        "position" "[75.31443000 224.90730000 119.66000000]"
+        "look" "[30.64814000 403.85080000 66.28520000]"
     }
 }
 cordon
