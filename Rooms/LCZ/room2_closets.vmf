@@ -43679,50 +43679,6 @@ entity
 }
 entity
 {
-    "id" "1337"
-    "classname" "mesh"
-    "angles" "360 -90 360"
-    "file" "doorframe.b3d"
-    "position" "279 0 -576"
-    "scale" "1 1 1"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "279.00000000 -576.00000000 0.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1338"
-    "classname" "mesh"
-    "angles" "360 -90 360"
-    "file" "doorframe.b3d"
-    "position" "279 0 576"
-    "scale" "1 1 1"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "279.00000000 576.00000000 0.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1339"
     "classname" "mesh"
     "angles" "360 0 360"
@@ -44259,8 +44215,8 @@ cameras
     }
     camera
     {
-        "position" "[-454.30350000 459.67180000 438.45180000]"
-        "look" "[-449.82720000 460.76560000 438.47740000]"
+        "position" "[145.53470000 -530.48300000 172.04570000]"
+        "look" "[148.84930000 -533.67500000 171.80290000]"
     }
 }
 cordon
