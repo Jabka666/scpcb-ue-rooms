@@ -18215,11 +18215,9 @@ entity
 entity
 {
     "id" "493"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0 383.99997 -768"
     "range" "600"
     "spawnflags" "0"
@@ -18258,11 +18256,9 @@ entity
 entity
 {
     "id" "495"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0.00018 383.99997 -256.07574"
     "range" "600"
     "spawnflags" "0"
@@ -18301,11 +18297,9 @@ entity
 entity
 {
     "id" "497"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0 383.99997 255.98401"
     "range" "600"
     "spawnflags" "0"
@@ -18344,11 +18338,9 @@ entity
 entity
 {
     "id" "499"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0.00004 383.99997 767.99993"
     "range" "600"
     "spawnflags" "0"
@@ -18365,11 +18357,9 @@ entity
 entity
 {
     "id" "640"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "468 383.99997 -768.00004"
     "range" "600"
     "spawnflags" "0"
@@ -18408,11 +18398,9 @@ entity
 entity
 {
     "id" "642"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "468.00018 383.99997 -256.07578"
     "range" "600"
     "spawnflags" "0"
@@ -18451,11 +18439,9 @@ entity
 entity
 {
     "id" "644"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "468 383.99997 255.98398"
     "range" "600"
     "spawnflags" "0"
@@ -18494,11 +18480,9 @@ entity
 entity
 {
     "id" "646"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "468.00004 383.99997 767.9999"
     "range" "600"
     "spawnflags" "0"
@@ -20174,13 +20158,181 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "898"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "0.00004 383.99997 767.99993"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "0.00004000 767.99993000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "899"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "0 383.99997 255.98401"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "0.00000000 255.98401000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "900"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "0.00018 383.99997 -256.07574"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "0.00018000 -256.07574000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "901"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "0 383.99997 -768"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "0.00000000 -768.00000000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "902"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "468 383.99997 -768.00004"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "468.00000000 -768.00004000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "903"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "468.00018 383.99997 -256.07578"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "468.00018000 -256.07578000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "904"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "468 383.99997 255.98398"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "468.00000000 255.98398000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "905"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "468.00004 383.99997 767.9999"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "468.00004000 767.99990000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[281.91300000 931.67050000 187.39620000]"
-        "look" "[283.64740000 1021.89900000 154.65690000]"
+        "position" "[367.95450000 183.62410000 222.95340000]"
+        "look" "[392.56680000 90.93595000 227.33470000]"
     }
 }
 cordon

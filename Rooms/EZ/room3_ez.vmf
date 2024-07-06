@@ -30741,11 +30741,9 @@ entity
 entity
 {
     "id" "55"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "768.0002 383.99997 0"
     "range" "600"
     "spawnflags" "0"
@@ -31444,11 +31442,9 @@ entity
 entity
 {
     "id" "395"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "-768.0002 383.99997 -0.00002"
     "range" "600"
     "spawnflags" "0"
@@ -31465,11 +31461,9 @@ entity
 entity
 {
     "id" "406"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0.00002 383.99997 -768.0002"
     "range" "600"
     "spawnflags" "0"
@@ -32168,11 +32162,9 @@ entity
 entity
 {
     "id" "671"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "-618 383.99997 -618"
     "range" "600"
     "spawnflags" "0"
@@ -32211,11 +32203,9 @@ entity
 entity
 {
     "id" "694"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "618 383.99997 -618"
     "range" "600"
     "spawnflags" "0"
@@ -32607,13 +32597,118 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1070"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "768.0002 383.99997 0"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "768.00020000 0.00000000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1071"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "618 383.99997 -618"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "618.00000000 -618.00000000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1072"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "0.00002 383.99997 -768.0002"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "0.00002000 -768.00020000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1073"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "-618 383.99997 -618"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "-618.00000000 -618.00000000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1074"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "-768.0002 383.99997 -0.00002"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "-768.00020000 -0.00002000 383.99997000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "1"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[562.86070000 -721.31770000 254.82240000]"
-        "look" "[566.01990000 -708.07530000 240.17060000]"
+        "position" "[-547.20940000 118.30390000 293.21970000]"
+        "look" "[-565.12740000 112.02460000 299.50710000]"
     }
 }
 cordon

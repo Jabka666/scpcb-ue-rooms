@@ -57381,11 +57381,9 @@ entity
 entity
 {
     "id" "777"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0 384 0"
     "range" "600"
     "spawnflags" "0"
@@ -57630,11 +57628,9 @@ entity
 entity
 {
     "id" "933"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0 384 -517"
     "range" "600"
     "spawnflags" "0"
@@ -57651,11 +57647,9 @@ entity
 entity
 {
     "id" "939"
-    "classname" "light"
+    "classname" "light_fix"
     "color" "200 200 255"
-    "hassprite" "No"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "513 384 0"
     "range" "600"
     "spawnflags" "0"
@@ -57819,13 +57813,76 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "986"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "513 384 0"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "513.00000000 0.00000000 384.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "987"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "0 384 -517"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "0.00000000 -517.00000000 384.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "988"
+    "classname" "light"
+    "color" "200 200 255"
+    "hassprite" "No"
+    "intensity" "0.6"
+    "linearfalloff" "1"
+    "position" "0 384 0"
+    "range" "600"
+    "spawnflags" "0"
+    "origin" "0.00000000 0.00000000 384.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-1930.05400000 1245.79400000 1258.46700000]"
-        "look" "[-1932.49100000 1157.48700000 1220.88200000]"
+        "position" "[207.57600000 -137.24320000 245.32110000]"
+        "look" "[140.94690000 -83.89334000 289.26490000]"
     }
 }
 cordon
