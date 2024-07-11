@@ -96596,92 +96596,6 @@ entity
 }
 entity
 {
-    "id" "2998"
-    "classname" "mesh"
-    "angles" "0 180 0"
-    "file" "tank2.b3d"
-    "position" "-303.9941 560 176.0059"
-    "scale" "3 3 3"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-303.99410000 176.00590000 560.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "2999"
-    "classname" "mesh"
-    "angles" "0 180 0"
-    "file" "tank2.b3d"
-    "position" "-303.9941 560 -431.9941"
-    "scale" "3 3 3"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-303.99410000 -431.99410000 560.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "3000"
-    "classname" "model"
-    "angles" "0 180 0"
-    "file" "tank2"
-    "position" "-303.9941 560 176.0059"
-    "scale" "3 3 3"
-    "spawnflags" "0"
-    "origin" "-303.99410000 176.00590000 560.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "3001"
-    "classname" "model"
-    "angles" "0 180 0"
-    "file" "tank2"
-    "position" "-303.9941 560 -431.9941"
-    "scale" "3 3 3"
-    "spawnflags" "0"
-    "origin" "-303.99410000 -431.99410000 560.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "3002"
     "classname" "spotlight"
     "angles" "420 180 180"
@@ -97477,13 +97391,59 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "3300"
+    "classname" "mesh"
+    "angles" "0 180 0"
+    "file" "tank2.b3d"
+    "position" "-303.9941 560 -431.9941"
+    "scale" "3 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-303.99410000 -431.99410000 560.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "7"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "3301"
+    "classname" "mesh"
+    "angles" "0 180 0"
+    "file" "tank2.b3d"
+    "position" "-303.9941 560 176.0059"
+    "scale" "3 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-303.99410000 176.00590000 560.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "7"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-290.99040000 -941.38060000 -4844.17100000]"
-        "look" "[-200.24300000 -931.10350000 -4873.74900000]"
+        "position" "[-664.09500000 -136.14990000 1138.21700000]"
+        "look" "[-576.01810000 -100.40970000 1124.77600000]"
     }
 }
 cordon

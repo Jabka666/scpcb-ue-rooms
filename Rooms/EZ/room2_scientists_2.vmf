@@ -21705,11 +21705,14 @@ world
 entity
 {
     "id" "41"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "monitor"
+    "file" "monitor.b3d"
     "position" "694.1353 120 86.7605"
     "scale" "1.6 1.6 1.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "694.13530000 86.76050000 120.00000000"
     editor
@@ -21724,11 +21727,14 @@ entity
 entity
 {
     "id" "42"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "keyboard"
+    "file" "keyboard.b3d"
     "position" "654.238 120 85.9329"
     "scale" "1.7 1.7 1.7"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "654.23800000 85.93290000 120.00000000"
     editor
@@ -21789,7 +21795,7 @@ entity
     "id" "46"
     "classname" "mesh"
     "angles" "359.99999 -15 270"
-    "file" "boxfile"
+    "file" "boxfile.b3d"
     "position" "640.683 127.479 323.112"
     "scale" "3 3 3"
     "hasCollision" "No"
@@ -22007,11 +22013,14 @@ entity
 entity
 {
     "id" "59"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "monitor"
+    "file" "monitor.b3d"
     "position" "686.1353 120 -313.2394"
     "scale" "1.6 1.6 1.6"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "686.13530000 -313.23940000 120.00000000"
     editor
@@ -22026,11 +22035,14 @@ entity
 entity
 {
     "id" "60"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "keyboard"
+    "file" "keyboard.b3d"
     "position" "646.2379 120 -314.0671"
     "scale" "1.7 1.7 1.7"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "646.23790000 -314.06710000 120.00000000"
     editor
@@ -22091,7 +22103,7 @@ entity
     "id" "63"
     "classname" "mesh"
     "angles" "359.99999 110 270"
-    "file" "boxfile.b3d"
+    "file" "boxfile"
     "position" "357.4224 219.479 368.4842"
     "scale" "3 3 3"
     "hasCollision" "No"
@@ -22523,11 +22535,14 @@ entity
 entity
 {
     "id" "371"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -90 360"
-    "file" "mouse"
+    "file" "mouse.b3d"
     "position" "655 120 25"
     "scale" "0.2 0.2 0.2"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "655.00000000 25.00000000 120.00000000"
     editor
@@ -22542,11 +22557,14 @@ entity
 entity
 {
     "id" "372"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -61.94698 360"
-    "file" "mouse"
+    "file" "mouse.b3d"
     "position" "643.99969 120.00001 -383.99949"
     "scale" "0.2 0.2 0.2"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "643.99969000 -383.99949000 120.00001000"
     editor
@@ -23591,8 +23609,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[116.28050000 -190.91750000 225.69500000]"
-        "look" "[86.95888000 -282.32900000 225.76820000]"
+        "position" "[695.66810000 182.59830000 327.59630000]"
+        "look" "[619.40760000 234.00900000 300.08040000]"
     }
 }
 cordon

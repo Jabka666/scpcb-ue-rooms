@@ -79464,11 +79464,14 @@ entity
 entity
 {
     "id" "3084"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 90 360"
     "file" "lamp2"
     "position" "296.18684 -10073 1094.64351"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "296.18684000 1094.64351000 -10073.00000000"
     editor
@@ -79670,8 +79673,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-1290.32300000 776.69130000 -10444.19000000]"
-        "look" "[-1217.94300000 723.83580000 -10478.60000000]"
+        "position" "[-114.79070000 729.02980000 -10374.66000000]"
+        "look" "[-167.86790000 797.56980000 -10333.40000000]"
     }
 }
 cordon

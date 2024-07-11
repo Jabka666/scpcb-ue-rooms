@@ -46160,11 +46160,14 @@ entity
 entity
 {
     "id" "59"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "359.99999 -45 360"
     "file" "officeseat_a"
     "position" "-463.91111 0 -106.71143"
     "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-463.91111000 -106.71143000 0.00000000"
     editor
@@ -46907,7 +46910,7 @@ cameras
     camera
     {
         "position" "[-581.74640000 254.42480000 280.79430000]"
-        "look" "[-609.03380000 183.76000000 221.81900000]"
+        "look" "[-557.35960000 176.78500000 229.86740000]"
     }
 }
 cordon

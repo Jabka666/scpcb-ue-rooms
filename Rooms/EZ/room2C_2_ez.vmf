@@ -17668,11 +17668,14 @@ entity
 entity
 {
     "id" "232"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 -180 360"
     "file" "fire_extinguisher"
     "position" "-520 179 -309"
     "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-520.00000000 -309.00000000 179.00000000"
     editor
@@ -18614,8 +18617,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[469.14240000 -147.17810000 240.04930000]"
-        "look" "[562.17430000 -127.53020000 253.28120000]"
+        "position" "[-151.88270000 -104.21810000 269.86470000]"
+        "look" "[-240.61380000 -140.39310000 264.01410000]"
     }
 }
 cordon

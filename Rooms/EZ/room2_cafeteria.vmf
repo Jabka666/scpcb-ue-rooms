@@ -46256,11 +46256,14 @@ entity
 entity
 {
     "id" "753"
-    "classname" "model"
+    "classname" "mesh"
     "angles" "360 0 360"
-    "file" "mouse"
+    "file" "mouse.b3d"
     "position" "1621 -286.143 -641"
     "scale" "0.2 0.2 0.2"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "1621.00000000 -641.00000000 -286.14300000"
     editor
@@ -46739,8 +46742,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[1489.25600000 -791.61710000 -133.51130000]"
-        "look" "[1419.50800000 -794.15410000 -199.42440000]"
+        "position" "[1366.57100000 -724.39800000 70.66096000]"
+        "look" "[1420.60400000 -702.84810000 -5.70496400]"
     }
 }
 cordon

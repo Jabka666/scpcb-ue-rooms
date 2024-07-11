@@ -39473,29 +39473,6 @@ entity
 }
 entity
 {
-    "id" "669"
-    "classname" "mesh"
-    "angles" "360 0 360"
-    "file" "shelves_a"
-    "position" "-297 -383 -785"
-    "scale" "1 1 1"
-    "hasCollision" "Yes"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-297.00000000 -785.00000000 -383.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "671"
     "classname" "mesh"
     "angles" "360 0 450"
@@ -39732,13 +39709,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "692"
+    "classname" "mesh"
+    "angles" "360 180 360"
+    "file" "fire_extinguisher"
+    "position" "-1519 -187 580"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-1519.00000000 580.00000000 -187.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-204.83310000 -582.51490000 316.94430000]"
-        "look" "[-146.19180000 -658.37290000 321.90770000]"
+        "position" "[-1134.60600000 -421.39440000 -88.26647000]"
+        "look" "[-1045.64200000 -457.47450000 -89.52910000]"
     }
 }
 cordon
