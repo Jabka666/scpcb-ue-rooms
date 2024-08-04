@@ -9,6 +9,12 @@ versioninfo
 }
 visgroups
 {
+    visgroup
+    {
+        "name" "solids"
+        "visgroupid" "1"
+        "color" "0 128 255"
+    }
 }
 viewsettings
 {
@@ -260,34 +266,13 @@ world
         }
     }
 }
-entity
-{
-    "id" "8"
-    "classname" "light"
-    "color" "255 255 255"
-    "intensity" "0.7"
-    "linearfalloff" "1"
-    "position" "-1396 340 -59"
-    "range" "700"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "-1396.00000000 -59.00000000 340.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-858.54370000 483.75370000 353.53350000]"
-        "look" "[-927.54310000 417.26790000 347.64200000]"
+        "position" "[-759.48310000 438.55360000 628.57840000]"
+        "look" "[-761.39910000 354.67030000 581.93170000]"
     }
 }
 cordon

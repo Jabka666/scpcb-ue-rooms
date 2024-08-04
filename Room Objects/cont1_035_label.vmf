@@ -1,6 +1,6 @@
 versioninfo
 {
-    "editorname" "CBRE"
+    "editorname" "CBRE-EX"
     "editorversion" "1.0"
     "editorbuild" "0"
     "mapversion" "1"
@@ -13,19 +13,7 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 224 233"
-    }
-    visgroup
-    {
-        "name" "entities"
-        "visgroupid" "2"
-        "color" "0 184 225"
-    }
-    visgroup
-    {
-        "name" "models"
-        "visgroupid" "3"
-        "color" "0 139 155"
+        "color" "0 128 255"
     }
 }
 viewsettings
@@ -36,7 +24,9 @@ viewsettings
     "nGridSpacing" "2"
     "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
-    "bHideNullTextures" "0"
+    "bHideToolTextures" "0"
+    "bHideEntitySprites" "0"
+    "bHideMapOrigin" "0"
     "bTextureLock" "1"
     "bTextureScalingLock" "0"
 }
@@ -167,8 +157,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[12.09190000 -281.96260000 92.70714000]"
-        "look" "[12.09305000 -279.02580000 92.09357000]"
+        "position" "[7.55878000 -400.89180000 127.50530000]"
+        "look" "[7.66838900 -398.01620000 126.65670000]"
     }
 }
 cordon

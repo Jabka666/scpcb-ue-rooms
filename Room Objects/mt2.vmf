@@ -9,6 +9,24 @@ versioninfo
 }
 visgroups
 {
+    visgroup
+    {
+        "name" "solids"
+        "visgroupid" "1"
+        "color" "0 128 255"
+    }
+    visgroup
+    {
+        "name" "entities"
+        "visgroupid" "2"
+        "color" "0 255 255"
+    }
+    visgroup
+    {
+        "name" "hitboxes"
+        "visgroupid" "3"
+        "color" "255 128 128"
+    }
 }
 viewsettings
 {
@@ -39,8 +57,8 @@ world
             "id" "182"
             "plane" "(84.00000300 255.99995731 4.00000000) (-83.99999108 255.99995731 4.00000000) (-83.99999108 255.99995731 0.00000000)"
             "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 256] 0.4"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 256] 0.4"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.4"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.4"
             "rotation" "0"
             vertex
             {
@@ -56,8 +74,8 @@ world
             "id" "183"
             "plane" "(83.99998584 -255.99999978 0.00000000) (-84.00000824 -255.99999978 0.00000000) (-84.00000824 -255.99999978 4.00000000)"
             "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 256] 0.4"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 256] 0.4"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.4"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.4"
             "rotation" "0"
             vertex
             {
@@ -73,8 +91,8 @@ world
             "id" "184"
             "plane" "(-83.99999108 255.99995731 0.00000000) (-84.00000824 -255.99999978 0.00000000) (83.99998584 -255.99999978 0.00000000)"
             "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 256] 0.4"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 256] 0.4"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.4"
+            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.4"
             "rotation" "0"
             vertex
             {
@@ -254,6 +272,7 @@ world
         editor
         {
             "color" "0 194 145"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -367,6 +386,7 @@ world
         editor
         {
             "color" "0 194 145"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -729,6 +749,7 @@ world
         editor
         {
             "color" "0 171 215"
+            "visgroupid" "3"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -861,6 +882,7 @@ world
         editor
         {
             "color" "0 171 215"
+            "visgroupid" "3"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -974,6 +996,7 @@ world
         editor
         {
             "color" "0 198 139"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1087,6 +1110,7 @@ world
         editor
         {
             "color" "0 229 183"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1200,6 +1224,7 @@ world
         editor
         {
             "color" "0 226 237"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1313,6 +1338,7 @@ world
         editor
         {
             "color" "0 151 251"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1426,6 +1452,7 @@ world
         editor
         {
             "color" "0 135 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1539,6 +1566,7 @@ world
         editor
         {
             "color" "0 229 183"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1652,6 +1680,7 @@ world
         editor
         {
             "color" "0 151 251"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1765,6 +1794,7 @@ world
         editor
         {
             "color" "0 135 207"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1878,6 +1908,7 @@ world
         editor
         {
             "color" "0 198 139"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -1991,6 +2022,7 @@ world
         editor
         {
             "color" "0 226 237"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -2004,8 +2036,8 @@ world
             "id" "847"
             "plane" "(12.00000000 -20.00000000 418.87000000) (0.00000000 -20.00000000 421.00000000) (0.00000000 20.00000000 421.00000000)"
             "material" "tooltextures/remove_face"
-            "uaxis" "[0.98459773 0.00000000 -0.17483511 192.000000000000] 0.25000"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 660.00000000000] 0.25000"
+            "uaxis" "[0.98459773 0.00000000 -0.17483511 0.000000000000] 0.25000"
+            "vaxis" "[0.00000000 -1.00000000 0.00000000 20.00000000000] 0.25000"
             "rotation" "0"
             vertex
             {
@@ -2021,8 +2053,8 @@ world
             "id" "848"
             "plane" "(-12.00000000 20.00000000 418.87000000) (0.00000000 20.00000000 421.00000000) (0.00000000 -20.00000000 421.00000000)"
             "material" "tooltextures/remove_face"
-            "uaxis" "[0.98459773 0.00000000 0.17483511 192.000000000000] 0.25000"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 660.00000000000] 0.25000"
+            "uaxis" "[0.98459773 0.00000000 0.17483511 0.000000000000] 0.25000"
+            "vaxis" "[0.00000000 -1.00000000 0.00000000 20.00000000000] 0.25000"
             "rotation" "0"
             vertex
             {
@@ -2145,7 +2177,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "3"
+        "visgroupid" "2"
         "visgroupid" "6"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -2157,8 +2189,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[19.81614000 482.10830000 364.34900000]"
-        "look" "[18.51955000 386.39750000 357.01600000]"
+        "position" "[-33.16720000 538.15170000 362.81890000]"
+        "look" "[-26.96198000 445.98750000 336.67960000]"
     }
 }
 cordon

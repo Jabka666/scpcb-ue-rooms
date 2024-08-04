@@ -9,6 +9,12 @@ versioninfo
 }
 visgroups
 {
+    visgroup
+    {
+        "name" "hitboxes"
+        "visgroupid" "1"
+        "color" "255 128 128"
+    }
 }
 viewsettings
 {
@@ -139,6 +145,7 @@ world
         editor
         {
             "color" "0 214 165"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -253,6 +260,7 @@ world
         editor
         {
             "color" "0 208 211"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -367,6 +375,7 @@ world
         editor
         {
             "color" "0 225 196"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -481,6 +490,7 @@ world
         editor
         {
             "color" "0 225 137"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -595,6 +605,7 @@ world
         editor
         {
             "color" "0 134 133"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -709,6 +720,7 @@ world
         editor
         {
             "color" "0 189 159"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -823,6 +835,7 @@ world
         editor
         {
             "color" "0 194 137"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -937,6 +950,7 @@ world
         editor
         {
             "color" "0 189 131"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -1051,6 +1065,7 @@ world
         editor
         {
             "color" "0 242 142"
+            "visgroupid" "1"
             "visgroupid" "5"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -1063,8 +1078,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[191.24990000 134.98490000 464.82050000]"
-        "look" "[117.02200000 165.98530000 412.42600000]"
+        "position" "[173.21880000 361.42430000 397.14420000]"
+        "look" "[98.99085000 392.42470000 344.74970000]"
     }
 }
 cordon
