@@ -73524,13 +73524,51 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1747"
+    "classname" "light"
+    "color" "255 255 255"
+    "intensity" "1.0"
+    "range" "1.0"
+    "hassprite" "Yes"
+    "position" "1024 0 0"
+    "spawnflags" "0"
+    "origin" "1024.00000000 0.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1748"
+    "classname" "light"
+    "color" "255 255 255"
+    "intensity" "1.0"
+    "range" "1.0"
+    "hassprite" "Yes"
+    "position" "7202 0 1502"
+    "spawnflags" "0"
+    "origin" "7202.00000000 1502.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[5122.08300000 1986.17900000 3745.85000000]"
-        "look" "[5308.47900000 1994.85300000 3715.90600000]"
+        "position" "[9705.37000000 1782.54400000 2961.19600000]"
+        "look" "[9609.58400000 1629.68300000 2904.85900000]"
     }
     camera
     {
