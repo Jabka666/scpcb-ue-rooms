@@ -1,0 +1,25 @@
+{
+  "Name": "light_fix",
+  "Description": "Light emitter for HasNoSprite lights",
+  "Sprite": "sprites/lightbulb_fix",
+  "UseModelRendering": false,
+  "Properties": [
+    {
+		"Name": "color",
+		"SmartEditName": "Color",
+		"Type": "String"
+    },
+    {
+		"Name": "intensity",
+		"SmartEditName": "Intensity",
+		"Type": "Float",
+		"DefaultValue": "1.0"
+    },
+	{
+		"Name": "range",
+		"SmartEditName": "Range",
+		"Type": "Float",
+		"DefaultValue": "1000.0"
+    }
+  ]
+}
