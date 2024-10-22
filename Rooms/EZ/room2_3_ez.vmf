@@ -31325,9 +31325,9 @@ entity
 {
     "id" "1123"
     "classname" "waypoint"
-    "position" "-1323 416 288"
+    "position" "-1211 416 288"
     "spawnflags" "0"
-    "origin" "-1323.00000000 288.00000000 416.00000000"
+    "origin" "-1211.00000000 288.00000000 416.00000000"
     editor
     {
         "color" "255 0 255"
@@ -32145,13 +32145,79 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1229"
+    "classname" "mesh"
+    "angles" "360 -90 360"
+    "file" "table_a"
+    "position" "-1484 384 299"
+    "scale" "0.9 1 1.75"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-1484.00000000 299.00000000 384.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1230"
+    "classname" "mesh"
+    "angles" "359.99999 70.00003 360"
+    "file" "officeseat_a"
+    "position" "-1383 384 269"
+    "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-1383.00000000 269.00000000 384.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1231"
+    "classname" "mesh"
+    "angles" "359.99999 15.82547 360"
+    "file" "officeseat_a"
+    "position" "-1497 384 177"
+    "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-1497.00000000 177.00000000 384.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-881.88170000 -755.28780000 578.07290000]"
-        "look" "[-790.86040000 -761.22340000 548.13680000]"
+        "position" "[-1117.73400000 353.48920000 643.76150000]"
+        "look" "[-1209.10900000 336.74550000 619.53800000]"
     }
 }
 cordon
