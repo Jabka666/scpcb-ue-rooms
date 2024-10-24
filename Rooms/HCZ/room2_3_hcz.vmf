@@ -62274,15 +62274,15 @@ entity
 {
     "id" "830"
     "classname" "mesh"
-    "angles" "360 -180 450"
-    "file" "lamp3.b3d"
-    "position" "-207.00006 308.38798 0"
+    "angles" "360 180 450"
+    "file" "lamp3_b.b3d"
+    "position" "-207 308.38798 0"
     "scale" "350 350 350"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-207.00006000 0.00000000 308.38798000"
+    "origin" "-207.00000000 0.00000000 308.38798000"
     editor
     {
         "color" "255 0 255"
@@ -62297,8 +62297,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[62.53975000 -406.35460000 267.51630000]"
-        "look" "[67.35675000 -310.56540000 263.40020000]"
+        "position" "[50.29057000 -206.92470000 276.08360000]"
+        "look" "[-42.11626000 -180.91680000 276.61980000]"
     }
 }
 cordon

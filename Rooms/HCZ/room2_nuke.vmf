@@ -49108,15 +49108,15 @@ entity
 {
     "id" "1261"
     "classname" "mesh"
-    "angles" "0 90 90"
-    "file" "lamp3"
-    "position" "1504 432 254"
+    "angles" "360 90 450"
+    "file" "lamp3_b"
+    "position" "1504 432 252"
     "scale" "400 400 400"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "1504.00000000 254.00000000 432.00000000"
+    "origin" "1504.00000000 252.00000000 432.00000000"
     editor
     {
         "color" "255 0 255"
@@ -49132,8 +49132,8 @@ entity
 {
     "id" "1262"
     "classname" "mesh"
-    "angles" "0 270 90"
-    "file" "lamp3"
+    "angles" "360 -90 450"
+    "file" "lamp3_b"
     "position" "1504 432 -252"
     "scale" "400 400 400"
     "hasCollision" "No"
@@ -49156,15 +49156,15 @@ entity
 {
     "id" "1263"
     "classname" "mesh"
-    "angles" "0 90 90"
-    "file" "lamp3"
-    "position" "1504 4240 254"
+    "angles" "360 90 450"
+    "file" "lamp3_b"
+    "position" "1504 4240 252"
     "scale" "400 400 400"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "1504.00000000 254.00000000 4240.00000000"
+    "origin" "1504.00000000 252.00000000 4240.00000000"
     editor
     {
         "color" "255 0 255"
@@ -49180,8 +49180,8 @@ entity
 {
     "id" "1264"
     "classname" "mesh"
-    "angles" "0 270 90"
-    "file" "lamp3"
+    "angles" "360 -90 450"
+    "file" "lamp3_b"
     "position" "1504 4240 -252"
     "scale" "400 400 400"
     "hasCollision" "No"
@@ -49205,8 +49205,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[605.24730000 -708.63890000 4049.70900000]"
-        "look" "[518.00150000 -677.39680000 4024.63100000]"
+        "position" "[197.99040000 208.39370000 3998.46200000]"
+        "look" "[293.66410000 202.62050000 3992.97700000]"
     }
 }
 cordon

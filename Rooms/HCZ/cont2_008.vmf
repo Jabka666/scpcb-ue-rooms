@@ -97182,15 +97182,15 @@ entity
 {
     "id" "2823"
     "classname" "mesh"
-    "angles" "360 180 450"
-    "file" "lamp3"
-    "position" "-239 -4751 -63"
+    "angles" "360 -180 450"
+    "file" "lamp3_b"
+    "position" "-239 -4758 -64"
     "scale" "350 350 350"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-239.00000000 -63.00000000 -4751.00000000"
+    "origin" "-239.00000000 -64.00000000 -4758.00000000"
     editor
     {
         "color" "255 0 255"
@@ -97510,14 +97510,14 @@ entity
     "id" "3044"
     "classname" "mesh"
     "angles" "360 -90 450"
-    "file" "lamp3"
-    "position" "752 432 -254"
+    "file" "lamp3_b"
+    "position" "752 432 -252"
     "scale" "400 400 400"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "752.00000000 -254.00000000 432.00000000"
+    "origin" "752.00000000 -252.00000000 432.00000000"
     editor
     {
         "color" "255 0 255"
@@ -97534,7 +97534,7 @@ entity
     "id" "3045"
     "classname" "mesh"
     "angles" "360 90 450"
-    "file" "lamp3"
+    "file" "lamp3_b"
     "position" "752 432 252"
     "scale" "400 400 400"
     "hasCollision" "No"
@@ -97558,7 +97558,7 @@ entity
     "id" "3047"
     "classname" "mesh"
     "angles" "360 90 450"
-    "file" "lamp3"
+    "file" "lamp3_b"
     "position" "752 -4672 252"
     "scale" "400 400 400"
     "hasCollision" "No"
@@ -97582,14 +97582,14 @@ entity
     "id" "3048"
     "classname" "mesh"
     "angles" "360 -90 450"
-    "file" "lamp3"
-    "position" "752 -4672 -254"
+    "file" "lamp3_b"
+    "position" "752 -4672 -252"
     "scale" "400 400 400"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "752.00000000 -254.00000000 -4672.00000000"
+    "origin" "752.00000000 -252.00000000 -4672.00000000"
     editor
     {
         "color" "255 0 255"
@@ -98354,8 +98354,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-819.94830000 -1221.20600000 -4823.79300000]"
-        "look" "[-880.14620000 -1183.61300000 -4888.43200000]"
+        "position" "[649.81310000 -109.18120000 364.88500000]"
+        "look" "[681.31730000 -18.86659000 356.76140000]"
     }
 }
 cordon

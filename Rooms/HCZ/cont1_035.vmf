@@ -64315,14 +64315,14 @@ entity
     "id" "872"
     "classname" "mesh"
     "angles" "360 180 450"
-    "file" "lamp3"
-    "position" "817.49504 348 512.51308"
+    "file" "lamp3_b"
+    "position" "817 363 512"
     "scale" "350 350 350"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "817.49504000 512.51308000 348.00000000"
+    "origin" "817.00000000 512.00000000 363.00000000"
     editor
     {
         "color" "255 0 255"
@@ -64379,14 +64379,14 @@ entity
     "id" "876"
     "classname" "mesh"
     "angles" "360 0 450"
-    "file" "lamp3"
-    "position" "-177 353 -352.51291"
+    "file" "lamp3_b"
+    "position" "-177 362 -352"
     "scale" "350 350 350"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-177.00000000 -352.51291000 353.00000000"
+    "origin" "-177.00000000 -352.00000000 362.00000000"
     editor
     {
         "color" "255 0 255"
@@ -64840,13 +64840,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "940"
+    "classname" "mesh"
+    "angles" "360 -90 450"
+    "file" "lamp3_b"
+    "position" "-296 363 -111"
+    "scale" "350 350 350"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\pdwall.jpg"
+    "spawnflags" "0"
+    "origin" "-296.00000000 -111.00000000 363.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[260.74010000 619.69430000 208.74470000]"
-        "look" "[260.22860000 622.15770000 207.10930000]"
+        "position" "[-7.30964200 -854.57730000 258.14230000]"
+        "look" "[-4.31699800 -854.41300000 257.99550000]"
     }
 }
 cordon
