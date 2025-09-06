@@ -11176,224 +11176,16 @@ entity
 }
 entity
 {
-    "id" "194"
-    "classname" "spotlight"
-    "angles" "270 -180 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "-640 16 352"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "-640.00000000 352.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "197"
-    "classname" "light_fix"
-    "color" "255 255 255"
-    "intensity" "0.5"
-    "position" "0 15.99988 352"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "0.00000000 352.00000000 15.99988000"
-    editor
-    {
-        "color" "0 230 148"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "202"
-    "classname" "spotlight"
-    "angles" "270 -180 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "640 16 352"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "640.00000000 352.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "207"
-    "classname" "spotlight"
-    "angles" "270 -90 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "-352 16 -640"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "-352.00000000 -640.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "208"
-    "classname" "spotlight"
-    "angles" "270 0 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "-640 16 -352"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "-640.00000000 -352.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "209"
-    "classname" "light_fix"
-    "color" "255 255 255"
-    "intensity" "0.5"
-    "position" "-352 15.99988 -640"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "-352.00000000 -640.00000000 15.99988000"
-    editor
-    {
-        "color" "0 230 148"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "210"
-    "classname" "light_fix"
-    "color" "255 255 255"
-    "intensity" "0.5"
-    "position" "-640 15.99988 -352"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "-640.00000000 -352.00000000 15.99988000"
-    editor
-    {
-        "color" "0 230 148"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "211"
-    "classname" "light_fix"
-    "color" "255 255 255"
-    "intensity" "0.5"
-    "position" "-640 15.99988 352"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "-640.00000000 352.00000000 15.99988000"
-    editor
-    {
-        "color" "0 230 148"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "212"
-    "classname" "spotlight"
-    "angles" "270 -180 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "0 16 352"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "0.00000000 352.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "213"
-    "classname" "light_fix"
-    "color" "255 255 255"
-    "intensity" "0.5"
-    "position" "640 15.99988 352"
-    "range" "500"
-    "spawnflags" "0"
-    "origin" "640.00000000 352.00000000 15.99988000"
-    editor
-    {
-        "color" "0 230 148"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "214"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "0 15.99988 352"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 352.00000000 15.99988000"
     editor
@@ -11408,13 +11200,15 @@ entity
 entity
 {
     "id" "215"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "640 15.99988 352"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "640.00000000 352.00000000 15.99988000"
     editor
@@ -11429,13 +11223,15 @@ entity
 entity
 {
     "id" "216"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "-640 15.99988 352"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "-640.00000000 352.00000000 15.99988000"
     editor
@@ -11450,13 +11246,15 @@ entity
 entity
 {
     "id" "217"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "-640 15.99988 -352"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "-640.00000000 -352.00000000 15.99988000"
     editor
@@ -11471,13 +11269,15 @@ entity
 entity
 {
     "id" "218"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "-352 15.99988 -640"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "-352.00000000 -640.00000000 15.99988000"
     editor
@@ -11542,8 +11342,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-64.06920000 -379.48030000 304.50110000]"
-        "look" "[-1.73757600 -312.79150000 274.77930000]"
+        "position" "[235.13830000 -111.49250000 434.67930000]"
+        "look" "[293.50380000 -171.20930000 387.31480000]"
     }
 }
 cordon

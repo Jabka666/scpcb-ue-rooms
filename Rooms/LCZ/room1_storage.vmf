@@ -7276,7 +7276,7 @@ world
             "plane" "(-192.00000000 -976.00000000 279.00000000) (-191.00000000 -976.00000000 279.00000000) (-191.00000000 -976.00000000 239.00000000)"
             "material" "cable_black"
             "uaxis" "[1.00000000 0.00000000 0.00000000 0.00000000000000] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 -36.00000000000000] 0.25"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 28.00000000000000] 0.25"
             "rotation" "0"
             vertex
             {
@@ -7293,7 +7293,7 @@ world
             "plane" "(-192.00000000 -880.00000000 239.00000000) (-191.00000000 -880.00000000 239.00000000) (-191.00000000 -880.00000000 279.00000000)"
             "material" "cable_black"
             "uaxis" "[1.00000000 0.00000000 0.00000000 0.00000000000000] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 -36.00000000000000] 0.25"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 28.00000000000000] 0.25"
             "rotation" "0"
             vertex
             {
@@ -8045,83 +8045,16 @@ entity
 }
 entity
 {
-    "id" "198"
-    "classname" "spotlight"
-    "angles" "270 -180 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "-570 16 688"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "-570.00000000 688.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "202"
-    "classname" "spotlight"
-    "angles" "270 -180 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "-240 16 688"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "-240.00000000 688.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "206"
-    "classname" "spotlight"
-    "angles" "270 -180 270"
-    "color" "255 255 255"
-    "innerconeangle" "25"
-    "outerconeangle" "90"
-    "range" "500"
-    "position" "90 16 688"
-    "intensity" "0.5"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "90.00000000 688.00000000 16.00000000"
-    editor
-    {
-        "color" "0 146 141"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "207"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "-570 15.99988 688"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "-570.00000000 688.00000000 15.99988000"
     editor
@@ -8136,13 +8069,15 @@ entity
 entity
 {
     "id" "208"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "90 15.99988 688"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "90.00000000 688.00000000 15.99988000"
     editor
@@ -8157,13 +8092,15 @@ entity
 entity
 {
     "id" "209"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "intensity" "0.5"
-    "linearfalloff" "1"
     "position" "-240 15.99988 688"
     "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "15"
+    "angles" "-90 0 0"
     "spawnflags" "0"
     "origin" "-240.00000000 688.00000000 15.99988000"
     editor
@@ -8730,8 +8667,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-618.51090000 -551.68350000 135.95070000]"
-        "look" "[-672.29960000 -558.94320000 56.76772000]"
+        "position" "[-220.54960000 -31.84825000 239.95570000]"
+        "look" "[-221.15900000 62.04776000 219.97970000]"
     }
 }
 cordon
