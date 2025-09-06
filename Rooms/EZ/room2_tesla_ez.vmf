@@ -34054,8 +34054,8 @@ world
             "id" "6891"
             "plane" "(-256.00000005 773.99999990 252.00000000) (-256.00000005 801.99999990 252.00000000) (-253.21048230 801.99999998 252.00000000)"
             "material" "tooltextures/block_light"
-            "uaxis" "[-1.00000000 0.00000000 0.00000000 219.1575705600000000] 0.25"
-            "vaxis" "[-0.00000003 1.00000000 0.00000000 263.999969534727116800000000] 0.25"
+            "uaxis" "[-1.00000000 0.00000000 0.00000000 27.1575705600000000] 0.25"
+            "vaxis" "[-0.00000003 1.00000000 0.00000000 7.999969534727116800000000] 0.25"
             "rotation" "0"
             vertex
             {
@@ -46714,82 +46714,6 @@ entity
 }
 entity
 {
-    "id" "759"
-    "classname" "light_fix"
-    "color" "200 200 255"
-    "intensity" "0.6"
-    "position" "0.00011 704 767.99993"
-    "range" "600"
-    "spawnflags" "0"
-    "origin" "0.00011000 767.99993000 704.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "760"
-    "classname" "light_fix"
-    "color" "200 200 255"
-    "intensity" "0.6"
-    "position" "0.00007 704 255.98401"
-    "range" "600"
-    "spawnflags" "0"
-    "origin" "0.00007000 255.98401000 704.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "761"
-    "classname" "light_fix"
-    "color" "200 200 255"
-    "intensity" "0.6"
-    "position" "0.00025 704 -256.07574"
-    "range" "600"
-    "spawnflags" "0"
-    "origin" "0.00025000 -256.07574000 704.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "762"
-    "classname" "light_fix"
-    "color" "200 200 255"
-    "intensity" "0.6"
-    "position" "0.00007 704 -768"
-    "range" "600"
-    "spawnflags" "0"
-    "origin" "0.00007000 -768.00000000 704.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "764"
     "classname" "mesh"
     "angles" "360 180 360"
@@ -47225,13 +47149,15 @@ entity
 entity
 {
     "id" "1214"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
-    "hassprite" "No"
-    "intensity" "0.6"
-    "linearfalloff" "1"
+    "hassprite" "Yes"
+    "intensity" "0.5"
     "position" "0.00011 704 767.99993"
-    "range" "600"
+    "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "30"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00011000 767.99993000 704.00000000"
     editor
@@ -47246,13 +47172,15 @@ entity
 entity
 {
     "id" "1215"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
-    "hassprite" "No"
-    "intensity" "0.6"
-    "linearfalloff" "1"
+    "hassprite" "Yes"
+    "intensity" "0.5"
     "position" "0.00007 704 255.98401"
-    "range" "600"
+    "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "30"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00007000 255.98401000 704.00000000"
     editor
@@ -47267,13 +47195,15 @@ entity
 entity
 {
     "id" "1216"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
-    "hassprite" "No"
-    "intensity" "0.6"
-    "linearfalloff" "1"
+    "hassprite" "Yes"
+    "intensity" "0.5"
     "position" "0.00025 704 -256.07574"
-    "range" "600"
+    "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "30"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00025000 -256.07574000 704.00000000"
     editor
@@ -47288,13 +47218,15 @@ entity
 entity
 {
     "id" "1217"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
-    "hassprite" "No"
-    "intensity" "0.6"
-    "linearfalloff" "1"
+    "hassprite" "Yes"
+    "intensity" "0.5"
     "position" "0.00007 704 -768"
-    "range" "600"
+    "range" "500"
+    "innerconeangle" "0"
+    "outerconeangle" "30"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00007000 -768.00000000 704.00000000"
     editor
@@ -47485,8 +47417,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-94.90248000 -701.53250000 302.31920000]"
-        "look" "[-190.07900000 -712.87070000 307.72160000]"
+        "position" "[-148.43640000 -687.28480000 450.14570000]"
+        "look" "[-96.93793000 -687.79460000 531.16390000]"
     }
 }
 cordon
