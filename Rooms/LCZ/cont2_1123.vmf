@@ -26427,15 +26427,15 @@ entity
 {
     "id" "1453"
     "classname" "mesh"
-    "angles" "360 176.35162 360"
+    "angles" "360 -172.42299 360"
     "file" "monitor.b3d"
-    "position" "818.41965 120.00002 -964.9161"
+    "position" "818.4142 120.00001 -965.02327"
     "scale" "1.7 1.7 1.7"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "818.41965000 -964.91610000 120.00002000"
+    "origin" "818.41420000 -965.02327000 120.00001000"
     editor
     {
         "color" "255 0 255"
@@ -26478,28 +26478,6 @@ entity
     {
         "color" "255 0 255"
         "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1465"
-    "classname" "mesh"
-    "angles" "360 176.35162 360"
-    "file" "monitor.b3d"
-    "position" "818.41965 4985.00002 -964.9161"
-    "scale" "1.7 1.7 1.7"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "818.41965000 -964.91610000 4985.00002000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -26799,32 +26777,13 @@ entity
 {
     "id" "1543"
     "classname" "save_screen"
-    "position" "819.03661 160.00002 -955.39019"
+    "position" "818.14919 160.00001 -958.6297"
     "file" "save_screen.b3d"
-    "angles" "360 -4.19861 360"
-    "scale" "0.58 0.65 1.0"
+    "angles" "360 7.57701 360"
+    "scale" "0.9 0.7 1.0"
     "imgpath" "chatscreen_office.png"
     "spawnflags" "0"
-    "origin" "819.03661000 -955.39019000 160.00002000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1544"
-    "classname" "save_screen"
-    "position" "819.03661 5023.97246 -955.39019"
-    "file" "save_screen.b3d"
-    "angles" "360 -4.19861 360"
-    "scale" "0.58 0.65 1.0"
-    "imgpath" "chatscreen_office.png"
-    "spawnflags" "0"
-    "origin" "819.03661000 -955.39019000 5023.97246000"
+    "origin" "818.14919000 -958.62970000 160.00001000"
     editor
     {
         "color" "255 0 255"
@@ -26990,13 +26949,77 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1642"
+    "classname" "mesh"
+    "angles" "360 -172.42299 360"
+    "file" "monitor.b3d"
+    "position" "818.41415 4985.00013 -965.02327"
+    "scale" "1.7 1.7 1.7"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "818.41415000 -965.02327000 4985.00013000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1643"
+    "classname" "save_screen"
+    "position" "818.14914 5025.00013 -958.6297"
+    "file" "save_screen.b3d"
+    "angles" "360 7.57701 360"
+    "scale" "0.9 0.7 1.0"
+    "imgpath" "chatscreen_office.png"
+    "spawnflags" "0"
+    "origin" "818.14914000 -958.62970000 5025.00013000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1644"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "table_a"
+    "position" "591.99995 4865.00012 -935"
+    "scale" "1 1 1"
+    "hasCollision" "Yes"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "591.99995000 -935.00000000 4865.00012000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupid" "7"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[184.87540000 387.07340000 201.47040000]"
-        "look" "[123.99430000 314.10630000 187.87420000]"
+        "position" "[30.02859000 -41.11183000 361.38570000]"
+        "look" "[63.01007000 -127.16390000 334.50050000]"
     }
 }
 cordon

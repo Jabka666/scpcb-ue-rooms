@@ -38151,13 +38151,13 @@ entity
     "classname" "mesh"
     "angles" "360 120.731 360"
     "file" "monitor.b3d"
-    "position" "1856.39115 344 -245.94382"
+    "position" "1863 344 -270"
     "scale" "1.7 1.7 1.7"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "1856.39115000 -245.94382000 344.00000000"
+    "origin" "1863.00000000 -270.00000000 344.00000000"
     editor
     {
         "color" "255 0 255"
@@ -38173,13 +38173,13 @@ entity
     "classname" "mesh"
     "angles" "360 61.71531 360"
     "file" "monitor.b3d"
-    "position" "1857.62178 344.00005 -95.09675"
+    "position" "1861 344.00005 -67"
     "scale" "1.7 1.7 1.7"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "1857.62178000 -95.09675000 344.00005000"
+    "origin" "1861.00000000 -67.00000000 344.00005000"
     editor
     {
         "color" "255 0 255"
@@ -39480,13 +39480,13 @@ entity
 {
     "id" "1285"
     "classname" "save_screen"
-    "position" "1559.53699 383.28638 441.97097"
+    "position" "1558 383.28638 446"
     "file" "save_screen.b3d"
-    "angles" "360 -180 360"
-    "scale" "0.58 0.65 1.0"
+    "angles" "360 180 360"
+    "scale" "0.9 0.7 1.0"
     "imgpath" "chatscreen_Rosewood.png"
     "spawnflags" "0"
-    "origin" "1559.53699000 441.97097000 383.28638000"
+    "origin" "1558.00000000 446.00000000 383.28638000"
     editor
     {
         "color" "255 0 255"
@@ -39521,8 +39521,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-1.96806000 -596.72050000 307.84240000]"
-        "look" "[-64.43754000 -523.82060000 307.87460000]"
+        "position" "[1993.19800000 -99.12014000 508.35430000]"
+        "look" "[1919.88000000 -133.78000000 456.97280000]"
     }
 }
 cordon
