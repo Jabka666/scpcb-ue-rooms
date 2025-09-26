@@ -9,6 +9,12 @@ versioninfo
 }
 visgroups
 {
+    visgroup
+    {
+        "name" "solids"
+        "visgroupid" "1"
+        "color" "0 128 255"
+    }
 }
 viewsettings
 {
@@ -139,6 +145,7 @@ world
         editor
         {
             "color" "0 179 190"
+            "visgroupid" "1"
             "visgroupid" "2"
             "visgroupid" "8"
             "visgroupshown" "1"
@@ -254,6 +261,7 @@ world
         editor
         {
             "color" "0 236 215"
+            "visgroupid" "1"
             "visgroupid" "2"
             "visgroupid" "8"
             "visgroupshown" "1"
@@ -369,6 +377,7 @@ world
         editor
         {
             "color" "0 146 165"
+            "visgroupid" "1"
             "visgroupid" "2"
             "visgroupid" "8"
             "visgroupshown" "1"
@@ -484,6 +493,7 @@ world
         editor
         {
             "color" "0 179 190"
+            "visgroupid" "1"
             "visgroupid" "2"
             "visgroupid" "8"
             "visgroupshown" "1"
@@ -492,35 +502,13 @@ world
         }
     }
 }
-entity
-{
-    "id" "7"
-    "classname" "light"
-    "color" "255 150 150"
-    "intensity" "0.7"
-    "linearfalloff" "1"
-    "position" "0 5197 -268"
-    "range" "700"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "0.00000000 -268.00000000 5197.00000000"
-    editor
-    {
-        "color" "0 237 173"
-        "visgroupid" "4"
-        "visgroupid" "8"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[6.48844700 -703.01860000 1417.04400000]"
-        "look" "[79.27928000 -678.69040000 1359.37500000]"
+        "position" "[18.27275000 -725.79300000 5220.37500000]"
+        "look" "[10.50739000 -630.47580000 5211.98400000]"
     }
 }
 cordon

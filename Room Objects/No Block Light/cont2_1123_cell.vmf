@@ -37965,10 +37965,9 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "682 5237 -672"
     "range" "600"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "682.00000000 -672.00000000 5237.00000000"
     editor
@@ -37987,10 +37986,9 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "746 5237 32"
     "range" "600"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "746.00000000 32.00000000 5237.00000000"
     editor
@@ -38009,10 +38007,9 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "550 5237 671"
     "range" "600"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "550.00000000 671.00000000 5237.00000000"
     editor
@@ -38031,10 +38028,9 @@ entity
     "classname" "light"
     "color" "255 150 150"
     "intensity" "0.7"
-    "linearfalloff" "1"
     "position" "-668 5197 712"
     "range" "700"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "-668.00000000 712.00000000 5197.00000000"
     editor
@@ -38053,10 +38049,9 @@ entity
     "classname" "light"
     "color" "255 150 150"
     "intensity" "0.7"
-    "linearfalloff" "1"
     "position" "0 5197 712"
     "range" "700"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "0.00000000 712.00000000 5197.00000000"
     editor
@@ -38075,10 +38070,9 @@ entity
     "classname" "light"
     "color" "255 150 150"
     "intensity" "0.7"
-    "linearfalloff" "1"
     "position" "-668 5197 -268"
     "range" "700"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "-668.00000000 -268.00000000 5197.00000000"
     editor
@@ -38097,10 +38091,9 @@ entity
     "classname" "light"
     "color" "255 150 150"
     "intensity" "0.7"
-    "linearfalloff" "1"
     "position" "0 5197 -268"
     "range" "700"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "0.00000000 -268.00000000 5197.00000000"
     editor
@@ -38119,10 +38112,9 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "912.00014 5237 857"
     "range" "600"
-    "hassprite" "No"
+    "hassprite" "Yes"
     "spawnflags" "0"
     "origin" "912.00014000 857.00000000 5237.00000000"
     editor
@@ -38140,8 +38132,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[40.28503000 -268.26650000 5122.38200000]"
-        "look" "[29.27461000 -251.57390000 5122.82200000]"
+        "position" "[-405.78640000 800.84390000 5123.57400000]"
+        "look" "[-423.85540000 792.26660000 5123.66200000]"
     }
 }
 cordon

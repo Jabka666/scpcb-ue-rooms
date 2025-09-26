@@ -9315,15 +9315,14 @@ entity
     "id" "207"
     "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "Yes"
+    "hassprite" "No"
     "intensity" "0.5"
-    "position" "-570 15.99988 688"
+    "position" "-570 15.99988 690"
     "range" "500"
-    "innerconeangle" "0"
-    "outerconeangle" "15"
-    "angles" "-90 0 0"
+    "angles" "270 0 270"
+    "fov" "15"
     "spawnflags" "0"
-    "origin" "-570.00000000 688.00000000 15.99988000"
+    "origin" "-570.00000000 690.00000000 15.99988000"
     editor
     {
         "color" "0 230 148"
@@ -9338,15 +9337,14 @@ entity
     "id" "208"
     "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "Yes"
+    "hassprite" "No"
     "intensity" "0.5"
-    "position" "90 15.99988 688"
+    "position" "90 15.99988 690"
     "range" "500"
-    "innerconeangle" "0"
-    "outerconeangle" "15"
-    "angles" "-90 0 0"
+    "angles" "270 0 270"
+    "fov" "15"
     "spawnflags" "0"
-    "origin" "90.00000000 688.00000000 15.99988000"
+    "origin" "90.00000000 690.00000000 15.99988000"
     editor
     {
         "color" "0 230 148"
@@ -9361,15 +9359,14 @@ entity
     "id" "209"
     "classname" "spotlight"
     "color" "255 255 255"
-    "hassprite" "Yes"
+    "hassprite" "No"
     "intensity" "0.5"
-    "position" "-240 15.99988 688"
+    "position" "-240 15.99988 690"
     "range" "500"
-    "innerconeangle" "0"
-    "outerconeangle" "15"
-    "angles" "-90 0 0"
+    "angles" "270 0 270"
+    "fov" "15"
     "spawnflags" "0"
-    "origin" "-240.00000000 688.00000000 15.99988000"
+    "origin" "-240.00000000 690.00000000 15.99988000"
     editor
     {
         "color" "0 230 148"
@@ -9693,7 +9690,6 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "0 372 -768"
     "range" "600"
     "spawnflags" "0"
@@ -10021,8 +10017,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-5.71545500 -172.54330000 240.12900000]"
-        "look" "[-11.80299000 -76.75116000 241.80190000]"
+        "position" "[-173.20900000 -140.50560000 202.34170000]"
+        "look" "[-177.43370000 -47.14539000 180.38670000]"
     }
 }
 cordon

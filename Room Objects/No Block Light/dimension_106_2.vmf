@@ -1995,8 +1995,9 @@ entity
     "color" "255 200 200"
     "intensity" "0.25"
     "range" "400"
-    "hassprite" "Yes"
+    "hassprite" "No"
     "position" "0 72.5 512"
+    "castshadows" "No"
     "spawnflags" "0"
     "origin" "0.00000000 512.00000000 72.50000000"
     editor
@@ -2014,7 +2015,7 @@ cameras
     camera
     {
         "position" "[12.56155000 191.13230000 237.79770000]"
-        "look" "[13.72446000 285.78700000 221.82190000]"
+        "look" "[7.43062500 282.78230000 209.69010000]"
     }
 }
 cordon

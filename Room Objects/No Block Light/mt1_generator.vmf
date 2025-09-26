@@ -20212,48 +20212,6 @@ world
 }
 entity
 {
-    "id" "654"
-    "classname" "light"
-    "color" "255 200 200"
-    "hassprite" "No"
-    "intensity" "0.7"
-    "position" "0 409 -511.00001"
-    "range" "700"
-    "spawnflags" "0"
-    "origin" "0.00000000 -511.00001000 409.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "6"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "660"
-    "classname" "light"
-    "color" "255 200 200"
-    "intensity" "0.85"
-    "position" "0 396.17593 536"
-    "range" "850"
-    "hassprite" "No"
-    "spawnflags" "0"
-    "origin" "0.00000000 536.00000000 396.17593000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "8"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "704"
     "classname" "mesh"
     "angles" "360 180 360"
@@ -20298,13 +20256,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "706"
+    "classname" "spotlight"
+    "angles" "449.95085 180 180"
+    "color" "255 200 200"
+    "intensity" "1.0"
+    "position" "0 400 535.99999"
+    "range" "1000"
+    "fov" "45"
+    "spawnflags" "0"
+    "origin" "0.00000000 535.99999000 400.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "7"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[18.21436000 472.74090000 173.22880000]"
-        "look" "[24.48532000 559.12810000 131.82960000]"
+        "position" "[-26.67967000 19.88998000 251.21150000]"
+        "look" "[-25.02550000 114.17220000 233.20860000]"
     }
 }
 cordon

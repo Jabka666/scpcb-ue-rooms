@@ -13,7 +13,7 @@ visgroups
     {
         "name" "solids"
         "visgroupid" "1"
-        "color" "0 128 192"
+        "color" "0 128 255"
     }
     visgroup
     {
@@ -75767,9 +75767,9 @@ entity
     "color" "255 236 206"
     "hassprite" "No"
     "intensity" "1.2"
-    "linearfalloff" "1"
     "position" "-1876.999 512 2159"
     "range" "300"
+    "castshadows" "Yes"
     "spawnflags" "0"
     "origin" "-1876.99900000 2159.00000000 512.00000000"
     editor
@@ -75809,9 +75809,9 @@ entity
     "color" "255 236 206"
     "hassprite" "No"
     "intensity" "1.4"
-    "linearfalloff" "1"
     "position" "-2106 2220 2283"
     "range" "2500"
+    "castshadows" "Yes"
     "spawnflags" "0"
     "origin" "-2106.00000000 2283.00000000 2220.00000000"
     editor
@@ -75830,9 +75830,9 @@ entity
     "color" "255 236 206"
     "hassprite" "No"
     "intensity" "1.3"
-    "linearfalloff" "1"
     "position" "-366 2620 2238"
     "range" "10000"
+    "castshadows" "Yes"
     "spawnflags" "0"
     "origin" "-366.00000000 2238.00000000 2620.00000000"
     editor
@@ -75849,8 +75849,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-781.49490000 2071.88500000 1388.00000000]"
-        "look" "[-815.24020000 2061.73600000 1477.30100000]"
+        "position" "[-1831.20300000 1915.50200000 935.29930000]"
+        "look" "[-1855.70800000 1958.73400000 853.15930000]"
     }
 }
 cordon

@@ -25544,7 +25544,6 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.7"
-    "linearfalloff" "1"
     "position" "0 788.19523 -352"
     "range" "700"
     "spawnflags" "0"
@@ -25564,7 +25563,6 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.7"
-    "linearfalloff" "1"
     "position" "0 788 352"
     "range" "700"
     "spawnflags" "0"
@@ -25650,7 +25648,6 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "intensity" "0.6"
-    "linearfalloff" "1"
     "position" "752 469 0"
     "range" "600"
     "spawnflags" "0"
@@ -25821,8 +25818,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-15.10484000 184.45520000 391.51860000]"
-        "look" "[5.53556800 -6.23709100 400.16720000]"
+        "position" "[-49.26560000 266.79360000 329.99770000]"
+        "look" "[0.02444077 452.23490000 323.18320000]"
     }
 }
 cordon

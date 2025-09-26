@@ -11,12 +11,6 @@ visgroups
 {
     visgroup
     {
-        "name" "entities"
-        "visgroupid" "1"
-        "color" "0 255 255"
-    }
-    visgroup
-    {
         "name" "solids"
         "visgroupid" "2"
         "color" "0 128 255"
@@ -1117,33 +1111,13 @@ world
         }
     }
 }
-entity
-{
-    "id" "15"
-    "classname" "light"
-    "color" "255 255 255"
-    "hassprite" "No"
-    "intensity" "2.2"
-    "position" "0 1024 768"
-    "range" "2200"
-    "spawnflags" "0"
-    "origin" "0.00000000 768.00000000 1024.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "1"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-43.13011000 849.39870000 893.65890000]"
-        "look" "[-34.17826000 775.02720000 833.61930000]"
+        "position" "[-46.30056000 875.73860000 914.92290000]"
+        "look" "[-37.34871000 801.36710000 854.88320000]"
     }
 }
 cordon
