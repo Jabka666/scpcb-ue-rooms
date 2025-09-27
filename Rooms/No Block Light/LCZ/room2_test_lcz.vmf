@@ -37853,28 +37853,6 @@ entity
 }
 entity
 {
-    "id" "893"
-    "classname" "light"
-    "color" "255 50 50"
-    "intensity" "1"
-    "position" "-303 214 283"
-    "range" "100"
-    "hassprite" "Yes"
-    "spritescale" "0.1"
-    "castshadows" "No"
-    "spawnflags" "0"
-    "origin" "-303.00000000 283.00000000 214.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "894"
     "classname" "mesh"
     "angles" "360 90 360"
@@ -37981,13 +37959,37 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "955"
+    "classname" "spotlight"
+    "color" "255 50 50"
+    "intensity" "0.5"
+    "position" "-290 214 283"
+    "range" "150"
+    "hassprite" "Yes"
+    "spritescale" "0.1"
+    "castshadows" "No"
+    "fov" "70"
+    "angles" "390 90 360"
+    "spawnflags" "0"
+    "origin" "-290.00000000 283.00000000 214.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-27.01939000 -305.72840000 241.08450000]"
-        "look" "[-58.68902000 -219.14170000 214.32390000]"
+        "position" "[-512.35580000 253.44500000 233.99700000]"
+        "look" "[-417.40160000 265.28090000 226.25380000]"
     }
 }
 cordon
