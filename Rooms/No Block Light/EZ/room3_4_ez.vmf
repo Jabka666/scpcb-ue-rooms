@@ -8095,12 +8095,12 @@ entity
     "color" "200 200 255"
     "hassprite" "No"
     "intensity" "0.5"
-    "position" "-768.0002 383.99997 -0.00002"
+    "position" "-768 401 -0.00002"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "-768.00020000 -0.00002000 383.99997000"
+    "origin" "-768.00000000 -0.00002000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -8117,12 +8117,12 @@ entity
     "color" "200 200 255"
     "hassprite" "No"
     "intensity" "0.5"
-    "position" "768.0002 383.99997 0"
+    "position" "768.0004 401 0"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "768.00020000 0.00000000 383.99997000"
+    "origin" "768.00040000 0.00000000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -8139,12 +8139,12 @@ entity
     "color" "200 200 255"
     "hassprite" "No"
     "intensity" "0.5"
-    "position" "0.00002 383.99997 -768.0002"
+    "position" "0.00022 401 -768.0002"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00002000 -768.00020000 383.99997000"
+    "origin" "0.00022000 -768.00020000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -8204,28 +8204,6 @@ entity
 }
 entity
 {
-    "id" "314"
-    "classname" "light"
-    "color" "255 50 50"
-    "intensity" "1"
-    "position" "0 296.10854 529"
-    "range" "100"
-    "hassprite" "Yes"
-    "spritescale" "0.1"
-    "castshadows" "No"
-    "spawnflags" "0"
-    "origin" "0.00000000 529.00000000 296.10854000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "315"
     "classname" "mesh"
     "angles" "360 90 360"
@@ -8246,13 +8224,37 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "316"
+    "classname" "spotlight"
+    "color" "255 50 50"
+    "intensity" "0.5"
+    "position" "0 296.10854 542"
+    "range" "150"
+    "hassprite" "Yes"
+    "spritescale" "0.1"
+    "castshadows" "No"
+    "fov" "70"
+    "angles" "390 -180 360"
+    "spawnflags" "0"
+    "origin" "0.00000000 542.00000000 296.10854000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-245.39550000 61.76556000 216.86810000]"
-        "look" "[-199.08750000 143.64510000 236.03260000]"
+        "position" "[213.59750000 -166.38790000 317.22890000]"
+        "look" "[308.08970000 -150.99540000 324.31870000]"
     }
 }
 cordon

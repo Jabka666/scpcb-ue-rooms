@@ -25206,13 +25206,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "512.00102 387.00005 -33.00072"
+    "position" "512.00006 404 -33.00072"
     "range" "500"
-    "innerconeangle" "0"
-    "outerconeangle" "30"
     "angles" "90 0 0"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "512.00102000 -33.00072000 387.00005000"
+    "origin" "512.00006000 -33.00072000 404.00000000"
     editor
     {
         "color" "255 0 255"
@@ -25229,12 +25228,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "0.00092 387.00005 -32.99719"
+    "position" "-0.00004 404 -32.99719"
     "range" "500"
     "angles" "90 0 0"
-    "fov" "25"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00092000 -32.99719000 387.00005000"
+    "origin" "-0.00004000 -32.99719000 404.00000000"
     editor
     {
         "color" "255 0 255"
@@ -25251,12 +25250,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "-511.99898 387.00005 -33.00072"
+    "position" "-511.99994 404 -33.00072"
     "range" "500"
     "angles" "90 0 0"
-    "fov" "25"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "-511.99898000 -33.00072000 387.00005000"
+    "origin" "-511.99994000 -33.00072000 404.00000000"
     editor
     {
         "color" "255 0 255"
@@ -25273,12 +25272,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "1024.00096 384.00005 -633.00072"
+    "position" "1024 401 -633.00072"
     "range" "500"
     "angles" "90 0 0"
-    "fov" "25"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "1024.00096000 -633.00072000 384.00005000"
+    "origin" "1024.00000000 -633.00072000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -25295,12 +25294,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "512.00096 384.00005 -633.00072"
+    "position" "512 401 -633.00072"
     "range" "500"
     "angles" "90 0 0"
-    "fov" "25"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "512.00096000 -633.00072000 384.00005000"
+    "origin" "512.00000000 -633.00072000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -25317,12 +25316,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "0.00096 384.00005 -633.00072"
+    "position" "0 401 -633.00072"
     "range" "500"
     "angles" "90 0 0"
-    "fov" "25"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00096000 -633.00072000 384.00005000"
+    "origin" "0.00000000 -633.00072000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -25339,12 +25338,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "-511.99904 384.00005 -633.00072"
+    "position" "-512 401 -633.00072"
     "range" "500"
     "angles" "90 0 0"
-    "fov" "25"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "-511.99904000 -633.00072000 384.00005000"
+    "origin" "-512.00000000 -633.00072000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -25361,12 +25360,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "-1023.99904 384 -633.00072"
+    "position" "-1024 400.99995 -633.00072"
     "range" "500"
     "angles" "90 0 0"
-    "fov" "25"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "-1023.99904000 -633.00072000 384.00000000"
+    "origin" "-1024.00000000 -633.00072000 400.99995000"
     editor
     {
         "color" "255 0 255"
@@ -25401,19 +25400,22 @@ entity
 entity
 {
     "id" "851"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 50 50"
-    "intensity" "1"
-    "position" "662 296.10854 -977"
-    "range" "100"
+    "intensity" "0.5"
+    "position" "662 296.10854 -990"
+    "range" "150"
     "hassprite" "Yes"
     "spritescale" "0.1"
     "castshadows" "No"
+    "fov" "70"
+    "angles" "390 0 390"
     "spawnflags" "0"
-    "origin" "662.00000000 -977.00000000 296.10854000"
+    "origin" "662.00000000 -990.00000000 296.10854000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -25479,8 +25481,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[439.96910000 -773.68160000 290.41110000]"
-        "look" "[345.86370000 -765.34370000 273.35720000]"
+        "position" "[585.99760000 -732.22130000 299.49630000]"
+        "look" "[619.05080000 -822.15840000 305.41140000]"
     }
 }
 cordon

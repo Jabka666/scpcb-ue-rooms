@@ -6852,12 +6852,12 @@ entity
     "color" "200 200 255"
     "hassprite" "No"
     "intensity" "0.5"
-    "position" "0 383.99997 -768"
+    "position" "0 401 -768"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00000000 -768.00000000 383.99997000"
+    "origin" "0.00000000 -768.00000000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -6874,12 +6874,12 @@ entity
     "color" "200 200 255"
     "hassprite" "No"
     "intensity" "0.5"
-    "position" "768.0002 383.99997 0"
+    "position" "768.0002 401 0"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "768.00020000 0.00000000 383.99997000"
+    "origin" "768.00020000 0.00000000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -6923,28 +6923,6 @@ entity
 }
 entity
 {
-    "id" "283"
-    "classname" "light"
-    "color" "255 50 50"
-    "intensity" "1"
-    "position" "-529 296.10854 -309"
-    "range" "100"
-    "hassprite" "Yes"
-    "spritescale" "0.1"
-    "castshadows" "No"
-    "spawnflags" "0"
-    "origin" "-529.00000000 -309.00000000 296.10854000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "284"
     "classname" "mesh"
     "angles" "360 -180 360"
@@ -6965,13 +6943,37 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "291"
+    "classname" "spotlight"
+    "color" "255 50 50"
+    "intensity" "0.5"
+    "position" "-542.02608 296.10854 -309.5044"
+    "range" "150"
+    "hassprite" "Yes"
+    "spritescale" "0.1"
+    "castshadows" "No"
+    "fov" "70"
+    "angles" "390 -90 360"
+    "spawnflags" "0"
+    "origin" "-542.02608000 -309.50440000 296.10854000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[144.67530000 211.23590000 278.87660000]"
-        "look" "[237.78350000 189.98390000 288.64410000]"
+        "position" "[-3.02038200 -76.50222000 292.74550000]"
+        "look" "[-94.65327000 -105.09480000 291.31580000]"
     }
 }
 cordon

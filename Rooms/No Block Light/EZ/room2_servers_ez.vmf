@@ -37968,12 +37968,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "0.00004 383.99997 767.99993"
+    "position" "-0.00014 401 767.99993"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00004000 767.99993000 383.99997000"
+    "origin" "-0.00014000 767.99993000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -37990,12 +37990,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "0 383.99997 255.98401"
+    "position" "-0.00018 401 255.98401"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00000000 255.98401000 383.99997000"
+    "origin" "-0.00018000 255.98401000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -38012,12 +38012,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "0.00018 383.99997 -256.07574"
+    "position" "0 401 -256.07574"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00018000 -256.07574000 383.99997000"
+    "origin" "0.00000000 -256.07574000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -38034,12 +38034,12 @@ entity
     "color" "200 200 255"
     "hassprite" "Yes"
     "intensity" "0.5"
-    "position" "0 383.99997 -768"
+    "position" "-0.00018 401 -768"
     "range" "500"
-    "angles" "90 0 0"
-    "fov" "25"
+    "angles" "450 90 270"
+    "fov" "170"
     "spawnflags" "0"
-    "origin" "0.00000000 -768.00000000 383.99997000"
+    "origin" "-0.00018000 -768.00000000 401.00000000"
     editor
     {
         "color" "255 0 255"
@@ -38090,16 +38090,18 @@ entity
 entity
 {
     "id" "1387"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 50 50"
-    "intensity" "1"
-    "position" "257 -543.89145 -367"
-    "range" "100"
+    "intensity" "0.5"
+    "position" "257 -543.89145 -354"
+    "range" "150"
     "hassprite" "Yes"
     "spritescale" "0.1"
     "castshadows" "No"
+    "fov" "70"
+    "angles" "390 -180 360"
     "spawnflags" "0"
-    "origin" "257.00000000 -367.00000000 -543.89145000"
+    "origin" "257.00000000 -354.00000000 -543.89145000"
     editor
     {
         "color" "255 0 255"
@@ -38194,8 +38196,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[39.46450000 152.36800000 211.67350000]"
-        "look" "[69.54024000 243.36790000 217.23260000]"
+        "position" "[232.04950000 -574.74450000 -499.45840000]"
+        "look" "[263.06000000 -484.15480000 -506.40790000]"
     }
 }
 cordon
