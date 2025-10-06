@@ -78077,7 +78077,6 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupid" "3"
         "visgroupid" "7"
@@ -78226,9 +78225,10 @@ entity
     "classname" "save_screen"
     "position" "-1080 -10488 233"
     "file" "save_screen"
-    "angles" "360 0 360"
+    "angles" "0.0 0.0 0.0"
     "scale" "0.706 0.74 1.0"
     "imgpath" "chatscreen_079.png"
+    "screeneventID" "0"
     "spawnflags" "0"
     "origin" "-1080.00000000 233.00000000 -10488.00000000"
     editor
@@ -78366,8 +78366,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-1142.22600000 641.93650000 -10414.55000000]"
-        "look" "[-1051.40600000 623.68450000 -10439.77000000]"
+        "position" "[-1074.27500000 402.80350000 -10451.47000000]"
+        "look" "[-1067.20800000 308.13710000 -10465.81000000]"
     }
 }
 cordon

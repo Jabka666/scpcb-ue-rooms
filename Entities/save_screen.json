@@ -10,6 +10,13 @@
 		"Type": "String",
 		"DefaultValue": "save_screen.b3d"
     },
+	{
+		"Name": "screeneventID",
+		"SmartEditName": "Screen Event ID",
+		"Type": "Integer",
+		"HelpText": "0 - interactable save screen; any other - custom editable screen",
+		"DefaultValue": "0"
+	},
     {
 		"Name": "angles",
 		"SmartEditName": "Rotation",

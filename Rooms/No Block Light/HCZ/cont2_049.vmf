@@ -122836,9 +122836,10 @@ entity
     "classname" "save_screen"
     "position" "-787.01908 -3392.94276 722"
     "file" "save_screen"
-    "angles" "360 180 360"
+    "angles" "0.0 180.0 0.0"
     "scale" "0.9 0.7 1.0"
     "imgpath" "chatscreen_049.png"
+    "screeneventID" "0"
     "spawnflags" "0"
     "origin" "-787.01908000 722.00000000 -3392.94276000"
     editor
@@ -123133,8 +123134,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[570.59970000 -201.70460000 -3133.42900000]"
-        "look" "[562.45580000 -110.45370000 -3162.09100000]"
+        "position" "[-875.28370000 661.56020000 -3363.68900000]"
+        "look" "[-800.89720000 717.63130000 -3386.86800000]"
     }
 }
 cordon
