@@ -57492,6 +57492,7 @@ entity
     "intensity" "0.9"
     "position" "1520 564 -320"
     "range" "900"
+    "castshadows" "No"
     "spawnflags" "0"
     "origin" "1520.00000000 -320.00000000 564.00000000"
     editor
@@ -57511,6 +57512,7 @@ entity
     "intensity" "0.9"
     "position" "1520 564 320"
     "range" "900"
+    "castshadows" "No"
     "spawnflags" "0"
     "origin" "1520.00000000 320.00000000 564.00000000"
     editor
@@ -57530,6 +57532,7 @@ entity
     "intensity" "0.9"
     "position" "-1008 564 -320"
     "range" "900"
+    "castshadows" "No"
     "spawnflags" "0"
     "origin" "-1008.00000000 -320.00000000 564.00000000"
     editor
@@ -58412,8 +58415,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[1010.37300000 -21.69933000 252.59110000]"
-        "look" "[956.25490000 49.02998000 216.74890000]"
+        "position" "[-133.05670000 738.43910000 288.27840000]"
+        "look" "[-49.27641000 692.14840000 295.63210000]"
     }
 }
 cordon
