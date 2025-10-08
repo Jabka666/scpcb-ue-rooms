@@ -123129,13 +123129,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "5547"
+    "classname" "save_screen"
+    "position" "856.99969 -3391.43314 -705.18378"
+    "file" "save_screen"
+    "angles" "360 90 360"
+    "scale" "0.8915 0.6915 1.0"
+    "imgpath" "chatscreen_logo.png"
+    "screeneventID" "4"
+    "spawnflags" "0"
+    "origin" "856.99969000 -705.18378000 -3391.43314000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "6"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-875.28370000 661.56020000 -3363.68900000]"
-        "look" "[-800.89720000 717.63130000 -3386.86800000]"
+        "position" "[678.84210000 -635.67660000 -3385.88100000]"
+        "look" "[772.97070000 -619.21910000 -3376.74100000]"
     }
 }
 cordon
