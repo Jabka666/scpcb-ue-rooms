@@ -36220,11 +36220,13 @@ entity
 entity
 {
     "id" "586"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 50 50"
     "intensity" "0.8"
     "position" "0 609 630"
     "range" "800"
+    "fov" "170"
+    "angles" "360 180 360"
     "spawnflags" "0"
     "origin" "0.00000000 630.00000000 609.00000000"
     editor
@@ -36275,8 +36277,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-324.94180000 79.95618000 445.92810000]"
-        "look" "[-277.97930000 89.87601000 446.10820000]"
+        "position" "[3.47264300 233.90660000 452.48200000]"
+        "look" "[-1.17084100 279.10150000 467.96660000]"
     }
 }
 cordon

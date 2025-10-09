@@ -43558,11 +43558,13 @@ entity
 entity
 {
     "id" "497"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "position" "-333.79273 331.57183 512"
-    "range" "600"
+    "range" "650"
+    "fov" "170"
+    "angles" "360 -90 360"
     "spawnflags" "0"
     "origin" "-333.79273000 512.00000000 331.57183000"
     editor
@@ -43577,11 +43579,13 @@ entity
 entity
 {
     "id" "498"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "position" "-333.79273 331.57183 0"
-    "range" "600"
+    "range" "650"
+    "fov" "170"
+    "angles" "360 -90 360"
     "spawnflags" "0"
     "origin" "-333.79273000 0.00000000 331.57183000"
     editor
@@ -43596,11 +43600,13 @@ entity
 entity
 {
     "id" "499"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "position" "-333.79273 331.57183 -512"
-    "range" "600"
+    "range" "650"
+    "fov" "170"
+    "angles" "360 -90 360"
     "spawnflags" "0"
     "origin" "-333.79273000 -512.00000000 331.57183000"
     editor
@@ -43615,11 +43621,13 @@ entity
 entity
 {
     "id" "500"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "position" "333.27344 333.10835 -512"
-    "range" "600"
+    "range" "650"
+    "fov" "170"
+    "angles" "360 90 360"
     "spawnflags" "0"
     "origin" "333.27344000 -512.00000000 333.10835000"
     editor
@@ -43634,11 +43642,13 @@ entity
 entity
 {
     "id" "501"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "position" "333.27344 333.10835 0"
-    "range" "600"
+    "range" "650"
+    "fov" "170"
+    "angles" "360 90 360"
     "spawnflags" "0"
     "origin" "333.27344000 0.00000000 333.10835000"
     editor
@@ -43653,11 +43663,13 @@ entity
 entity
 {
     "id" "502"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
-    "intensity" "0.6"
+    "intensity" "0.7"
     "position" "333.27344 333.10835 512"
-    "range" "600"
+    "range" "650"
+    "fov" "170"
+    "angles" "360 90 360"
     "spawnflags" "0"
     "origin" "333.27344000 512.00000000 333.10835000"
     editor
@@ -43724,8 +43736,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-36.19045000 303.10060000 280.17640000]"
-        "look" "[-35.88576000 384.44490000 229.19310000]"
+        "position" "[36.84525000 -241.08510000 345.89630000]"
+        "look" "[-36.72324000 -302.75890000 346.45000000]"
     }
 }
 cordon
