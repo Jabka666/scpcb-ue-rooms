@@ -45559,7 +45559,7 @@ entity
 entity
 {
     "id" "266"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.7"
     "position" "0.00019 788.19523 -607.41129"
@@ -45567,6 +45567,8 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00019000 -607.41129000 788.19523000"
     editor
@@ -45851,7 +45853,7 @@ entity
 entity
 {
     "id" "800"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.7"
     "position" "-608.00001 788.19523 0.00001"
@@ -45859,6 +45861,8 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-608.00001000 0.00001000 788.19523000"
     editor
@@ -45873,7 +45877,7 @@ entity
 entity
 {
     "id" "801"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.7"
     "position" "0 788.19523 608"
@@ -45881,6 +45885,8 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 608.00000000 788.19523000"
     editor
@@ -45895,7 +45901,7 @@ entity
 entity
 {
     "id" "802"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.7"
     "position" "608 788.19523 0"
@@ -45903,6 +45909,8 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "608.00000000 0.00000000 788.19523000"
     editor
@@ -45919,8 +45927,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-64.13407000 26.79488000 682.37930000]"
-        "look" "[119.96640000 -24.64091000 664.30870000]"
+        "position" "[-68.19392000 75.80664000 511.76860000]"
+        "look" "[40.12984000 233.80390000 524.72970000]"
     }
 }
 cordon

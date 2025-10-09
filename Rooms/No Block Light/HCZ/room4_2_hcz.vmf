@@ -29949,11 +29949,13 @@ entity
 entity
 {
     "id" "260"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
     "intensity" "0.7"
     "position" "-0.00004 723.96072 192"
     "range" "700"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-0.00004000 192.00000000 723.96072000"
     editor
@@ -29968,11 +29970,13 @@ entity
 entity
 {
     "id" "261"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
     "intensity" "0.7"
     "position" "0 724 -191.99999"
     "range" "700"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 -191.99999000 724.00000000"
     editor
@@ -30027,11 +30031,13 @@ entity
 entity
 {
     "id" "720"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
     "intensity" "0.6"
     "position" "768.00007 432 -0.00008"
     "range" "600"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "768.00007000 -0.00008000 432.00000000"
     editor
@@ -30068,11 +30074,13 @@ entity
 entity
 {
     "id" "980"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
     "intensity" "0.6"
     "position" "-768.00014 432 -0.00008"
     "range" "600"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-768.00014000 -0.00008000 432.00000000"
     editor
@@ -30109,11 +30117,13 @@ entity
 entity
 {
     "id" "1110"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
     "intensity" "0.6"
     "position" "0.00008 432 -768.00014"
     "range" "600"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00008000 -768.00014000 432.00000000"
     editor
@@ -30150,11 +30160,13 @@ entity
 entity
 {
     "id" "1381"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 200 200"
     "intensity" "0.6"
     "position" "0.00008 432 768.00014"
     "range" "600"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "0.00008000 768.00014000 432.00000000"
     editor
@@ -30253,8 +30265,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[53.33144000 -15.56975000 341.63500000]"
-        "look" "[-89.41143000 -23.31247000 334.95740000]"
+        "position" "[244.74280000 85.85277000 326.34120000]"
+        "look" "[171.58780000 113.60280000 446.16760000]"
     }
 }
 cordon

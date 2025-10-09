@@ -27817,7 +27817,7 @@ world
             "id" "4546"
             "plane" "(990.00002299 991.99999996 0.00000020) (243.99997296 991.99999996 0.00000020) (243.99997296 991.99999996 383.99990576)"
             "material" "officewall"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 -715] 0.355"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 309] 0.355"
             "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.355"
             "rotation" "0"
             vertex
@@ -43839,11 +43839,13 @@ entity
 entity
 {
     "id" "589"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
     "intensity" "0.8"
     "position" "-1313.7261 723.99994 -576"
     "range" "800"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-1313.72610000 -576.00000000 723.99994000"
     editor
@@ -43858,11 +43860,13 @@ entity
 entity
 {
     "id" "590"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
     "intensity" "0.8"
     "position" "-1313.7261 723.99994 576"
     "range" "800"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-1313.72610000 576.00000000 723.99994000"
     editor
@@ -43965,11 +43969,13 @@ entity
 entity
 {
     "id" "619"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
     "intensity" "0.8"
     "position" "-878.7261 723.99994 -576"
     "range" "800"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-878.72610000 -576.00000000 723.99994000"
     editor
@@ -43984,11 +43990,13 @@ entity
 entity
 {
     "id" "620"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "200 200 255"
     "intensity" "0.8"
     "position" "-878.7261 723.99994 576"
     "range" "800"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-878.72610000 576.00000000 723.99994000"
     editor
@@ -44653,11 +44661,13 @@ entity
 entity
 {
     "id" "975"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 128 64"
     "intensity" "0.5"
     "position" "-108 -44.00006 -312"
     "range" "500"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-108.00000000 -312.00000000 -44.00006000"
     editor
@@ -44672,11 +44682,13 @@ entity
 entity
 {
     "id" "977"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 128 64"
     "intensity" "0.5"
     "position" "-108 -44.00006 312"
     "range" "500"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-108.00000000 312.00000000 -44.00006000"
     editor
@@ -46194,8 +46206,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[512.63630000 588.05230000 268.81650000]"
-        "look" "[521.50240000 683.61690000 266.18540000]"
+        "position" "[-807.33380000 54.84258000 192.45720000]"
+        "look" "[-714.14360000 74.57950000 180.45030000]"
     }
 }
 cordon

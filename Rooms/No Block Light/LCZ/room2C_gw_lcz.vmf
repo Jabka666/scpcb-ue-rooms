@@ -17537,16 +17537,19 @@ world
 entity
 {
     "id" "168"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 50 50"
     "intensity" "0.7"
     "position" "-416 371.97583 704"
     "range" "700"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-416.00000000 704.00000000 371.97583000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17556,16 +17559,19 @@ entity
 entity
 {
     "id" "169"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 50 50"
     "intensity" "0.7"
     "position" "-416 372 191.9999"
     "range" "700"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-416.00000000 191.99990000 372.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17705,7 +17711,7 @@ entity
 entity
 {
     "id" "228"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.5"
     "position" "815 372 736"
@@ -17713,11 +17719,14 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "815.00000000 736.00000000 372.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17866,7 +17875,7 @@ entity
 entity
 {
     "id" "456"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.5"
     "position" "815 372 -128"
@@ -17874,11 +17883,14 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "815.00000000 -128.00000000 372.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17888,7 +17900,7 @@ entity
 entity
 {
     "id" "457"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.5"
     "position" "815 372 -512"
@@ -17896,11 +17908,14 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "815.00000000 -512.00000000 372.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17910,7 +17925,7 @@ entity
 entity
 {
     "id" "458"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.5"
     "position" "511 372 -815"
@@ -17918,11 +17933,14 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "511.00000000 -815.00000000 372.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17932,7 +17950,7 @@ entity
 entity
 {
     "id" "459"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.5"
     "position" "128 372 -815"
@@ -17940,11 +17958,14 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "128.00000000 -815.00000000 372.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17954,7 +17975,7 @@ entity
 entity
 {
     "id" "461"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "intensity" "0.5"
     "position" "-736 372 -815"
@@ -17962,11 +17983,14 @@ entity
     "hassprite" "Yes"
     "spritescale" "1.0"
     "castshadows" "Yes"
+    "fov" "170"
+    "angles" "90 0 0"
     "spawnflags" "0"
     "origin" "-736.00000000 -815.00000000 372.00000000"
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "-6"
         "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -17978,8 +18002,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[53.10167000 732.88600000 299.51830000]"
-        "look" "[-41.52934000 733.74150000 315.66130000]"
+        "position" "[-490.35270000 397.98860000 255.45060000]"
+        "look" "[-400.31920000 430.97730000 260.14990000]"
     }
 }
 cordon
