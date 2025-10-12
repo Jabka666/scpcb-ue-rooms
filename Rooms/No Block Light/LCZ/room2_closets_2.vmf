@@ -37532,7 +37532,7 @@ entity
 {
     "id" "827"
     "classname" "mesh"
-    "angles" "360 0 360"
+    "angles" "360 180 360"
     "file" "oxygen_cylinder"
     "position" "391.15564 0 -878"
     "scale" "1 1 1"
@@ -37560,7 +37560,7 @@ entity
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" ""
+    "textureOverwrite" "GFX\Map\Textures\tank_argon.png"
     "spawnflags" "0"
     "origin" "354.00000000 -878.00000000 0.00000000"
     editor
@@ -37947,8 +37947,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[281.57450000 -568.56530000 241.05740000]"
-        "look" "[371.23850000 -592.51360000 265.62390000]"
+        "position" "[379.77450000 -749.89290000 152.18360000]"
+        "look" "[382.79520000 -844.92040000 138.86730000]"
     }
 }
 cordon
