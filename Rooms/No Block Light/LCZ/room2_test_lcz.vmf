@@ -37888,11 +37888,10 @@ entity
     "id" "958"
     "classname" "save_screen"
     "position" "-296.99985 188.76163 52"
-    "file" "save_screen"
-    "angles" "360 90 360"
+    "file" "save_screen.b3d"
+    "angles" "0.0 90.0 0.0"
     "scale" "0.971 1.018 1.0"
     "imgpath" "chatscreen_error.png"
-    "screeneventID" "3"
     "spawnflags" "0"
     "origin" "-296.99985000 52.00000000 188.76163000"
     editor
@@ -37909,8 +37908,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[43.99420000 523.71110000 258.72850000]"
-        "look" "[51.09524000 427.98370000 257.24310000]"
+        "position" "[-442.98170000 44.75976000 218.52900000]"
+        "look" "[-348.03860000 44.20165000 204.32140000]"
     }
 }
 cordon

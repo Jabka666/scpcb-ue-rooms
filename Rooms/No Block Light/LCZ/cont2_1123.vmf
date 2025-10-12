@@ -15051,8 +15051,8 @@ world
             "id" "6237"
             "plane" "(975.00000000 464.00000000 382.99997640) (847.00000000 464.00000000 382.99997640) (847.00000000 368.00000000 382.99997640)"
             "material" "vent"
-            "uaxis" "[0.00000000 -1.00000000 0.00000000 228.3243243243243243243243244] 0.37"
-            "vaxis" "[1.00000000 0.00000000 0.00000000 60.8163265306122448979591836] 0.49"
+            "uaxis" "[0.00000000 -1.00000000 0.00000000 456.6486486486486486486486486] 0.18500"
+            "vaxis" "[1.00000000 0.00000000 0.00000000 121.6326530612244897959183674] 0.24500"
             "rotation" "0"
             vertex
             {
@@ -28417,14 +28417,13 @@ entity
 {
     "id" "1543"
     "classname" "save_screen"
-    "position" "818.14919 160.00001 -958.6297"
-    "file" "save_screen"
-    "angles" "0.0 7.57701 0.0"
-    "scale" "0.9 0.7 1.0"
+    "position" "818.37561 159.5218 -958.65486"
+    "file" "save_screen.b3d"
+    "angles" "360 7.57701 360"
+    "scale" "0.8915 0.6915 1.0"
     "imgpath" "chatscreen_1123.png"
-    "screeneventID" "0"
     "spawnflags" "0"
-    "origin" "818.14919000 -958.62970000 160.00001000"
+    "origin" "818.37561000 -958.65486000 159.52180000"
     editor
     {
         "color" "255 0 255"
@@ -28805,22 +28804,20 @@ entity
 }
 entity
 {
-    "id" "1712"
-    "classname" "mesh"
-    "angles" "360 -172.42299 360"
-    "file" "monitor"
-    "position" "818.41415 4985.00013 -965.02327"
-    "scale" "1.7 1.7 1.7"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
+    "id" "1717"
+    "classname" "save_screen"
+    "position" "818.37546 5024.5218 -958.65486"
+    "file" "save_screen.b3d"
+    "angles" "360 7.57701 360"
+    "scale" "0.8915 0.6915 1.0"
+    "imgpath" "chatscreen_1123.png"
     "spawnflags" "0"
-    "origin" "818.41415000 -965.02327000 4985.00013000"
+    "origin" "818.37546000 -958.65486000 5024.52180000"
     editor
     {
         "color" "255 0 255"
         "visgroupid" "3"
-        "visgroupid" "8"
+        "visgroupid" "7"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -28828,20 +28825,22 @@ entity
 }
 entity
 {
-    "id" "1713"
-    "classname" "save_screen"
-    "position" "818.14914 5025.00013 -958.6297"
-    "imgpath" "chatscreen_1123.png"
-    "file" "save_screen"
-    "screeneventID" "0"
-    "angles" "0.0 7.57701 0.0"
-    "scale" "0.9 0.7 1.0"
+    "id" "1718"
+    "classname" "mesh"
+    "angles" "360 -172.42299 360"
+    "file" "monitor"
+    "position" "818.41405 4985.00001 -965.02327"
+    "scale" "1.7 1.7 1.7"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "818.14914000 -958.62970000 5025.00013000"
+    "origin" "818.41405000 -965.02327000 4985.00001000"
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "8"
+        "visgroupid" "3"
+        "visgroupid" "7"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -28852,8 +28851,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[853.64580000 404.33560000 86.27257000]"
-        "look" "[767.05110000 420.41060000 48.08234000]"
+        "position" "[706.06170000 -684.81630000 232.85450000]"
+        "look" "[750.16480000 -764.05190000 201.35480000]"
     }
 }
 cordon

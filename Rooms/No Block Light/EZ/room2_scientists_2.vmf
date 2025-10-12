@@ -30382,11 +30382,10 @@ entity
     "id" "683"
     "classname" "save_screen"
     "position" "1315 252 232"
-    "file" "save_screen"
+    "file" "save_screen.b3d"
     "angles" "0.0 90.0 0.0"
-    "scale" "1.472 1.4 1.0"
+    "scale" "1.4706 1.3948 1.0"
     "imgpath" "chatscreen_conf.png"
-    "screeneventID" "0"
     "spawnflags" "0"
     "origin" "1315.00000000 232.00000000 252.00000000"
     editor
@@ -30403,11 +30402,10 @@ entity
     "id" "698"
     "classname" "save_screen"
     "position" "-718 232.14895 -307.29437"
-    "file" "save_screen"
+    "file" "save_screen.b3d"
     "angles" "370.0 0.0 0.0"
-    "scale" "0.706 0.74 1.0"
+    "scale" "0.706 0.737 1.0"
     "imgpath" "chatscreen_DrL.png"
-    "screeneventID" "0"
     "spawnflags" "0"
     "origin" "-718.00000000 -307.29437000 232.14895000"
     editor
@@ -30821,11 +30819,10 @@ entity
     "id" "870"
     "classname" "save_screen"
     "position" "1315 252 -1"
-    "file" "save_screen"
-    "angles" "360 90 360"
-    "scale" "1.472 1.4 1.0"
+    "file" "save_screen.b3d"
+    "angles" "0.0 90.0 0.0"
+    "scale" "1.4706 1.3948 1.0"
     "imgpath" "chatscreen_attention.png"
-    "screeneventID" "1"
     "spawnflags" "0"
     "origin" "1315.00000000 -1.00000000 252.00000000"
     editor
@@ -30842,8 +30839,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[916.73490000 -19.85373000 245.23900000]"
-        "look" "[1012.71500000 -18.95471000 243.45050000]"
+        "position" "[996.46040000 21.49598000 269.67680000]"
+        "look" "[1091.96500000 26.06807000 261.06630000]"
     }
 }
 cordon

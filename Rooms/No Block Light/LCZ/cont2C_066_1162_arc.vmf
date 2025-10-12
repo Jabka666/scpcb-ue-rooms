@@ -66081,14 +66081,13 @@ entity
 {
     "id" "2841"
     "classname" "save_screen"
-    "position" "-983 200 591.9999"
-    "file" "save_screen"
-    "angles" "0.0 -90.0 0.0"
-    "scale" "0.706 0.74 1.0"
+    "position" "-983 200 592"
+    "file" "save_screen.b3d"
+    "angles" "360 -90 360"
+    "scale" "0.706 0.737 1.0"
     "imgpath" "chatscreen_066.png"
-    "screeneventID" "0"
     "spawnflags" "0"
-    "origin" "-983.00000000 591.99990000 200.00000000"
+    "origin" "-983.00000000 592.00000000 200.00000000"
     editor
     {
         "color" "255 0 255"
@@ -66235,8 +66234,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[8.13572300 -774.54750000 561.44280000]"
-        "look" "[12.95977000 -870.40580000 563.39400000]"
+        "position" "[-785.21620000 587.67910000 232.43850000]"
+        "look" "[-879.86440000 588.11850000 216.39530000]"
     }
 }
 cordon
