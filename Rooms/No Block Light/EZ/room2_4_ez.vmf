@@ -6536,6 +6536,7 @@ entity
     "hassprite" "No"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-0.00018000 -768.00000000 401.00000000"
     editor
@@ -6558,6 +6559,7 @@ entity
     "hassprite" "No"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "0.00000000 -256.07574000 401.00000000"
     editor
@@ -6580,6 +6582,7 @@ entity
     "hassprite" "No"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-0.00018000 255.98401000 401.00000000"
     editor
@@ -6602,6 +6605,7 @@ entity
     "hassprite" "No"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-0.00014000 767.99993000 401.00000000"
     editor
@@ -6716,8 +6720,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[33.74615000 -388.06620000 258.08660000]"
-        "look" "[40.58292000 -292.58800000 250.78580000]"
+        "position" "[151.35020000 271.14580000 297.89200000]"
+        "look" "[125.96440000 363.06800000 308.93700000]"
     }
 }
 cordon

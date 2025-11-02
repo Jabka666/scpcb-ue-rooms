@@ -118235,6 +118235,7 @@ entity
     "angles" "90 0 0"
     "fov" "100"
     "castshadows" "No"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "119.99293000 1373.96228000 800.00005000"
     editor
@@ -118259,6 +118260,7 @@ entity
     "angles" "90 0 0"
     "fov" "100"
     "castshadows" "No"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-392.00700000 1373.96228000 800.00005000"
     editor
@@ -118283,6 +118285,7 @@ entity
     "angles" "90 0 0"
     "fov" "100"
     "castshadows" "No"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "631.99293000 1373.96228000 800.00005000"
     editor
@@ -118307,6 +118310,7 @@ entity
     "angles" "90 0 0"
     "fov" "100"
     "castshadows" "No"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "1143.99293000 1373.96225000 800.00005000"
     editor
@@ -118330,6 +118334,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "1143.99293000 1885.96225000 800.00005000"
     editor
@@ -118353,6 +118358,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "1143.99293000 2397.96225000 800.00005000"
     editor
@@ -118376,6 +118382,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "1143.99293000 2909.96225000 800.00005000"
     editor
@@ -118399,6 +118406,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "631.99293000 2909.96228000 800.00005000"
     editor
@@ -118423,6 +118431,7 @@ entity
     "angles" "90 0 0"
     "fov" "100"
     "castshadows" "No"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "119.99293000 2909.96228000 800.00005000"
     editor
@@ -118447,6 +118456,7 @@ entity
     "angles" "90 0 0"
     "fov" "100"
     "castshadows" "No"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-392.00707000 2909.96228000 800.00005000"
     editor
@@ -118470,6 +118480,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-392.00707000 2397.96228000 800.00005000"
     editor
@@ -118493,6 +118504,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-392.00707000 1885.96228000 800.00005000"
     editor
@@ -118516,6 +118528,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "119.99293000 1885.96228000 800.00005000"
     editor
@@ -118539,6 +118552,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "119.99293000 2397.96228000 800.00005000"
     editor
@@ -118562,6 +118576,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "631.99293000 2397.96225000 800.00005000"
     editor
@@ -118585,6 +118600,7 @@ entity
     "range" "500"
     "angles" "90 0 0"
     "fov" "100"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "631.99293000 1885.96228000 800.00005000"
     editor
@@ -119504,8 +119520,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[426.06400000 -100.06930000 338.58920000]"
-        "look" "[428.52490000 -184.61500000 293.18610000]"
+        "position" "[436.77430000 1396.32700000 559.86830000]"
+        "look" "[373.45680000 1463.88400000 585.21520000]"
     }
 }
 cordon

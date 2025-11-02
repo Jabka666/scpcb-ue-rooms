@@ -37858,6 +37858,7 @@ entity
     "range" "800"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.3"
     "spawnflags" "0"
     "origin" "0.50010000 -479.00006000 -25.00000000"
     editor
@@ -37879,6 +37880,7 @@ entity
     "range" "800"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.3"
     "spawnflags" "0"
     "origin" "0.00010000 511.99994000 -25.00000000"
     editor
@@ -37900,6 +37902,7 @@ entity
     "range" "500"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.3"
     "spawnflags" "0"
     "origin" "882.00010000 851.99994000 -24.00000000"
     editor
@@ -37984,8 +37987,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-207.05920000 -28.99354000 -135.99080000]"
-        "look" "[-183.61870000 64.01538000 -131.99760000]"
+        "position" "[321.07670000 332.90940000 -157.80850000]"
+        "look" "[300.24690000 423.08420000 -132.30000000]"
     }
 }
 cordon

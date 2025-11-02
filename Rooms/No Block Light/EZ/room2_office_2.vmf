@@ -23154,6 +23154,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "0.00004000 767.99993000 401.00000000"
     editor
@@ -23176,6 +23177,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "0.00000000 255.98401000 401.00000000"
     editor
@@ -23198,6 +23200,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "0.00018000 -256.07574000 401.00000000"
     editor
@@ -23220,6 +23223,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "0.00000000 -768.00000000 401.00000000"
     editor
@@ -23242,6 +23246,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "468.00000000 -768.00004000 401.00000000"
     editor
@@ -23264,6 +23269,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "468.00018000 -256.07578000 401.00000000"
     editor
@@ -23286,6 +23292,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "468.00000000 255.98398000 401.00000000"
     editor
@@ -23308,6 +23315,7 @@ entity
     "range" "500"
     "angles" "450 90 270"
     "fov" "140"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "468.00004000 767.99990000 401.00000000"
     editor
@@ -23386,6 +23394,7 @@ entity
     "castshadows" "No"
     "fov" "70"
     "angles" "390 -90 360"
+    "scattering" "0.8"
     "spawnflags" "0"
     "origin" "-542.00000000 0.00000000 296.10854000"
     editor
@@ -23698,8 +23707,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-19.87994000 133.25020000 251.53970000]"
-        "look" "[-109.75120000 102.43820000 265.32560000]"
+        "position" "[-192.78220000 -260.10910000 289.33830000]"
+        "look" "[-199.98920000 -164.70060000 297.18410000]"
     }
 }
 cordon
