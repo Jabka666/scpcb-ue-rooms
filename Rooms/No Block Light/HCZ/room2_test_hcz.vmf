@@ -74098,6 +74098,7 @@ entity
     "range" "500"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-716.00061000 -846.50381000 -23.94299000"
     editor
@@ -74119,6 +74120,7 @@ entity
     "range" "500"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-800.00000000 -136.00000000 -276.00942000"
     editor
@@ -74140,6 +74142,7 @@ entity
     "range" "500"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-800.00000000 -848.00000000 -532.00000000"
     editor
@@ -74161,6 +74164,7 @@ entity
     "range" "600"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-800.00000000 -136.00000000 -788.00000000"
     editor
@@ -74310,6 +74314,7 @@ entity
     "range" "600"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-800.00004000 135.99998000 -788.00000000"
     editor
@@ -74331,6 +74336,7 @@ entity
     "range" "500"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-800.00004000 847.99998000 -532.00000000"
     editor
@@ -74352,6 +74358,7 @@ entity
     "range" "500"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-800.00004000 135.99998000 -276.00942000"
     editor
@@ -74373,6 +74380,7 @@ entity
     "range" "500"
     "fov" "140"
     "angles" "90 0 0"
+    "scattering" "0.2"
     "spawnflags" "0"
     "origin" "-716.00065000 846.50379000 -23.94299000"
     editor
@@ -75492,8 +75500,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[848.27720000 683.14810000 233.15170000]"
-        "look" "[944.07670000 688.38080000 229.67980000]"
+        "position" "[-64.96830000 -0.30939010 -504.04350000]"
+        "look" "[-71.67754000 -83.02649000 -552.31200000]"
     }
 }
 cordon
