@@ -41,9 +41,9 @@ visgroups
     }
     visgroup
     {
-        "name" "windows"
+        "name" "transparent"
         "visgroupid" "11"
-        "color" "0 255 0"
+        "color" "192 192 192"
     }
     visgroup
     {
@@ -116490,7 +116490,7 @@ entity
     "id" "19119"
     "classname" "save_screen"
     "position" "2209 1000 3488"
-    "imgpath" "chatscreen_error.png"
+    "imgpath" "screen_error.png"
     "file" "save_screen.b3d"
     "angles" "0.0 -90.0 0.0"
     "scale" "0.706 0.737 1.0"
@@ -116513,7 +116513,7 @@ entity
     "file" "save_screen.b3d"
     "angles" "360 89.96 360"
     "scale" "0.8915 0.6915 1.0"
-    "imgpath" "chatscreen_UE.png"
+    "imgpath" "screen_UE.png"
     "spawnflags" "0"
     "origin" "2652.65246000 3793.91936000 927.89528000"
     editor
@@ -117128,8 +117128,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[754.43340000 2011.77400000 627.41030000]"
-        "look" "[749.25900000 2107.48100000 632.77230000]"
+        "position" "[2544.66700000 3683.58700000 971.69260000]"
+        "look" "[2607.36200000 3751.76600000 946.46830000]"
     }
 }
 cordon
