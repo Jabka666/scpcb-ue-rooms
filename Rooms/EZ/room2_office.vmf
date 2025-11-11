@@ -43983,12 +43983,13 @@ entity
     "id" "975"
     "classname" "spotlight"
     "color" "255 128 64"
-    "intensity" "0.5"
+    "intensity" "0.4"
     "position" "-108 -37.53702 -312"
-    "range" "500"
+    "range" "400"
     "fov" "140"
     "angles" "450 90 270"
-    "scattering" "0.2"
+    "scattering" "0.0"
+    "castshadows" "No"
     "spawnflags" "0"
     "origin" "-108.00000000 -312.00000000 -37.53702000"
     editor
@@ -44005,12 +44006,13 @@ entity
     "id" "977"
     "classname" "spotlight"
     "color" "255 128 64"
-    "intensity" "0.5"
+    "intensity" "0.4"
     "position" "-108 -37.53702 312"
-    "range" "500"
+    "range" "400"
     "fov" "140"
     "angles" "450 90 270"
-    "scattering" "0.2"
+    "scattering" "0.0"
+    "castshadows" "No"
     "spawnflags" "0"
     "origin" "-108.00000000 312.00000000 -37.53702000"
     editor
@@ -45666,13 +45668,34 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1268"
+    "classname" "save_screen"
+    "position" "-898.1928 -225.61293 -960"
+    "file" "save_screen.b3d"
+    "angles" "360 0 360"
+    "scale" "0.893 0.69 1.0"
+    "imgpath" "chatscreen_office.png"
+    "spawnflags" "0"
+    "origin" "-898.19280000 -960.00000000 -225.61293000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "6"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[93.45542000 -31.73126000 -90.09735000]"
-        "look" "[39.17746000 -110.02350000 -78.16629000]"
+        "position" "[-853.67030000 -958.21420000 -251.39270000]"
+        "look" "[-835.95580000 -1051.92000000 -262.50900000]"
     }
 }
 cordon

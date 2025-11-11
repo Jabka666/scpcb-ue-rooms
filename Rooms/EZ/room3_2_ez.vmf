@@ -42783,14 +42783,15 @@ entity
     "id" "551"
     "classname" "spotlight"
     "color" "200 200 255"
-    "intensity" "0.5"
-    "position" "478.98189 -12.61961 0"
-    "range" "500"
+    "intensity" "0.4"
+    "position" "478.98189 -13.00397 0"
+    "range" "400"
     "fov" "140"
     "angles" "450 90 270"
-    "scattering" "0.2"
+    "scattering" "0.0"
+    "castshadows" "No"
     "spawnflags" "0"
-    "origin" "478.98189000 0.00000000 -12.61961000"
+    "origin" "478.98189000 0.00000000 -13.00397000"
     editor
     {
         "color" "255 0 255"
@@ -42805,14 +42806,15 @@ entity
     "id" "552"
     "classname" "spotlight"
     "color" "200 200 255"
-    "intensity" "0.5"
-    "position" "-512.01811 -12.61961 0"
-    "range" "500"
+    "intensity" "0.4"
+    "position" "-512.01811 -13.00397 0"
+    "range" "400"
     "fov" "140"
     "angles" "450 90 270"
-    "scattering" "0.2"
+    "scattering" "0.0"
+    "castshadows" "No"
     "spawnflags" "0"
-    "origin" "-512.01811000 0.00000000 -12.61961000"
+    "origin" "-512.01811000 0.00000000 -13.00397000"
     editor
     {
         "color" "255 0 255"
@@ -43163,14 +43165,15 @@ entity
     "id" "693"
     "classname" "spotlight"
     "color" "200 200 255"
-    "intensity" "0.5"
-    "position" "-852.00874 -12.61564 882"
-    "range" "500"
+    "intensity" "0.4"
+    "position" "-852.00874 -13 882"
+    "range" "400"
     "fov" "140"
     "angles" "450 90 270"
-    "scattering" "0.2"
+    "scattering" "0.0"
+    "castshadows" "No"
     "spawnflags" "0"
-    "origin" "-852.00874000 882.00000000 -12.61564000"
+    "origin" "-852.00874000 882.00000000 -13.00000000"
     editor
     {
         "color" "255 0 255"
@@ -43536,8 +43539,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-486.46970000 11.49967000 -18.49042000]"
-        "look" "[-558.61650000 -49.54427000 -1.62121200]"
+        "position" "[-712.16270000 540.32080000 -57.52099000]"
+        "look" "[-763.60720000 621.24920000 -53.03352000]"
     }
 }
 cordon
