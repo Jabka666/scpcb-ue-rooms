@@ -99073,28 +99073,6 @@ entity
 }
 entity
 {
-    "id" "2932"
-    "classname" "spotlight"
-    "color" "255 200 200"
-    "intensity" "0.7"
-    "position" "-4362 -3846.00001 1633"
-    "range" "700"
-    "fov" "140"
-    "angles" "450 90 270"
-    "spawnflags" "0"
-    "origin" "-4362.00000000 1633.00000000 -3846.00001000"
-    editor
-    {
-        "color" "0 248 220"
-        "visgroupid" "2"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "2933"
     "classname" "mesh"
     "angles" "0 0 0"
@@ -99118,34 +99096,12 @@ entity
 }
 entity
 {
-    "id" "2934"
-    "classname" "spotlight"
-    "color" "255 200 200"
-    "intensity" "0.7"
-    "position" "-4362 -3846.00001 2023"
-    "range" "700"
-    "fov" "140"
-    "angles" "450 90 270"
-    "spawnflags" "0"
-    "origin" "-4362.00000000 2023.00000000 -3846.00001000"
-    editor
-    {
-        "color" "0 248 220"
-        "visgroupid" "2"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "2937"
     "classname" "spotlight"
     "color" "255 200 200"
-    "intensity" "0.7"
+    "intensity" "1.0"
     "position" "-4821 -3846 1633"
-    "range" "700"
+    "range" "1000"
     "fov" "140"
     "angles" "450 90 270"
     "spawnflags" "0"
@@ -99177,28 +99133,6 @@ entity
     {
         "color" "255 0 255"
         "visgroupid" "4"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "2939"
-    "classname" "spotlight"
-    "color" "255 200 200"
-    "intensity" "0.7"
-    "position" "-4821 -3846 2023"
-    "range" "700"
-    "fov" "140"
-    "angles" "450 90 270"
-    "spawnflags" "0"
-    "origin" "-4821.00000000 2023.00000000 -3846.00000000"
-    editor
-    {
-        "color" "0 248 220"
-        "visgroupid" "2"
         "visgroupid" "7"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -100706,8 +100640,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-3849.29800000 1957.64400000 -4304.27600000]"
-        "look" "[-3753.30300000 1957.85500000 -4302.77600000]"
+        "position" "[-4493.77700000 1871.09700000 -4049.62100000]"
+        "look" "[-4564.28400000 1815.84900000 -4015.07000000]"
     }
 }
 cordon
