@@ -21864,28 +21864,6 @@ entity
 }
 entity
 {
-    "id" "174"
-    "classname" "mesh"
-    "angles" "0 180 0"
-    "file" "monitor"
-    "position" "248.8282 120 538.6731"
-    "scale" "1.7 1.7 1.7"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "248.82820000 538.67310000 120.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "175"
     "classname" "mesh"
     "angles" "360 0 360"
@@ -22315,28 +22293,6 @@ entity
     "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-424.77270000 86.76880000 120.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "197"
-    "classname" "mesh"
-    "angles" "0 0 -1.539293E-14"
-    "file" "monitor"
-    "position" "-456.8805 118.8571 -22.85718"
-    "scale" "1.7 1.7 1.7"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-456.88050000 -22.85718000 118.85710000"
     editor
     {
         "color" "255 0 255"
@@ -25475,13 +25431,101 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1364"
+    "classname" "save_screen"
+    "position" "-458.03333 159.56099 -28.21617"
+    "file" "save_screen.b3d"
+    "angles" "360 -180 360"
+    "scale" "0.893 0.69 1.0"
+    "imgpath" "screen_logo.png"
+    "spawnflags" "0"
+    "origin" "-458.03333000 -28.21617000 159.56099000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "6"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1365"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "monitor"
+    "position" "-457.23199 120.0281 -22.21617"
+    "scale" "1.7 1.7 1.7"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-457.23199000 -22.21617000 120.02810000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "6"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1368"
+    "classname" "save_screen"
+    "position" "249.0334 159.56099 544.97184"
+    "file" "save_screen.b3d"
+    "angles" "360 0 360"
+    "scale" "0.893 0.69 1.0"
+    "imgpath" "screen_logo.png"
+    "spawnflags" "0"
+    "origin" "249.03340000 544.97184000 159.56099000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "6"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "1369"
+    "classname" "mesh"
+    "angles" "360 180 360"
+    "file" "monitor"
+    "position" "248.23206 120.0281 538.97184"
+    "scale" "1.7 1.7 1.7"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "248.23206000 538.97184000 120.02810000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupid" "6"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[127.83390000 -529.38350000 328.82340000]"
-        "look" "[122.82040000 -433.55220000 326.10750000]"
+        "position" "[117.61260000 527.14600000 244.39210000]"
+        "look" "[209.27050000 542.67930000 220.44040000]"
     }
 }
 cordon
