@@ -51128,26 +51128,6 @@ entity
 }
 entity
 {
-    "id" "1290"
-    "classname" "save_screen"
-    "position" "-1133 192 -983"
-    "file" "save_screen.b3d"
-    "angles" "360 0 360"
-    "scale" "0.706 0.737 1.0"
-    "imgpath" "chatscreen_914.png"
-    "spawnflags" "0"
-    "origin" "-1133.00000000 -983.00000000 192.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1291"
     "classname" "mesh"
     "angles" "360 180 360"
@@ -51520,13 +51500,33 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1548"
+    "classname" "save_screen"
+    "position" "-1133 192 -983"
+    "imgpath" "screen_reminder(4).png"
+    "file" "save_screen.b3d"
+    "angles" "0.0 0.0 0.0"
+    "scale" "0.706 0.737 1.0"
+    "spawnflags" "0"
+    "origin" "-1133.00000000 -983.00000000 192.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-1000.83800000 -662.56810000 299.69700000]"
-        "look" "[-949.86100000 -738.86880000 271.48120000]"
+        "position" "[-1099.60300000 -806.93210000 232.09460000]"
+        "look" "[-1118.26000000 -899.96600000 217.49370000]"
     }
 }
 cordon

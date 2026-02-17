@@ -33736,52 +33736,6 @@ entity
 }
 entity
 {
-    "id" "1719"
-    "classname" "mesh"
-    "position" "0 540 320"
-    "file" "lamp_g"
-    "angles" "360 90 360"
-    "scale" "1.0 1.0 1.0"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "0.00000000 320.00000000 540.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1720"
-    "classname" "mesh"
-    "position" "0 540 -320"
-    "file" "lamp_g"
-    "angles" "360 90 360"
-    "scale" "1.0 1.0 1.0"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "0.00000000 -320.00000000 540.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1722"
     "classname" "mesh"
     "position" "682 384 -672"
@@ -34103,8 +34057,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[955.79730000 403.00780000 186.91330000]"
-        "look" "[938.85230000 415.20100000 280.61480000]"
+        "position" "[-112.29540000 -538.11480000 367.31510000]"
+        "look" "[-59.57092000 -458.21800000 360.07600000]"
     }
 }
 cordon
