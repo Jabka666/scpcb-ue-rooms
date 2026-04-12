@@ -237866,102 +237866,6 @@ entity
 }
 entity
 {
-    "id" "19917"
-    "classname" "spotlight"
-    "position" "-4032 329 -81.99995"
-    "color" "255 255 255"
-    "intensity" "0.4"
-    "range" "400"
-    "hassprite" "No"
-    "scattering" "0.0"
-    "fov" "180"
-    "angles" "360 0 360"
-    "spawnflags" "0"
-    "origin" "-4032.00000000 -81.99995000 329.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "19918"
-    "classname" "spotlight"
-    "position" "-4160 329 -81.99995"
-    "color" "255 255 255"
-    "intensity" "0.4"
-    "range" "400"
-    "hassprite" "No"
-    "scattering" "0.0"
-    "fov" "180"
-    "angles" "360 0 360"
-    "spawnflags" "0"
-    "origin" "-4160.00000000 -81.99995000 329.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "19939"
-    "classname" "spotlight"
-    "position" "-7936 446 -1515.99995"
-    "color" "255 255 255"
-    "intensity" "0.5"
-    "range" "500"
-    "hassprite" "No"
-    "scattering" "0.0"
-    "fov" "180"
-    "angles" "360 0 360"
-    "spawnflags" "0"
-    "origin" "-7936.00000000 -1515.99995000 446.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "19940"
-    "classname" "spotlight"
-    "position" "-7808 446 -1515.99995"
-    "color" "255 255 255"
-    "intensity" "0.5"
-    "range" "500"
-    "hassprite" "No"
-    "scattering" "0.0"
-    "fov" "180"
-    "angles" "360 0 360"
-    "spawnflags" "0"
-    "origin" "-7808.00000000 -1515.99995000 446.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "2"
-        "visgroupid" "7"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "19976"
     "classname" "mesh"
     "position" "-2718.76234 -383.99996 -678.18338"
@@ -238327,8 +238231,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-1416.64900000 -949.58360000 569.16460000]"
-        "look" "[-1396.36000000 -858.17140000 590.43240000]"
+        "position" "[-4156.86600000 324.49150000 316.43960000]"
+        "look" "[-4148.94300000 228.82330000 314.23900000]"
     }
 }
 cordon
