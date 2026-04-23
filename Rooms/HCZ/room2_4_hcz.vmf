@@ -66964,7 +66964,7 @@ world
                 "vertexuv0" "[24.94378433 -79.84154808 0.00000000 0] 0"
                 "vertexuv1" "[25.11984067 -79.84154808 0.00000000 0] 0"
                 "vertexuv2" "[25.11983860 -26.40845205 0.00000000 0] 0"
-                "vertexuv3" "[24.94378433 -26.40847994 0.00000000 0] 0"
+                "vertexuv3" "[24.94378433 -26.40847995 0.00000000 0] 0"
             }
         }
         side
@@ -67995,13 +67995,47 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "641"
+    "classname" "waypoint"
+    "intensity" "1.0"
+    "position" "473 33 -158"
+    "spawnflags" "0"
+    "origin" "473.00000000 -158.00000000 33.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "642"
+    "classname" "waypoint"
+    "intensity" "1.0"
+    "position" "372 33 786"
+    "spawnflags" "0"
+    "origin" "372.00000000 786.00000000 33.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[18.17423000 -64.48612000 318.04150000]"
-        "look" "[141.01990000 81.43089000 296.10390000]"
+        "position" "[452.06680000 233.59060000 272.49770000]"
+        "look" "[473.59410000 70.18797000 174.00790000]"
     }
 }
 cordon
