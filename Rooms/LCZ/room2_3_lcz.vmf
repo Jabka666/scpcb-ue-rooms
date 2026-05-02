@@ -5959,11 +5959,12 @@ entity
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "354 39.49974 640"
+    "position" "354 32 640"
     "range" "600"
     "castshadows" "No"
+    "scattering" "1.0"
     "spawnflags" "0"
-    "origin" "354.00000000 640.00000000 39.49974000"
+    "origin" "354.00000000 640.00000000 32.00000000"
     editor
     {
         "color" "0 245 183"
@@ -5980,10 +5981,11 @@ entity
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "354 39.49977 0"
+    "position" "354 32.00003 0"
     "range" "600"
+    "scattering" "1.0"
     "spawnflags" "0"
-    "origin" "354.00000000 0.00000000 39.49977000"
+    "origin" "354.00000000 0.00000000 32.00003000"
     editor
     {
         "color" "0 230 148"
@@ -6000,11 +6002,12 @@ entity
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "354 39.50007 -640"
+    "position" "354 32.00033 -640"
     "range" "600"
     "castshadows" "No"
+    "scattering" "1.0"
     "spawnflags" "0"
-    "origin" "354.00000000 -640.00000000 39.50007000"
+    "origin" "354.00000000 -640.00000000 32.00033000"
     editor
     {
         "color" "0 171 229"
@@ -6020,12 +6023,13 @@ entity
     "classname" "light"
     "color" "255 255 255"
     "range" "600"
-    "position" "-354 39.50007 -640"
+    "position" "-354 32.00033 -640"
     "intensity" "0.6"
     "hassprite" "No"
     "castshadows" "No"
+    "scattering" "1.0"
     "spawnflags" "0"
-    "origin" "-354.00000000 -640.00000000 39.50007000"
+    "origin" "-354.00000000 -640.00000000 32.00033000"
     editor
     {
         "color" "0 146 141"
@@ -6042,10 +6046,11 @@ entity
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "-354 39.49989 0"
+    "position" "-354 32.00015 0"
     "range" "600"
+    "scattering" "1.0"
     "spawnflags" "0"
-    "origin" "-354.00000000 0.00000000 39.49989000"
+    "origin" "-354.00000000 0.00000000 32.00015000"
     editor
     {
         "color" "0 255 143"
@@ -6062,11 +6067,12 @@ entity
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "-354 39.49999 640"
+    "position" "-354 32.00025 640"
     "range" "600"
     "castshadows" "No"
+    "scattering" "1.0"
     "spawnflags" "0"
-    "origin" "-354.00000000 640.00000000 39.49999000"
+    "origin" "-354.00000000 640.00000000 32.00025000"
     editor
     {
         "color" "0 193 240"
@@ -6113,8 +6119,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[101.58820000 166.80580000 370.45790000]"
-        "look" "[50.30466000 231.36740000 321.28590000]"
+        "position" "[-37.84101000 87.95319000 360.11510000]"
+        "look" "[10.88639000 159.64110000 318.85300000]"
     }
 }
 cordon
