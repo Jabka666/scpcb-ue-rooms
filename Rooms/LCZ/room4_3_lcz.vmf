@@ -13103,8 +13103,8 @@ world
                 "vertex2" "90.00000000 46.00000000 321.00011000"
                 "vertex3" "90.00000000 46.00000000 544.00022000"
                 "vertexuv0" "[6.01040764 -33.12500000 0.00000000 0] 0"
-                "vertexuv1" "[6.01040764 -19.18749313 0.00000000 0] 0"
-                "vertexuv2" "[-6.01040764 -19.18749313 0.00000000 0] 0"
+                "vertexuv1" "[6.01040764 -19.18749312 0.00000000 0] 0"
+                "vertexuv2" "[-6.01040764 -19.18749312 0.00000000 0] 0"
                 "vertexuv3" "[-6.01040764 -33.12500000 0.00000000 0] 0"
             }
         }
@@ -13240,8 +13240,8 @@ world
                 "vertex2" "-90.00000000 -46.00000000 321.00011000"
                 "vertex3" "-90.00000000 -46.00000000 544.00022000"
                 "vertexuv0" "[6.01040764 -33.12500000 0.00000000 0] 0"
-                "vertexuv1" "[6.01040764 -19.18749313 0.00000000 0] 0"
-                "vertexuv2" "[-6.01040764 -19.18749313 0.00000000 0] 0"
+                "vertexuv1" "[6.01040764 -19.18749312 0.00000000 0] 0"
+                "vertexuv2" "[-6.01040764 -19.18749312 0.00000000 0] 0"
                 "vertexuv3" "[-6.01040764 -33.12500000 0.00000000 0] 0"
             }
         }
@@ -14543,94 +14543,6 @@ entity
 }
 entity
 {
-    "id" "319"
-    "classname" "mesh"
-    "position" "0 544.00004 641"
-    "file" "lamp_g"
-    "angles" "360 -90 360"
-    "scale" "1.0 1.0 1.0"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "0.00000000 641.00000000 544.00004000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "321"
-    "classname" "mesh"
-    "position" "0 544.00004 -641"
-    "file" "lamp_g"
-    "angles" "360 -90 360"
-    "scale" "1.0 1.0 1.0"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "0.00000000 -641.00000000 544.00004000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "323"
-    "classname" "mesh"
-    "position" "-639 544.00004 0"
-    "file" "lamp_g"
-    "angles" "360 180 360"
-    "scale" "1.0 1.0 1.0"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-639.00000000 0.00000000 544.00004000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "325"
-    "classname" "mesh"
-    "position" "641 544.00004 0"
-    "file" "lamp_g"
-    "angles" "360 -180 360"
-    "scale" "1.0 1.0 1.0"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "641.00000000 0.00000000 544.00004000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "358"
     "classname" "waypoint"
     "position" "-104 31.99984 104"
@@ -14694,8 +14606,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[507.55800000 508.78790000 562.05850000]"
-        "look" "[443.41170000 450.70320000 520.49160000]"
+        "position" "[400.54650000 -210.94290000 471.54760000]"
+        "look" "[473.03420000 -151.54680000 492.38100000]"
     }
 }
 cordon
