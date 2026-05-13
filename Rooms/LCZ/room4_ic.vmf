@@ -21593,17 +21593,19 @@ entity
 entity
 {
     "id" "547"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "-352 32 -640"
+    "position" "-352 0 -640"
     "range" "600"
     "spritescale" "1.0"
     "castshadows" "Yes"
     "scattering" "1.0"
+    "angles" "270 -90 270"
+    "fov" "140"
     "spawnflags" "0"
-    "origin" "-352.00000000 -640.00000000 32.00000000"
+    "origin" "-352.00000000 -640.00000000 0.00000000"
     editor
     {
         "color" "0 230 148"
@@ -21680,17 +21682,19 @@ entity
 entity
 {
     "id" "625"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "-640 32 -354"
+    "position" "-640 0 -354"
     "range" "600"
     "spritescale" "1.0"
     "castshadows" "Yes"
     "scattering" "1.0"
+    "angles" "270 -90 270"
+    "fov" "140"
     "spawnflags" "0"
-    "origin" "-640.00000000 -354.00000000 32.00000000"
+    "origin" "-640.00000000 -354.00000000 0.00000000"
     editor
     {
         "color" "0 230 148"
@@ -21703,17 +21707,19 @@ entity
 entity
 {
     "id" "626"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "354 32 640"
+    "position" "354 0 640"
     "range" "600"
     "spritescale" "1.0"
     "castshadows" "Yes"
     "scattering" "1.0"
+    "angles" "270 -90 270"
+    "fov" "140"
     "spawnflags" "0"
-    "origin" "354.00000000 640.00000000 32.00000000"
+    "origin" "354.00000000 640.00000000 0.00000000"
     editor
     {
         "color" "0 230 148"
@@ -21726,17 +21732,19 @@ entity
 entity
 {
     "id" "627"
-    "classname" "light"
+    "classname" "spotlight"
     "color" "255 255 255"
     "hassprite" "No"
     "intensity" "0.6"
-    "position" "640 32 354"
+    "position" "640 0 354"
     "range" "600"
     "spritescale" "1.0"
     "castshadows" "Yes"
     "scattering" "1.0"
+    "angles" "270 -90 270"
+    "fov" "140"
     "spawnflags" "0"
-    "origin" "640.00000000 354.00000000 32.00000000"
+    "origin" "640.00000000 354.00000000 0.00000000"
     editor
     {
         "color" "0 230 148"
@@ -21910,8 +21918,8 @@ cameras
     }
     camera
     {
-        "position" "[77.89949000 46.39620000 271.58910000]"
-        "look" "[76.71540000 45.57324000 271.17610000]"
+        "position" "[-230.21970000 8.24253300 201.03730000]"
+        "look" "[-228.77460000 8.52898000 200.75540000]"
     }
 }
 cordon
