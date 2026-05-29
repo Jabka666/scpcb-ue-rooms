@@ -21666,6 +21666,8 @@ entity
     "spritescale" "1.0"
     "castshadows" "No"
     "scattering" "1.0"
+    "angles" "0 90 0"
+    "length" "0.5"
     "spawnflags" "0"
     "origin" "640.00000000 354.00000000 51.00000000"
     editor
@@ -21688,6 +21690,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 639.00000000 544.00004000"
     editor
@@ -21710,6 +21713,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 -641.00000000 544.00004000"
     editor
@@ -21732,6 +21736,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-639.00000000 0.00000000 544.00004000"
     editor
@@ -21754,6 +21759,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "641.00000000 0.00000000 544.00004000"
     editor
@@ -21843,6 +21849,7 @@ entity
     "spritescale" "1.0"
     "castshadows" "No"
     "scattering" "1.0"
+    "length" "0.5"
     "spawnflags" "0"
     "origin" "354.00000000 640.00000000 51.00000000"
     editor
@@ -21866,6 +21873,8 @@ entity
     "spritescale" "1.0"
     "castshadows" "No"
     "scattering" "1.0"
+    "angles" "0 90 0"
+    "length" "0.5"
     "spawnflags" "0"
     "origin" "-639.00000000 -356.00000000 51.00000000"
     editor
@@ -21889,6 +21898,7 @@ entity
     "spritescale" "1.0"
     "castshadows" "No"
     "scattering" "1.0"
+    "length" "0.5"
     "spawnflags" "0"
     "origin" "-353.00000000 -642.00000000 51.00000000"
     editor
@@ -21910,8 +21920,8 @@ cameras
     }
     camera
     {
-        "position" "[286.50580000 -198.75850000 332.20640000]"
-        "look" "[285.21770000 -198.00630000 332.04900000]"
+        "position" "[43.48539000 -161.11860000 229.08070000]"
+        "look" "[42.47964000 -160.02980000 228.85130000]"
     }
 }
 cordon
