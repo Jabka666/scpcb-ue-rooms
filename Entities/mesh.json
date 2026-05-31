@@ -40,6 +40,12 @@
 		"SmartEditName": "Texture Overwrite",
 		"Type": "String",
 		"HelpText": "Overwrite the model's default texture"
-	}
+	},
+	{
+		"Name": "color",
+		"SmartEditName": "Color",
+		"Type": "Vector",
+		"DefaultValue": "255 255 255"
+    }
   ]
 }
