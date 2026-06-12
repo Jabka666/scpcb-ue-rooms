@@ -76042,8 +76042,8 @@ world
                 "vertex3" "175.99999240 212.00028232 315.99997838"
                 "vertexuv0" "[10.77645632 -47.93753099 0.00000000 0] 0"
                 "vertexuv1" "[10.83895554 -47.93753099 0.00000000 0] 0"
-                "vertexuv2" "[10.83895476 -13.43752389 0.00000000 0] 0"
-                "vertexuv3" "[10.77645554 -13.43752389 0.00000000 0] 0"
+                "vertexuv2" "[10.83895476 -13.43752390 0.00000000 0] 0"
+                "vertexuv3" "[10.77645554 -13.43752390 0.00000000 0] 0"
             }
         }
         side
@@ -77582,6 +77582,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "-208.00000000 -848.00000000 448.00000000"
     editor
@@ -77604,6 +77605,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "512.00000000 -848.00000000 448.00000000"
     editor
@@ -77626,6 +77628,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "476.00000000 -288.00000000 448.00000000"
     editor
@@ -77648,6 +77651,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "476.00000000 512.00000000 448.00000000"
     editor
@@ -77670,6 +77674,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "996.00000000 416.00000000 448.00000000"
     editor
@@ -77692,6 +77697,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "996.00000000 736.00000000 448.00000000"
     editor
@@ -77714,6 +77720,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "-294.00000000 -544.00000000 448.00000000"
     editor
@@ -77736,6 +77743,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "-294.00000000 -256.00000000 448.00000000"
     editor
@@ -77802,6 +77810,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" "GFX\Map\Textures\pdwall.jpg"
+    "color" "30 0 0"
     "spawnflags" "0"
     "origin" "-272.00000000 367.00000000 448.00000000"
     editor
@@ -77818,8 +77827,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[519.10080000 545.19560000 305.21080000]"
-        "look" "[516.70160000 543.68930000 304.22190000]"
+        "position" "[405.63560000 -273.82450000 386.33620000]"
+        "look" "[406.23460000 -276.62570000 385.44340000]"
     }
 }
 cordon
