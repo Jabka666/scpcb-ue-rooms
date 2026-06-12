@@ -33556,7 +33556,7 @@ entity
     "position" "-460 216 199"
     "range" "800"
     "hassprite" "No"
-    "scattering" "1.0"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "-460.00000000 199.00000000 216.00000000"
     editor
@@ -33794,6 +33794,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-608.00000000 480.00000000 512.00000000"
     editor
@@ -33816,6 +33817,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "-608.00000000 -480.00000000 512.00000000"
     editor
@@ -33838,6 +33840,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "0.00000000 732.00000000 704.00000000"
     editor
@@ -33882,6 +33885,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "0.00000000 256.00000000 704.00000000"
     editor
@@ -33904,6 +33908,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "0.00000000 -256.00000000 704.00000000"
     editor
@@ -33926,6 +33931,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 200 200"
     "spawnflags" "0"
     "origin" "0.00000000 -708.00000000 704.00000000"
     editor
@@ -33942,8 +33948,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-9.47287200 7.67683900 315.98750000]"
-        "look" "[85.02581000 -1.10349000 330.44560000]"
+        "position" "[-525.21890000 430.12170000 445.95990000]"
+        "look" "[-507.95140000 357.10550000 386.07160000]"
     }
 }
 cordon
