@@ -42,7 +42,7 @@ visgroups
 }
 viewsettings
 {
-    "bSnapToGrid" "0"
+    "bSnapToGrid" "1"
     "bShowGrid" "1"
     "bShow3DGrid" "0"
     "nGridSpacing" "1"
@@ -53758,6 +53758,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 0.00000000 698.00000000"
     editor
@@ -53823,6 +53824,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 -832.00000000 698.00000000"
     editor
@@ -54178,6 +54180,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "480.00000000 288.00000000 705.00000000"
     editor
@@ -55650,6 +55653,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-255.00000000 650.00000000 706.00000000"
     editor
@@ -55703,13 +55707,36 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1501"
+    "classname" "mesh"
+    "angles" "360 -180 360"
+    "file" "lamp_c"
+    "position" "-512 706 -30"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "color" "0 0 0"
+    "spawnflags" "0"
+    "origin" "-512.00000000 -30.00000000 706.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[115.76130000 -950.41410000 231.95260000]"
-        "look" "[74.90579000 -869.17180000 262.72100000]"
+        "position" "[120.85350000 -190.83360000 474.77650000]"
+        "look" "[90.32446000 -267.62730000 523.63240000]"
     }
 }
 cordon

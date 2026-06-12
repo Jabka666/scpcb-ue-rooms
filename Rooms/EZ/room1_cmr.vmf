@@ -21283,8 +21283,8 @@ world
             "id" "3844"
             "plane" "(8.00000000 740.77028246 704.61171759) (6.92820400 742.25114041 708.32752351) (4.00000000 743.33521736 711.04770312)"
             "material" "misc"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 -383.00000000000000] 0.2700"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 -361.55299568000000] 0.2700"
+            "uaxis" "[1.00000000 0.00000000 0.00000000 129.00000000000000] 0.2700"
+            "vaxis" "[0.00000000 0.00000000 -1.00000000 150.44700432000000] 0.2700"
             "rotation" "0"
             vertex
             {
@@ -21301,18 +21301,18 @@ world
                 "vertex9" "0.00000000 737.80859533 697.18020151"
                 "vertex10" "4.00000000 738.20534756 698.17573205"
                 "vertex11" "6.92820400 739.28942450 700.89591166"
-                "vertexuv0" "[-0.69017650 -5.80317583 0.00000000 0] 0"
-                "vertexuv1" "[-0.69792966 -5.83005521 0.00000000 0] 0"
-                "vertexuv2" "[-0.71911169 -5.84973244 0.00000000 0] 0"
-                "vertexuv3" "[-0.74804688 -5.85693439 0.00000000 0] 0"
-                "vertexuv4" "[-0.77698206 -5.84973244 0.00000000 0] 0"
-                "vertexuv5" "[-0.79816409 -5.83005521 0.00000000 0] 0"
-                "vertexuv6" "[-0.80591725 -5.80317583 0.00000000 0] 0"
-                "vertexuv7" "[-0.79816409 -5.77629644 0.00000000 0] 0"
-                "vertexuv8" "[-0.77698206 -5.75661922 0.00000000 0] 0"
-                "vertexuv9" "[-0.74804688 -5.74941775 0.00000000 0] 0"
-                "vertexuv10" "[-0.71911169 -5.75661922 0.00000000 0] 0"
-                "vertexuv11" "[-0.69792966 -5.77629644 0.00000000 0] 0"
+                "vertexuv0" "[0.30982350 -4.80317583 0.00000000 0] 0"
+                "vertexuv1" "[0.30207034 -4.83005521 0.00000000 0] 0"
+                "vertexuv2" "[0.28088831 -4.84973244 0.00000000 0] 0"
+                "vertexuv3" "[0.25195313 -4.85693439 0.00000000 0] 0"
+                "vertexuv4" "[0.22301794 -4.84973244 0.00000000 0] 0"
+                "vertexuv5" "[0.20183591 -4.83005521 0.00000000 0] 0"
+                "vertexuv6" "[0.19408275 -4.80317583 0.00000000 0] 0"
+                "vertexuv7" "[0.20183591 -4.77629644 0.00000000 0] 0"
+                "vertexuv8" "[0.22301794 -4.75661922 0.00000000 0] 0"
+                "vertexuv9" "[0.25195313 -4.74941775 0.00000000 0] 0"
+                "vertexuv10" "[0.28088831 -4.75661922 0.00000000 0] 0"
+                "vertexuv11" "[0.30207034 -4.77629644 0.00000000 0] 0"
             }
         }
         side
@@ -34717,6 +34717,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-480.00000000 1120.00000000 683.99990000"
     editor
@@ -34739,6 +34740,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "480.00000000 1120.00000000 683.99990000"
     editor
@@ -34761,6 +34763,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-608.00010000 544.00000000 683.99990000"
     editor
@@ -34783,6 +34786,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "607.99990000 544.00000000 683.99990000"
     editor
@@ -34857,6 +34861,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-255.00000000 -33.00000000 337.00000000"
     editor
@@ -34879,6 +34884,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "256.00000000 -33.00000000 337.00000000"
     editor
@@ -34901,6 +34907,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-255.00000000 -633.00000000 327.00000000"
     editor
@@ -34923,6 +34930,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-767.00000000 -633.00000000 327.00000000"
     editor
@@ -34945,6 +34953,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "257.00000000 -633.00000000 327.00000000"
     editor
@@ -34967,6 +34976,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "769.00000000 -633.00000000 327.00000000"
     editor
@@ -35765,75 +35775,6 @@ entity
     {
         "color" "255 0 255"
         "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "833"
-    "classname" "spotlight"
-    "color" "200 200 255"
-    "hassprite" "Yes"
-    "intensity" "0.5"
-    "position" "512.00006 404 -33.00072"
-    "range" "500"
-    "angles" "90 0 0"
-    "fov" "140"
-    "scattering" "0.0"
-    "spawnflags" "0"
-    "origin" "512.00006000 -33.00072000 404.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "834"
-    "classname" "spotlight"
-    "color" "200 200 255"
-    "hassprite" "Yes"
-    "intensity" "0.5"
-    "position" "-0.00004 404 -32.99719"
-    "range" "500"
-    "angles" "90 0 0"
-    "fov" "140"
-    "scattering" "0.0"
-    "spawnflags" "0"
-    "origin" "-0.00004000 -32.99719000 404.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "835"
-    "classname" "spotlight"
-    "color" "200 200 255"
-    "hassprite" "Yes"
-    "intensity" "0.5"
-    "position" "-511.99994 404 -33.00072"
-    "range" "500"
-    "angles" "90 0 0"
-    "fov" "140"
-    "scattering" "0.0"
-    "spawnflags" "0"
-    "origin" "-511.99994000 -33.00072000 404.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -36746,7 +36687,7 @@ entity
 {
     "id" "1132"
     "classname" "mesh"
-    "color" "200 200 255"
+    "color" "0 0 0"
     "angles" "360 0 360"
     "position" "512 387 -33"
     "file" "lamp_i"
@@ -36769,7 +36710,7 @@ entity
 {
     "id" "1133"
     "classname" "mesh"
-    "color" "200 200 255"
+    "color" "0 0 0"
     "angles" "360 0 360"
     "position" "0 387 -33"
     "file" "lamp_i"
@@ -36792,7 +36733,7 @@ entity
 {
     "id" "1134"
     "classname" "mesh"
-    "color" "200 200 255"
+    "color" "0 0 0"
     "angles" "360 0 360"
     "position" "-512 387 -33"
     "file" "lamp_i"
@@ -36816,8 +36757,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[165.84240000 828.01510000 682.12800000]"
-        "look" "[106.03910000 753.96490000 694.62590000]"
+        "position" "[407.22750000 -105.28450000 366.21050000]"
+        "look" "[498.97420000 -88.67528000 389.07390000]"
     }
 }
 cordon

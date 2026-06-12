@@ -47161,6 +47161,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 448.00000000 620.00000000"
     editor
@@ -47259,6 +47260,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 -158.00000000 620.00000000"
     editor
@@ -47281,6 +47283,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-944.00000000 448.00000000 652.00000000"
     editor
@@ -47419,7 +47422,7 @@ entity
 {
     "id" "697"
     "classname" "spotlight"
-    "color" "255 50 50"
+    "color" "200 200 255"
     "hassprite" "No"
     "intensity" "0.5"
     "position" "0 371 -768.00072"
@@ -47562,7 +47565,7 @@ entity
 {
     "id" "721"
     "classname" "mesh"
-    "color" "70 0 0"
+    "color" "200 200 255"
     "angles" "360 0 360"
     "position" "0 354 -768"
     "file" "lamp_i"
@@ -47586,8 +47589,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-53.71943000 -656.66860000 273.84900000]"
-        "look" "[-23.32442000 -690.11920000 290.00740000]"
+        "position" "[-11.93469000 -656.28330000 290.38610000]"
+        "look" "[9.78790200 -691.06430000 315.33220000]"
     }
 }
 cordon
