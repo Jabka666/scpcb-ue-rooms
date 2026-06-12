@@ -34628,12 +34628,12 @@ entity
     "classname" "spotlight"
     "color" "200 200 255"
     "intensity" "0.6"
-    "position" "0 371 237.0439"
+    "position" "0 379 237.0439"
     "range" "600"
     "fov" "140"
-    "angles" "90 0 0"
+    "angles" "450 90 270"
     "spawnflags" "0"
-    "origin" "0.00000000 237.04390000 371.00000000"
+    "origin" "0.00000000 237.04390000 379.00000000"
     editor
     {
         "color" "255 0 255"
@@ -35902,6 +35902,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "512.00009000 0.00006000 332.00000000"
     editor
@@ -35924,6 +35925,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00008000 -512.00009000 332.00000000"
     editor
@@ -35946,6 +35948,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-512.00009000 -0.00008000 332.00000000"
     editor
@@ -35968,6 +35971,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-874.00000000 -703.10340000 332.00000000"
     editor
@@ -35990,6 +35994,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-362.11425000 -703.10340000 332.00000000"
     editor
@@ -36012,6 +36017,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "362.37138000 -703.10340000 332.00000000"
     editor
@@ -36034,6 +36040,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "874.30641000 -703.10340000 332.00000000"
     editor
@@ -37208,8 +37215,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[138.97060000 -3.45832900 259.57950000]"
-        "look" "[139.04350000 -23.45740000 259.33840000]"
+        "position" "[-82.94776000 43.61699000 294.99320000]"
+        "look" "[-82.43322000 62.91679000 300.21620000]"
     }
 }
 cordon

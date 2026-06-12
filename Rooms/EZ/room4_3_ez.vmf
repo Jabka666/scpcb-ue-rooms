@@ -48638,28 +48638,6 @@ entity
 }
 entity
 {
-    "id" "1287"
-    "classname" "mesh"
-    "position" "-901 10200.00002 -1455"
-    "file" "rock2"
-    "angles" "359.99999 153.30583 95.00003"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-901.00000000 -1455.00000000 10200.00002000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1293"
     "classname" "mesh"
     "angles" "360 -89.99999 360"
@@ -48786,28 +48764,6 @@ entity
         "color" "255 0 255"
         "visgroupid" "3"
         "visgroupid" "10"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1337"
-    "classname" "mesh"
-    "position" "-2361.45257 9684 2869.93903"
-    "file" "rock2"
-    "angles" "327.62932 -132.66203 98.77165"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-2361.45257000 2869.93903000 9684.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -49205,50 +49161,6 @@ entity
 }
 entity
 {
-    "id" "1716"
-    "classname" "mesh"
-    "position" "513 -3532.819 -10070"
-    "file" "rock2"
-    "angles" "440.00004 8.75275 269.99997"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "513.00000000 -10070.00000000 -3532.81900000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1717"
-    "classname" "mesh"
-    "position" "2731 -4789 -8809"
-    "file" "rock2"
-    "angles" "421.95506 71.9001 229.22696"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "2731.00000000 -8809.00000000 -4789.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1812"
     "classname" "mesh"
     "angles" "360 -180 360"
@@ -49258,6 +49170,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 -272.00000000 409.00000000"
     editor
@@ -49280,6 +49193,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 272.00000000 409.00000000"
     editor
@@ -49302,6 +49216,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "272.00000000 0.00000000 409.00000000"
     editor
@@ -49324,30 +49239,9 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-272.00000000 0.00000000 409.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1816"
-    "classname" "mesh"
-    "position" "10319.99998 -2411.825 -842"
-    "file" "rock2"
-    "angles" "366.89737 -171.24601 196.6252"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "10319.99998000 -842.00000000 -2411.82500000"
     editor
     {
         "color" "255 0 255"
@@ -49403,28 +49297,6 @@ entity
 }
 entity
 {
-    "id" "1819"
-    "classname" "mesh"
-    "position" "7934 -889 7025"
-    "file" "rock2"
-    "angles" "364.56806 -127.90074 188.72896"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "7934.00000000 7025.00000000 -889.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1820"
     "classname" "mesh"
     "position" "-217 843 386"
@@ -49436,28 +49308,6 @@ entity
     "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-217.00000000 386.00000000 843.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1821"
-    "classname" "mesh"
-    "position" "-9991 4282.99999 -731.99987"
-    "file" "rock2"
-    "angles" "411.18731 132.62682 419.35255"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-9991.00000000 -731.99987000 4282.99999000"
     editor
     {
         "color" "255 0 255"
@@ -49513,50 +49363,6 @@ entity
 }
 entity
 {
-    "id" "1824"
-    "classname" "mesh"
-    "position" "10941 -177.99998 1099"
-    "file" "rock2"
-    "angles" "360.59745 -163.41168 185.6438"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "10941.00000000 1099.00000000 -177.99998000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1825"
-    "classname" "mesh"
-    "position" "-9227.11774 3487.79117 -554"
-    "file" "rock2"
-    "angles" "352.7251 171.55637 379.14065"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-9227.11774000 -554.00000000 3487.79117000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1826"
     "classname" "mesh"
     "position" "-742 816 68"
@@ -49568,50 +49374,6 @@ entity
     "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-742.00000000 68.00000000 816.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1827"
-    "classname" "mesh"
-    "position" "-5290.64284 8877 -3640"
-    "file" "rock2"
-    "angles" "387.05088 129.13464 92.53064"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-5290.64284000 -3640.00000000 8877.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1828"
-    "classname" "mesh"
-    "position" "3528 9895.66 -1755"
-    "file" "rock2"
-    "angles" "327.62931 72.00316 98.77166"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "3528.00000000 -1755.00000000 9895.66000000"
     editor
     {
         "color" "255 0 255"
@@ -49689,28 +49451,6 @@ entity
 }
 entity
 {
-    "id" "1832"
-    "classname" "mesh"
-    "position" "2656 2169 -10121"
-    "file" "rock2"
-    "angles" "350.08101 -79.96617 370.63134"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "2656.00000000 -10121.00000000 2169.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1833"
     "classname" "mesh"
     "position" "-535 -22 559.00006"
@@ -49722,28 +49462,6 @@ entity
     "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-535.00000000 559.00006000 -22.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1834"
-    "classname" "mesh"
-    "position" "-9766 3950 -1327"
-    "file" "rock2"
-    "angles" "411.18731 136.21274 419.35255"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-9766.00000000 -1327.00000000 3950.00000000"
     editor
     {
         "color" "255 0 255"
@@ -49799,72 +49517,6 @@ entity
 }
 entity
 {
-    "id" "1837"
-    "classname" "mesh"
-    "position" "-8611 3436 -2969"
-    "file" "rock2"
-    "angles" "352.7251 -174.08856 379.14065"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-8611.00000000 -2969.00000000 3436.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1838"
-    "classname" "mesh"
-    "position" "10443 -2186 -2721.60975"
-    "file" "rock2"
-    "angles" "379.41762 173.34594 193.55906"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "10443.00000000 -2721.60975000 -2186.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1839"
-    "classname" "mesh"
-    "position" "3587 -10155.99996 -1156"
-    "file" "rock2"
-    "angles" "377.5536 144.88594 256.32723"
-    "scale" "16 16 16"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "3587.00000000 -1156.00000000 -10155.99996000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1840"
     "classname" "mesh"
     "position" "530 -16 -985.0001"
@@ -49876,72 +49528,6 @@ entity
     "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "530.00000000 -985.00010000 -16.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1841"
-    "classname" "mesh"
-    "position" "5268 -177.99998 -9137"
-    "file" "rock2"
-    "angles" "360.59745 134.91142 185.6438"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "5268.00000000 -9137.00000000 -177.99998000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1842"
-    "classname" "mesh"
-    "position" "6166 -177.99998 -8778"
-    "file" "rock2"
-    "angles" "360.59745 134.91142 185.6438"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "6166.00000000 -8778.00000000 -177.99998000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1843"
-    "classname" "mesh"
-    "position" "8371 -177.99998 -5643"
-    "file" "rock2"
-    "angles" "360.59745 152.50716 185.6438"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "8371.00000000 -5643.00000000 -177.99998000"
     editor
     {
         "color" "255 0 255"
@@ -49995,79 +49581,13 @@ entity
         "parentid" "1"
     }
 }
-entity
-{
-    "id" "1846"
-    "classname" "mesh"
-    "position" "-6790 -2836 -6851"
-    "file" "rock2"
-    "angles" "381.36806 53.46969 198.353"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-6790.00000000 -6851.00000000 -2836.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1847"
-    "classname" "mesh"
-    "position" "-9385 5037 -1716"
-    "file" "rock2"
-    "angles" "382.67523 165.52546 398.80709"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-9385.00000000 -1716.00000000 5037.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "1848"
-    "classname" "mesh"
-    "position" "9612 2114.36084 -1062"
-    "file" "rock2"
-    "angles" "331.02021 -8.64953 368.29551"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "9612.00000000 -1062.00000000 2114.36084000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[904.82420000 39.08135000 387.11560000]"
-        "look" "[995.22030000 49.08956000 417.86100000]"
+        "position" "[-280.16950000 60.77818000 233.50310000]"
+        "look" "[-281.99770000 146.27170000 189.86340000]"
     }
 }
 cordon

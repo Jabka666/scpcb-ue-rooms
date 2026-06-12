@@ -293957,6 +293957,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-3584.00000000 -2620.00000000 844.00000000"
     editor
@@ -294002,6 +294003,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-5632.00000000 -2620.00000000 844.00000000"
     editor
@@ -294047,6 +294049,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-4608.00000000 -2620.00000000 844.00000000"
     editor
@@ -294255,6 +294258,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-2560.00000000 -2620.00000000 844.00000000"
     editor
@@ -294300,6 +294304,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-1536.00000000 -2620.00000000 844.00000000"
     editor
@@ -294345,6 +294350,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-512.00000000 -2620.00000000 844.00000000"
     editor
@@ -294413,6 +294419,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-6848.00000000 -2620.00000000 844.00000000"
     editor
@@ -294459,6 +294466,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "-8231.72610000 -2620.00000000 796.72059000"
     editor
@@ -295832,13 +295840,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "12985"
+    "classname" "spotlight"
+    "position" "4352 356 3"
+    "color" "255 255 255"
+    "intensity" "0.8"
+    "range" "800"
+    "fov" "140"
+    "angles" "450 90 270"
+    "spawnflags" "0"
+    "origin" "4352.00000000 3.00000000 356.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "5"
+        "visgroupid" "8"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-5523.59400000 -1130.45000000 181.22600000]"
-        "look" "[-5455.51400000 -1102.40700000 242.74960000]"
+        "position" "[4193.01800000 -20.69282000 318.06110000]"
+        "look" "[4287.05600000 -4.14788800 308.59640000]"
     }
 }
 cordon

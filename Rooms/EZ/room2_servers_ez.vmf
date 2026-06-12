@@ -46900,6 +46900,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "552.00000000 712.00000000 321.00000000"
     editor
@@ -46922,6 +46923,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "664.00000000 -856.00000000 -96.00000000"
     editor
@@ -46944,6 +46946,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-352.00000000 -728.00000000 -312.00000000"
     editor
@@ -47153,6 +47156,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00000000 511.99990000 332.00000000"
     editor
@@ -47175,6 +47179,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-0.00004000 -0.00006000 332.00000000"
     editor
@@ -47197,6 +47202,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "0.00006000 -511.99989000 332.00000000"
     editor
@@ -47263,6 +47269,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-352.00000000 304.00000000 -120.00000000"
     editor
@@ -48392,13 +48399,36 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1451"
+    "classname" "mesh"
+    "angles" "360 0 360"
+    "file" "lamp_c"
+    "position" "664 230.00008 66.61012"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "color" "0 0 0"
+    "spawnflags" "0"
+    "origin" "664.00000000 66.61012000 230.00008000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-147.14740000 972.69090000 523.22000000]"
-        "look" "[-96.77986000 903.06730000 480.41570000]"
+        "position" "[355.78640000 -806.10370000 -288.00710000]"
+        "look" "[267.93990000 -779.36650000 -316.01880000]"
     }
 }
 cordon

@@ -276450,6 +276450,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "-4065.00000000 4366.00000000 -872.42550000"
     editor
@@ -277491,7 +277492,7 @@ entity
     "id" "8950"
     "classname" "spotlight"
     "position" "5072.20682 -429 5712.7261"
-    "color" "255 200 200"
+    "color" "255 150 150"
     "intensity" "0.6"
     "range" "1600"
     "hassprite" "Yes"
@@ -277521,6 +277522,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "5071.20682000 5712.72610000 -423.00000000"
     editor
@@ -277538,7 +277540,7 @@ entity
     "id" "8952"
     "classname" "spotlight"
     "position" "3683.20682 -429 5711.7261"
-    "color" "255 200 200"
+    "color" "255 150 150"
     "intensity" "0.6"
     "range" "1600"
     "hassprite" "Yes"
@@ -277568,6 +277570,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "255 150 150"
     "spawnflags" "0"
     "origin" "3682.20682000 5711.72610000 -423.00000000"
     editor
@@ -279414,7 +279417,7 @@ entity
     "position" "0 624.00003 3712"
     "file" "lamp_g"
     "scale" "1.0 1.0 1.0"
-    "hasCollision" "Yes"
+    "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
@@ -279436,7 +279439,7 @@ entity
     "position" "0 624.00003 2944"
     "file" "lamp_g"
     "scale" "1.0 1.0 1.0"
-    "hasCollision" "Yes"
+    "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
@@ -279458,7 +279461,7 @@ entity
     "position" "3008 -313 5712"
     "file" "lamp_g"
     "scale" "1.0 1.0 1.0"
-    "hasCollision" "Yes"
+    "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
@@ -279480,7 +279483,7 @@ entity
     "position" "4356 -313 5712"
     "file" "lamp_g"
     "scale" "1.0 1.0 1.0"
-    "hasCollision" "Yes"
+    "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
@@ -279498,8 +279501,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[12.21646000 -1929.64900000 293.94560000]"
-        "look" "[-46.97808000 -2000.05500000 321.42590000]"
+        "position" "[91.60450000 3194.52600000 482.39000000]"
+        "look" "[57.68563000 3113.05700000 520.18640000]"
     }
 }
 cordon
