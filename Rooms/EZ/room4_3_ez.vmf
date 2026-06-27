@@ -49363,28 +49363,6 @@ entity
 }
 entity
 {
-    "id" "1826"
-    "classname" "mesh"
-    "position" "-494 868 68"
-    "file" "096_tunnel_rocks"
-    "angles" "393.51591 -29.59061 223.95519"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-494.00000000 68.00000000 868.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1829"
     "classname" "mesh"
     "position" "983 273 562"
@@ -49695,15 +49673,15 @@ entity
 {
     "id" "1942"
     "classname" "mesh"
-    "position" "1045 770 -43"
+    "position" "991.5139 753.9783 -52.87328"
     "file" "rock2"
-    "angles" "327.52221 9.69055 98.48863"
+    "angles" "310.33031 -6.92416 445.77156"
     "scale" "170 170 170"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "1045.00000000 -43.00000000 770.00000000"
+    "origin" "991.51390000 -52.87328000 753.97830000"
     editor
     {
         "color" "255 0 255"
@@ -49717,15 +49695,15 @@ entity
 {
     "id" "1943"
     "classname" "mesh"
-    "position" "374.18844 585.25777 -1043.48276"
+    "position" "355 591.98286 -984"
     "file" "rock2"
-    "angles" "329.36034 97.95146 274.0107"
+    "angles" "333.64286 90.34783 269.00989"
     "scale" "170 170 170"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "374.18844000 -1043.48276000 585.25777000"
+    "origin" "355.00000000 -984.00000000 591.98286000"
     editor
     {
         "color" "255 0 255"
@@ -49739,15 +49717,15 @@ entity
 {
     "id" "1944"
     "classname" "mesh"
-    "position" "982 494 -517.99999"
+    "position" "913.41346 494.00003 -502.496"
     "file" "rock2"
-    "angles" "440.00004 153.69524 269.99997"
-    "scale" "200 200 200"
+    "angles" "440.00004 158.90512 269.99997"
+    "scale" "180 180 180"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "982.00000000 -517.99999000 494.00000000"
+    "origin" "913.41346000 -502.49600000 494.00003000"
     editor
     {
         "color" "255 0 255"
@@ -49805,15 +49783,15 @@ entity
 {
     "id" "1947"
     "classname" "mesh"
-    "position" "-561 668 -866"
+    "position" "-567.41655 669.60653 -838.45528"
     "file" "rock2"
-    "angles" "359.99999 153.30583 95.00003"
+    "angles" "376.68048 -132.09112 97.25148"
     "scale" "170 170 170"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-561.00000000 -866.00000000 668.00000000"
+    "origin" "-567.41655000 -838.45528000 669.60653000"
     editor
     {
         "color" "255 0 255"
@@ -49915,15 +49893,15 @@ entity
 {
     "id" "1952"
     "classname" "mesh"
-    "position" "-980 437 714.99994"
+    "position" "-943.95393 402.47172 640"
     "file" "rock2"
-    "angles" "313.37679 -153.07487 130.12454"
+    "angles" "307.77088 -178.68516 96.84424"
     "scale" "170 170 170"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-980.00000000 714.99994000 437.00000000"
+    "origin" "-943.95393000 640.00000000 402.47172000"
     editor
     {
         "color" "255 0 255"
@@ -49937,7 +49915,7 @@ entity
 {
     "id" "1953"
     "classname" "mesh"
-    "position" "-910.99969 773.67873 -510"
+    "position" "-706 773.67873 -478"
     "file" "rock2"
     "angles" "362.66562 134.91142 181.3856"
     "scale" "170 170 170"
@@ -49945,7 +49923,7 @@ entity
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-910.99969000 -510.00000000 773.67873000"
+    "origin" "-706.00000000 -478.00000000 773.67873000"
     editor
     {
         "color" "255 0 255"
@@ -49959,15 +49937,15 @@ entity
 {
     "id" "1954"
     "classname" "mesh"
-    "position" "-951 30 -433"
+    "position" "-804 22 -440"
     "file" "rock2"
-    "angles" "327.62932 -132.66203 98.77165"
-    "scale" "120 120 120"
+    "angles" "368.04167 136.27846 361.72369"
+    "scale" "90 90 90"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-951.00000000 -433.00000000 30.00000000"
+    "origin" "-804.00000000 -440.00000000 22.00000000"
     editor
     {
         "color" "255 0 255"
@@ -50003,7 +49981,7 @@ entity
 {
     "id" "1956"
     "classname" "mesh"
-    "position" "-700 668 906"
+    "position" "-713 668 880"
     "file" "rock2"
     "angles" "411.18731 132.62682 419.35255"
     "scale" "170 170 170"
@@ -50011,7 +49989,7 @@ entity
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-700.00000000 906.00000000 668.00000000"
+    "origin" "-713.00000000 880.00000000 668.00000000"
     editor
     {
         "color" "255 0 255"
@@ -50069,15 +50047,15 @@ entity
 {
     "id" "1959"
     "classname" "mesh"
-    "position" "-49.92328 760.69029 1024.18144"
+    "position" "-51 778.57493 967.55812"
     "file" "rock2"
-    "angles" "329.36034 -81.74029 274.0107"
+    "angles" "328.41528 -88.23991 261.46922"
     "scale" "170 170 170"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-49.92328000 1024.18144000 760.69029000"
+    "origin" "-51.00000000 967.55812000 778.57493000"
     editor
     {
         "color" "255 0 255"
@@ -50091,15 +50069,15 @@ entity
 {
     "id" "1960"
     "classname" "mesh"
-    "position" "-924.26037 894 351.59826"
+    "position" "-756 862 354"
     "file" "rock"
     "angles" "364.98551 42.35083 159.89866"
-    "scale" "20 20 20"
+    "scale" "15 15 15"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-924.26037000 351.59826000 894.00000000"
+    "origin" "-756.00000000 354.00000000 862.00000000"
     editor
     {
         "color" "255 0 255"
@@ -50136,8 +50114,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[340.95680000 94.62296000 214.88840000]"
-        "look" "[432.57960000 117.75720000 197.94790000]"
+        "position" "[75.52692000 -48.23426000 291.15820000]"
+        "look" "[93.85735000 33.20486000 338.57740000]"
     }
 }
 cordon
