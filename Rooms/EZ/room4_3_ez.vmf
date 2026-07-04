@@ -50023,28 +50023,6 @@ entity
 }
 entity
 {
-    "id" "1958"
-    "classname" "mesh"
-    "position" "-535 -22 559.00006"
-    "file" "096_tunnel_rocks"
-    "angles" "358.95183 5.15571 363.69594"
-    "scale" "15 15 15"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-535.00000000 559.00006000 -22.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "1959"
     "classname" "mesh"
     "position" "-51 778.57493 967.55812"
@@ -50109,13 +50087,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "1962"
+    "classname" "mesh"
+    "position" "-524.86644 -84.38115 554.34936"
+    "file" "rock2"
+    "angles" "358.26484 11.90721 374.17483"
+    "scale" "170 170 170"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-524.86644000 554.34936000 -84.38115000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[75.52692000 -48.23426000 291.15820000]"
-        "look" "[93.85735000 33.20486000 338.57740000]"
+        "position" "[-5.30766900 314.83240000 366.31460000]"
+        "look" "[-80.21351000 370.60770000 344.06250000]"
     }
 }
 cordon
