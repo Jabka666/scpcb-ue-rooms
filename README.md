@@ -8,4 +8,4 @@ Requirements:
 
 - Custom entities for CBRE-EX (included in repository)
 
-Our Discord server: https://discord.gg/n7KdW4u
+Our Discord server: https://discord.gg/KnGVpTRN6a
