@@ -3,7 +3,6 @@ Light range: INTENSITY * 1000;
 Light intensity: RANGE / 1000.
 (CAN BE DIFFERENT FOR SOME SPECIAL LIGHTS)
 
-
 [LIGHT COLORS]
 LCZ: 255 255 255;
 HCZ: 255 200 200;
@@ -19,15 +18,16 @@ EZ: 20 20 25;
 [SPECIAL ROOMS AMBIENT COLORS]
 Dead ends/Checkpoints: 25 20 20
 
+[LIGHTMAP SETTINGS]
+Texture dimensions: 1024
+Scale factor = 10x (IF DOESN'T COMPILE, INCREASE UNTIL COMPILATION)
+
 [SIZES]
 Walls width: MINIMAL;
 Secondary lighting lamp (FIRST TYPE) Size: 24x40x3.8;
 Door frames: 192x64;
 Door frames leading to the room itself size/leading to empty space: 192x32;
 THE BEST COORDINATES FOR TEXTURES ARE MULTIPLES OF 5.
-
-Texture dimensions: 1024
-Scale factor = 10x (IF DOESN'T COMPILE, INCREASE UNTIL COMPILATION)
 
 [PROPS]
 DIFFUSE COLOR: 0xFF969696;
