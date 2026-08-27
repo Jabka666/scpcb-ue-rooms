@@ -174540,15 +174540,15 @@ entity
 {
     "id" "4712"
     "classname" "mesh"
-    "angles" "360 -180 360"
+    "angles" "360 0.00001 360"
     "file" "shelves_a"
-    "position" "-2128 -2272.05667 2244"
+    "position" "-2127.9998 -2272.05667 2244.00019"
     "scale" "1 1 1"
     "hasCollision" "Yes"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-2128.00000000 2244.00000000 -2272.05667000"
+    "origin" "-2127.99980000 2244.00019000 -2272.05667000"
     editor
     {
         "color" "255 0 255"
@@ -174564,15 +174564,15 @@ entity
 {
     "id" "4713"
     "classname" "mesh"
-    "angles" "360 -180 360"
+    "angles" "360 0.00001 360"
     "file" "shelves_a"
-    "position" "-2128 -2272.05667 2492"
+    "position" "-2127.99978 -2272.05667 2492.00019"
     "scale" "1 1 1"
     "hasCollision" "Yes"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-2128.00000000 2492.00000000 -2272.05667000"
+    "origin" "-2127.99978000 2492.00019000 -2272.05667000"
     editor
     {
         "color" "255 0 255"
@@ -175380,8 +175380,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-1827.58100000 2487.28600000 -2024.55000000]"
-        "look" "[-1799.80400000 2471.15900000 -1934.07100000]"
+        "position" "[-2326.80500000 2054.12500000 -2081.81800000]"
+        "look" "[-2242.56300000 2091.11300000 -2109.26500000]"
     }
 }
 cordon
