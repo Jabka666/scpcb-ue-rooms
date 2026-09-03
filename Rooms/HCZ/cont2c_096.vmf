@@ -94086,13 +94086,32 @@ entity
         "parentid" "2393"
     }
 }
+entity
+{
+    "id" "2456"
+    "classname" "save_screen"
+    "position" "603 -409 1544.9999"
+    "file" "save_screen.b3d"
+    "angles" "360 90 360"
+    "scale" "0.706 0.74 1.0"
+    "imgpath" "chatscreen_096.png"
+    "spawnflags" "0"
+    "origin" "603.00000000 1544.99990000 -409.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[-502.75230000 1065.64500000 -384.87660000]"
-        "look" "[-494.25970000 976.72960000 -420.05660000]"
+        "position" "[371.91710000 1515.80600000 -375.52000000]"
+        "look" "[460.13460000 1541.21100000 -403.59090000]"
     }
 }
 cordon
