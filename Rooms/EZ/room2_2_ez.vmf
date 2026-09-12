@@ -20570,15 +20570,15 @@ entity
 {
     "id" "131"
     "classname" "mesh"
-    "angles" "360.00001 -9.99997 360"
+    "angles" "359.99999 -8.04972 360"
     "file" "officeseat_a.b3d"
-    "position" "-292 -192 -117"
+    "position" "-288 -192 -119"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-292.00000000 -117.00000000 -192.00000000"
+    "origin" "-288.00000000 -119.00000000 -192.00000000"
     editor
     {
         "color" "255 0 255"
@@ -21538,15 +21538,15 @@ entity
 {
     "id" "753"
     "classname" "mesh"
-    "angles" "359.99999 180 360"
+    "angles" "359.99999 -177.58748 360"
     "file" "officeseat_a.b3d"
-    "position" "-905.9999 -192 564.10873"
+    "position" "-907 -192 564"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "-905.99990000 564.10873000 -192.00000000"
+    "origin" "-907.00000000 564.00000000 -192.00000000"
     editor
     {
         "color" "255 0 255"
@@ -22320,6 +22320,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -22330,8 +22331,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-1084.74300000 89.11932000 64.31970000]"
-        "look" "[-989.35720000 97.08105000 71.68161000]"
+        "position" "[-17.50709000 -50.44949000 218.58130000]"
+        "look" "[-73.12134000 27.58664000 212.79520000]"
     }
 }
 cordon

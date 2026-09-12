@@ -29548,7 +29548,7 @@ entity
     "classname" "mesh"
     "angles" "360 159.06044 360"
     "file" "officeseat_a"
-    "position" "703 0.0 910"
+    "position" "703 0 910"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
@@ -31284,6 +31284,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "2"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -31294,8 +31295,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[315.34710000 -78.88142000 53.24490000]"
-        "look" "[332.46620000 -82.46523000 43.54500000]"
+        "position" "[94.37637000 507.06410000 230.48000000]"
+        "look" "[113.87480000 503.62300000 227.65770000]"
     }
 }
 cordon

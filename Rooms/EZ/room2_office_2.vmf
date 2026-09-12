@@ -22551,15 +22551,15 @@ entity
 {
     "id" "742"
     "classname" "mesh"
-    "angles" "360 105.05738 360"
+    "angles" "360 100.45453 360"
     "file" "officeseat_a"
-    "position" "398 0 326"
+    "position" "397.62263 0 325.91461"
     "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "398.00000000 326.00000000 0.00000000"
+    "origin" "397.62263000 325.91461000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -23591,7 +23591,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "4"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23613,7 +23613,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "4"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23635,7 +23635,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "4"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23953,6 +23953,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -23963,8 +23964,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[575.71490000 -628.99080000 134.62680000]"
-        "look" "[495.67470000 -677.91730000 114.23000000]"
+        "position" "[475.22130000 -633.71640000 284.37660000]"
+        "look" "[466.42930000 -538.68240000 274.00830000]"
     }
 }
 cordon

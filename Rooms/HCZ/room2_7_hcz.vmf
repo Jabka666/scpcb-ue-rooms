@@ -22482,7 +22482,7 @@ world
         editor
         {
             "color" "0 132 254"
-            "visgroupid" "3"
+            "visgroupid" "1"
             "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -22597,7 +22597,7 @@ world
         editor
         {
             "color" "0 241 175"
-            "visgroupid" "3"
+            "visgroupid" "1"
             "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -23054,7 +23054,7 @@ world
         editor
         {
             "color" "0 241 175"
-            "visgroupid" "3"
+            "visgroupid" "1"
             "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -23169,7 +23169,7 @@ world
         editor
         {
             "color" "0 132 254"
-            "visgroupid" "3"
+            "visgroupid" "1"
             "visgroupid" "6"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
@@ -27701,7 +27701,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27745,7 +27745,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27767,7 +27767,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27789,7 +27789,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27871,7 +27871,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27893,7 +27893,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -27915,7 +27915,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -28113,7 +28113,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -28135,7 +28135,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -28157,7 +28157,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupid" "10"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
@@ -28180,13 +28180,35 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "639"
+    "classname" "mesh"
+    "angles" "0 270 0"
+    "file" "toilet"
+    "position" "375 0 -830"
+    "scale" "2.5 2.5 2.5"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\metal_darker.jpg"
+    "spawnflags" "0"
+    "origin" "375.00000000 -830.00000000 0.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "3"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[166.88410000 166.47440000 164.20310000]"
-        "look" "[83.74397000 118.86460000 158.11210000]"
+        "position" "[76.94895000 -371.69140000 169.71270000]"
+        "look" "[130.10670000 -291.89440000 174.48090000]"
     }
 }
 cordon

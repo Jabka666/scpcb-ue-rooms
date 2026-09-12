@@ -29109,6 +29109,7 @@ world
         editor
         {
             "color" "0 215 244"
+            "visgroupid" "1"
             "visgroupshown" "1"
             "visgroupautoshown" "1"
             "parentid" "1"
@@ -31899,6 +31900,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -31964,6 +31966,7 @@ entity
     editor
     {
         "color" "255 0 255"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -31985,7 +31988,7 @@ entity
     editor
     {
         "color" "255 0 255"
-        "visgroupid" "2"
+        "visgroupid" "3"
         "visgroupshown" "1"
         "visgroupautoshown" "1"
         "parentid" "1"
@@ -32073,8 +32076,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-489.07840000 85.12020000 197.42590000]"
-        "look" "[-413.47420000 143.28750000 208.22630000]"
+        "position" "[-629.00340000 -609.49370000 285.16150000]"
+        "look" "[-589.98560000 -522.66320000 272.74540000]"
     }
 }
 cordon
