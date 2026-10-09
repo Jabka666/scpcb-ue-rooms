@@ -22409,232 +22409,6 @@ world
     }
     solid
     {
-        "id" "766"
-        side
-        {
-            "id" "3751"
-            "plane" "(530.80108441 414.00000294 121.00002599) (538.63931796 415.60063163 121.00002635) (538.63931796 415.60063163 120.00002698)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "530.80108441 414.00000294 121.00002599"
-                "vertex1" "538.63931796 415.60063163 121.00002635"
-                "vertex2" "538.63931796 415.60063163 120.00002698"
-                "vertex3" "530.80108441 414.00000294 120.00002662"
-            }
-        }
-        side
-        {
-            "id" "3752"
-            "plane" "(535.83819926 429.31763254 121.00002635) (527.99996571 427.71700385 121.00002599) (527.99996571 427.71700385 120.00002662)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "535.83819926 429.31763254 121.00002635"
-                "vertex1" "527.99996571 427.71700385 121.00002599"
-                "vertex2" "527.99996571 427.71700385 120.00002662"
-                "vertex3" "535.83819926 429.31763254 120.00002698"
-            }
-        }
-        side
-        {
-            "id" "3753"
-            "plane" "(527.99996571 427.71700385 121.00002599) (530.80108441 414.00000294 121.00002599) (530.80108441 414.00000294 120.00002662)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "527.99996571 427.71700385 121.00002599"
-                "vertex1" "530.80108441 414.00000294 121.00002599"
-                "vertex2" "530.80108441 414.00000294 120.00002662"
-                "vertex3" "527.99996571 427.71700385 120.00002662"
-            }
-        }
-        side
-        {
-            "id" "3754"
-            "plane" "(538.63931796 415.60063163 121.00002635) (535.83819926 429.31763254 121.00002635) (535.83819926 429.31763254 120.00002698)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "538.63931796 415.60063163 121.00002635"
-                "vertex1" "535.83819926 429.31763254 121.00002635"
-                "vertex2" "535.83819926 429.31763254 120.00002698"
-                "vertex3" "538.63931796 415.60063163 120.00002698"
-            }
-        }
-        side
-        {
-            "id" "3755"
-            "plane" "(527.99996571 427.71700385 121.00002599) (535.83819926 429.31763254 121.00002635) (538.63931796 415.60063163 121.00002635)"
-            "material" "glass"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "527.99996571 427.71700385 121.00002599"
-                "vertex1" "535.83819926 429.31763254 121.00002635"
-                "vertex2" "538.63931796 415.60063163 121.00002635"
-                "vertex3" "530.80108441 414.00000294 121.00002599"
-            }
-        }
-        side
-        {
-            "id" "3756"
-            "plane" "(530.80108441 414.00000294 120.00002662) (538.63931796 415.60063163 120.00002698) (535.83819926 429.31763254 120.00002698)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "530.80108441 414.00000294 120.00002662"
-                "vertex1" "538.63931796 415.60063163 120.00002698"
-                "vertex2" "535.83819926 429.31763254 120.00002698"
-                "vertex3" "527.99996571 427.71700385 120.00002662"
-            }
-        }
-        editor
-        {
-            "color" "0 130 210"
-            "visgroupshown" "1"
-            "visgroupautoshown" "1"
-            "parentid" "1"
-        }
-    }
-    solid
-    {
-        "id" "767"
-        side
-        {
-            "id" "3757"
-            "plane" "(531.51441110 375.46438591 121.00002599) (539.02510446 372.70949901 121.00002635) (539.02510446 372.70949901 120.00002698)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "531.51441110 375.46438591 121.00002599"
-                "vertex1" "539.02510446 372.70949901 121.00002635"
-                "vertex2" "539.02510446 372.70949901 120.00002698"
-                "vertex3" "531.51441110 375.46438591 120.00002662"
-            }
-        }
-        side
-        {
-            "id" "3758"
-            "plane" "(543.84618923 385.85330057 121.00002635) (536.33549586 388.60818747 121.00002599) (536.33549586 388.60818747 120.00002662)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "543.84618923 385.85330057 121.00002635"
-                "vertex1" "536.33549586 388.60818747 121.00002599"
-                "vertex2" "536.33549586 388.60818747 120.00002662"
-                "vertex3" "543.84618923 385.85330057 120.00002698"
-            }
-        }
-        side
-        {
-            "id" "3759"
-            "plane" "(536.33549586 388.60818747 121.00002599) (531.51441110 375.46438591 121.00002599) (531.51441110 375.46438591 120.00002662)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "536.33549586 388.60818747 121.00002599"
-                "vertex1" "531.51441110 375.46438591 121.00002599"
-                "vertex2" "531.51441110 375.46438591 120.00002662"
-                "vertex3" "536.33549586 388.60818747 120.00002662"
-            }
-        }
-        side
-        {
-            "id" "3760"
-            "plane" "(539.02510446 372.70949901 121.00002635) (543.84618923 385.85330057 121.00002635) (543.84618923 385.85330057 120.00002698)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 0.00000000 -1.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "539.02510446 372.70949901 121.00002635"
-                "vertex1" "543.84618923 385.85330057 121.00002635"
-                "vertex2" "543.84618923 385.85330057 120.00002698"
-                "vertex3" "539.02510446 372.70949901 120.00002698"
-            }
-        }
-        side
-        {
-            "id" "3761"
-            "plane" "(536.33549586 388.60818747 121.00002599) (543.84618923 385.85330057 121.00002635) (539.02510446 372.70949901 121.00002635)"
-            "material" "glass"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "536.33549586 388.60818747 121.00002599"
-                "vertex1" "543.84618923 385.85330057 121.00002635"
-                "vertex2" "539.02510446 372.70949901 121.00002635"
-                "vertex3" "531.51441110 375.46438591 121.00002599"
-            }
-        }
-        side
-        {
-            "id" "3762"
-            "plane" "(531.51441110 375.46438591 120.00002662) (539.02510446 372.70949901 120.00002698) (543.84618923 385.85330057 120.00002698)"
-            "material" "tooltextures/remove_face"
-            "uaxis" "[1.00000000 0.00000000 0.00000000 0] 0.25"
-            "vaxis" "[0.00000000 -1.00000000 0.00000000 0] 0.25"
-            "rotation" "0"
-            vertex
-            {
-                "count" "4"
-                "vertex0" "531.51441110 375.46438591 120.00002662"
-                "vertex1" "539.02510446 372.70949901 120.00002698"
-                "vertex2" "543.84618923 385.85330057 120.00002698"
-                "vertex3" "536.33549586 388.60818747 120.00002662"
-            }
-        }
-        editor
-        {
-            "color" "0 130 210"
-            "visgroupshown" "1"
-            "visgroupautoshown" "1"
-            "parentid" "1"
-        }
-    }
-    solid
-    {
         "id" "768"
         side
         {
@@ -30156,7 +29930,7 @@ entity
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
+    "textureOverwrite" "GFX\map\textures\Blue_BoxFile.png"
     "spawnflags" "0"
     "origin" "-959.00000000 953.00000000 136.00000000"
     editor
@@ -30178,7 +29952,7 @@ entity
     "scale" "2 3 3"
     "hasCollision" "No"
     "meshFX" "0"
-    "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
+    "textureOverwrite" "GFX\map\textures\Blue_BoxFile.png"
     "spawnflags" "0"
     "origin" "-959.00000000 942.00000000 136.00000000"
     editor
@@ -30194,7 +29968,7 @@ entity
 {
     "id" "343"
     "classname" "mesh"
-    "position" "-959 199 806"
+    "position" "-959 200 806"
     "file" "boxfile.b3d"
     "angles" "360 90 360"
     "scale" "2 3 3"
@@ -30202,7 +29976,7 @@ entity
     "meshFX" "0"
     "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
     "spawnflags" "0"
-    "origin" "-959.00000000 806.00000000 199.00000000"
+    "origin" "-959.00000000 806.00000000 200.00000000"
     editor
     {
         "color" "255 0 255"
@@ -31290,13 +31064,211 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "848"
+    "classname" "mesh"
+    "position" "-960.1569 200 615.3256"
+    "file" "boxfile.b3d"
+    "angles" "360 90 360"
+    "scale" "3 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-960.15690000 615.32560000 200.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "849"
+    "classname" "mesh"
+    "position" "-960.1569 200 631.3256"
+    "file" "boxfile.b3d"
+    "angles" "360 90 360"
+    "scale" "3 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" ""
+    "spawnflags" "0"
+    "origin" "-960.15690000 631.32560000 200.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "850"
+    "classname" "mesh"
+    "position" "-960 200 963"
+    "file" "boxfile.b3d"
+    "angles" "360 90 360"
+    "scale" "2 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
+    "spawnflags" "0"
+    "origin" "-960.00000000 963.00000000 200.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "851"
+    "classname" "mesh"
+    "position" "-960 200 951"
+    "file" "boxfile.b3d"
+    "angles" "360 90 360"
+    "scale" "2 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
+    "spawnflags" "0"
+    "origin" "-960.00000000 951.00000000 200.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "852"
+    "classname" "mesh"
+    "position" "-960 200 939"
+    "file" "boxfile.b3d"
+    "angles" "360 90 360"
+    "scale" "2 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Blue_BoxFile.png"
+    "spawnflags" "0"
+    "origin" "-960.00000000 939.00000000 200.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "853"
+    "classname" "mesh"
+    "position" "-960 200 927"
+    "file" "boxfile.b3d"
+    "angles" "360 90 360"
+    "scale" "2 3 3"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\map\textures\Red_BoxFile.png"
+    "spawnflags" "0"
+    "origin" "-960.00000000 927.00000000 200.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "854"
+    "classname" "mesh"
+    "angles" "360 -10.71201 360"
+    "file" "book.b3d"
+    "position" "-957 72 637"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\Book4.png"
+    "spawnflags" "0"
+    "origin" "-957.00000000 637.00000000 72.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "855"
+    "classname" "mesh"
+    "angles" "360 154.28799 360"
+    "file" "book.b3d"
+    "position" "-961.37859 200 888.45355"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\Book2.png"
+    "spawnflags" "0"
+    "origin" "-961.37859000 888.45355000 200.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "856"
+    "classname" "mesh"
+    "angles" "360 -100.71201 360"
+    "file" "book.b3d"
+    "position" "-961 205 887.4167"
+    "scale" "1 1 1"
+    "hasCollision" "No"
+    "meshFX" "0"
+    "textureOverwrite" "GFX\Map\Textures\Book9.png"
+    "spawnflags" "0"
+    "origin" "-961.00000000 887.41670000 205.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupid" "2"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[94.37637000 507.06410000 230.48000000]"
-        "look" "[113.87480000 503.62300000 227.65770000]"
+        "position" "[-767.14200000 956.45110000 256.62270000]"
+        "look" "[-779.83260000 941.18230000 254.21000000]"
     }
 }
 cordon
