@@ -52,7 +52,7 @@ viewsettings
     "bShowGrid" "1"
     "bShow3DGrid" "0"
     "nGridSpacing" "1"
-    "bIgnoreGrouping" "0"
+    "bIgnoreGrouping" "1"
     "bHideFaceMask" "0"
     "bHideToolTextures" "0"
     "bHideEntitySprites" "0"
@@ -94067,27 +94067,6 @@ entity
 }
 entity
 {
-    "id" "2390"
-    "classname" "light"
-    "color" "255 100 100"
-    "intensity" "1"
-    "range" "1000"
-    "hassprite" "No"
-    "position" "-448 -96 256"
-    "spawnflags" "0"
-    "origin" "-448.00000000 256.00000000 -96.00000000"
-    editor
-    {
-        "color" "192 209 2"
-        "visgroupid" "2"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "groupid" "2393"
-        "parentid" "2393"
-    }
-}
-entity
-{
     "id" "2392"
     "classname" "light"
     "color" "255 100 100"
@@ -94131,8 +94110,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-51.25210000 -961.86420000 171.93460000]"
-        "look" "[-48.30375000 -867.00130000 157.51180000]"
+        "position" "[-442.40720000 39.19772000 8.44120900]"
+        "look" "[-431.08410000 125.72080000 -31.57411000]"
     }
 }
 cordon
