@@ -89008,9 +89008,9 @@ world
         {
             "id" "15715"
             "plane" "(8480.00010070 163.00017852 -12313.00021950) (8480.00010070 669.00032909 -12313.00021950) (8480.00010070 669.00033377 -12627.00247184)"
-            "material" "mat_glass"
-            "uaxis" "[0.00000000 1.00000000 0.00000000 -82.46646817826248087895225997] 1.9765631064453125"
-            "vaxis" "[0.00000000 0.00000001 -1.00000000 -54.552215227688589728227409] 1.226571317968756064453125"
+            "material" "glass"
+            "uaxis" "[0.00000000 1.00000000 0.00000000 -164.93293635652496175790451993] 0.98828155322265625"
+            "vaxis" "[0.00000000 0.00000001 -1.00000000 -109.104430455377179456454819] 0.6132856589843780322265625"
             "rotation" "0"
             vertex
             {
@@ -313985,7 +313985,7 @@ entity
     "file" "elecbox"
     "position" "983.33654 -12570 2686.4544"
     "angles" "360 90 360"
-    "scale" "10 10 10"
+    "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -315310,7 +315310,7 @@ entity
     "position" "1826.0001 -12758 -98"
     "file" "cabinet_b"
     "angles" "360 90 360"
-    "scale" "3.5 3.5 3.5"
+    "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -315333,7 +315333,7 @@ entity
     "file" "elecbox"
     "position" "1236.00736 -12622 247.33641"
     "angles" "360 -180 360"
-    "scale" "10 10 10"
+    "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -319237,7 +319237,7 @@ entity
     "position" "8395 -12758 691"
     "file" "system_unit"
     "angles" "360 110.81602 360"
-    "scale" "5.5 5.5 4.5"
+    "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -319260,7 +319260,7 @@ entity
     "position" "8398.1 -12758 437.51041"
     "file" "system_unit"
     "angles" "360 89.5751 360"
-    "scale" "5.5 5.5 4.5"
+    "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -319283,7 +319283,7 @@ entity
     "position" "8399 -12758 208.00001"
     "file" "system_unit"
     "angles" "360 89.5751 360"
-    "scale" "5.5 5.5 4.5"
+    "scale" "1 1 1"
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
@@ -321450,8 +321450,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[8680.34700000 646.17250000 -12493.88000000]"
-        "look" "[8535.92300000 519.63750000 -12489.76000000]"
+        "position" "[1943.04600000 -3644.14100000 -8323.47900000]"
+        "look" "[2079.88700000 -3593.04200000 -8448.17800000]"
     }
     camera
     {
