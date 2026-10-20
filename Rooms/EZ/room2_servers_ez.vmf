@@ -67174,35 +67174,15 @@ entity
 }
 entity
 {
-    "id" "2503"
-    "classname" "light"
-    "color" "255 120 20"
-    "hassprite" "No"
-    "intensity" "0.4"
-    "position" "138 -271.25011 -439.50002"
-    "range" "400"
-    "spawnflags" "0"
-    "origin" "138.00000000 -439.50002000 -271.25011000"
-    editor
-    {
-        "color" "0 177 165"
-        "visgroupid" "3"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "2504"
     "classname" "light"
     "color" "255 120 20"
     "hassprite" "No"
     "intensity" "0.4"
-    "position" "138 -326.49977 -439.50002"
+    "position" "138 -299 -439.50002"
     "range" "400"
     "spawnflags" "0"
-    "origin" "138.00000000 -439.50002000 -326.49977000"
+    "origin" "138.00000000 -439.50002000 -299.00000000"
     editor
     {
         "color" "0 228 162"
@@ -70117,8 +70097,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[-47.91047000 233.42610000 268.18180000]"
-        "look" "[-78.35822000 145.46380000 244.68500000]"
+        "position" "[-196.50340000 -320.74860000 -284.70710000]"
+        "look" "[-101.51580000 -310.10180000 -275.73320000]"
     }
 }
 cordon
