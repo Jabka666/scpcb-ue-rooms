@@ -408194,6 +408194,7 @@ entity
     "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
+    "color" "0 0 0"
     "spawnflags" "0"
     "origin" "3152.00010000 1705.00000000 -12334.00000000"
     editor
@@ -411694,7 +411695,7 @@ entity
     "position" "3232.0001 -12612 239"
     "angles" "360 180 360"
     "fov" "70"
-    "scattering" "1.0"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "3232.00010000 239.00000000 -12612.00000000"
     editor
@@ -411718,7 +411719,7 @@ entity
     "position" "3232.0001 -12371 239"
     "angles" "360 180 360"
     "fov" "90"
-    "scattering" "1.0"
+    "scattering" "0.0"
     "castshadows" "Yes"
     "spawnflags" "0"
     "origin" "3232.00010000 239.00000000 -12371.00000000"
@@ -411743,7 +411744,7 @@ entity
     "position" "127.99996 -12612 -2255"
     "angles" "360 0 360"
     "fov" "90"
-    "scattering" "1.0"
+    "scattering" "0.0"
     "spawnflags" "0"
     "origin" "127.99996000 -2255.00000000 -12612.00000000"
     editor
@@ -411767,7 +411768,7 @@ entity
     "position" "127.99996 -12371 -2255"
     "angles" "360 0 360"
     "fov" "90"
-    "scattering" "1.0"
+    "scattering" "0.0"
     "castshadows" "Yes"
     "spawnflags" "0"
     "origin" "127.99996000 -2255.00000000 -12371.00000000"
@@ -412218,66 +412219,18 @@ entity
 }
 entity
 {
-    "id" "7755"
-    "classname" "spotlight"
-    "color" "255 128 0"
-    "intensity" "1.4"
-    "range" "1400"
-    "hassprite" "No"
-    "position" "3656 -11330 2284"
-    "angles" "450 0 270"
-    "fov" "100"
-    "scattering" "1.0"
-    "spawnflags" "0"
-    "origin" "3656.00000000 2284.00000000 -11330.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "1"
-        "visgroupid" "6"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "7756"
     "classname" "spotlight"
     "color" "255 128 0"
     "intensity" "1.4"
     "range" "1400"
     "hassprite" "No"
-    "position" "3656 -11330 1984"
+    "position" "3656 -11207 2060"
     "angles" "450 0 270"
     "fov" "100"
-    "scattering" "1.0"
+    "scattering" "0.0"
     "spawnflags" "0"
-    "origin" "3656.00000000 1984.00000000 -11330.00000000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "1"
-        "visgroupid" "6"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "7757"
-    "classname" "spotlight"
-    "color" "255 128 0"
-    "intensity" "1.2"
-    "range" "1200"
-    "hassprite" "No"
-    "position" "-112 -11526.99738 1942"
-    "angles" "450 0 270"
-    "fov" "100"
-    "scattering" "1.0"
-    "spawnflags" "0"
-    "origin" "-112.00000000 1942.00000000 -11526.99738000"
+    "origin" "3656.00000000 2060.00000000 -11207.00000000"
     editor
     {
         "color" "255 0 255"
@@ -412296,12 +412249,12 @@ entity
     "intensity" "1.2"
     "range" "1200"
     "hassprite" "No"
-    "position" "-112 -11526.99738 1642"
+    "position" "-112 -11487 1711.0005"
     "angles" "450 0 270"
     "fov" "100"
-    "scattering" "1.0"
+    "scattering" "0.0"
     "spawnflags" "0"
-    "origin" "-112.00000000 1642.00000000 -11526.99738000"
+    "origin" "-112.00000000 1711.00050000 -11487.00000000"
     editor
     {
         "color" "255 0 255"
@@ -415984,11 +415937,11 @@ entity
 {
     "id" "8843"
     "classname" "soundemitter"
-    "position" "-112 -11527 1794"
+    "position" "-112 -11487.00262 1794"
     "range" "6"
     "sound" "3"
     "spawnflags" "0"
-    "origin" "-112.00000000 1794.00000000 -11527.00000000"
+    "origin" "-112.00000000 1794.00000000 -11487.00262000"
     editor
     {
         "color" "255 0 255"
@@ -416003,11 +415956,11 @@ entity
 {
     "id" "8844"
     "classname" "soundemitter"
-    "position" "3656 -11330 2137"
+    "position" "3656 -11207 2137"
     "range" "7"
     "sound" "3"
     "spawnflags" "0"
-    "origin" "3656.00000000 2137.00000000 -11330.00000000"
+    "origin" "3656.00000000 2137.00000000 -11207.00000000"
     editor
     {
         "color" "255 0 255"
@@ -416207,8 +416160,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[414.03230000 731.27580000 289.31420000]"
-        "look" "[469.22220000 558.45650000 352.29880000]"
+        "position" "[3607.26200000 2121.46900000 -11421.17000000]"
+        "look" "[3710.12400000 2128.36100000 -11259.14000000]"
     }
     camera
     {
