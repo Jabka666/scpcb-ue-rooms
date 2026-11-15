@@ -108072,29 +108072,6 @@ entity
 }
 entity
 {
-    "id" "4359"
-    "classname" "mesh"
-    "position" "-124.81419 -5189.9438 289.97096"
-    "file" "paper"
-    "angles" "360.67569 136.16188 359.27472"
-    "scale" "0.7 0.7 0.7"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-124.81419000 289.97096000 -5189.94380000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "10"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
     "id" "4360"
     "classname" "mesh"
     "file" "boxfile"
@@ -108152,29 +108129,6 @@ entity
     "textureOverwrite" ""
     "spawnflags" "0"
     "origin" "-5.95189000 263.01820000 -5190.74818000"
-    editor
-    {
-        "color" "255 0 255"
-        "visgroupid" "3"
-        "visgroupid" "10"
-        "visgroupshown" "1"
-        "visgroupautoshown" "1"
-        "parentid" "1"
-    }
-}
-entity
-{
-    "id" "4363"
-    "classname" "mesh"
-    "position" "-110.25985 -5190.74815 289.01352"
-    "file" "paper"
-    "angles" "360 149.2056 360"
-    "scale" "0.7 0.7 0.7"
-    "hasCollision" "No"
-    "meshFX" "0"
-    "textureOverwrite" ""
-    "spawnflags" "0"
-    "origin" "-110.25985000 289.01352000 -5190.74815000"
     editor
     {
         "color" "255 0 255"
@@ -108433,8 +108387,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[110.96140000 708.21360000 -5021.35000000]"
-        "look" "[199.75700000 690.79630000 -5053.46500000]"
+        "position" "[-89.05180000 373.32240000 -5087.44800000]"
+        "look" "[-103.44740000 320.53960000 -5166.35400000]"
     }
 }
 cordon
